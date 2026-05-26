@@ -5,8 +5,6 @@ draft: false
 description: "IQSS People Directory - Faculty, Staff, Affiliates, and Students"
 ---
 
-# IQSS People Directory
-
 The Institute for Quantitative Social Science brings together a diverse community of researchers, faculty, staff, and students from across Harvard University and beyond.
 
 ## Browse by Category

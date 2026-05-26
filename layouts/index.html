@@ -46,10 +46,10 @@
     </div>
 
     <section style="margin: 60px 0;">
-        <h2 style="text-align: center; margin-bottom: 30px; color: #A51C30;">Featured Research & Updates</h2>
+        <h2 style="text-align: center; margin-bottom: 30px; color: #CC5500;">Featured Research & Updates</h2>
         {{ range first 3 (where .Site.RegularPages "Section" "blog") }}
-        <div style="border-left: 4px solid #A51C30; padding-left: 20px; margin-bottom: 30px;">
-            <h3><a href="{{ .RelPermalink }}" style="color: #A51C30; text-decoration: none;">{{ .Title }}</a></h3>
+        <div style="border-left: 4px solid #CC5500; padding-left: 20px; margin-bottom: 30px;">
+            <h3><a href="{{ .RelPermalink }}" style="color: #CC5500; text-decoration: none;">{{ .Title }}</a></h3>
             <p style="color: #666; margin: 10px 0;">{{ .Date.Format "January 2, 2006" }}</p>
             <p>{{ .Summary }}</p>
         </div>
@@ -57,9 +57,9 @@
     </section>
 
     <section style="background: #f8f9fa; padding: 40px; border-radius: 8px; margin: 40px 0;">
-        <h2 style="color: #A51C30; margin-bottom: 20px;">About This Archive</h2>
+        <h2 style="color: #CC5500; margin-bottom: 20px;">About This Archive</h2>
         <p>This site contains a comprehensive archive of Harvard IQSS website content, including personnel directories, research information, and institutional resources. It serves as an educational resource and reference for the quantitative social science community.</p>
-        <p style="margin-top: 15px;"><strong>Note:</strong> This is an educational archive. For current information, please visit the official <a href="https://iq.harvard.edu" style="color: #A51C30;">IQSS website</a>.</p>
+        <p style="margin-top: 15px;"><strong>Note:</strong> This is an educational archive. For current information, please visit the official <a href="https://iq.harvard.edu" style="color: #CC5500;">IQSS website</a>.</p>
     </section>
 </div>
 {{ end }}

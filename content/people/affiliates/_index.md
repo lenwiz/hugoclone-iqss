@@ -5,8 +5,6 @@ draft: false
 description: "IQSS Affiliates - 167 people"
 ---
 
-# Affiliates
-
 Browse 167 affiliates associated with the Harvard Institute for Quantitative Social Science.
 
 All profiles are listed alphabetically by last name.

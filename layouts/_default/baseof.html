@@ -17,18 +17,18 @@
         }
 
         /* Harvard Brand Colors */
-        .harvard-red { background-color: #FF6900; }
+        .harvard-red { background-color: #CC5500; }
         .harvard-black { background-color: #1E1E1E; }
 
         /* Header */
         .site-header {
-            background: #FF6900;
+            background: #CC5500;
             color: white;
             box-shadow: 0 2px 10px rgba(0,0,0,0.1);
         }
 
         .header-top {
-            background: #E55A00;
+            background: #B8460A;
             padding: 8px 0;
             font-size: 14px;
         }
@@ -37,7 +37,9 @@
             max-width: 1200px;
             margin: 0 auto;
             padding: 0 20px;
-            text-align: right;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
         }
 
         .header-top a {
@@ -62,15 +64,27 @@
         .site-logo {
             display: flex;
             align-items: center;
+            gap: 20px;
         }
 
-        .site-logo h1 {
+        .harvard-logo img {
+            height: 24px;
+            width: auto;
+        }
+
+        .iqss-logo img {
+            height: 60px;
+            width: auto;
+            filter: brightness(0) invert(1); /* Make logo white for dark background */
+        }
+
+        .site-logo-text h1 {
             font-size: 28px;
             font-weight: 300;
             letter-spacing: -1px;
         }
 
-        .site-logo a {
+        .site-logo-text a {
             color: white;
             text-decoration: none;
         }
@@ -115,7 +129,7 @@
         }
 
         .nav-menu a:hover {
-            background: #FF6900;
+            background: #CC5500;
             color: white;
         }
 
@@ -133,7 +147,7 @@
 
         /* Hero Section */
         .hero {
-            background: linear-gradient(135deg, #FF6900 0%, #E55A00 100%);
+            background: linear-gradient(135deg, #CC5500 0%, #B8460A 100%);
             color: white;
             padding: 60px 0;
             margin-bottom: 40px;
@@ -175,13 +189,13 @@
         }
 
         .content-card h3 {
-            color: #FF6900;
+            color: #CC5500;
             margin-bottom: 15px;
             font-size: 20px;
         }
 
         .content-card a {
-            color: #FF6900;
+            color: #CC5500;
             text-decoration: none;
             font-weight: 600;
         }
@@ -193,7 +207,7 @@
         }
 
         .page-content h1 {
-            color: #FF6900;
+            color: #CC5500;
             margin-bottom: 20px;
             font-size: 36px;
             font-weight: 300;
@@ -233,13 +247,13 @@
         }
 
         .person-card h3 {
-            color: #FF6900;
+            color: #CC5500;
             margin-bottom: 10px;
             font-size: 18px;
         }
 
         .person-card a {
-            color: #FF6900;
+            color: #CC5500;
             text-decoration: none;
         }
 
@@ -307,18 +321,28 @@
     <header class="site-header">
         <div class="header-top">
             <div class="container">
-                <a href="https://harvard.edu">Harvard University</a>
-                <a href="/contact/">Contact</a>
-                <a href="/about/">About</a>
+                <div class="harvard-logo">
+                    <a href="https://harvard.edu">
+                        <img src="/images/harvard-logo.svg" alt="Harvard University" />
+                    </a>
+                </div>
+                <div>
+                    <a href="/contact/">Contact</a>
+                    <a href="/about/">About</a>
+                </div>
             </div>
         </div>
 
         <div class="header-main">
             <div class="header-content">
                 <div class="site-logo">
-                    <div>
-                        <h1><a href="/">Institute for Quantitative Social Science</a></h1>
-                        <div class="site-tagline">Harvard University</div>
+                    <div class="iqss-logo">
+                        <a href="/">
+                            <img src="/images/iqss-logo.png" alt="Institute for Quantitative Social Science" />
+                        </a>
+                    </div>
+                    <div class="site-logo-text">
+                        <h1><a href="/">The Institute for Quantitative Social Science</a></h1>
                     </div>
                 </div>
             </div>

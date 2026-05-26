@@ -1,0 +1,43 @@
+
+/* Enhanced Burnt Orange Styling */
+.burnt-orange-header {
+    background: linear-gradient(135deg, #CC5500 0%, #B8460A 100%);
+}
+
+.burnt-orange-accent {
+    color: #CC5500;
+}
+
+.burnt-orange-bg {
+    background-color: #CC5500;
+}
+
+.burnt-orange-border {
+    border-color: #CC5500;
+}
+
+.burnt-orange-link {
+    color: #CC5500;
+}
+
+.burnt-orange-link:hover {
+    color: #B8460A;
+    text-decoration: underline;
+}
+
+/* Button styling with burnt orange */
+.btn-burnt-orange {
+    background-color: #CC5500;
+    border-color: #CC5500;
+    color: white;
+}
+
+.btn-burnt-orange:hover {
+    background-color: #B8460A;
+    border-color: #B8460A;
+}
+
+/* Card accents with burnt orange */
+.card-burnt-orange {
+    border-left: 4px solid #CC5500;
+}

@@ -23,12 +23,12 @@
             {{ range .Pages }}
             <div style="border: 1px solid #e5e5e5; border-radius: 8px; padding: 25px; margin-bottom: 20px; background: #fff;">
                 <h3 style="margin-bottom: 15px;">
-                    <a href="{{ .RelPermalink }}" style="color: #A51C30; text-decoration: none;">{{ .Title }}</a>
+                    <a href="{{ .RelPermalink }}" style="color: #CC5500; text-decoration: none;">{{ .Title }}</a>
                 </h3>
                 <p style="color: #666; line-height: 1.6;">{{ .Summary | truncate 200 }}</p>
                 {{ if .Params.source_url }}
                 <p style="margin-top: 15px; font-size: 14px;">
-                    <a href="{{ .Params.source_url }}" target="_blank" style="color: #A51C30;">View Original Source →</a>
+                    <a href="{{ .Params.source_url }}" target="_blank" style="color: #CC5500;">View Original Source →</a>
                 </p>
                 {{ end }}
             </div>

@@ -5,8 +5,6 @@ draft: false
 description: "IQSS Students & Fellows - 617 people"
 ---
 
-# Students & Fellows
-
 Browse 617 students & fellows associated with the Harvard Institute for Quantitative Social Science.
 
 All profiles are listed alphabetically by last name.

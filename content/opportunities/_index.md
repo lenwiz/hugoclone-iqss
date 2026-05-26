@@ -5,6 +5,4 @@ draft: false
 title: Opportunities
 ---
 
-# Opportunities
-
 Welcome to the Opportunities section of the IQSS website archive.

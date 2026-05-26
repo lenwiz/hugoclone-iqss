@@ -5,6 +5,4 @@ draft: false
 title: Resources & Training
 ---
 
-# Resources & Training
-
 Welcome to the Resources & Training section of the IQSS website archive.

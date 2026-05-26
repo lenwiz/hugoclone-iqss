@@ -5,6 +5,4 @@ draft: false
 title: News & Events
 ---
 
-# News & Events
-
 Welcome to the News & Events section of the IQSS website archive.

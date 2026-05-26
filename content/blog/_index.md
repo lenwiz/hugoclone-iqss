@@ -5,8 +5,6 @@ draft: false
 description: "IQSS Blog - Research insights, updates, and discussions"
 ---
 
-# IQSS Research Blog
-
 Welcome to the IQSS research blog, where we share insights, updates, and foster discussions about quantitative social science research.
 
 ## Recent Posts
