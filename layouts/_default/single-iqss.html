@@ -1,0 +1,196 @@
+{{ define "main" }}
+<div class="container">
+    <div class="iqss-preserved-wrapper">
+        {{ if .Params.source_url }}
+        <div class="source-attribution">
+            <p><strong>Source:</strong> <a href="{{ .Params.source_url }}" target="_blank">{{ .Params.source_url }}</a></p>
+        </div>
+        {{ end }}
+
+        <div class="original-iqss-content">
+            {{ .Content | safeHTML }}
+        </div>
+
+        {{ if .Params.section }}
+        <div class="back-navigation">
+            <p><a href="/{{ .Params.section }}/">← Back to {{ .Params.section | title }}</a></p>
+        </div>
+        {{ end }}
+    </div>
+</div>
+
+<style>
+
+/* IQSS Website Preserved Styles */
+.hwp-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.hwp-page-title {
+    background: linear-gradient(135deg, #FF6900 0%, #E55A00 100%);
+    color: white;
+    padding: 40px 20px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+}
+
+.hwp-page-title h1,
+.text-large {
+    color: white;
+    font-size: 36px;
+    font-weight: 300;
+    margin: 0;
+    letter-spacing: -1px;
+}
+
+.hwp-text-block {
+    margin-bottom: 20px;
+}
+
+.hwp-text-block p {
+    line-height: 1.7;
+    margin-bottom: 15px;
+}
+
+.hwp-hero {
+    background: linear-gradient(135deg, #FF6900 0%, #E55A00 100%);
+    color: white;
+    padding: 60px 20px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+.hwp-hero__title {
+    font-size: 42px;
+    font-weight: 300;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.hwp-hero__description {
+    font-size: 18px;
+    opacity: 0.95;
+    line-height: 1.6;
+}
+
+.hwp-content-top,
+.hwp-container.hwp-w-full {
+    margin-bottom: 30px;
+}
+
+.field--name-field-hwp-body {
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+.hwp-bg-light-base {
+    background-color: #f8f9fa;
+}
+
+.hwp-py-32 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.hwp-py-64 {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.hwp-mb-16 {
+    margin-bottom: 1rem;
+}
+
+.hwp-flex {
+    display: flex;
+}
+
+.hwp-flex-col {
+    flex-direction: column;
+}
+
+/* Navigation elements - hide to avoid conflicts */
+.hwp-section-navigation,
+nav,
+.navigation,
+.breadcrumb {
+    display: none;
+}
+
+/* Links styling */
+.original-iqss-content a {
+    color: #FF6900;
+    text-decoration: none;
+}
+
+.original-iqss-content a:hover {
+    text-decoration: underline;
+}
+
+/* Headings */
+.original-iqss-content h1 {
+    color: #FF6900;
+    font-size: 36px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.original-iqss-content h2 {
+    color: #333;
+    font-size: 28px;
+    font-weight: 400;
+    margin: 30px 0 15px 0;
+}
+
+.original-iqss-content h3 {
+    color: #FF6900;
+    font-size: 24px;
+    font-weight: 500;
+    margin: 25px 0 15px 0;
+}
+
+
+.iqss-preserved-wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.source-attribution {
+    background: #f8f9fa;
+    border-left: 4px solid #FF6900;
+    padding: 15px;
+    margin-bottom: 30px;
+    border-radius: 0 4px 4px 0;
+}
+
+.source-attribution p {
+    margin: 0;
+    font-size: 14px;
+    color: #666;
+}
+
+.source-attribution a {
+    color: #FF6900;
+    text-decoration: none;
+}
+
+.back-navigation {
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid #e5e5e5;
+}
+
+.back-navigation a {
+    color: #FF6900;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.back-navigation a:hover {
+    text-decoration: underline;
+}
+</style>
+{{ end }}

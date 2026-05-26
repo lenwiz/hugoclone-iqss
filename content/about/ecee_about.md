@@ -1,6 +1,7 @@
 ---
 date: '2026-05-26 13:39:35'
 draft: false
+layout: single-iqss
 section: about
 source_url: https://www.iq.harvard.edu/ecee/about
 title: About
@@ -20,8 +21,7 @@ title: About
 </div>
 <div class="hwp-container hwp-w-full hwp-py-32 lg:hwp-py-64 hwp-container-px lg:hwp-flex lg:hwp-gap-24">
 <div class="lg:hwp-flex-initial lg:hwp-w-[19.375rem] hwp-pb-32 hwp-shrink-0">
-<div class="hwp-section-navigation hwp-bg-light-core">
-</div>
+
 </div>
 <div class="hwp-flex hwp-flex-col hwp-flex-1 hwp-overflow-hidden hwp-content--narrow">
 <div class="hwp-mb-16 hwp-container-px">
@@ -33,7 +33,3 @@ title: About
 </div>
 </div>
 </main>
-
----
-
-*Original source: [https://www.iq.harvard.edu/ecee/about](https://www.iq.harvard.edu/ecee/about)*

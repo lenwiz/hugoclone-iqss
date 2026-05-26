@@ -1,0 +1,113 @@
+{{ define "main" }}
+<div class="container">
+    <div class="iqss-content-wrapper">
+        {{ if .Params.source_url }}
+        <div class="source-info">
+            <p><strong>Source:</strong> <a href="{{ .Params.source_url }}" target="_blank">{{ .Params.source_url }}</a></p>
+        </div>
+        {{ end }}
+
+        <div class="original-content">
+            {{ .Content | safeHTML }}
+        </div>
+
+        {{ if .Params.section }}
+        <div class="navigation-footer">
+            <p><a href="/{{ .Params.section }}/">← Back to {{ .Params.section | title }}</a></p>
+        </div>
+        {{ end }}
+    </div>
+</div>
+
+<style>
+    .iqss-content-wrapper {
+        max-width: 1000px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    .source-info {
+        background: #f8f9fa;
+        border-left: 4px solid #FF6900;
+        padding: 15px;
+        margin-bottom: 30px;
+        border-radius: 0 4px 4px 0;
+    }
+
+    .source-info p {
+        margin: 0;
+        font-size: 14px;
+        color: #666;
+    }
+
+    .source-info a {
+        color: #FF6900;
+        text-decoration: none;
+    }
+
+    /* Preserve original IQSS styling for content */
+    .original-content {
+        font-family: inherit;
+        line-height: 1.6;
+    }
+
+    /* Style preservation for IQSS elements */
+    .original-content .hwp-container {
+        max-width: 100%;
+        padding: 0;
+    }
+
+    .original-content .hwp-page-title {
+        background: linear-gradient(135deg, #FF6900 0%, #E55A00 100%);
+        color: white;
+        padding: 40px 20px;
+        margin-bottom: 30px;
+        border-radius: 8px;
+    }
+
+    .original-content .text-large,
+    .original-content h1 {
+        color: #FF6900;
+        font-size: 36px;
+        font-weight: 300;
+        margin-bottom: 20px;
+    }
+
+    .original-content .hwp-text-block,
+    .original-content .field {
+        margin-bottom: 20px;
+    }
+
+    .original-content p {
+        line-height: 1.7;
+        margin-bottom: 15px;
+    }
+
+    .original-content a {
+        color: #FF6900;
+        text-decoration: none;
+    }
+
+    .original-content a:hover {
+        text-decoration: underline;
+    }
+
+    /* Remove unwanted elements */
+    .original-content nav,
+    .original-content .hwp-section-navigation,
+    .original-content .js-hwp-hero-slider-trigger {
+        display: none;
+    }
+
+    .navigation-footer {
+        margin-top: 40px;
+        padding-top: 20px;
+        border-top: 1px solid #e5e5e5;
+    }
+
+    .navigation-footer a {
+        color: #FF6900;
+        text-decoration: none;
+    }
+</style>
+{{ end }}

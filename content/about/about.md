@@ -1,6 +1,7 @@
 ---
 date: '2026-05-26 13:36:52'
 draft: false
+layout: single-iqss
 section: about
 source_url: https://www.iq.harvard.edu/about
 title: About
@@ -158,11 +159,11 @@ title: About
 <div class="hwp-image__media hwp-overflow-hidden sm:hwp-h-full">
 <div class="hwp-media hwp-media--1-1-large">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
-<source height="1315" media="all and (min-width: 768px)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__1315x1315/public/harvard-iqss/files/iqss-stars-2.jpg?itok=a0RnOP7i 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__2630x2630/public/harvard-iqss/files/iqss-stars-2.jpg?itok=UM2mTqkw 2x" type="image/jpeg" width="1315"/>
-<source height="770" media="all and (min-width: 480px)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__770x770/public/harvard-iqss/files/iqss-stars-2.jpg?itok=JHYdxnox 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__1540x1540/public/harvard-iqss/files/iqss-stars-2.jpg?itok=9-UBjDU_ 2x" type="image/jpeg" width="770">
+<source height="1315" media="all and (min-width: 768px)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__1315x1315/public/harvard-iqss/files/iqss-stars-2.jpg?itok=a0RnOP7i 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__2630x2630/public/harvard-iqss/files/iqss-stars-2.jpg?itok=UM2mTqkw 2x" type="image/jpeg" width="1315">
+<source height="770" media="all and (min-width: 480px)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__770x770/public/harvard-iqss/files/iqss-stars-2.jpg?itok=JHYdxnox 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__1540x1540/public/harvard-iqss/files/iqss-stars-2.jpg?itok=9-UBjDU_ 2x" type="image/jpeg" width="770"/>
 <source height="480" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__480x480/public/harvard-iqss/files/iqss-stars-2.jpg?itok=syLLix03 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__960x960/public/harvard-iqss/files/iqss-stars-2.jpg?itok=Oxu2Z1Xs 2x" type="image/jpeg" width="480"/>
-<img alt="IQSS staircase" height="480" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_1_1__480x480/public/harvard-iqss/files/iqss-stars-2.jpg?itok=syLLix03" width="480"/>
-</source></picture>
+<img alt="IQSS staircase" height="480" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_1_1__480x480/public/harvard-iqss/files/iqss-stars-2.jpg?itok=syLLix03" width="480">
+</img></source></picture>
 </div>
 </div>
 </div>
@@ -288,7 +289,3 @@ title: About
 </div>
 </div>
 </main>
-
----
-
-*Original source: [https://www.iq.harvard.edu/about](https://www.iq.harvard.edu/about)*
