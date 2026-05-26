@@ -1,0 +1,82 @@
+baseURL = 'https://lenwiz.github.io/hugoclone-iqss'
+languageCode = 'en-us'
+title = 'IQSS Clone - Harvard Institute for Quantitative Social Science'
+theme = 'ananke'
+
+# Site parameters
+[params]
+  featured_image = '/images/harvard-iqss-header.jpg'
+  recent_posts_number = 5
+  author = 'Harvard Institute for Quantitative Social Science'
+  description = 'A comprehensive archive and clone of the IQSS website content'
+  facebook = 'https://www.facebook.com/harvardiqss'
+  twitter = 'https://twitter.com/harvardiqss'
+  linkedin = 'https://www.linkedin.com/company/harvard-iqss'
+
+  # Giscus comments configuration
+  [params.giscus]
+    enabled = true
+    repo = "lenwiz/hugoclone-iqss"
+    repoId = ""  # Will be set after GitHub repo creation
+    category = "General"
+    categoryId = ""  # Will be set after GitHub repo creation
+
+# Menu configuration
+[menu]
+  [[menu.main]]
+    identifier = 'about'
+    name = 'About'
+    url = '/about/'
+    weight = 10
+
+  [[menu.main]]
+    identifier = 'people'
+    name = 'People'
+    url = '/people/'
+    weight = 20
+
+  [[menu.main]]
+    identifier = 'programs'
+    name = 'Programs'
+    url = '/programs/'
+    weight = 30
+
+  [[menu.main]]
+    identifier = 'data-science'
+    name = 'Data Science'
+    url = '/data-science/'
+    weight = 40
+
+  [[menu.main]]
+    identifier = 'news'
+    name = 'News'
+    url = '/news/'
+    weight = 50
+
+  [[menu.main]]
+    identifier = 'events'
+    name = 'Events'
+    url = '/events/'
+    weight = 60
+
+# Markup configuration for Giscus comments
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+# Enable GitInfo for GitHub integration
+enableGitInfo = true
+
+# Pagination
+paginate = 12
+paginatePath = 'page'
+
+# Taxonomies
+[taxonomies]
+  tag = 'tags'
+  category = 'categories'
+  author = 'authors'
+
+# GitHub Pages configuration
+publishDir = 'docs'

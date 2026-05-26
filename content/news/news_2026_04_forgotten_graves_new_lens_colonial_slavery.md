@@ -1,0 +1,275 @@
+---
+date: '2026-05-26 13:40:16'
+draft: false
+section: news
+source_url: https://www.iq.harvard.edu/news/2026/04/forgotten-graves-new-lens-colonial-slavery
+title: 'Forgotten Graves: A New Lens on Colonial Slavery'
+---
+
+<main aria-label="Forgotten Graves: A New Lens on Colonial Slavery" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">
+<div class="layout-content">
+<div>
+<div class="hidden" data-drupal-messages-fallback=""></div>
+<article class="hwp-news-details" lang="en">
+<div class="hwp-news-image">
+</div>
+<div class="hwp-news-header hwp-bg-light-base hwp-news-details" lang="en">
+<div class="hwp-page-title hwp-bg-light-base">
+<div class="hwp-container hwp-container-px hwp-py-32">
+<h1 class="text-large">
+<span>Forgotten Graves: A New Lens on Colonial Slavery</span>
+</h1>
+</div>
+</div>
+</div>
+<div class="hwp-news--top hwp-pb-0">
+<div class="hwp-gap-16 hwp-flex hwp-flex-col">
+<div class="lg:hwp-text-24">
+<div class="hwp-text-block field field--name-field-hwp-article-lede field--type-text-long field--label-hidden"><p>In the heart of Cambridge, Jason Ur, <span>Stephen Phillips Professor of Archaeology and Ethnology</span> and IQSS affiliate, is unearthing histories long obscured.</p></div>
+</div>
+<div class="hwp-text-16">
+<div class="field field--name-field-hwp-publish-date field--type-datetime field--label-hidden"><time datetime="2026-04-03T12:00:00Z">April 03, 2026</time>
+</div>
+</div>
+</div>
+<div class="hwp-container hwp-container-px hwp-mt-32">
+<div class="page-tags">
+<ul class="hwp-news-footer__tags hwp-flex hwp-flex-wrap hwp-gap-16 hwp-mb-24">
+<li class="max-sm:hwp-w-full">
+<a class="hwp-button-tag hwp-button-tag--dark" href="/news-categories/features">
+              Features
+            </a>
+</li>
+</ul>
+</div>
+</div>
+<div class="hwp-news-header__description">
+<div class="hwp-mx-auto">
+<div class="hwp-text-block field field--name-field-hwp-body field--type-text-long field--label-hidden"><p>by Courtney Hayes</p><p>Known for his pioneering work in the Middle East, <a href="https://jasonur.scholars.harvard.edu/">Jason Ur</a> has shifted focus to Cambridge’s Old Burying Ground, a site where lingering questions about segregation and slavery have remained buried for centuries. But with the aid of drones, ground-penetrating radar, and a vast geospatial database, Ur is re-mapping the past — and challenging how we understand it.</p><p>Jason Ur’s early career centered on Iraq’s ancient cities and empires, places where traditional archaeological tools proved insufficient. “You can’t dig an entire city, and you certainly can’t dig an empire,” Ur explained. To bridge this gap, he turned to landscape archaeology, a field focused on large-scale questions using geographic information systems (GIS). His breakthrough came when the Clinton administration declassified a treasure trove of Cold War satellite photos in the 1990s. “These images are like time machines,” Ur says, describing how they reveal landscapes that have long since vanished under the detritus of urbanization and agriculture.</p><p>Access to high-resolution Cold War images allowed Ur to trace ancient roadways, irrigation systems, and entire settlements, visualizing urban growth over thousands of years. “What's been really revolutionary,” he noted, “is that this data is now in our pockets.” And by combining satellite photography with his own drone imagery, Ur and his local partners can visualize landscapes in ways that were unthinkable a decade ago. “What would've taken a team weeks to do, we can accomplish by flying a drone over a site for 10 minutes and dropping the images into a smartphone app.” These powerful tools have meant deeper collaboration with local teams, democratizing archaeological research, and strengthening international partnerships.</p><figure class="align-left hwp-media hwp-media--small" role="group">
+<div>
+<div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
+<source height="360" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/2026-04/Jason%20and%20Joseph%20Lamson_burial%20ground%20feature%202026-sq.jpg?itok=-R_cNuxj 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__720x720_scale/public/2026-04/Jason%20and%20Joseph%20Lamson_burial%20ground%20feature%202026-sq.jpg?itok=99nnOA0a 2x" type="image/jpeg" width="360"/>
+<img alt="Jason Ur kneels next to an old death's head gravestone for Joseph Lemson" height="360" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/2026-04/Jason%20and%20Joseph%20Lamson_burial%20ground%20feature%202026-sq.jpg?itok=-R_cNuxj" width="360"/>
+</picture>
+</div>
+</div>
+<figcaption>Jason Ur at the gravestone of Joseph Lamson, "my favorite gravestone carver"</figcaption>
+</figure>
+<p>But when the pandemic hit in 2020, Ur found himself grounded, unable to access his usual field sites in Iraq. Instead, he began investigating Cambridge’s Old Burying Ground, a cemetery dating back to the 1630s that holds clues about New England’s colonial past and its ties to slavery. Ur and his students had visited this site for decades as part of an introductory Archaeology course. But after the murder of George Floyd and a national reckoning on race, Ur began seeing the Old Burying Ground with new eyes.</p><figure class="align-right hwp-media hwp-media--small" role="group">
+<div>
+<div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
+<source height="270" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/2026-04/Aja%20and%20Bair_burial%20ground%20feature%202026.jpg?itok=tkNZunQn 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__720x720_scale/public/2026-04/Aja%20and%20Bair_burial%20ground%20feature%202026.jpg?itok=rkvHWq8M 2x" type="image/jpeg" width="360"/>
+<img alt="Aja Lans and Andrew Bair roll a mapping device through the Cambridge Old Burying Ground" height="270" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/2026-04/Aja%20and%20Bair_burial%20ground%20feature%202026.jpg?itok=tkNZunQn" width="360"/>
+</picture>
+</div>
+</div>
+<figcaption>Aja Lans (L) and undergrad Cade McGovern using a ground-penetrating radar device</figcaption>
+</figure>
+<p>Ur began a collaboration with Dr. Aja Lans, postdoctoral fellow in the Inequality in American Initiative, and Andrew Bair, an advanced grad student in the Anthropology Department’s Archaeology program. They were particularly drawn to two graves isolated on the site’s remote northwest edge. These headstones belong to Cicely and Jane, enslaved Black women who worked and lived in the homes of Harvard faculty in the early 1700s. Cicely was a young woman enslaved in the household of Reverend William Brattle, a Harvard tutor and minister, and Jane served in the household of Andrew Bordman, a Harvard bursar. But their intimate proximity in life did not extend to death. “As a landscape person, what struck me was their marginalization,” said Ur. “Jane and Cicely’s headstones are right next to each other, but they're really far away from the families that enslaved them. If there wasn't segregation during their lives, that certainly was not the case in death.”</p><p>Slavery in the northern United States is often misunderstood, with many assuming it took a gentler and more inclusive form than the slavery practiced on southern plantations. But Ur’s research was unearthing a system of segregation deeply entrenched in New England. “And being a part of a community that was actively rethinking our own history, especially our involvement with slavery, it was a really powerful moment for me,” explained Ur.</p><p>Black residents of Colonial Cambridge are nearly invisible today, with only Cicely and Jane’s headstones marking their graves. However, <a href="https://storymaps.arcgis.com/stories/00e1ec376fd74c92b75f3378ed7d0a28">records show</a> that many more enslaved individuals lived and worked in Cambridge. Between the University’s founding in 1636 and the abolition of slavery in the Commonwealth in 1783, Harvard faculty and staff enslaved more than <a href="https://legacyofslaveryreport.harvard.edu/report/introduction-and-findings">70 individuals</a>, “and we suspected that Cambridge’s Old Burying Ground might contain the graves of many more enslaved persons who did not get a formal headstone,” said Ur.</p><p>Using the spatial methods he perfected in Iraq, Ur saw an opportunity to tell a new story about slavery in the Northern Colonies, “especially with tools that allow us to examine the past with new precision.”</p><figure class="align-center hwp-media hwp-media--medium" role="group">
+<div>
+<div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
+<source height="570" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__720x720_scale/public/2026-04/Cambridge%20OBG%20aerial_burial%20ground%20feature%202026.png?itok=qriXC7aY 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__1440x1440_scale/public/2026-04/Cambridge%20OBG%20aerial_burial%20ground%20feature%202026.png?itok=I71V3WvX 2x" type="image/png" width="720"/>
+<img alt="Aerial drone view of the Old Burying Ground in Cambridge" height="570" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_1_1__720x720_scale/public/2026-04/Cambridge%20OBG%20aerial_burial%20ground%20feature%202026.png?itok=qriXC7aY" width="720"/>
+</picture>
+</div>
+</div>
+<figcaption>Aerial drone view of the Old Burying Ground</figcaption>
+</figure>
+<p>To map the Old Burying Ground’s complex layout, Ur deployed drones, which can be flown directly over a site, offering precise, high-resolution images. “It all starts with really good spatial control,” explained Ur. “For me, that has to begin with remote sensing.” Using photogrammetry software, Ur stitched thousands of aerial photographs into a seamless, detailed map, capturing each headstone’s exact position. He paired these images with dates, names, and iconographic details to build a geospatial database of the cemetery. For example, Cicely’s headstone is today in the northwestern part of the burying ground with other monuments around it, although at a distance. By filtering this data to remove all graves from after 1714, when Cicely died, Ur could visualize her isolated resting place at the cemetery’s edge. And as Ur explained, “that would not have been apparent if I didn't have the ability to use those spatial attributes to clear off everything else.”</p><p>Next, Ur and his team, led by Bair, used ground-penetrating radar to identify unmarked graves surrounding Cicely and Jane’s headstones. What they discovered came as no surprise. “Based on our analysis, we think there’s almost 50 unmarked burials in that area. And given the proximity to Cicely and Jane, this is quite likely to be where many of the enslaved dead of Cambridge were buried.”</p><figure class="align-center hwp-media hwp-media--medium" role="group">
+<div>
+<div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
+<source height="405" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__720x720_scale/public/2026-04/Cambridge%20OBG%20burials_burial%20ground%20feature%202026.jpg?itok=BsW73jGR 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__1440x1440_scale/public/2026-04/Cambridge%20OBG%20burials_burial%20ground%20feature%202026.jpg?itok=jKzyeda_ 2x" type="image/jpeg" width="720"/>
+<img alt="Digital map of burial plots at Cambridge's Old Burying Ground" height="405" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_1_1__720x720_scale/public/2026-04/Cambridge%20OBG%20burials_burial%20ground%20feature%202026.jpg?itok=BsW73jGR" width="720"/>
+</picture>
+</div>
+</div>
+<figcaption>Digital map of burials at the Old Burying Ground. Enslaved peoples' burials can be seen at back right, in the low density area.</figcaption>
+</figure>
+<p>Mapping Cambridge’s Old Burying Ground was only the beginning. His work now examines burial patterns across Greater Boston. “As I've moved out beyond Cambridge, burials of enslaved people really fit this pattern of marginalization. They are downslope from the ministers. They are in a corner. They have large areas of empty space around them. There seems always to have been an area that was set apart for the enslaved,” explained Ur.</p><p>With over 20,000 monuments documented from 20 Boston-area cemeteries, Ur’s massive data set has outgrown his ability to manage it. This is where IQSS steps in, helping Ur scale his project from field maps to an unprecedented geospatial dataset. The resources at IQSS make it possible to analyze spatial patterns, share his work across disciplines, and explore questions that traditional archaeology could never answer. “Archeologists historically have been very solo operators, but we really need the support that IQSS brings to handle monstrous data sets. The critical need to collaborate and to use the correct tools is why institutions like IQSS are fantastic,” remarked Ur.</p><p>Ur’s journey from the landscapes of Iraq to the burial grounds of Greater Boston highlights the evolving nature of archaeology. And with IQSS’s help, Ur can scale this conversation to encompass more voices and stories, offering a richer and more authentic understanding of the past.</p></div>
+</div>
+</div>
+</div>
+<div class="hwp-news-footer hwp-pt-24 lg:hwp-pt-64">
+<div class="field field--name-field-hwp-file-upload field--type-entity-reference field--label-hidden">
+<div></div>
+</div>
+<div class="page-tags">
+<span class="hwp-mb-16 hwp-block">See also:</span>
+<ul class="hwp-news-footer__tags hwp-flex hwp-flex-wrap hwp-gap-16 hwp-mb-24">
+<li class="max-sm:hwp-w-full">
+<a class="hwp-button-tag hwp-button-tag--dark" href="/service/institute-quantitative-social-science">
+              Institute for Quantitative Social Science
+            </a>
+</li>
+</ul>
+</div>
+<div class="a2a_kit" data-a2a-title="" data-a2a-url="">
+<span class="hwp-mb-16 hwp-block">Share on:</span>
+<ul aria-label="Share on:" class="md:hwp-inline-flex md:hwp-flex-wrap">
+<li class="md:hwp-mr-40 last:md:hwp-mr-0 max-md:hwp-mb-16">
+<a class="a2a_button_facebook hwp-icon-link hwp-icon-link--dark-primary" href="#">
+<span class="hwp-icon-link__icon">
+<svg aria-hidden="true" class="hwp-icon hwp-h-24 hwp-w-24">
+<use xlink:href="/profiles/hwp_dstan/themes/hwp_hyard/hwp-goldin/dist/icons.svg#hwp-facebook"></use>
+</svg>
+</span>
+<span class="hwp-icon-link__text">Facebook</span>
+</a>
+</li>
+<li class="md:hwp-mr-40 last:md:hwp-mr-0 max-md:hwp-mb-16">
+<a class="a2a_button_twitter hwp-icon-link hwp-icon-link--dark-primary" href="#">
+<span class="hwp-icon-link__icon">
+<svg aria-hidden="true" class="hwp-icon hwp-h-24 hwp-w-24">
+<use xlink:href="/profiles/hwp_dstan/themes/hwp_hyard/hwp-goldin/dist/icons.svg#hwp-twitter"></use>
+</svg>
+</span>
+<span class="hwp-icon-link__text">Twitter</span>
+</a>
+</li>
+<li class="md:hwp-mr-40 last:md:hwp-mr-0 max-md:hwp-mb-16">
+<a class="a2a_button_linkedin hwp-icon-link hwp-icon-link--dark-primary" href="#">
+<span class="hwp-icon-link__icon">
+<svg aria-hidden="true" class="hwp-icon hwp-h-24 hwp-w-24">
+<use xlink:href="/profiles/hwp_dstan/themes/hwp_hyard/hwp-goldin/dist/icons.svg#hwp-linkedin"></use>
+</svg>
+</span>
+<span class="hwp-icon-link__text">Linkedin</span>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</article>
+</div>
+</div>
+<div>
+<div id="block-hwp-global-widget-hwp-article">
+<div class="field field--name-field-hwp-widgets field--type-entity-reference-revisions field--label-hidden">
+<div>
+<div class="hwp-page-list hwp-page-list--list hwp-page-list--grid-3 hwp-bg-light-base hwp-bg-fluid">
+<div class="hwp-bg-fluid--content">
+<div class="hwp-section-heading" data-component-name="section-heading">
+<div class="hwp-section-heading__container hwp-container">
+<h2 class="hwp-section-heading__title text-medium" id="hwp-6546-section-heading-id--2">
+    Latest News
+  </h2>
+</div>
+</div>
+<div class="hwp-page-list__container hwp-container">
+<div class="hwp-flex hwp-flex-col hwp-gap-32">
+<div class="hwp-results" id="hwp-node-list-results">
+<div class="hwp-page-list__items">
+<article class="page-card page-card--horizontal page-card--hwp-article page-card--teaser page-card-- hwp-bg-light-core" data-component-name="page-card" lang="en">
+<div class="page-card__text hwp-order-1">
+<a class="page-card__link hwp-order-2" href="/news/2026/05/class-2026-iqss-whats-next"> <h3 class="page-card__heading hwp-order-2">Class of 2026 at IQSS: What's Next?</h3>
+</a>
+<div class="page-card__date hwp-order-1">
+<time datetime="page_card_date">May 26, 2026</time>
+</div>
+</div>
+<div class="page-card__image page-card__image--16-9">
+<div class="page-card__thumb">
+<div class="field field--name-field-hwp-thumbnail-image field--type-entity-reference field--label-hidden"><div class="hwp-media hwp-media--16-9-small-no-caption">
+<div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
+<source height="270" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_16_9__480x270/public/graduation-cap-with-gold-tassle_sq.jpg?itok=UmvNZ9IN 1x, /sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/graduation-cap-with-gold-tassle_sq.jpg?itok=rKI_4YqG 2x" type="image/jpeg" width="480"/>
+<img alt="Closeup of graduation cap" height="270" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_16_9__480x270/public/graduation-cap-with-gold-tassle_sq.jpg?itok=UmvNZ9IN" width="480"/>
+</picture>
+</div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="page-card page-card--horizontal page-card--hwp-article page-card--teaser page-card-- hwp-bg-light-core" data-component-name="page-card" lang="en">
+<div class="page-card__text hwp-order-1">
+<a class="page-card__link hwp-order-2" href="/news/2026/05/iqss-honors-staff-service-milestones"> <h3 class="page-card__heading hwp-order-2">IQSS Honors Staff Service Milestones</h3>
+</a>
+<div class="page-card__date hwp-order-1">
+<time datetime="page_card_date">May 12, 2026</time>
+</div>
+</div>
+<div class="page-card__image page-card__image--16-9">
+<div class="page-card__thumb">
+<div class="field field--name-field-hwp-thumbnail-image field--type-entity-reference field--label-hidden"><div class="hwp-media hwp-media--16-9-small-no-caption">
+<div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
+<source height="270" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_16_9__480x270/public/2026-05/Service%20awardees%202026%20group%201b.jpeg?h=9b1d031d&amp;itok=myPVto9A 1x, /sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/2026-05/Service%20awardees%202026%20group%201b.jpeg?h=9b1d031d&amp;itok=MJ5pMGDd 2x" type="image/jpeg" width="480"/>
+<img alt="Staff honorees holding their service certificates, two seated in front and 5 standing behind them" height="270" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_16_9__480x270/public/2026-05/Service%20awardees%202026%20group%201b.jpeg?h=9b1d031d&amp;itok=myPVto9A" width="480"/>
+</picture>
+</div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="page-card page-card--horizontal page-card--hwp-article page-card--teaser page-card-- hwp-bg-light-core" data-component-name="page-card" lang="en">
+<div class="page-card__text hwp-order-1">
+<a class="page-card__link hwp-order-2" href="https://salatainstitute.harvard.edu/on-data-centers-local-vibes-matter-more-than-electricity-prices-poll/"> <h3 class="page-card__heading hwp-order-2">On data centers, local vibes matter more than electricity prices – poll</h3>
+</a>
+<div class="page-card__date hwp-order-1">
+<time datetime="page_card_date">April 27, 2026</time>
+</div>
+</div>
+<div class="page-card__image page-card__image--16-9">
+<div class="page-card__thumb">
+<div class="field field--name-field-hwp-thumbnail-image field--type-entity-reference field--label-hidden"><div class="hwp-media hwp-media--16-9-small-no-caption">
+<div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
+<source height="270" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_16_9__480x270/public/harvard-iqss/files/ansolabehere_stephen_2x3_ratio_large.png?itok=7alqRFRR 1x, /sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/harvard-iqss/files/ansolabehere_stephen_2x3_ratio_large.png?itok=Qt-J0CUW 2x" type="image/png" width="480"/>
+<img alt="ansolabehere_stephen_2x3_ratio_large.png" height="270" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_16_9__480x270/public/harvard-iqss/files/ansolabehere_stephen_2x3_ratio_large.png?itok=7alqRFRR" width="480"/>
+</picture>
+</div>
+</div>
+</div>
+</div>
+</div>
+</article>
+</div>
+</div>
+<div class="hwp-text-center hwp-view-all">
+<a class="hwp-button hwp-button--large analytics-cta" href="/news">
+<span class="hwp-button__text">More News</span>
+<span aria-hidden="true" class="material-icon">arrow_circle_right</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div>
+<div class="hwp-section hwp-section--row-max-1 hwp-cta-block hwp-bg-dark-alternative hwp-bg-fluid" data-component-name="cta-block">
+<div class="hwp-bg-fluid--content">
+<div class="hwp-section-heading" data-component-name="section-heading">
+<div class="hwp-section-heading__container hwp-container">
+<h2 class="hwp-section-heading__title text-medium" id="">
+    Do you have news to share?
+  </h2>
+<div class="hwp-section-heading__description hwp-text-block">
+<div class="hwp-text-block field field--name-field-hwp-introduction field--type-text-long field--label-hidden"><p><span>We're always interested in hearing the latest work and accomplishments from IQSS affiliates and would be happy to help you share your news. If you have any updates</span>, let us know!</p></div>
+</div>
+</div>
+</div>
+<div class="hwp-section__items-container hwp-container">
+<div class="hwp-flex hwp-flex-col hwp-gap-32">
+<div class="hwp-section__items">
+<div class="hwp-section__grid">
+<a class="hwp-icon-link hwp-icon-link--large analytics-cta" href="/affiliate-news-submission-form">
+<span class="hwp-icon-link__icon">
+<span aria-hidden="true" class="material-icon">arrow_forward</span>
+</span>
+<span class="hwp-icon-link__text">Submit affiliate news</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</main>
+
+---
+
+*Original source: [https://www.iq.harvard.edu/news/2026/04/forgotten-graves-new-lens-colonial-slavery](https://www.iq.harvard.edu/news/2026/04/forgotten-graves-new-lens-colonial-slavery)*
