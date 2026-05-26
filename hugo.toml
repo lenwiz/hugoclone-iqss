@@ -2,6 +2,12 @@ baseURL = 'https://lenwiz.github.io/hugoclone-iqss'
 languageCode = 'en-us'
 title = 'IQSS Clone - Harvard Institute for Quantitative Social Science'
 theme = 'ananke'
+defaultContentLanguage = 'en'
+
+[languages]
+  [languages.en]
+    languageName = 'English'
+    weight = 1
 
 # Site parameters
 [params]
