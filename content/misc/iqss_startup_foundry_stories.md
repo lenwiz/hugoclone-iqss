@@ -1,0 +1,294 @@
+---
+date: '2026-05-26 13:37:28'
+draft: false
+section: misc
+source_url: https://www.iq.harvard.edu/iqss-startup-foundry-stories
+title: Success Stories from the IQSS Startup Foundry
+---
+
+<main aria-label="Success Stories from the IQSS Startup Foundry" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">
+<div class="layout-content">
+<div>
+<div class="hidden" data-drupal-messages-fallback=""></div>
+<article class="node node--type-hwp-page node--view-mode-full" lang="en">
+<div class="hwp-page-title hwp-bg-light-base hwp-sr-only">
+<div class="hwp-container hwp-container-px hwp-py-32">
+<h1 class="text-large" id="page-title">
+<span>Success Stories from the IQSS Startup Foundry</span>
+</h1>
+</div>
+</div>
+<div class="hwp-content-top">
+<div class="hwp-hero hwp-hero--floating hwp-hero--small hwp-hero--static" data-component-name="hwp-hero">
+<div class="hwp-hero__slides js-hwp-hero-slider-trigger">
+<div class="hwp-hero__slide">
+<div class="hwp-hero__slides-wrapper">
+<div class="hwp-hero__media hwp-bg-light-base">
+<div class="hwp-media hwp-media--23-5-small-hero">
+<div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
+<source height="415" media="all and (min-width: 1440px)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_23_5__1920x415/public/harvard-iqss/files/startup-foundry-hero_alt_6x1.jpg?itok=-py8W1NE 1x, /sites/g/files/omnuum8171/files/styles/hwp_23_5__3840x835/public/harvard-iqss/files/startup-foundry-hero_alt_6x1.jpg?itok=wTdEKMQy 2x" type="image/jpeg" width="1920"/>
+<source height="315" media="all and (min-width: 1024px)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_23_5__1440x315/public/harvard-iqss/files/startup-foundry-hero_alt_6x1.jpg?itok=JVXeWTdV 1x, /sites/g/files/omnuum8171/files/styles/hwp_23_5__2880x625/public/harvard-iqss/files/startup-foundry-hero_alt_6x1.jpg?itok=nEy0KnWC 2x" type="image/jpeg" width="1440"/>
+<source height="220" media="all and (min-width: 768px)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_23_5__1024x220/public/harvard-iqss/files/startup-foundry-hero_alt_6x1.jpg?itok=OB8ORqVO 1x, /sites/g/files/omnuum8171/files/styles/hwp_23_5__2048x445/public/harvard-iqss/files/startup-foundry-hero_alt_6x1.jpg?itok=M_GeEvIh 2x" type="image/jpeg" width="1024"/>
+<source height="165" media="all and (min-width: 480px)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_23_5__768x165/public/harvard-iqss/files/startup-foundry-hero_alt_6x1.jpg?itok=_k9zTojF 1x, /sites/g/files/omnuum8171/files/styles/hwp_23_5__1536x335/public/harvard-iqss/files/startup-foundry-hero_alt_6x1.jpg?itok=vxKcI6ep 2x" type="image/jpeg" width="768"/>
+<source height="205" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_21_9__480x205/public/harvard-iqss/files/startup-foundry-hero_alt_6x1.jpg?itok=jc6nx_82 1x, /sites/g/files/omnuum8171/files/styles/hwp_21_9__960x410/public/harvard-iqss/files/startup-foundry-hero_alt_6x1.jpg?itok=P3Ty8BMX 2x" type="image/jpeg" width="480"/>
+<img alt="Blue hex pattern peppered with digital icons and binary code" height="825" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_21_9__1920x825/public/harvard-iqss/files/startup-foundry-hero_alt_6x1.jpg?itok=wzqwQywY" width="1920"/>
+</picture>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="hwp--text-block hwp-bg-light-base hwp-container-px hwp-container-py hwp-bg-fluid">
+<div class="hwp-bg-fluid--content">
+<div class="hwp-text-block field field--name-field-hwp-body field--type-text-long field--label-hidden"><h2 class="text-align-center" id="page-title"><span>Success Stories from the IQSS Startup Foundry</span></h2><p class="text-align-center">The IQSS Startup Foundry empowers Harvard social science innovations with the business and technical expertise needed to commercialize into new ventures.</p></div>
+</div>
+</div>
+</div>
+<div class="hwp-container hwp-w-full hwp-py-32 lg:hwp-py-64 hwp-container-px lg:hwp-flex lg:hwp-gap-24">
+<div class="lg:hwp-flex-initial lg:hwp-w-[19.375rem] hwp-pb-32 hwp-shrink-0">
+<div class="hwp-section-navigation hwp-bg-light-core">
+</div>
+</div>
+<div class="hwp-flex hwp-flex-col hwp-flex-1 hwp-overflow-hidden hwp-content--narrow">
+<div class="hwp-additional-content">
+<div class="hwp--text-block hwp-bg-light-core hwp-container-px hwp-container-py">
+<div class="hwp-text-block field field--name-field-hwp-body field--type-text-long field--label-hidden"><h2>TeamBirth's Journey from Research to New Venture</h2><a href="https://www.unravelhealthcare.com/"><div class="align-right hwp-media hwp-media--small">
+<div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
+<source height="203" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/harvard-iqss/files/unravel-healthcare-collage.jpg?itok=ZvBbkGrL 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__720x720_scale/public/harvard-iqss/files/unravel-healthcare-collage.jpg?itok=HdouHzT5 2x" type="image/jpeg" width="360"/>
+<img alt="Hospital photos of mothers holding newborns and a smiling medical professional" height="203" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/harvard-iqss/files/unravel-healthcare-collage.jpg?itok=ZvBbkGrL" width="360"/>
+</picture>
+</div>
+</div>
+</a><p>Despite medical advances, childbirth remains high-risk: globally, over 800 women and 7,000 babies die daily during or after birth, while 80% of U.S. births involve unexpected events, including death and severe injury. Many complications stem from communication failures and poor teamwork rather than medical issues.</p><p dir="ltr">Researchers at Ariadne Labs, a joint Harvard T.H. Chan School of Public Health (HSPH) and Brigham and Women's Hospital innovation center, <a href="https://www.unravelhealthcare.com/">redesigned the care process</a> to enhance communication, teamwork, and shared decision-making throughout prenatal, delivery, and postpartum care.</p></div>
+</div>
+<div class="hwp-accordions js-hwp-accordions hwp-accordions-theme-light-core hwp-bg-light-core hwp-container-py">
+<div class="hwp-container">
+<div class="hwp-flex hwp-flex-col hwp-gap-32">
+<div aria-live="polite" class="hwp-sr-only hwp-accordions__announce"></div>
+<div class="hwp-accordions__items">
+<div class="hwp-accordion hwp-bg-light-alternative" data-component-name="accordion">
+<h3 class="h4">
+<button aria-controls="hwp-accordion-1763216270-content" aria-expanded="false" class="hwp-accordion__button js-hwp-accordion__trigger hwp-accordion__button-auto-close" type="button">
+<span class="title">
+          Read about TeamBirth's journey
+        </span>
+<span aria-hidden="true" class="material-icon !hwp-block">expand_more</span>
+</button>
+</h3>
+<div class="hwp-accordion__content hwp-bg-light-base" hidden="" id="hwp-accordion-1763216270-content">
+<div class="hwp-text-block">
+</div>
+<div class="hwp-accordion-widgets">
+<div class="hwp--text-block hwp-bg-light-core hwp-container-px hwp-container-py">
+<div class="hwp-text-block field field--name-field-hwp-body field--type-text-long field--label-hidden"><p dir="ltr">	After a successful 2019 pilot at four U.S. clinical sites, TeamBirth scaled to over 200 hospitals nationwide and in Sweden, becoming one of Ariadne Labs' most rapidly adopted solutions and setting new standards in maternal care.</p><p dir="ltr">	With proven product-market fit, TeamBirth's vision expanded to global maternal health impact and applications beyond Labor and Delivery. However, Ariadne Labs recognized that while their mission centers on designing and testing high-impact solutions, greater scale and spread required independent handling of implementation, client service, technology, and business development. This philosophy drove the creation of Unravel, a new venture focused on scaling TeamBirth as a frontline implementer.</p><p dir="ltr">	Led by Dr. Amber Weiseth, a Research Scientist at HSPH in the Department of Health Policy and Management, and an experienced nurse who embraced the challenge of becoming a first-time CEO, the team primarily needed business expertise to scale effectively.</p><p dir="ltr">	The Startup Foundry delivered crucial support through:</p><ul> <li> <strong>Expert mentorship </strong>from HBS and Harvard community members, executive affiliates, entrepreneurs, VCs, and faculty	</li> <li> <strong>Product design workshops</strong> mapping customer journeys to improve service and enable expansion	</li> <li> <strong>Data science support</strong> to leverage existing information and implement AI-enhanced scaling strategies	</li> <li>		Adding a<strong> second-year HBS MBA intern </strong>to drive business strategy development	</li> <li> <strong>Connecting to a network </strong>of industry leaders and partners	</li> <li> <strong>Matching them with a business driver </strong>who became COO of the new venture, setting up processes and operations for the new company	</li> <li> <strong>Targeted programming</strong> on pitch development, enterprise sales, and entrepreneurial mindset, preparing the team for launch	</li></ul><p>	After 12 months in the program, TeamBirth now operates as <a href="https://www.unravelhealthcare.com/">Unravel Healthcare</a>. The company is generating sustainable revenue, has established a blueprint for bringing additional innovations to market, and stands poised to significantly impact patient care in hospitals that need it most—a transformation accelerated and strengthened through comprehensive Startup Foundry support.</p></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="hwp--text-block hwp-bg-light-core hwp-container-px hwp-container-py">
+<div class="hwp-text-block field field--name-field-hwp-body field--type-text-long field--label-hidden"><h2>MorphoAI: Breakthrough Academic Work Leads to Industry Impact</h2><a href="https://www.morpho.ai/"><div class="align-right hwp-media hwp-media--small">
+<div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
+<source height="360" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/harvard-iqss/files/morphoai-logo.png?itok=yNcJAJr- 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__720x720_scale/public/harvard-iqss/files/morphoai-logo.png?itok=sFzf7l5y 2x" type="image/png" width="360"/>
+<img alt="MorphoAI logo" height="360" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/harvard-iqss/files/morphoai-logo.png?itok=yNcJAJr-" width="360"/>
+</picture>
+</div>
+</div>
+</a><p><a href="https://www.morpho.ai/">MorphoAI</a> emerged from over a decade of research into digital twins and simulations that Dr. Andy Spielberg had conducted throughout his academic career. As a postdoctoral fellow in The Lewis Lab, within the School of Engineering and Applied Sciences at Harvard, Andy found the time and intellectual environment to synthesize his years of research into a revolutionary approach to computer-aided design and develop it into a viable commercial platform. His work focused on a critical bottleneck in modern engineering: the lengthy, expensive cycles required to design and deploy robots, medical devices, and industrial machinery. What typically takes weeks, months, or even years could be dramatically accelerated using AI-driven digital twins that combine analytical and learned models.</p></div>
+</div>
+<div class="hwp-accordions js-hwp-accordions hwp-accordions-theme-light-core hwp-bg-light-core hwp-container-py">
+<div class="hwp-container">
+<div class="hwp-flex hwp-flex-col hwp-gap-32">
+<div aria-live="polite" class="hwp-sr-only hwp-accordions__announce"></div>
+<div class="hwp-accordions__items">
+<div class="hwp-accordion hwp-bg-light-alternative" data-component-name="accordion">
+<h3 class="h4">
+<button aria-controls="hwp-accordion-715633405-content" aria-expanded="false" class="hwp-accordion__button js-hwp-accordion__trigger hwp-accordion__button-auto-close" type="button">
+<span class="title">
+          Read about MorphoAI's transformation
+        </span>
+<span aria-hidden="true" class="material-icon !hwp-block">expand_more</span>
+</button>
+</h3>
+<div class="hwp-accordion__content hwp-bg-light-base" hidden="" id="hwp-accordion-715633405-content">
+<div class="hwp-text-block">
+</div>
+<div class="hwp-accordion-widgets">
+<div class="hwp--text-block hwp-bg-light-core hwp-container-px hwp-container-py">
+<div class="hwp-text-block field field--name-field-hwp-body field--type-text-long field--label-hidden"><p>	When Andy joined the Startup Foundry in October 2023, he brought deep technical expertise but needed to master the fundamentals of building a business. As a first-time founder balancing his postdoctoral work with startup development, he primarily needed guidance on customer discovery, fundraising, and strategic business development.</p><p>	The Startup Foundry delivered comprehensive support through: </p><ul> <li> <strong>Expert mentorship </strong>from successful entrepreneurs, investors, and industry veterans who helped refine his pitch and business strategy 	</li> <li> <strong>Customer discovery and sales training</strong> that taught him how to identify and validate market needs	</li> <li> <strong>Design partner guidance </strong>showing him how to structure and manage pilot programs with industrial clients 	</li> <li> <strong>Access to Harvard's extensive network</strong> of investors, advisors, and potential customers	</li> <li> <strong>Strategic business planning support and workshops</strong> to navigate the transition from research to commercial venture 	</li> <li> <strong>An HBS MBA intern </strong>funded by Startup Foundry provided early business development capacity 	</li> <li> <strong>Community support from fellow founders</strong> facing similar challenges in translating academic research into market-ready solutions	</li></ul><p>	The program's milestone-driven approach kept Andy focused on critical business objectives while maintaining his technical development. Early challenges included securing initial funding—one early term sheet had terms too aggressive to accept—and balancing limited resources between product development and business development.</p><p>	By mid-2024, momentum was building. Andy had secured design partners and was making progress on multiple technology milestones. However, the most significant breakthroughs came in the program's final months. In January 2025, MorphoAI received a £2.5 million grant from the UK government (ARIA), providing crucial non-dilutive funding. This was followed by acceptance into Y Combinator in May 2025, one of the world's most prestigious startup accelerators.</p><p>	After 18 months in the Startup Foundry program, MorphoAI has transformed from an academic research project into a rapidly scaling technology company. Andy has recruited a CEO to handle business operations while he focuses on his role as CTO, maintaining close relationships with pilot clients and directing the technical team. The company has established a UK office and recruited highly talented engineers to expand its development capabilities.</p><p>	The transformation from academic postdoc to venture-backed entrepreneur represents exactly the kind of translation the Startup Foundry was designed to accelerate—turning Harvard's world-class researchers into entrepreneurs building solutions with massive impact.</p></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="hwp--text-block hwp-bg-light-core hwp-container-px hwp-container-py">
+<div class="hwp-text-block field field--name-field-hwp-body field--type-text-long field--label-hidden"><h2 id="page-title"><span>Building terraFlow: How an Idea in the Lab Grew Into a Venture-Backed Startup</span></h2><a href="http://terraflow.app/"><div class="align-right hwp-media hwp-media--small">
+<div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
+<source height="240" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/2025-09/terraflow-logo-black_bkgd.png?itok=Bg8y7ret 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__720x720_scale/public/2025-09/terraflow-logo-black_bkgd.png?itok=vnaqhE9f 2x" type="image/png" width="360"/>
+<img alt="terra Flow logo" height="240" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/2025-09/terraflow-logo-black_bkgd.png?itok=Bg8y7ret" width="360"/>
+</picture>
+</div>
+</div>
+</a><p>Dan Freeman, a Harvard PhD student in Biology and Biomedical Sciences, had worked with single-cell technology and pharma trials before and knew there had to be a better way. Fluent in technology development and fascinated with the power of artificial intelligence (AI), Dan started experimenting when he hit his aha moment. His vision for using AI to accelerate drug discovery had an early prototype and a powerful idea. Now what he needed was clarity about how to take this research and find the commercializing path—his customers, his pitch, and his business plan forward. That’s where the Startup Foundry came in.</p><p><a href="https://terraflow.app/"><span>terraFlow</span></a><span> was born from a simple but ambitious premise: combine pharmaceutical companies’ internal data with the vast ocean of scientific literature to uncover biologically meaningful biomarkers. In drug development, these signals can mean the difference between a failed trial and a life-saving therapy. Freeman’s technology promised to speed up that process by mining millions of research papers and linking them to patient outcomes.</span></p></div>
+</div>
+<div class="hwp-accordions js-hwp-accordions hwp-accordions-theme-light-core hwp-bg-light-core hwp-container-py">
+<div class="hwp-container">
+<div class="hwp-flex hwp-flex-col hwp-gap-32">
+<div aria-live="polite" class="hwp-sr-only hwp-accordions__announce"></div>
+<div class="hwp-accordions__items">
+<div class="hwp-accordion hwp-bg-light-alternative" data-component-name="accordion">
+<h3 class="h4">
+<button aria-controls="hwp-accordion-622781182-content" aria-expanded="false" class="hwp-accordion__button js-hwp-accordion__trigger hwp-accordion__button-auto-close" type="button">
+<span class="title">
+          Read about terraFlow's development
+        </span>
+<span aria-hidden="true" class="material-icon !hwp-block">expand_more</span>
+</button>
+</h3>
+<div class="hwp-accordion__content hwp-bg-light-base" hidden="" id="hwp-accordion-622781182-content">
+<div class="hwp-text-block">
+</div>
+<div class="hwp-accordion-widgets">
+<div class="hwp--text-block hwp-bg-transparent">
+<div class="hwp-text-block field field--name-field-hwp-body field--type-text-long field--label-hidden"><h3><strong>Learning to Speak the Language of Customers</strong></h3><p>During his time with the <a data-entity-substitution="canonical" data-entity-type="node" data-entity-uuid="20817caa-5d5b-4f53-8ef4-fb16e15f95ae" href="/startup-foundry" title="The IQSS Startup Foundry">Startup Foundry</a>, Dan was able to take advantage of working with industry, technology, and business experts. He learned to shift from talking about the brilliance of the algorithm to the problems it solved for scientists and executives inside big pharma. Through structured exercises in customer discovery, Dan began booking more conversations, asking better questions, and reshaping how he described terraFlow. “The question isn’t just what the AI can do,” he recalls, “but how it helps someone hit their clinical milestones faster.”</p><h3><strong>From Pitch to Pre-Seed Success</strong></h3><p>The storytelling work paid off. Armed with a sharper narrative and coaching from Foundry mentors, Freeman pitched investors and closed a $750,000 pre-seed round, including $600,000 from Boston-based Underscore VC. The funding provided 18 months of runway and set three clear milestones: launch terraFlow 2.0, close enterprise deals, and reach positive cash flow.</p><p>The company’s debut came at the international CYTO conference in Edinburgh, where Dan and his team unveiled terraFlow 2.0 to a hall filled with scientists and industry leaders. Soon after, the startup was piloting its AI with AstraZeneca, Vertex, Regeneron, Boehringer Ingelheim, and Eli Lilly. By the following quarter, terraFlow had doubled its active demos, deployed its platform inside AstraZeneca’s clinical trial datasets, and grown a sales pipeline worth more than $600,000.</p><h3><strong>Turning Science into Impact</strong></h3><p>Meanwhile, terraFlow strengthened its moat: mining 100,000 scientific papers (on the way to one million), filing two U.S. patents, and establishing itself as an industry player. Alongside the grind of customer calls and enterprise pilots, Dan found himself pitching on bigger stages—most memorably at Harvard Business School’s Shark Tank, where he went toe to toe with Kevin O’Leary, “Mr. Wonderful.”</p><p>The journey from idea to venture-backed company is rarely linear. For Dan, the Foundry mentors and experts offered a compass in the early fog: helping him listen to customers, tell a resonant story, and build investor confidence. Today, with institutional backing, industry pilots, and growing ARR, terraFlow is proving that the right combination of science, storytelling, and support can turn a bold idea into a company with the power to change how drugs are developed.</p><p>Dan explains, “The Startup Foundry helped me connect the dots. I had the science, but they showed me how to shape it into something customers wanted and investors could get behind—and I got to do it alongside a community of mentors and experts who really cared about helping me succeed.”</p></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="hwp--text-block hwp-bg-light-core hwp-container-px hwp-container-py">
+<div class="hwp-text-block field field--name-field-hwp-body field--type-text-long field--label-hidden"><h2><span>Memorious: Building Infinite Memory with AI</span></h2><div class="align-right hwp-media hwp-media--small">
+<div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
+<source height="67" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/2025-09/memorious-logo.png?itok=1_o_mhaU 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__720x720_scale/public/2025-09/memorious-logo.png?itok=umDa8rSe 2x" type="image/png" width="360"/>
+<img alt="Memorious logo" height="67" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/2025-09/memorious-logo.png?itok=1_o_mhaU" width="360"/>
+</picture>
+</div>
+</div>
+<p dir="ltr"><span>Forgetting is a universally human experience—whether it’s conversations, names, or moments—we all forget. But what if forgetting were optional, and humans could have perfect, infinite memory? This might sound like science fiction, but that’s the bold vision behind </span><a href="http://memorious.io"><span>Memorious</span></a><span>, a company founded by Spandan Madan and Gabriel Kreiman at Harvard. Their mission is to reinvent human memory with AI, creating tools that let people recall experiences, conversations, and information instantly—without searching or prompting.</span></p></div>
+</div>
+<div class="hwp-accordions js-hwp-accordions hwp-accordions-theme-light-core hwp-bg-light-core hwp-container-py">
+<div class="hwp-container">
+<div class="hwp-flex hwp-flex-col hwp-gap-32">
+<div aria-live="polite" class="hwp-sr-only hwp-accordions__announce"></div>
+<div class="hwp-accordions__items">
+<div class="hwp-accordion hwp-bg-light-alternative" data-component-name="accordion">
+<h3 class="h4">
+<button aria-controls="hwp-accordion-1629666360-content" aria-expanded="false" class="hwp-accordion__button js-hwp-accordion__trigger hwp-accordion__button-auto-close" type="button">
+<span class="title">
+          Read about Memorious' growth
+        </span>
+<span aria-hidden="true" class="material-icon !hwp-block">expand_more</span>
+</button>
+</h3>
+<div class="hwp-accordion__content hwp-bg-light-base" hidden="" id="hwp-accordion-1629666360-content">
+<div class="hwp-text-block">
+</div>
+<div class="hwp-accordion-widgets">
+<div class="hwp--text-block hwp-bg-transparent">
+<div class="hwp-text-block field field--name-field-hwp-body field--type-text-long field--label-hidden"><h3 dir="ltr"><strong>From Research to Reality</strong></h3><p dir="ltr"><span>The science driving Memorious comes directly from Gabriel’s lab at Harvard. A Professor of Neuroscience and AI at Harvard Medical School, Gabriel has spent decades studying how the brain encodes and retrieves memory. His lab’s discoveries laid the foundation for the company’s technology. He teamed up with Spandan Madan, a Harvard Computer Science PhD with deep experience in machine learning from roles at Microsoft, Adobe, and IIT. Together, they saw the opportunity to combine neuroscience and AI to build what they call “Ambient Intelligence.”</span></p><p dir="ltr"><span>Memorious creates a “Memorome” for each user—an organized record of all your memories drawn from conversations, documents, photos, and location data. This allows the system to resurface memories contextually and in real time, much like the human brain, but with perfect recall.</span></p><h3 dir="ltr"><strong>Shaped by Customers</strong></h3><p dir="ltr"><span>With support from the IQSS Startup Foundry, Spandan and Gabriel immersed themselves in customer discovery. Guided by mentors and experienced operators, they worked through several elements of early-stage company building. Through their customer discovery work, interviewing over 50 potential users, from older adults coping with memory loss, to project managers juggling complex information, and AI developers interested in building agents with human-like memory. They heard both urgency and opportunity. Older adults described being “desperate” for help, while professionals saw clear value in tools that could preserve organizational knowledge.</span></p><p dir="ltr"><span>These insights guided the development of their consumer iOS app, now available in beta, and also inspired an enterprise API for memory extraction and retrieval. They are working closely with design partners to identify new, memory-native workflows which cannot be tackled with existing AI models from OpenAI, Anthropic, or Gemini. </span></p><h3><strong>Getting Down to Business</strong></h3><p dir="ltr"><span>As first-time founders, Spandan and Gabriel brought world-class research experience but little business training. The Startup Foundry gave them their introduction to commercialization—teaching them how to frame their story for investors, design products and experiences for real users, and navigate a go-to-market strategy. With mentorship from seasoned entrepreneurs and industry experts, they learned to do everything from refining pitches to building scalable business models.</span></p><h3 dir="ltr"><strong>Building Momentum</strong></h3><p dir="ltr"><span>Backed by this foundation, Memorious quickly gained investor confidence. The team closed a $3M pre-seed round led by Mayfield Fund, alongside other top Silicon Valley investors. With this support, they are scaling their engineering team, advancing their enterprise partnerships, and moving closer to their vision of augmenting human cognition by endowing humans with infinite memory.</span></p><p><span>Gabriel shares: "The IQSS Startup Foundry has played a transformative role in our journey from day zero. From educating me in the basics of how to go from research results to building a business strategy and plan, to making connections, to helping through multiple rounds of revising our pitch, I found a family of knowledgeable experts with in-depth expertise. Their enthusiasm, camaraderie, and rigor helped us navigate the key challenges and provided inspiration throughout the way."</span></p><h3 dir="ltr"><strong>Looking Ahead</strong></h3><p dir="ltr"><span>The story of Memorious shows what happens when groundbreaking research meets entrepreneurial guidance. With strong Harvard roots, innovative technology, and early market validation, Memorious is on a path to transform how people and organizations remember.</span></p></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="hwp--text-block hwp-bg-light-core hwp-container-px hwp-container-py">
+<div class="hwp-text-block field field--name-field-hwp-body field--type-text-long field--label-hidden"><h2 dir="ltr"><strong>From Harvard Research to National Security Innovation: The Story of Thresher</strong></h2><div class="align-right hwp-media hwp-media--small">
+<div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
+<source height="360" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/2025-10/Two-Six-Tech-Products-M3-Logo-and-Text%20sq2.jpg?itok=xgNbH0d4 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__720x720_scale/public/2025-10/Two-Six-Tech-Products-M3-Logo-and-Text%20sq2.jpg?itok=AlTpmFvk 2x" type="image/jpeg" width="360"/>
+<img alt="Two Six M3 logo" height="360" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/2025-10/Two-Six-Tech-Products-M3-Logo-and-Text%20sq2.jpg?itok=xgNbH0d4" width="360"/>
+</picture>
+</div>
+</div>
+<p dir="ltr"><span>In 2015, Weatherhead University Professor </span><a href="http://gking.harvard.edu"><span>Gary King</span></a><span> co-founded a company that would bridge the worlds of academia and industry. That company was Thresher, a venture born out of his academic research at Harvard’s Institute for Quantitative Social Science (IQSS).</span></p><p dir="ltr"><span>The origins of Thresher trace back to two groundbreaking research programs. The first focused on censorship and fabrication of Chinese social media posts, conducted with then graduate students </span><a href="https://www.linkedin.com/in/pkphlam/"><span>Patrick Lam</span></a><span> (now at Airbnb), </span><a href="https://politicalscience.stanford.edu/people/jennifer-pan"><span>Jennifer Pan</span></a><span> (now professor at Stanford), and </span><a href="https://polisci.ucsd.edu/people/faculty/faculty-directory/currently-active-faculty/roberts-profile.html"><span>Molly Roberts</span></a><span> (now professor at UCSD). In the process of analyzing data from an earlier startup, Crimson Hexagon (now Brandwatch), King and his collaborators discovered a way to download Chinese social media content before it could be censored by the government. This serendipitous finding, giving them access to the entire corpus of posts the Chinese people could not read because they were not allowed to, became the foundation for deeper analysis of how information was manipulated online. It also enabled Thresher to understand the interests and accurately predict the actions of the Chinese leaders before anyone else.</span></p></div>
+</div>
+<div class="hwp-accordions js-hwp-accordions hwp-accordions-theme-light-core hwp-bg-light-core hwp-container-py">
+<div class="hwp-container">
+<div class="hwp-flex hwp-flex-col hwp-gap-32">
+<div aria-live="polite" class="hwp-sr-only hwp-accordions__announce"></div>
+<div class="hwp-accordions__items">
+<div class="hwp-accordion hwp-bg-light-alternative" data-component-name="accordion">
+<h3 class="h4">
+<button aria-controls="hwp-accordion-1328445680-content" aria-expanded="false" class="hwp-accordion__button js-hwp-accordion__trigger hwp-accordion__button-auto-close" type="button">
+<span class="title">
+          Read about Thresher's journey
+        </span>
+<span aria-hidden="true" class="material-icon !hwp-block">expand_more</span>
+</button>
+</h3>
+<div class="hwp-accordion__content hwp-bg-light-base" hidden="" id="hwp-accordion-1328445680-content">
+<div class="hwp-text-block">
+</div>
+<div class="hwp-accordion-widgets">
+<div class="hwp--text-block hwp-bg-transparent">
+<div class="hwp-text-block field field--name-field-hwp-body field--type-text-long field--label-hidden"><p dir="ltr"><span>The second research program improved automated text analysis. Together, these innovations positioned Thresher to combine “signal-rich data, novel quantitative methods, and world-class qualitative expertise” to help government and corporate leaders understand China, even when the signals they needed had been censored, fabricated, or obscured.</span></p><p dir="ltr"><span>Unlike many startups, Thresher was bootstrapped and profitable from day one, and the team deliberately turned down all outside investment offers. This independence enabled the team to grow rapidly, stay true to its mission, and simultaneously advance scholarly research while developing tools at the intersection of technology, social science, and security.</span></p><p dir="ltr"><span>In May 2022, Thresher’s story entered a new chapter. The company was acquired by Two Six Technologies, a national security technology firm backed by the Carlyle Group. Following the acquisition, Thresher’s core technology was rebranded as the </span><a href="https://twosixtech.com/products/m3/"><span>Media Manipulation Monitor (M3) </span></a><span>and added to Two Six’s suite of advanced data and cyber capabilities.</span></p><p dir="ltr"><span>Today, M3 continues the work that began at Harvard’s Institute for Quantitative Social Science: detecting, analyzing, and contextualizing manipulation of online information at scale and using it as a unique window to what otherwise secretive authoritarian leaders are planning. As Two Six Technologies describes it, M3 is designed to “deliver unique insights into foreign disinformation and censorship campaigns,” equipping decision makers with the intelligence they need to respond to rapidly evolving information environments.</span></p><p dir="ltr"><span>Reflecting on the journey from academic research to impactful startup, Professor King emphasizes the importance of commercial pathways for social science:</span></p><p dir="ltr"><em>“Working closely with industry is one of the best ways of accomplishing the goals of academia. Commercializing research opens incredible opportunities for academics, unlocking vast datasets, enabling stronger science, and generating public good that universities alone can’t always achieve.”</em></p><p dir="ltr"><span>For King, the sale of Thresher was not just a business milestone but another proof of concept: that social science research, when paired with entrepreneurial execution, can meaningfully shape industries and strengthen democratic resilience.</span></p><p dir="ltr"><span>From Harvard to the national security frontlines, Thresher’s story is a testament to the power of academic innovation—an idea sparked in a research program, refined through real-world application, and scaled through industry to create lasting impact. See </span><a href="https://docs.google.com/document/d/1kP1960J0NUuaoEFIakXK5p98xFEz13QvEdpwGh_n5aM/edit?tab=t.0"><span>Professor King's tweet stream</span></a><span>, posted at the time of the acquisition.</span></p></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="hwp--text-block hwp-bg-light-core hwp-container-px hwp-container-py">
+<div class="hwp-text-block field field--name-field-hwp-body field--type-text-long field--label-hidden"><h2 dir="ltr"><strong>Neru Health – From Sleep Challenges to Scaling Chronic Care with AI</strong></h2><div class="align-right hwp-media hwp-media--small">
+<div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
+<source height="87" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/2025-10/neru-logo.png?itok=4JzXNGII 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__720x720_scale/public/2025-10/neru-logo.png?itok=G9Bw4uUO 2x" type="image/png" width="360"/>
+<img alt="Neru Health logo" height="87" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/2025-10/neru-logo.png?itok=4JzXNGII" width="360"/>
+</picture>
+</div>
+</div>
+<p dir="ltr">When Neru Health first came to the IQSS Startup Foundry, they had a big idea: transform the way people solve sleep problems. Millions struggle with conditions like sleep apnea, and while treatments exist, staying consistent with therapy is notoriously difficult. Neru’s early vision centered on improving patient engagement and adherence to sleep therapy.</p></div>
+</div>
+<div class="hwp-accordions js-hwp-accordions hwp-accordions-theme-light-core hwp-bg-light-core hwp-container-py">
+<div class="hwp-container">
+<div class="hwp-flex hwp-flex-col hwp-gap-32">
+<div aria-live="polite" class="hwp-sr-only hwp-accordions__announce"></div>
+<div class="hwp-accordions__items">
+<div class="hwp-accordion hwp-bg-light-alternative" data-component-name="accordion">
+<h3 class="h4">
+<button aria-controls="hwp-accordion-234947460-content" aria-expanded="false" class="hwp-accordion__button js-hwp-accordion__trigger hwp-accordion__button-auto-close" type="button">
+<span class="title">
+          Read about Neru's expansion
+        </span>
+<span aria-hidden="true" class="material-icon !hwp-block">expand_more</span>
+</button>
+</h3>
+<div class="hwp-accordion__content hwp-bg-light-base" hidden="" id="hwp-accordion-234947460-content">
+<div class="hwp-text-block">
+</div>
+<div class="hwp-accordion-widgets">
+<div class="hwp--text-block hwp-bg-transparent">
+<div class="hwp-text-block field field--name-field-hwp-body field--type-text-long field--label-hidden"><p dir="ltr"><span>But as the team dug deeper during their time in the Foundry, they uncovered a bigger and more urgent opportunity. Durable Medical Equipment (DME) providers, responsible for supplying and supporting patients with CPAP machines and other critical devices, were stuck between trying to grow while maintaining excellent patient care and adherence to treatment. Staffing shortages, rising costs, and manual support processes left DMEs unable to keep up with patient needs. If patients didn’t use their equipment properly, everyone lost: the patient suffered, the provider lost reimbursements, and insurers faced higher long-term costs.</span></p><p dir="ltr"><span>With the Foundry’s mentorship and programming, Neru began reshaping its model. With hands-on product guidance, intensive mentoring from tech and go-to-market experts, strategic connections with DME executives, and an MBA intern funded by the Foundry rounding out the early team, Neru had the support to move fast. By testing their assumptions, validating market demand, and ultimately shifting their focus from a consumer sleep app to a B2B platform, Neru was poised to transform how DMEs operate.</span></p><p dir="ltr"><span>That pivot became the foundation for Neru’s current business. Today, Neru Health is a vertical AI company transforming chronic care by automating patient support and resupply for DME providers and specialty clinics. Their platform uses clinician-trained voice and text AI to deliver 24/7 patient troubleshooting, adherence coaching, and supply management. At the core is Chronos AI, a proprietary digital phenotyping engine that personalizes patient engagement across behavioral and clinical archetypes, driving higher adherence, lower costs, and better outcomes.</span></p><p dir="ltr"><span>The results have been striking. In less than a year, Neru has partnered with national and regional DMEs managing tens of thousands of patients, helping them recapture millions in reimbursements and cut labor costs by up to 60%. Early outcomes show 10–20% improvements in medical device adherence, 30%+ fewer human calls, and a 20% lift in patient satisfaction. These metrics validated that Neru wasn’t just solving a sleep problem—it was unlocking profitability and scalability for providers while improving care for patients.</span></p><p dir="ltr"><span>For founder and CEO Morgan Moncada, the Foundry was a critical launchpad. A Harvard MBA and Blavatnik Healthcare Fellow, Moncada entered the program with both entrepreneurial ambition and a research-driven mindset. The prestigious Blavatnik Fellowship provides Harvard graduates with a year of funding to explore ideas at the intersection of science and business, with the potential to turn into impactful ventures. While Moncada was not a traditional academic researcher, his fellowship created a natural bridge into the Foundry’s mission of commercializing research and building ventures that address pressing societal challenges. The team included co-founders Catherine Tadina, an experienced product expert from Stanford, Amazon, and Boeing, and Maria Grebenshchikova, a digital phenotyping AI researcher and GenAI expert at HBS’ D^3 Institute. They learned how to bring their respective strengths and knowledge to create an exciting early-stage company. This team cohesion prepared them to go the distance.</span></p><p dir="ltr"><span>Reflecting on the experience, Moncada shared: </span><em>“The Foundry gave us a unique set of resources at exactly the stage we needed it. From hands-on product help to industry introductions and even funding an MBA intern to help with business development, it was the kind of comprehensive support you rarely find in one place. It gave us the conviction and structure to pivot into a model that could scale and win real customers.”</em></p><p dir="ltr"><span>That foundation paid off. Neru was later accepted into ERA, one of New York’s top accelerator programs, which provided additional resources and exposure. Building on this momentum, the company went on to raise a $4 million venture round at a $16 million valuation cap, with strong demand from both customers and investors.</span></p><p dir="ltr"><span>Neru Health’s journey highlights what’s possible when entrepreneurial talent, rigorous mentorship, and industry access converge. From an early idea around sleep to becoming the operating system for chronic care, Neru is now positioned to redefine how patients and providers experience therapy—one device, one treatment, and one life at a time.</span></p></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</article>
+</div>
+</div>
+</main>
+
+---
+
+*Original source: [https://www.iq.harvard.edu/iqss-startup-foundry-stories](https://www.iq.harvard.edu/iqss-startup-foundry-stories)*
