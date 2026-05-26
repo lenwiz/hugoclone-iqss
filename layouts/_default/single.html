@@ -1,0 +1,30 @@
+{{ define "main" }}
+<div class="container">
+    <div class="page-content">
+        <h1>{{ .Title }}</h1>
+
+        {{ if .Params.source_url }}
+        <div style="background: #f8f9fa; border-left: 4px solid #A51C30; padding: 15px; margin-bottom: 30px; border-radius: 0 4px 4px 0;">
+            <p style="margin: 0; font-size: 14px; color: #666;">
+                <strong>Original Source:</strong>
+                <a href="{{ .Params.source_url }}" target="_blank" style="color: #A51C30;">{{ .Params.source_url }}</a>
+            </p>
+        </div>
+        {{ end }}
+
+        <div class="content">
+            {{ .Content }}
+        </div>
+
+        {{ if .Params.section }}
+        <div style="margin-top: 40px; padding-top: 20px; border-top: 1px solid #e5e5e5;">
+            <p>
+                <a href="/{{ .Params.section }}/" style="color: #A51C30; text-decoration: none;">
+                    ← Back to {{ .Params.section | title }} Section
+                </a>
+            </p>
+        </div>
+        {{ end }}
+    </div>
+</div>
+{{ end }}

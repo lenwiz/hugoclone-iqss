@@ -1,0 +1,50 @@
+{{ define "main" }}
+<div class="container">
+    <div class="page-content">
+        <h1>{{ .Title }}</h1>
+        {{ .Content }}
+
+        {{ if .Pages }}
+        <div style="margin-top: 40px;">
+            {{ if eq .Section "people" }}
+            <div class="people-grid">
+                {{ range .Pages }}
+                <div class="person-card">
+                    <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+                    {{ if .Params.source_url }}
+                    <p style="font-size: 14px; color: #666;">
+                        <a href="{{ .Params.source_url }}" target="_blank" style="color: #666;">View Original Profile</a>
+                    </p>
+                    {{ end }}
+                </div>
+                {{ end }}
+            </div>
+            {{ else }}
+            {{ range .Pages }}
+            <div style="border: 1px solid #e5e5e5; border-radius: 8px; padding: 25px; margin-bottom: 20px; background: #fff;">
+                <h3 style="margin-bottom: 15px;">
+                    <a href="{{ .RelPermalink }}" style="color: #A51C30; text-decoration: none;">{{ .Title }}</a>
+                </h3>
+                <p style="color: #666; line-height: 1.6;">{{ .Summary | truncate 200 }}</p>
+                {{ if .Params.source_url }}
+                <p style="margin-top: 15px; font-size: 14px;">
+                    <a href="{{ .Params.source_url }}" target="_blank" style="color: #A51C30;">View Original Source →</a>
+                </p>
+                {{ end }}
+            </div>
+            {{ end }}
+            {{ end }}
+
+            {{ if gt (len .Pages) 50 }}
+            <div style="text-align: center; margin-top: 40px; padding: 20px; background: #f8f9fa; border-radius: 8px;">
+                <p><strong>{{ len .Pages }} items</strong> in this section</p>
+                <p style="margin-top: 10px; color: #666;">Use your browser's search (Ctrl+F / Cmd+F) to find specific content.</p>
+            </div>
+            {{ end }}
+        </div>
+        {{ else }}
+        <p style="text-align: center; padding: 40px; color: #666; font-style: italic;">No content available in this section yet.</p>
+        {{ end }}
+    </div>
+</div>
+{{ end }}

@@ -1,0 +1,65 @@
+{{ define "main" }}
+<div class="hero">
+    <div class="container">
+        <h1>Advancing Quantitative Methods in Social Science</h1>
+        <p>The Institute for Quantitative Social Science brings together researchers across disciplines to develop innovative methods, provide cutting-edge computational resources, and foster collaborative research in the social sciences.</p>
+    </div>
+</div>
+
+<div class="container">
+    <div class="content-grid">
+        <div class="content-card">
+            <h3>👥 People & Research</h3>
+            <p>Explore our community of over 1,000 faculty, researchers, and students advancing quantitative social science.</p>
+            <p><a href="/people/">Browse People Directory →</a></p>
+        </div>
+
+        <div class="content-card">
+            <h3>📊 Data Science Services</h3>
+            <p>Statistical consulting, computational support, and methodological guidance for your research projects.</p>
+            <p><a href="/data-science/">Explore Services →</a></p>
+        </div>
+
+        <div class="content-card">
+            <h3>🎓 Programs & Initiatives</h3>
+            <p>Interdisciplinary research programs, workshops, and collaborative opportunities.</p>
+            <p><a href="/programs/">View Programs →</a></p>
+        </div>
+
+        <div class="content-card">
+            <h3>💻 Computing Resources</h3>
+            <p>Access to high-performance computing, software, and technical support for research computing.</p>
+            <p><a href="/technology/">Technology Services →</a></p>
+        </div>
+
+        <div class="content-card">
+            <h3>📰 News & Events</h3>
+            <p>Stay updated with the latest research highlights, announcements, and upcoming events.</p>
+            <p><a href="/news/">Latest Updates →</a></p>
+        </div>
+
+        <div class="content-card">
+            <h3>🔬 Research Areas</h3>
+            <p>Discover cutting-edge research spanning economics, political science, sociology, and beyond.</p>
+            <p><a href="/research/">Research Focus →</a></p>
+        </div>
+    </div>
+
+    <section style="margin: 60px 0;">
+        <h2 style="text-align: center; margin-bottom: 30px; color: #A51C30;">Featured Research & Updates</h2>
+        {{ range first 3 (where .Site.RegularPages "Section" "blog") }}
+        <div style="border-left: 4px solid #A51C30; padding-left: 20px; margin-bottom: 30px;">
+            <h3><a href="{{ .RelPermalink }}" style="color: #A51C30; text-decoration: none;">{{ .Title }}</a></h3>
+            <p style="color: #666; margin: 10px 0;">{{ .Date.Format "January 2, 2006" }}</p>
+            <p>{{ .Summary }}</p>
+        </div>
+        {{ end }}
+    </section>
+
+    <section style="background: #f8f9fa; padding: 40px; border-radius: 8px; margin: 40px 0;">
+        <h2 style="color: #A51C30; margin-bottom: 20px;">About This Archive</h2>
+        <p>This site contains a comprehensive archive of Harvard IQSS website content, including personnel directories, research information, and institutional resources. It serves as an educational resource and reference for the quantitative social science community.</p>
+        <p style="margin-top: 15px;"><strong>Note:</strong> This is an educational archive. For current information, please visit the official <a href="https://iq.harvard.edu" style="color: #A51C30;">IQSS website</a>.</p>
+    </section>
+</div>
+{{ end }}
