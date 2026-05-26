@@ -1,0 +1,80 @@
+{{ define "main" }}
+<div class="container">
+    <div class="page-content">
+        <h1>{{ .Title }}</h1>
+        {{ .Content }}
+
+        {{ if .IsHome }}
+        <!-- Main People Directory Page -->
+        <div class="content-grid" style="margin-top: 40px;">
+            <div class="content-card">
+                <h3>👨‍🏫 <a href="/people/faculty/" style="color: #A51C30; text-decoration: none;">Faculty</a></h3>
+                <p>{{ len (where .Site.RegularPages "Section" "people").ByParam "Type" "faculty" }} faculty members conducting cutting-edge research across quantitative social science disciplines.</p>
+                <p><a href="/people/faculty/" style="color: #A51C30;">Browse Faculty →</a></p>
+            </div>
+
+            <div class="content-card">
+                <h3>👩‍💼 <a href="/people/staff/" style="color: #A51C30; text-decoration: none;">Staff</a></h3>
+                <p>Dedicated administrative and support staff enabling IQSS research and operations.</p>
+                <p><a href="/people/staff/" style="color: #A51C30;">Browse Staff →</a></p>
+            </div>
+
+            <div class="content-card">
+                <h3>🤝 <a href="/people/affiliates/" style="color: #A51C30; text-decoration: none;">Affiliates</a></h3>
+                <p>Researchers, visiting scholars, and collaborators from Harvard and institutions worldwide.</p>
+                <p><a href="/people/affiliates/" style="color: #A51C30;">Browse Affiliates →</a></p>
+            </div>
+
+            <div class="content-card">
+                <h3>🎓 <a href="/people/students/" style="color: #A51C30; text-decoration: none;">Students & Fellows</a></h3>
+                <p>Graduate students, postdoctoral fellows, and research assistants.</p>
+                <p><a href="/people/students/" style="color: #A51C30;">Browse Students →</a></p>
+            </div>
+        </div>
+
+        <div style="margin-top: 60px; text-align: center; background: #f8f9fa; padding: 40px; border-radius: 8px;">
+            <h2 style="color: #A51C30; margin-bottom: 20px;">Search All People</h2>
+            <p>Use your browser's search (Ctrl+F / Cmd+F) to quickly find a specific person across all categories.</p>
+            <p style="margin-top: 20px; font-size: 18px; color: #666;">
+                <strong>{{ len (where .Site.RegularPages "Section" "people") }}</strong> total people in directory
+            </p>
+        </div>
+
+        {{ else }}
+        <!-- Category-specific page -->
+        {{ if .Pages }}
+        <div style="margin-bottom: 30px; padding: 20px; background: #f8f9fa; border-radius: 8px;">
+            <p><strong>{{ len .Pages }} people</strong> in this category, listed alphabetically by last name.</p>
+        </div>
+
+        <div class="people-grid">
+            {{ range .Pages.ByTitle }}
+            <div class="person-card">
+                <h3><a href="{{ .RelPermalink }}" style="color: #A51C30; text-decoration: none;">{{ .Title }}</a></h3>
+
+                {{ if .Summary }}
+                <p style="font-size: 14px; color: #666; margin: 10px 0;">{{ .Summary | truncate 100 }}</p>
+                {{ end }}
+
+                {{ if .Params.source_url }}
+                <p style="font-size: 12px; margin-top: 10px;">
+                    <a href="{{ .Params.source_url }}" target="_blank" style="color: #999;">View Original Profile →</a>
+                </p>
+                {{ end }}
+            </div>
+            {{ end }}
+        </div>
+
+        <div style="margin-top: 40px; text-align: center; padding: 20px; background: #f8f9fa; border-radius: 8px;">
+            <p><a href="/people/" style="color: #A51C30; text-decoration: none;">← Back to People Directory</a></p>
+        </div>
+
+        {{ else }}
+        <p style="text-align: center; padding: 40px; color: #666; font-style: italic;">
+            No people found in this category.
+        </p>
+        {{ end }}
+        {{ end }}
+    </div>
+</div>
+{{ end }}

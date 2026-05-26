@@ -12,7 +12,7 @@ title = 'IQSS Clone - Harvard Institute for Quantitative Social Science'
     [markup.goldmark.renderer]
       unsafe = true
 
-# Menu configuration
+# Menu configuration - matches IQSS structure
 [[menu.main]]
   name = "About"
   url = "/about/"
@@ -24,14 +24,29 @@ title = 'IQSS Clone - Harvard Institute for Quantitative Social Science'
   weight = 20
 
 [[menu.main]]
-  name = "Programs"
-  url = "/programs/"
+  name = "Research"
+  url = "/research/"
   weight = 30
 
 [[menu.main]]
-  name = "Data Science"
-  url = "/data-science/"
+  name = "Services"
+  url = "/services/"
   weight = 40
+
+[[menu.main]]
+  name = "Resources"
+  url = "/resources/"
+  weight = 50
+
+[[menu.main]]
+  name = "News & Events"
+  url = "/news-events/"
+  weight = 60
+
+[[menu.main]]
+  name = "Opportunities"
+  url = "/opportunities/"
+  weight = 70
 
 [[menu.main]]
   name = "News"
