@@ -1,4 +1,5 @@
 ---
+category: faculty
 date: '2026-05-26 14:51:42'
 draft: false
 section: people
@@ -6,73 +7,16 @@ source_url: https://iq.harvard.edu/people/lisa-galvin
 title: Lisa Galvin
 ---
 
-<main aria-label="Lisa Galvin" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">
-<div class="layout-content">
-<div>
-<div class="hidden" data-drupal-messages-fallback=""></div>
-<div class="page-content-top" lang="en">
-<div class="hwp-page-title hwp-bg-light-base">
-<div class="hwp-container hwp-container-px hwp-py-32">
-<h1 class="text-large">
-      Lisa Galvin     </h1>
-<div class="hwp-page-header__subtitle">
-<div class="field field--name-field-hwp-person-prof-title field--type-string field--label-hidden">
-<div>Academic Affairs Coordinator</div>
-</div>
-</div>
-</div>
-</div>
-<div class="hwp-container hwp-container-px hwp-pt-32 lg:hwp-pt-64 lg:hwp-flex lg:hwp-gap-24">
-<div class="lg:hwp-w-[19.375rem]">
-<div class="hwp-person-card" data-component-name="person-card">
-<div class="hwp-person-card__image">
-<div class="field field--name-field-hwp-person-headshot field--type-entity-reference field--label-hidden"><div class="hwp-media hwp-media--4-5-small-no-caption">
-<div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
-<source height="600" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_4_5__480x600/public/harvard-iqss/files/lisa_galvin_0.png?itok=lAWX-nai 1x, /sites/g/files/omnuum8171/files/styles/hwp_4_5__960x1200/public/harvard-iqss/files/lisa_galvin_0.png?itok=PCeAgsyV 2x" type="image/png" width="480"/>
-<img alt="Lisa Galvin" height="600" loading="lazy" src="/sites/g/files/omnuum8171/files/styles/hwp_4_5__480x600/public/harvard-iqss/files/lisa_galvin_0.png?itok=lAWX-nai" width="480"/>
-</picture>
-</div>
-</div>
-</div>
-</div>
-<div class="hwp-person-card__information hwp-bg-light-base hwp-flex-1"> <div class="hwp-flex hwp-gap-8 hwp-items-center">
-<span aria-hidden="true" class="material-icon">email</span>
-<a class="hwp-break-all" href="mailto:lgalvin@iq.harvard.edu">lgalvin@iq.harvard.edu</a>
-</div>
-</div>
-</div>
-</div>
-<div class="hwp-flex-1 lg:hwp-px-32">
-<div class="hwp-person-text-block">
-<div class="hwp-text-block field field--name-field-hwp-body field--type-text-long field--label-hidden"><p>	Lisa joined IQSS in November 2011. Prior to this, Lisa worked as a temporary Human Resources Coordinator in Harvard’s Faculty of Arts and Sciences (FAS) HR department. Lisa earned her Professional in Human Resources (PHR) certification in June 2013 and also holds a Bachelor's degree. She enjoys reading, television, movies, music, and keeping up with current events. Lisa lives with her husband in Cambridge. </p></div>
-</div>
-</div>
-</div>
-</div>
-<div class="hwp-container hwp-container-px">
-<div class="field field--name-field-hwp-file-upload field--type-entity-reference field--label-hidden">
-<div></div>
-</div>
-</div>
-<div class="hwp-taxonomy-group hwp-bg-light-core">
-<div class="hwp-container hwp-container-px">
-<ul class="hwp-taxonomy-group__grid">
-<li class="hwp-taxonomy-group-card hwp-bg-light-base">
-<h2 class="hwp-taxonomy-group-card__title text-x-small">People By Last Name</h2>
-<a href="/people-last-name/d-g" hreflang="en">D - G</a>
-</li>
-<li class="hwp-taxonomy-group-card hwp-bg-light-base">
-<h2 class="hwp-taxonomy-group-card__title text-x-small">Role</h2>
-<a href="/role/staff" hreflang="en">Staff</a>
-<a href="/role/administrative-support" hreflang="en">Administrative Support</a>
-</li>
-</ul>
-</div>
-</div>
-</div>
-</div>
-</main>
+# Lisa Galvin
+
+Lisa Galvin
+
+email
+
+lgalvin@iq. harvard. edu
+
+Lisa joined IQSS in November 2011. Prior to this, Lisa worked as a temporary Human Resources Coordinator in Harvard’s Faculty of Arts and Sciences (FAS) HR department. Lisa earned her Professional in Human Resources (PHR) certification in June 2013 and also holds a Bachelor's degree.
 
 ---
 
-*Original source: [https://iq.harvard.edu/people/lisa-galvin](https://iq.harvard.edu/people/lisa-galvin)*
+*View the original profile at [iq.harvard.edu](https://iq.harvard.edu/people/lisa-galvin)*

@@ -1,8 +1,8 @@
 ---
-title: "Opportunities"
 date: 2026-05-26
+description: Opportunities at Harvard IQSS
 draft: false
-description: "Opportunities at Harvard IQSS"
+title: Opportunities
 ---
 
 # Opportunities

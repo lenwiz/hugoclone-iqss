@@ -1,8 +1,8 @@
 ---
-title: "Research & Programs"
 date: 2026-05-26
+description: Research & Programs at Harvard IQSS
 draft: false
-description: "Research & Programs at Harvard IQSS"
+title: Research & Programs
 ---
 
 # Research & Programs

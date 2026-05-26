@@ -1,4 +1,5 @@
 ---
+category: students
 date: '2026-05-26 14:40:19'
 draft: false
 section: people
@@ -6,56 +7,20 @@ source_url: https://iq.harvard.edu/people/annabel-li
 title: Annabel Li
 ---
 
-<main aria-label="Annabel Li" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">
-<div class="layout-content">
-<div>
-<div class="hidden" data-drupal-messages-fallback=""></div>
-<div class="page-content-top" lang="en">
-<div class="hwp-page-title hwp-bg-light-base">
-<div class="hwp-container hwp-container-px hwp-py-32">
-<h1 class="text-large">
-      Annabel Li     </h1>
-<div class="hwp-page-header__subtitle">
-<div class="field field--name-field-hwp-person-prof-title field--type-string field--label-hidden">
-<div>IQSS Computer Lab Assistant</div>
-</div>
-</div>
-</div>
-</div>
-<div class="hwp-container hwp-container-px hwp-pt-32 lg:hwp-pt-64 lg:hwp-flex lg:hwp-gap-24">
-<div class="lg:hwp-w-[19.375rem]">
-<div class="hwp-person-card" data-component-name="person-card">
-<div class="hwp-person-card__image hwp-person-card__image--icon">
-<span aria-hidden="true" class="material-icon">person</span>
-</div>
-<div class="hwp-person-card__information hwp-bg-light-base hwp-flex-1"></div>
-</div>
-</div>
-</div>
-</div>
-<div class="hwp-container hwp-container-px">
-<div class="field field--name-field-hwp-file-upload field--type-entity-reference field--label-hidden">
-<div></div>
-</div>
-</div>
-<div class="hwp-taxonomy-group hwp-bg-light-core">
-<div class="hwp-container hwp-container-px">
-<ul class="hwp-taxonomy-group__grid">
-<li class="hwp-taxonomy-group-card hwp-bg-light-base">
-<h2 class="hwp-taxonomy-group-card__title text-x-small">People By Last Name</h2>
-<a href="/people-last-name/k-l-0" hreflang="en">K - L</a>
-</li>
-<li class="hwp-taxonomy-group-card hwp-bg-light-base">
-<h2 class="hwp-taxonomy-group-card__title text-x-small">Role</h2>
-<a href="/role/affiliated-graduate-students" hreflang="en">Affiliated Graduate Students</a>
-</li>
-</ul>
-</div>
-</div>
-</div>
-</div>
-</main>
+# Annabel Li
+
+Annabel Li
+
+person
+
+People By Last Name
+
+K - L
+
+Role
+
+Affiliated Graduate Students
 
 ---
 
-*Original source: [https://iq.harvard.edu/people/annabel-li](https://iq.harvard.edu/people/annabel-li)*
+*View the original profile at [iq.harvard.edu](https://iq.harvard.edu/people/annabel-li)*

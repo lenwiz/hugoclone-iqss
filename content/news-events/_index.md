@@ -1,8 +1,8 @@
 ---
-title: "News & Events"
 date: 2026-05-26
+description: News & Events at Harvard IQSS
 draft: false
-description: "News & Events at Harvard IQSS"
+title: News & Events
 ---
 
 # News & Events

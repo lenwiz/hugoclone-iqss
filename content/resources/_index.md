@@ -1,8 +1,8 @@
 ---
-title: "Resources & Training"
 date: 2026-05-26
+description: Resources & Training at Harvard IQSS
 draft: false
-description: "Resources & Training at Harvard IQSS"
+title: Resources & Training
 ---
 
 # Resources & Training

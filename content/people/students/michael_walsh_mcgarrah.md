@@ -1,4 +1,5 @@
 ---
+category: students
 date: '2026-05-26 14:53:57'
 draft: false
 section: people
@@ -6,82 +7,24 @@ source_url: https://iq.harvard.edu/people/michael-walsh-mcgarrah
 title: Michael Walsh McGarrah
 ---
 
-<main aria-label="Michael Walsh McGarrah" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">
-<div class="layout-content">
-<div>
-<div class="hidden" data-drupal-messages-fallback=""></div>
-<div class="page-content-top" lang="en">
-<div class="hwp-page-title hwp-bg-light-base">
-<div class="hwp-container hwp-container-px hwp-py-32">
-<h1 class="text-large">
-      Michael Walsh McGarrah     </h1>
-<div class="hwp-page-header__subtitle">
-<div class="field field--name-field-hwp-person-prof-title field--type-string field--label-hidden">
-<div>Visiting Scholar, HGSE</div>
-</div>
-</div>
-</div>
-</div>
-<div class="hwp-container hwp-container-px hwp-pt-32 lg:hwp-pt-64 lg:hwp-flex lg:hwp-gap-24">
-<div class="lg:hwp-w-[19.375rem]">
-<div class="hwp-person-card" data-component-name="person-card">
-<div class="hwp-person-card__image">
-<div class="field field--name-field-hwp-person-headshot field--type-entity-reference field--label-hidden"><div class="hwp-media hwp-media--4-5-small-no-caption">
-<div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
-<source height="600" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_4_5__480x600/public/harvard-iqss/files/michael-mcgarrah_2021.jpeg?itok=P4CeJeC4 1x, /sites/g/files/omnuum8171/files/styles/hwp_4_5__960x1200/public/harvard-iqss/files/michael-mcgarrah_2021.jpeg?itok=rSewf8hV 2x" type="image/jpeg" width="480"/>
-<img alt="Michael McGarrah" height="600" loading="lazy" src="/sites/g/files/omnuum8171/files/styles/hwp_4_5__480x600/public/harvard-iqss/files/michael-mcgarrah_2021.jpeg?itok=P4CeJeC4" width="480"/>
-</picture>
-</div>
-</div>
-</div>
-</div>
-<div class="hwp-person-card__information hwp-bg-light-base hwp-flex-1"> <div class="hwp-flex hwp-gap-8 hwp-items-center">
-<span aria-hidden="true" class="material-icon">email</span>
-<a class="hwp-break-all" href="mailto:michaelmcgarrah@g.harvard.edu">michaelmcgarrah@g.harvard.edu</a>
-</div>
-<div class="hwp-mb-24 hwp-flex hwp-flex-col hwp-gap-20">
-<div class="hwp-flex hwp-gap-8 hwp-items-center">
-<span aria-hidden="true" class="material-icon">laptop_windows</span>
-<a href="/scholar.harvard.edu/mcgarrah">Website</a>
-</div>
-<div class="hwp-flex hwp-gap-8 hwp-items-center">
-<span aria-hidden="true" class="material-icon">laptop_windows</span>
-<a href="https://www.linkedin.com/in/michaelwmcgarrah/">LinkedIn</a>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="hwp-flex-1 lg:hwp-px-32">
-<div class="hwp-person-text-block">
-<div class="hwp-text-block field field--name-field-hwp-body field--type-text-long field--label-hidden"><p>			Michael's research identifies risk factors for early substance use among children and parses the dimensionality of psychopathology, more broadly, in terms of emergent internalizing and externalizing behaviors. He uses advanced psychometric and applied statistical methods in the field of structural equation modelling to explore these topics, including latent class growth models and auto-regressive latent trajectory models with structured residuals. During the 2023-2024 school year, Michael will publish results from his dissertation on early substance use among elementary school children in order to inform substance use prevention and intervention efforts aimed at reducing the harm of legal and illicit substances on youth and the incidence and prevalence of substance use disorders, such as alcoholism and opioid addiction.<br/><br/>A secondary research interest that Michal explores using more traditional methods explores the psychology of curiosity, including inter- and intra-individual differences in information-seeking behavior and possible targets for intervention to cultivate a strong intellectual appetite an intellectually promiscuous mindset.</p></div>
-</div>
-</div>
-</div>
-</div>
-<div class="hwp-container hwp-container-px">
-<div class="field field--name-field-hwp-file-upload field--type-entity-reference field--label-hidden">
-<div></div>
-</div>
-</div>
-<div class="hwp-taxonomy-group hwp-bg-light-core">
-<div class="hwp-container hwp-container-px">
-<ul class="hwp-taxonomy-group__grid">
-<li class="hwp-taxonomy-group-card hwp-bg-light-base">
-<h2 class="hwp-taxonomy-group-card__title text-x-small">People By Last Name</h2>
-<a href="/people-last-name/m-p" hreflang="en">M - P</a>
-</li>
-<li class="hwp-taxonomy-group-card hwp-bg-light-base">
-<h2 class="hwp-taxonomy-group-card__title text-x-small">Role</h2>
-<a href="/role/visiting-scholars-fellows" hreflang="en">Visiting Scholars, Fellows, &amp; General Affiliates</a>
-</li>
-</ul>
-</div>
-</div>
-</div>
-</div>
-</main>
+# Michael Walsh McGarrah
+
+Michael Walsh McGarrah
+
+email
+
+michaelmcgarrah@g. harvard. edu
+
+laptop_windows
+
+Website
+
+laptop_windows
+
+LinkedIn
+
+Michael's research identifies risk factors for early substance use among children and parses the dimensionality of psychopathology, more broadly, in terms of emergent internalizing and externalizing behaviors.
 
 ---
 
-*Original source: [https://iq.harvard.edu/people/michael-walsh-mcgarrah](https://iq.harvard.edu/people/michael-walsh-mcgarrah)*
+*View the original profile at [iq.harvard.edu](https://iq.harvard.edu/people/michael-walsh-mcgarrah)*

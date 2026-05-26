@@ -6,34 +6,6 @@ source_url: https://www.iq.harvard.edu/client-support-services/supported-technol
 title: Supported Technologies
 ---
 
-<main aria-label="Supported Technologies" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">
-<div class="layout-content">
-<div>
-<div class="hidden" data-drupal-messages-fallback=""></div>
-<article class="node node--type-hwp-page node--view-mode-full" lang="en">
-<div class="hwp-page-title hwp-bg-light-base">
-<div class="hwp-container hwp-container-px hwp-py-32">
-<h1 class="text-large" id="page-title">
-<span>Supported Technologies</span>
-</h1>
-</div>
-</div>
-<div class="hwp-container hwp-w-full hwp-py-32 lg:hwp-py-64 hwp-container-px lg:hwp-flex lg:hwp-gap-24">
-<div class="lg:hwp-flex-initial lg:hwp-w-[19.375rem] hwp-pb-32 hwp-shrink-0">
-<div class="hwp-section-navigation hwp-bg-light-core">
-</div>
-</div>
-<div class="hwp-flex hwp-flex-col hwp-flex-1 hwp-overflow-hidden hwp-content--narrow">
-<div class="hwp-mb-16 hwp-container-px">
-<div class="hwp-text-block field field--name-field-hwp-body field--type-text-long field--label-hidden"><p>	We rely extensively upon open standards products for interoperability, stability, and flexibility. Because we are committed to supporting a wide range of areas of academic endeavor, we avoid the constraints of proprietary solutions whenever feasible.<br/><br/>Wherever applicable our infrastructure is built upon commodity hardware from major vendors. As such, we benefit not only from enterprise-level hardware support, but also from the confidence that as technology changes and develops, we can continue to integrate a broad array of technical solutions and provide the best possible environment for research computing.<br/><br/>For additional information, please <a href="mailto:help@iq.harvard.edu">contact us</a>.</p></div>
-</div>
-</div>
-</div>
-</article>
-</div>
-</div>
-</main>
+Supported Technologies
 
----
-
-*Original source: [https://www.iq.harvard.edu/client-support-services/supported-technologies](https://www.iq.harvard.edu/client-support-services/supported-technologies)*
+We rely extensively upon open standards products for interoperability, stability, and flexibility. Because we are committed to supporting a wide range of areas of academic endeavor, we avoid the constraints of proprietary solutions whenever feasible. Wherever applicable our infrastructure is built upon commodity hardware from major vendors.
