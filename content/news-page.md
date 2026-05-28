@@ -811,7 +811,7 @@ article_count: 158
 </a>
 
 <a href="https://www.iq.harvard.edu/news/directors-update-dataverse" class="news-card" target="_blank">
-<div class="news-card-image"><img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_1_1__960x960/public/harvard-iqss/files/e-jackson_g-king_sq.jpg?itok=Z5mcg4v_" alt="" /></div>
+<div class="news-card-image"><img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/harvard-iqss/files/e-jackson_g-king_sq.jpg?itok=Z5mcg4v_" alt="" /></div>
 <div class="news-card-body">
 <div class="news-card-date">October 11, 2022</div>
 <div class="news-card-title">From the Directors: An Update on Dataverse</div>
