@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Announcement on IQSS Clone - Harvard Institute for Quantitative Social Science</title>
-    <link>//localhost:1313/tags/announcement/</link>
+    <link>http://localhost:1313/hugoclone-iqss/tags/announcement/</link>
     <description>Recent content in Announcement on IQSS Clone - Harvard Institute for Quantitative Social Science</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 26 May 2026 15:30:00 -0500</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/announcement/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/hugoclone-iqss/tags/announcement/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Welcome to the IQSS Archive</title>
-      <link>//localhost:1313/blog/welcome-to-iqss-clone/</link>
+      <link>http://localhost:1313/hugoclone-iqss/blog/welcome-to-iqss-clone/</link>
       <pubDate>Tue, 26 May 2026 15:30:00 -0500</pubDate>
-      <guid>//localhost:1313/blog/welcome-to-iqss-clone/</guid>
+      <guid>http://localhost:1313/hugoclone-iqss/blog/welcome-to-iqss-clone/</guid>
       <description>&lt;h1 id=&#34;welcome-to-the-iqss-archive&#34;&gt;Welcome to the IQSS Archive&lt;/h1&gt;&#xA;&lt;p&gt;We&amp;rsquo;re excited to introduce this comprehensive archive of the Harvard Institute for Quantitative Social Science website. This Hugo-powered site contains a complete snapshot of IQSS content, including:&lt;/p&gt;&#xA;&lt;h2 id=&#34;whats-included&#34;&gt;What&amp;rsquo;s Included&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;1,075+ People Profiles&lt;/strong&gt; - Complete directory of IQSS faculty, staff, affiliates, and students&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Research Programs&lt;/strong&gt; - Information about ongoing initiatives and projects&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Data Science Services&lt;/strong&gt; - Resources for statistical consulting and support&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Technology Services&lt;/strong&gt; - Computing facilities and technical resources&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;News &amp;amp; Events&lt;/strong&gt; - Latest updates and announcements&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Historical Content&lt;/strong&gt; - Archived materials for research and reference&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;interactive-features&#34;&gt;Interactive Features&lt;/h2&gt;&#xA;&lt;p&gt;This site includes several modern features not available in the original:&lt;/p&gt;</description>
     </item>
   </channel>
