@@ -1,0 +1,439 @@
+{{ define "main" }}
+<div class="programs-products-page">
+    <!-- Hero Section -->
+    <div class="programs-hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h2>Programs & Products</h2>
+                <p>IQSS houses and develops many faculty-led scientific programs, as well as software and systems tools designed to facilitate research and the use of large datasets.</p>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="{{ "images/programs-hero.jpg" | absURL }}" alt="Speaker at an event" />
+        </div>
+    </div>
+
+    <!-- Incubation Section -->
+    <div class="incubation-section">
+        <div class="container">
+            <div class="incubation-card">
+                <div class="incubation-image">
+                    <img src="{{ "images/incubation.jpg" | absURL }}" alt="Data specialist at whiteboard" />
+                </div>
+                <div class="incubation-text">
+                    <h3>Incubation</h3>
+                    <p>IQSS partners with faculty and researchers to incubate data-intensive social science research initiatives.</p>
+                    <p>This process involves working as a team to move the idea through the incubation life cycle, which includes discovery, development, launch, growth, and assessment.</p>
+                    <a href="/research/incubation/" class="incubation-link">
+                        Projects we've incubated →
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scientific Programs Section -->
+    <div class="scientific-programs">
+        <div class="container">
+            <div class="section-header">
+                <h2>Scientific Programs</h2>
+                <a href="/research/programs/scientific-programs/" class="more-link">More programs →</a>
+            </div>
+            <div class="programs-grid">
+                <div class="program-card">
+                    <div class="program-image">
+                        <img src="{{ "images/cga-logo.png" | absURL }}" alt="Center for Geographic Analysis logo" />
+                    </div>
+                    <div class="program-content">
+                        <h3><a href="https://gis.harvard.edu/" target="_blank">Center for Geographic Analysis (CGA)</a></h3>
+                        <p>The Center for Geographic Analysis (CGA) administers Harvard-wide GIS infrastructure, collects and disseminates spatial datasets, and provides training and consultation in the use of geospatial technologies.</p>
+                    </div>
+                </div>
+
+                <div class="program-card">
+                    <div class="program-image">
+                        <img src="{{ "images/human-flourishing.jpg" | absURL }}" alt="Human Flourishing Program logo" />
+                    </div>
+                    <div class="program-content">
+                        <h3><a href="https://hfh.fas.harvard.edu/" target="_blank">Human Flourishing Program</a></h3>
+                        <p>The Human Flourishing Program aims to integrate knowledge from the empirical social sciences and the humanities on topics such as religion, virtue, work, purpose, forgiveness, marriage, and family.</p>
+                    </div>
+                </div>
+
+                <div class="program-card">
+                    <div class="program-image">
+                        <img src="{{ "images/survey-research.png" | absURL }}" alt="Geometric window next to text Program on Survey Research" />
+                    </div>
+                    <div class="program-content">
+                        <h3><a href="https://psr.iq.harvard.edu/" target="_blank">Program on Survey Research</a></h3>
+                        <p>The Program on Survey Research encourages and facilitates research and instruction in the theory and practice of survey research, with a mission of enhancing the quality of teaching and research at Harvard.</p>
+                    </div>
+                </div>
+
+                <div class="program-card">
+                    <div class="program-image">
+                        <img src="{{ "images/opendp-logo.jpg" | absURL }}" alt="OpenDP logo" />
+                    </div>
+                    <div class="program-content">
+                        <h3><a href="https://opendp.org/" target="_blank">OpenDP</a></h3>
+                        <p>OpenDP aims to build a trustworthy suite of open-source tools for enabling privacy-protective analysis of sensitive private data using differential privacy.</p>
+                    </div>
+                </div>
+
+                <div class="program-card">
+                    <div class="program-image">
+                        <img src="{{ "images/murray-archive.png" | absURL }}" alt="Headshot of Henry Murray next to the text Henry A Murray Research Archive" />
+                    </div>
+                    <div class="program-content">
+                        <h3><a href="https://murray.harvard.edu/" target="_blank">Murray Research Archive</a></h3>
+                        <p>The Henry A. Murray Research Archive is a permanent repository for quantitative and qualitative social science data. The collection comprises over 100 TB of numerical datasets, video and audio recordings, interview notes, and other media.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Product Development Section -->
+    <div class="product-development">
+        <div class="container">
+            <h2>Product Development</h2>
+            <div class="products-grid">
+                <div class="product-card">
+                    <h3><a href="https://dataverse.org/" target="_blank">Dataverse</a></h3>
+                    <p>An open source research data repository software to share, preserve, cite, explore, and analyze research data.</p>
+                </div>
+
+                <div class="product-card">
+                    <h3><a href="https://zelig.iq.harvard.edu/" target="_blank">Zelig</a></h3>
+                    <p>A statistical software package that can estimate, help interpret, and present the results of a very large range of statistical models.</p>
+                </div>
+
+                <div class="product-card">
+                    <h3><a href="https://iqss.github.io/RQDA/" target="_blank">RQDA</a></h3>
+                    <p>An R package for qualitative data analysis, providing a GUI for coding, categorizing, and analyzing qualitative data.</p>
+                </div>
+
+                <div class="product-card">
+                    <h3><a href="https://www.openscholar.harvard.edu/" target="_blank">OpenScholar</a></h3>
+                    <p>A web-based platform that allows faculty to build and manage feature-rich websites quickly and easily.</p>
+                </div>
+
+                <div class="product-card">
+                    <h3><a href="https://worldmap.harvard.edu/" target="_blank">WorldMap</a></h3>
+                    <p>A mapping platform developed to lower barriers for scholars who wish to explore, visualize, edit, and publish geospatial information.</p>
+                </div>
+
+                <div class="product-card">
+                    <h3><a href="https://tworavens.org/" target="_blank">TwoRavens</a></h3>
+                    <p>A system for statistical analysis that provides a web-based interface for exploring data and running statistical models.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+/* Programs & Products Page Styles */
+.programs-products-page {
+    margin: 0;
+    padding: 0;
+}
+
+/* Hero Section */
+.programs-hero {
+    display: flex;
+    min-height: 400px;
+    background: #f8f9fa;
+}
+
+.hero-content {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    padding: 40px 60px;
+    background: #f8f9fa;
+}
+
+.hero-text h2 {
+    font-size: 48px;
+    font-weight: 300;
+    color: #CC5500;
+    margin-bottom: 20px;
+    line-height: 1.2;
+}
+
+.hero-text p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333;
+    max-width: 500px;
+}
+
+.hero-image {
+    flex: 1;
+    overflow: hidden;
+}
+
+.hero-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Incubation Section */
+.incubation-section {
+    background: #f8f9fa;
+    padding: 60px 0;
+}
+
+.incubation-card {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 60px;
+    align-items: center;
+    background: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.incubation-image {
+    flex: 0 0 400px;
+}
+
+.incubation-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.incubation-text {
+    flex: 1;
+}
+
+.incubation-text h3 {
+    font-size: 32px;
+    font-weight: 400;
+    color: #CC5500;
+    margin-bottom: 20px;
+}
+
+.incubation-text p {
+    font-size: 16px;
+    line-height: 1.7;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.incubation-link {
+    color: #CC5500;
+    text-decoration: none;
+    font-weight: 500;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.incubation-link:hover {
+    text-decoration: underline;
+}
+
+/* Scientific Programs Section */
+.scientific-programs {
+    background: #fff;
+    padding: 60px 0;
+}
+
+.section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.section-header h2 {
+    font-size: 36px;
+    font-weight: 400;
+    color: #CC5500;
+    margin: 0;
+}
+
+.more-link {
+    color: #CC5500;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.more-link:hover {
+    text-decoration: underline;
+}
+
+.programs-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.program-card {
+    background: #fff;
+    border: 1px solid #e5e5e5;
+    border-radius: 8px;
+    padding: 30px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+}
+
+.program-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+}
+
+.program-image {
+    margin-bottom: 20px;
+}
+
+.program-image img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.program-content h3 {
+    margin-bottom: 15px;
+}
+
+.program-content h3 a {
+    color: #CC5500;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.program-content h3 a:hover {
+    text-decoration: underline;
+}
+
+.program-content p {
+    color: #666;
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+/* Product Development Section */
+.product-development {
+    background: #f8f9fa;
+    padding: 60px 0;
+}
+
+.product-development h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 400;
+    color: #CC5500;
+    margin-bottom: 40px;
+}
+
+.products-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.product-card {
+    background: #fff;
+    border: 1px solid #e5e5e5;
+    border-radius: 8px;
+    padding: 30px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+}
+
+.product-card h3 {
+    margin-bottom: 15px;
+}
+
+.product-card h3 a {
+    color: #CC5500;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.product-card h3 a:hover {
+    text-decoration: underline;
+}
+
+.product-card p {
+    color: #666;
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .programs-hero {
+        flex-direction: column;
+    }
+
+    .hero-content {
+        padding: 30px 20px;
+    }
+
+    .hero-text h2 {
+        font-size: 36px;
+    }
+
+    .incubation-card {
+        flex-direction: column;
+        gap: 30px;
+        padding: 30px 20px;
+        text-align: center;
+    }
+
+    .incubation-image {
+        flex: none;
+        max-width: 300px;
+    }
+
+    .section-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+    }
+
+    .programs-grid,
+    .products-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+        padding: 0 20px;
+    }
+
+    .program-card,
+    .product-card {
+        padding: 20px;
+    }
+
+    .scientific-programs,
+    .product-development {
+        padding: 40px 0;
+    }
+
+    .section-header h2,
+    .product-development h2 {
+        font-size: 28px;
+        padding: 0 20px;
+    }
+}
+</style>
+{{ end }}
