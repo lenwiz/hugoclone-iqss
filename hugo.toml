@@ -39,8 +39,8 @@ title = 'IQSS Clone - Harvard Institute for Quantitative Social Science'
   weight = 50
 
 [[menu.main]]
-  name = "News & Events"
-  url = "/news-events/"
+  name = "News"
+  url = "/news-page/"
   weight = 60
 
 [[menu.main]]
