@@ -5,16 +5,88 @@
     <loc>//localhost:1313/about/</loc>
     <lastmod>2026-05-28T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>//localhost:1313/calendar/</loc>
+    <lastmod>2026-05-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/become-an-affiliate/</loc>
+    <lastmod>2026-05-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/events/better-research-vi-data-sharing-harvard-dataverse/</loc>
+    <lastmod>2026-05-28T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>//localhost:1313/research-resources/client-support-services/</loc>
     <lastmod>2026-05-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/research-resources/data-science-services/</loc>
     <lastmod>2026-05-28T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>//localhost:1313/events/dataverse-office-hours/</loc>
+    <lastmod>2026-05-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/research-technology-dataverse/</loc>
+    <lastmod>2026-05-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/events/</loc>
+    <lastmod>2026-05-28T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>//localhost:1313/research-resources/ecee/</loc>
     <lastmod>2026-05-28T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>//localhost:1313/events/geocoding-arcgis/</loc>
+    <lastmod>2026-05-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/events/getting-started-making-maps-qgis-and-arcgis/</loc>
+    <lastmod>2026-05-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/events/getting-started-ai-spatial-data/</loc>
+    <lastmod>2026-05-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/events/getting-started-spatial-analysis-r/</loc>
+    <lastmod>2026-05-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/events/gis-humanities-and-social-sciences/</loc>
+    <lastmod>2026-05-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/events/gis-institute-summer-2026/</loc>
+    <lastmod>2026-05-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/research-technology-gis/</loc>
+    <lastmod>2026-05-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/events/hands-on-curation-training-harvard-dataverse/</loc>
+    <lastmod>2026-05-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/research-resources/urs-for-faculty/</loc>
+    <lastmod>2026-05-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/research-resources/urs-for-students/</loc>
+    <lastmod>2026-05-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/events/intermediate-curation-dataverse-platform/</loc>
+    <lastmod>2026-05-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/events/introduction-data-handling-dataverse-platform/</loc>
+    <lastmod>2026-05-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/events/introduction-dataverse-apis/</loc>
+    <lastmod>2026-05-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/events/introduction-gis/</loc>
+    <lastmod>2026-05-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/events/introduction-metadata-dataverse-repositories-administrators/</loc>
+    <lastmod>2026-05-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/events/introduction-metadata-dataverse-platform/</loc>
+    <lastmod>2026-05-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/iqss-blog/</loc>
+    <lastmod>2026-05-28T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>//localhost:1313/research-resources/computer-labs/</loc>
+    <lastmod>2026-05-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/events/large-data-support-harvard-dataverse/</loc>
     <lastmod>2026-05-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/news-page/</loc>
@@ -32,6 +104,12 @@
     <loc>//localhost:1313/research-resources/</loc>
     <lastmod>2026-05-28T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>//localhost:1313/research-technology/</loc>
+    <lastmod>2026-05-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/events/satellite-imagery-analysis-google-earth-engine/</loc>
+    <lastmod>2026-05-28T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>//localhost:1313/research-resources/sponsored-research-services/</loc>
     <lastmod>2026-05-28T00:00:00+00:00</lastmod>
   </url><url>
@@ -39,6 +117,9 @@
     <lastmod>2026-05-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/research-resources/undergraduate-research-scholars/</loc>
+    <lastmod>2026-05-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/events/visual-programming-gis-using-knime/</loc>
     <lastmod>2026-05-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/tags/announcement/</loc>

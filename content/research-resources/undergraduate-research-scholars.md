@@ -9,28 +9,28 @@ subtitle: "The IQSS Undergraduate Research Scholars (URS) program is an opportun
 
 ## Program Benefits
 
-### For Faculty
+### [For Faculty](/research-resources/urs-for-faculty/)
 
 Get funding to hire Undergraduate Research Scholars as research assistants for your project.
 
-### For Students
+### [For Students](/research-resources/urs-for-students/)
 
 Gain valuable experience as a paid research assistant on new and exciting research projects led by Harvard faculty.
 
 ## How to Apply
 
-### For Faculty
+### [For Faculty](/research-resources/urs-for-faculty/)
 
 Applying for URS funding is simple and will benefit both you and the undergraduates you hire.
 
-### For Students
+### [For Students](/research-resources/urs-for-students/)
 
 Students wishing to participate in the URS program can either apply for jobs on the opportunities page, or contact a faculty member they wish to work with.
 
 ## Current Opportunities
 
-- **Mapping historical military and conflict databases**
-- **Business Influence in Trade, Climate, and Social Policy**
+- [**Mapping historical military and conflict databases**](https://www.iq.harvard.edu/mapping-historical-military-and-conflict-databases)
+- [**Business Influence in Trade, Climate, and Social Policy**](https://www.iq.harvard.edu/social-paths-minorities-india)
 
 ## Questions?
 

@@ -1,0 +1,375 @@
+{{ define "main" }}
+<div class="events-page">
+    <!-- Hero Section -->
+    <div class="events-hero">
+        <div class="events-hero-image">
+            <img src="{{ "images/events-hero.jpg" | absURL }}" alt="Conference" />
+        </div>
+        <div class="events-hero-overlay">
+            <div class="container">
+                <h1>Events</h1>
+                <p>Watch our calendar for year-round opportunities for training, consulting, and learning at IQSS.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Upcoming Events -->
+    <div class="events-section">
+        <div class="container">
+            <h2>Upcoming Events</h2>
+            <div class="events-list">
+
+                <div class="event-item">
+                    <div class="event-date-box">
+                        <span class="event-month">MAY</span>
+                        <span class="event-day">28</span>
+                    </div>
+                    <div class="event-details">
+                        <h3><a href="https://www.iq.harvard.edu/event/harvard-university-commencement-0?occ_id=0" target="_blank">Harvard University Commencement</a></h3>
+                        <p class="event-time">All day</p>
+                        <span class="event-type-tag">Special Events</span>
+                    </div>
+                </div>
+
+                <div class="event-item">
+                    <div class="event-date-box">
+                        <span class="event-month">JUN</span>
+                        <span class="event-day">3</span>
+                    </div>
+                    <div class="event-details">
+                        <h3><a href="https://www.iq.harvard.edu/event/dataverse-office-hours-32?occ_id=0" target="_blank">Dataverse Office Hours</a></h3>
+                        <p class="event-time">12:00 PM – 1:00 PM EDT</p>
+                        <span class="event-type-tag">Help Desk Office Hours</span>
+                    </div>
+                </div>
+
+                <div class="event-item">
+                    <div class="event-date-box">
+                        <span class="event-month">JUN</span>
+                        <span class="event-day">8–18</span>
+                    </div>
+                    <div class="event-details">
+                        <h3><a href="https://www.iq.harvard.edu/event/gis-institute-summer-2026?occ_id=0" target="_blank">GIS Institute Summer 2026</a></h3>
+                        <p class="event-time">9:30 AM – 5:00 PM EDT</p>
+                        <span class="event-type-tag">Training</span>
+                    </div>
+                </div>
+
+                <div class="event-item">
+                    <div class="event-date-box">
+                        <span class="event-month">JUN</span>
+                        <span class="event-day">10</span>
+                    </div>
+                    <div class="event-details">
+                        <h3><a href="https://www.iq.harvard.edu/event/dataverse-office-hours-33?occ_id=0" target="_blank">Dataverse Office Hours</a></h3>
+                        <p class="event-time">12:00 PM – 1:00 PM EDT</p>
+                        <span class="event-type-tag">Help Desk Office Hours</span>
+                    </div>
+                </div>
+
+                <div class="event-item">
+                    <div class="event-date-box">
+                        <span class="event-month">JUN</span>
+                        <span class="event-day">17</span>
+                    </div>
+                    <div class="event-details">
+                        <h3><a href="https://www.iq.harvard.edu/event/dataverse-office-hours-34?occ_id=0" target="_blank">Dataverse Office Hours</a></h3>
+                        <p class="event-time">12:00 PM – 1:00 PM EDT</p>
+                        <span class="event-type-tag">Help Desk Office Hours</span>
+                    </div>
+                </div>
+
+                <div class="event-item">
+                    <div class="event-date-box">
+                        <span class="event-month">JUN</span>
+                        <span class="event-day">19</span>
+                    </div>
+                    <div class="event-details">
+                        <h3><a href="https://www.iq.harvard.edu/event/university-holiday-juneteenth-2?occ_id=0" target="_blank">University Holiday: Juneteenth</a></h3>
+                        <p class="event-time">All day</p>
+                        <span class="event-type-tag">Special Events</span>
+                    </div>
+                </div>
+
+            </div>
+            <a href="/calendar/" class="events-view-all">View all upcoming events →</a>
+        </div>
+    </div>
+
+    <!-- Event Categories -->
+    <div class="events-categories">
+        <div class="container">
+            <h2>Events by Type</h2>
+            <div class="category-grid">
+                <a href="/calendar/#workshops" class="category-card">
+                    <h3>Workshops, Seminars, & Classes</h3>
+                </a>
+                <a href="/calendar/#office-hours" class="category-card">
+                    <h3>Help Desk Office Hours</h3>
+                </a>
+                <a href="/calendar/#guest-speakers" class="category-card">
+                    <h3>Guest Speakers</h3>
+                </a>
+                <a href="/calendar/#conferences" class="category-card">
+                    <h3>Conferences & Symposia</h3>
+                </a>
+                <a href="/calendar/#training" class="category-card">
+                    <h3>Training</h3>
+                </a>
+                <a href="/calendar/#special-events" class="category-card">
+                    <h3>Special Events</h3>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Research Technology Training -->
+    <div class="events-training">
+        <div class="container">
+            <h2>Research Technology Training</h2>
+            <p>IQSS offers technical training in the areas listed below. Several are available only during the academic year, so be sure to check back frequently.</p>
+            <div class="training-topics">
+                <span class="training-tag"><a href="/research-technology-dataverse/">Dataverse</a></span>
+                <span class="training-tag"><a href="/research-technology-gis/">GIS</a></span>
+                <span class="training-tag">Python</span>
+                <span class="training-tag">R</span>
+                <span class="training-tag">RCE</span>
+                <span class="training-tag">Stata</span>
+                <span class="training-tag">UNIX</span>
+            </div>
+            <a href="/research-technology/" class="events-view-all">See research technology training events →</a>
+        </div>
+    </div>
+</div>
+
+<style>
+.events-page { margin: 0; padding: 0; }
+
+.events-hero {
+    position: relative;
+    min-height: 350px;
+    overflow: hidden;
+}
+
+.events-hero-image {
+    position: absolute;
+    top: 0; left: 0; width: 100%; height: 100%;
+}
+
+.events-hero-image img {
+    width: 100%; height: 100%; object-fit: cover;
+}
+
+.events-hero-overlay {
+    position: relative;
+    z-index: 1;
+    background: rgba(0,0,0,0.5);
+    min-height: 350px;
+    display: flex;
+    align-items: center;
+    padding: 60px 0;
+}
+
+.events-hero-overlay h1 {
+    font-size: 48px;
+    font-weight: 300;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.events-hero-overlay p {
+    font-size: 18px;
+    color: #fff;
+    opacity: 0.9;
+    max-width: 600px;
+}
+
+/* Upcoming Events */
+.events-section {
+    background: #fff;
+    padding: 60px 0;
+}
+
+.events-section h2 {
+    font-size: 30px;
+    font-weight: 400;
+    color: #CC5500;
+    margin-bottom: 30px;
+}
+
+.events-list {
+    max-width: 800px;
+}
+
+.event-item {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    padding: 20px 0;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.event-date-box {
+    flex: 0 0 70px;
+    text-align: center;
+    background: #CC5500;
+    color: #fff;
+    border-radius: 8px;
+    padding: 12px 8px;
+}
+
+.event-month {
+    display: block;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.event-day {
+    display: block;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.event-details h3 {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0 0 5px 0;
+}
+
+.event-details h3 a {
+    color: #333;
+    text-decoration: none;
+}
+
+.event-details h3 a:hover {
+    color: #CC5500;
+}
+
+.event-time {
+    font-size: 14px;
+    color: #666;
+    margin: 0 0 8px 0;
+}
+
+.event-type-tag {
+    display: inline-block;
+    font-size: 12px;
+    background: #FFF3E8;
+    color: #CC5500;
+    padding: 3px 10px;
+    border-radius: 12px;
+    font-weight: 500;
+}
+
+.events-view-all {
+    display: inline-block;
+    margin-top: 25px;
+    color: #CC5500;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.events-view-all:hover {
+    text-decoration: underline;
+}
+
+/* Event Categories */
+.events-categories {
+    background: #f8f9fa;
+    padding: 60px 0;
+}
+
+.events-categories h2 {
+    font-size: 30px;
+    font-weight: 400;
+    color: #CC5500;
+    margin-bottom: 30px;
+}
+
+.category-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    max-width: 900px;
+}
+
+.category-card {
+    background: #fff;
+    border: 1px solid #e5e5e5;
+    border-radius: 8px;
+    padding: 25px;
+    text-align: center;
+    text-decoration: none;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.category-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+}
+
+.category-card h3 {
+    font-size: 16px;
+    font-weight: 500;
+    color: #CC5500;
+    margin: 0;
+}
+
+/* Research Technology Training */
+.events-training {
+    background: #fff;
+    padding: 60px 0;
+}
+
+.events-training h2 {
+    font-size: 30px;
+    font-weight: 400;
+    color: #CC5500;
+    margin-bottom: 15px;
+}
+
+.events-training > .container > p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #444;
+    margin-bottom: 25px;
+    max-width: 700px;
+}
+
+.training-topics {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-bottom: 25px;
+}
+
+.training-tag {
+    background: #f8f9fa;
+    border: 1px solid #e5e5e5;
+    border-radius: 20px;
+    padding: 8px 18px;
+    font-size: 14px;
+    color: #444;
+}
+
+.training-tag a {
+    color: #CC5500;
+    text-decoration: none;
+}
+
+.training-tag a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .events-hero { min-height: 250px; }
+    .events-hero-overlay { min-height: 250px; padding: 40px 0; }
+    .events-hero-overlay h1 { font-size: 32px; }
+    .category-grid { grid-template-columns: 1fr 1fr; gap: 15px; }
+    .events-section, .events-categories, .events-training { padding: 40px 0; }
+}
+</style>
+{{ end }}

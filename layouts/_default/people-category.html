@@ -1,0 +1,119 @@
+{{ define "main" }}
+<div class="people-cat-page">
+    <div class="people-cat-header">
+        <div class="container">
+            <h1>{{ .Title }}</h1>
+        </div>
+    </div>
+
+    <div class="people-cat-content">
+        <div class="container">
+            {{ .Content }}
+            <div style="margin-top: 30px;">
+                <a href="/people/" class="people-cat-back">← Back to People</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+.people-cat-page { margin: 0; padding: 0; }
+
+.people-cat-header {
+    background: linear-gradient(135deg, #CC5500 0%, #B8460A 100%);
+    color: white;
+    padding: 50px 0;
+}
+
+.people-cat-header h1 {
+    font-size: 42px;
+    font-weight: 300;
+    margin: 0;
+}
+
+.people-cat-content {
+    background: #f8f9fa;
+    padding: 40px 0 60px;
+}
+
+.people-cat-content .people-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    max-width: 1000px;
+}
+
+.people-cat-content .people-card {
+    background: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.06);
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.people-cat-content .people-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.people-cat-content .people-card-image {
+    flex: 0 0 50px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    background: #e9ecef;
+}
+
+.people-cat-content .people-card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+
+.people-cat-content .people-card-body {
+    flex: 1;
+    min-width: 0;
+}
+
+.people-cat-content .people-card-name {
+    font-size: 14px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 2px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.people-cat-content .people-card-title {
+    font-size: 12px;
+    color: #666;
+    line-height: 1.3;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.people-cat-back {
+    color: #CC5500;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.people-cat-back:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .people-cat-header h1 { font-size: 32px; }
+    .people-cat-content .people-grid { grid-template-columns: 1fr; }
+}
+</style>
+{{ end }}

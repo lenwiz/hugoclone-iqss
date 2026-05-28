@@ -1,80 +1,254 @@
 {{ define "main" }}
-<div class="container">
-    <div class="page-content">
-        <h1>{{ .Title }}</h1>
-        {{ .Content }}
+<div class="people-page">
+    <div class="people-header">
+        <div class="container">
+            <h1>People</h1>
+            <p>The IQSS community includes directors, faculty, staff, students, and affiliates working together to advance quantitative social science.</p>
+        </div>
+    </div>
 
-        {{ if .IsHome }}
-        <!-- Main People Directory Page -->
-        <div class="content-grid" style="margin-top: 40px;">
-            <div class="content-card">
-                <h3>👨‍🏫 <a href="/people/faculty/" style="color: #CC5500; text-decoration: none;">Faculty</a></h3>
-                <p>{{ len (where .Site.RegularPages "Section" "people").ByParam "Type" "faculty" }} faculty members conducting cutting-edge research across quantitative social science disciplines.</p>
-                <p><a href="/people/faculty/" style="color: #CC5500;">Browse Faculty →</a></p>
+    <div class="people-content">
+        <div class="container">
+
+            <!-- Directors Section -->
+            <h2 class="people-section-title">Directors</h2>
+            <div class="people-grid">
+                <div class="people-card">
+                    <div class="people-card-image"><img src="/images/people-gary-king.jpg" alt="Gary King" /></div>
+                    <div class="people-card-body">
+                        <div class="people-card-name">Gary King</div>
+                        <div class="people-card-title">Director of IQSS</div>
+                    </div>
+                </div>
+                <div class="people-card">
+                    <div class="people-card-image"><img src="/images/people-elizabeth-jackson.jpg" alt="Elizabeth Jackson" /></div>
+                    <div class="people-card-body">
+                        <div class="people-card-name">Elizabeth Jackson</div>
+                        <div class="people-card-title">Executive Director of IQSS</div>
+                    </div>
+                </div>
+                <div class="people-card">
+                    <div class="people-card-image"><img src="/images/people-ceilyn-boyd.jpg" alt="Ceilyn Boyd" /></div>
+                    <div class="people-card-body">
+                        <div class="people-card-name">Ceilyn Boyd</div>
+                        <div class="people-card-title">Interim Director of Data Science and Product Research</div>
+                    </div>
+                </div>
+                <div class="people-card">
+                    <div class="people-card-image"><img src="/images/people-rachel-franklin.jpg" alt="Rachel Franklin" /></div>
+                    <div class="people-card-body">
+                        <div class="people-card-name">Rachel Franklin</div>
+                        <div class="people-card-title">Executive Director, Center for Geographic Analysis</div>
+                    </div>
+                </div>
+                <div class="people-card">
+                    <div class="people-card-image"><img src="/images/people-glen-comiso.jpg" alt="Glen Comiso" /></div>
+                    <div class="people-card-body">
+                        <div class="people-card-name">Glen Comiso</div>
+                        <div class="people-card-title">Executive Director, Human Flourishing Program</div>
+                    </div>
+                </div>
+                <div class="people-card">
+                    <div class="people-card-image"><img src="/images/people-debi-kleiman.jpg" alt="Debi Kleiman" /></div>
+                    <div class="people-card-body">
+                        <div class="people-card-name">Debi Kleiman</div>
+                        <div class="people-card-title">Director, IQSS Startup Foundry</div>
+                    </div>
+                </div>
+                <div class="people-card">
+                    <div class="people-card-image"><img src="/images/people-brooke-moore.jpg" alt="Brooke Moore" /></div>
+                    <div class="people-card-body">
+                        <div class="people-card-name">Brooke Moore</div>
+                        <div class="people-card-title">Director of Sponsored Research Administration</div>
+                    </div>
+                </div>
+                <div class="people-card">
+                    <div class="people-card-image"><img src="/images/people-jason-nemirow.jpg" alt="Jason Nemirow" /></div>
+                    <div class="people-card-body">
+                        <div class="people-card-name">Jason Nemirow</div>
+                        <div class="people-card-title">Director, Program on Higher Education Research</div>
+                    </div>
+                </div>
+                <div class="people-card">
+                    <div class="people-card-image"><img src="/images/people-bonnie-obrien.jpg" alt="Bonnie O'Brien" /></div>
+                    <div class="people-card-body">
+                        <div class="people-card-name">Bonnie O'Brien</div>
+                        <div class="people-card-title">Director of Human Resources</div>
+                    </div>
+                </div>
+                <div class="people-card">
+                    <div class="people-card-image"><img src="/images/people-valerie-okane.jpg" alt="Valerie O'Kane" /></div>
+                    <div class="people-card-body">
+                        <div class="people-card-name">Valerie O'Kane</div>
+                        <div class="people-card-title">Director of Business Operations</div>
+                    </div>
+                </div>
+                <div class="people-card">
+                    <div class="people-card-image"><img src="/images/people-len-wisniewski.png" alt="Len Wisniewski" /></div>
+                    <div class="people-card-body">
+                        <div class="people-card-name">Len Wisniewski</div>
+                        <div class="people-card-title">Senior Director of Research Computing</div>
+                    </div>
+                </div>
+                <div class="people-card">
+                    <div class="people-card-image"><img src="/images/people-steve-worthington.jpg" alt="Steven Worthington" /></div>
+                    <div class="people-card-body">
+                        <div class="people-card-name">Steven Worthington</div>
+                        <div class="people-card-title">Director of Data Science Services</div>
+                    </div>
+                </div>
             </div>
 
-            <div class="content-card">
-                <h3>👩‍💼 <a href="/people/staff/" style="color: #CC5500; text-decoration: none;">Staff</a></h3>
-                <p>Dedicated administrative and support staff enabling IQSS research and operations.</p>
-                <p><a href="/people/staff/" style="color: #CC5500;">Browse Staff →</a></p>
+            <!-- Browse by Category -->
+            <h2 class="people-section-title">Browse by Category</h2>
+            <div class="people-grid">
+                <a href="/people-faculty/" class="people-card people-card-link">
+                    <div class="people-card-body">
+                        <div class="people-card-name">Faculty</div>
+                        <div class="people-card-title">Harvard faculty members conducting research across quantitative social science disciplines.</div>
+                    </div>
+                </a>
+                <a href="/people-graduate-students/" class="people-card people-card-link">
+                    <div class="people-card-body">
+                        <div class="people-card-name">Graduate Students</div>
+                        <div class="people-card-title">Doctoral students affiliated with IQSS across Harvard programs.</div>
+                    </div>
+                </a>
+                <a href="/people-undergraduate-students/" class="people-card people-card-link">
+                    <div class="people-card-body">
+                        <div class="people-card-name">Undergraduate Students</div>
+                        <div class="people-card-title">Harvard College students participating in research through IQSS programs.</div>
+                    </div>
+                </a>
+                <a href="/people-visitors-affiliates/" class="people-card people-card-link">
+                    <div class="people-card-body">
+                        <div class="people-card-name">Visitors & Affiliates</div>
+                        <div class="people-card-title">Visiting scholars, fellows, and collaborators from institutions worldwide.</div>
+                    </div>
+                </a>
+                <a href="/people-staff/" class="people-card people-card-link">
+                    <div class="people-card-body">
+                        <div class="people-card-name">Staff</div>
+                        <div class="people-card-title">Administrative, technical, and support staff enabling IQSS research and operations.</div>
+                    </div>
+                </a>
+                <a href="/people-alumni/" class="people-card people-card-link">
+                    <div class="people-card-body">
+                        <div class="people-card-name">Alumni</div>
+                        <div class="people-card-title">Former IQSS affiliates who have moved on to positions across academia, industry, and government.</div>
+                    </div>
+                </a>
             </div>
 
-            <div class="content-card">
-                <h3>🤝 <a href="/people/affiliates/" style="color: #CC5500; text-decoration: none;">Affiliates</a></h3>
-                <p>Researchers, visiting scholars, and collaborators from Harvard and institutions worldwide.</p>
-                <p><a href="/people/affiliates/" style="color: #CC5500;">Browse Affiliates →</a></p>
-            </div>
-
-            <div class="content-card">
-                <h3>🎓 <a href="/people/students/" style="color: #CC5500; text-decoration: none;">Students & Fellows</a></h3>
-                <p>Graduate students, postdoctoral fellows, and research assistants.</p>
-                <p><a href="/people/students/" style="color: #CC5500;">Browse Students →</a></p>
-            </div>
         </div>
-
-        <div style="margin-top: 60px; text-align: center; background: #f8f9fa; padding: 40px; border-radius: 8px;">
-            <h2 style="color: #CC5500; margin-bottom: 20px;">Search All People</h2>
-            <p>Use your browser's search (Ctrl+F / Cmd+F) to quickly find a specific person across all categories.</p>
-            <p style="margin-top: 20px; font-size: 18px; color: #666;">
-                <strong>{{ len (where .Site.RegularPages "Section" "people") }}</strong> total people in directory
-            </p>
-        </div>
-
-        {{ else }}
-        <!-- Category-specific page -->
-        {{ if .Pages }}
-        <div style="margin-bottom: 30px; padding: 20px; background: #f8f9fa; border-radius: 8px;">
-            <p><strong>{{ len .Pages }} people</strong> in this category, listed alphabetically by last name.</p>
-        </div>
-
-        <div class="people-grid">
-            {{ range .Pages.ByTitle }}
-            <div class="person-card">
-                <h3><a href="{{ .RelPermalink }}" style="color: #CC5500; text-decoration: none;">{{ .Title }}</a></h3>
-
-                {{ if .Summary }}
-                <p style="font-size: 14px; color: #666; margin: 10px 0;">{{ .Summary | truncate 100 }}</p>
-                {{ end }}
-
-                {{ if .Params.source_url }}
-                <p style="font-size: 12px; margin-top: 10px;">
-                    <a href="{{ .Params.source_url }}" target="_blank" style="color: #999;">View Original Profile →</a>
-                </p>
-                {{ end }}
-            </div>
-            {{ end }}
-        </div>
-
-        <div style="margin-top: 40px; text-align: center; padding: 20px; background: #f8f9fa; border-radius: 8px;">
-            <p><a href="/people/" style="color: #CC5500; text-decoration: none;">← Back to People Directory</a></p>
-        </div>
-
-        {{ else }}
-        <p style="text-align: center; padding: 40px; color: #666; font-style: italic;">
-            No people found in this category.
-        </p>
-        {{ end }}
-        {{ end }}
     </div>
 </div>
+
+<style>
+.people-page { margin: 0; padding: 0; }
+
+.people-header {
+    background: linear-gradient(135deg, #CC5500 0%, #B8460A 100%);
+    color: white;
+    padding: 50px 0;
+}
+
+.people-header h1 {
+    font-size: 42px;
+    font-weight: 300;
+    margin: 0 0 12px 0;
+}
+
+.people-header p {
+    font-size: 17px;
+    opacity: 0.9;
+    max-width: 650px;
+}
+
+.people-content {
+    background: #f8f9fa;
+    padding: 50px 0;
+}
+
+.people-section-title {
+    font-size: 26px;
+    font-weight: 400;
+    color: #CC5500;
+    margin: 40px 0 20px 0;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #e5e5e5;
+}
+
+.people-section-title:first-of-type {
+    margin-top: 0;
+}
+
+.people-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    max-width: 1000px;
+}
+
+.people-card {
+    background: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.06);
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.people-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+}
+
+.people-card-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.people-card-image {
+    flex: 0 0 70px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    overflow: hidden;
+    background: #e9ecef;
+}
+
+.people-card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+
+.people-card-body {
+    flex: 1;
+}
+
+.people-card-name {
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 3px;
+}
+
+.people-card-title {
+    font-size: 13px;
+    color: #666;
+    line-height: 1.4;
+}
+
+@media (max-width: 768px) {
+    .people-header h1 { font-size: 32px; }
+    .people-grid { grid-template-columns: 1fr; }
+    .people-content { padding: 30px 0; }
+}
+</style>
 {{ end }}

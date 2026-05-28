@@ -1,0 +1,238 @@
+{{ define "main" }}
+<div class="blog-page">
+    <!-- Blog Content -->
+    <div class="blog-content">
+        <div class="container">
+            <div class="blog-layout">
+                <!-- Main Posts -->
+                <div class="blog-main">
+                    <h1 class="blog-title-with-image"><img src="{{ "images/blog-header.png" | absURL }}" alt="IQSS Cool Ideas Blog" /> IQSS "cool ideas" blog</h1>
+
+                    <article class="blog-post">
+                        <h2><a href="https://sites.harvard.edu/iqss-blog/2024/12/12/testing-the-commenting-functionality/">Testing the commenting functionality</a></h2>
+                        <div class="blog-meta">
+                            <span class="blog-date">December 12, 2024</span> · <span class="blog-author">Len Wisniewski</span> · <span class="blog-category">Uncategorized</span>
+                        </div>
+                        <p>This is just a test....</p>
+                        <div class="blog-comments">1 comment</div>
+                    </article>
+
+                    <article class="blog-post">
+                        <h2><a href="https://sites.harvard.edu/iqss-blog/2024/12/12/ask-the-data/">Ask the Data</a></h2>
+                        <div class="blog-meta">
+                            <span class="blog-date">December 12, 2024</span> · <span class="blog-author">Len Wisniewski</span> · <span class="blog-category">Data science, Dataverse</span>
+                        </div>
+                        <p>A post by Phil Durbin sharing tips for using the Ask the Data tool with Dataverse to ask questions about datasets stored in Harvard Dataverse.</p>
+                    </article>
+
+                    <article class="blog-post">
+                        <h2><a href="https://sites.harvard.edu/iqss-blog/2024/12/12/travel-and-reimbursement-tips-and-tricks/">Travel and reimbursement tips and tricks</a></h2>
+                        <div class="blog-meta">
+                            <span class="blog-date">December 12, 2024</span> · <span class="blog-author">Len Wisniewski</span> · <span class="blog-category">Business operations</span>
+                        </div>
+                        <p>Here are some resources and guides for using Concur and guidance on Travel and Reimbursement....</p>
+                    </article>
+
+                    <article class="blog-post">
+                        <h2><a href="https://sites.harvard.edu/iqss-blog/2024/12/12/using-ai-to-simplify-the-grant-process/">Using AI to simplify the grant process</a></h2>
+                        <div class="blog-meta">
+                            <span class="blog-date">December 12, 2024</span> · <span class="blog-author">Len Wisniewski</span> · <span class="blog-category">Machine learning, AI, and LLMs; Sponsored research</span>
+                        </div>
+                        <p>A GrantSolutions Federal article discusses how AI can streamline the grant process.</p>
+                    </article>
+
+                    <article class="blog-post">
+                        <h2><a href="https://sites.harvard.edu/iqss-blog/2024/12/12/51/">Writing python code for digital embroidery</a></h2>
+                        <div class="blog-meta">
+                            <span class="blog-date">December 12, 2024</span> · <span class="blog-author">Len Wisniewski</span> · <span class="blog-category">Python programming</span>
+                        </div>
+                        <p>Maker spaces with digital sewing machines can use Python code uploads. Packages like Patro enable digital embroidery programming.</p>
+                    </article>
+
+                    <article class="blog-post">
+                        <h2><a href="https://sites.harvard.edu/iqss-blog/2024/12/12/visually-understanding-machine-learning/">Visually understanding machine learning</a></h2>
+                        <div class="blog-meta">
+                            <span class="blog-date">December 12, 2024</span> · <span class="blog-author">Len Wisniewski</span> · <span class="blog-category">Machine learning, AI, and LLMs</span>
+                        </div>
+                        <p>An article by Stephen Wolfram (Mathematica creator) that visually explains neural network computational models during machine learning.</p>
+                    </article>
+
+                    <article class="blog-post">
+                        <h2><a href="https://sites.harvard.edu/iqss-blog/2024/12/12/cool-ideas-blog/">"cool ideas" blog</a></h2>
+                        <div class="blog-meta">
+                            <span class="blog-date">December 12, 2024</span> · <span class="blog-author">Len Wisniewski</span> · <span class="blog-category">Desktop tools</span>
+                        </div>
+                        <p>Introduces the blog as a collection of short blurbs. Describes installation of the Reacji Channeler package in Slack for binding emojis to channels.</p>
+                    </article>
+                </div>
+
+                <!-- Sidebar -->
+                <aside class="blog-sidebar">
+                    <div class="sidebar-section">
+                        <h3>Recent Posts</h3>
+                        <ul>
+                            <li><a href="https://sites.harvard.edu/iqss-blog/2024/12/12/testing-the-commenting-functionality/">Testing the commenting functionality</a></li>
+                            <li><a href="https://sites.harvard.edu/iqss-blog/2024/12/12/ask-the-data/">Ask the Data</a></li>
+                            <li><a href="https://sites.harvard.edu/iqss-blog/2024/12/12/travel-and-reimbursement-tips-and-tricks/">Travel and reimbursement tips and tricks</a></li>
+                            <li><a href="https://sites.harvard.edu/iqss-blog/2024/12/12/using-ai-to-simplify-the-grant-process/">Using AI to simplify the grant process</a></li>
+                            <li><a href="https://sites.harvard.edu/iqss-blog/2024/12/12/51/">Writing python code for digital embroidery</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="sidebar-section">
+                        <h3>Categories</h3>
+                        <ul>
+                            <li>Business operations</li>
+                            <li>Data science</li>
+                            <li>Dataverse</li>
+                            <li>Desktop tools</li>
+                            <li>Machine learning, AI, and LLMs</li>
+                            <li>Python programming</li>
+                            <li>Sponsored research</li>
+                            <li>Uncategorized</li>
+                        </ul>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+.blog-page { margin: 0; padding: 0; }
+
+.blog-title-with-image {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.blog-title-with-image img {
+    width: 50px;
+    height: auto;
+}
+
+.blog-content {
+    padding: 40px 0 60px;
+}
+
+.blog-layout {
+    display: flex;
+    gap: 50px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.blog-main {
+    flex: 1;
+}
+
+.blog-main h1 {
+    font-size: 32px;
+    font-weight: 400;
+    color: #333;
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #CC5500;
+}
+
+.blog-post {
+    margin-bottom: 35px;
+    padding-bottom: 35px;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.blog-post:last-child {
+    border-bottom: none;
+}
+
+.blog-post h2 {
+    font-size: 22px;
+    font-weight: 500;
+    margin: 0 0 10px 0;
+}
+
+.blog-post h2 a {
+    color: #CC5500;
+    text-decoration: none;
+}
+
+.blog-post h2 a:hover {
+    text-decoration: underline;
+}
+
+.blog-meta {
+    font-size: 13px;
+    color: #888;
+    margin-bottom: 12px;
+}
+
+.blog-post p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #444;
+    margin: 0;
+}
+
+.blog-comments {
+    margin-top: 8px;
+    font-size: 13px;
+    color: #999;
+}
+
+/* Sidebar */
+.blog-sidebar {
+    flex: 0 0 260px;
+}
+
+.sidebar-section {
+    margin-bottom: 30px;
+}
+
+.sidebar-section h3 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 12px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #CC5500;
+}
+
+.sidebar-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar-section li {
+    padding: 6px 0;
+    font-size: 14px;
+    color: #555;
+    border-bottom: 1px solid #f5f5f5;
+}
+
+.sidebar-section li a {
+    color: #CC5500;
+    text-decoration: none;
+}
+
+.sidebar-section li a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .blog-layout {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .blog-sidebar {
+        flex: none;
+    }
+
+    .blog-main h1 {
+        font-size: 26px;
+    }
+}
+</style>
+{{ end }}
