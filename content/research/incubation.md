@@ -1,7 +1,7 @@
 ---
 date: '2026-05-26 13:37:24'
 draft: false
-layout: single-iqss
+layout: incubation
 section: research
 source_url: https://www.iq.harvard.edu/incubation
 title: Incubation
