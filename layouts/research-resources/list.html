@@ -1,0 +1,265 @@
+{{ define "main" }}
+<div class="research-resources-page">
+    <!-- Hero Section -->
+    <div class="rr-hero">
+        <div class="rr-hero-image">
+            <img src="{{ "images/research-resources-banner.jpg" | absURL }}" alt="Discussion at whiteboard" />
+        </div>
+        <div class="rr-hero-overlay">
+            <div class="container">
+                <h1>Research Resources</h1>
+                <p>IQSS offers access for social scientists to technological resources, and we're ready to help you learn how to use them so you can focus on your research.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Resources Grid -->
+    <div class="resources-section">
+        <div class="container">
+            <div class="resources-grid">
+
+                <a href="/research-resources/rapidpeer/" class="resource-card">
+                    <div class="resource-image">
+                        <img src="{{ "images/rapidpeer.jpg" | absURL }}" alt="Books" />
+                    </div>
+                    <div class="resource-content">
+                        <h3>rapidPeer</h3>
+                        <p>rapidPeer is an innovative peer pre-review service—similar to peer review for a scholarly journal, but faster, more complete, and constructive. Reviewers read the full paper and offer constructive suggestions throughout.</p>
+                    </div>
+                </a>
+
+                <a href="/research-resources/ecee/" class="resource-card">
+                    <div class="resource-image">
+                        <img src="{{ "images/ecee.jpg" | absURL }}" alt="Two people working at a whiteboard" />
+                    </div>
+                    <div class="resource-content">
+                        <h3>Extraordinary Claims, Extraordinary Evidence</h3>
+                        <p>The ECEE program empowers social science research that boldly tests dominant positions of the scientific community. Awardees get enhanced support from IQSS infrastructure and personnel.</p>
+                    </div>
+                </a>
+
+                <a href="/research-resources/data-science-services/" class="resource-card">
+                    <div class="resource-image">
+                        <img src="{{ "images/data-science-services.jpg" | absURL }}" alt="Discussion" />
+                    </div>
+                    <div class="resource-content">
+                        <h3>Data Science Services</h3>
+                        <p>Our team of PhD data science specialists provides research support to the Harvard community.</p>
+                    </div>
+                </a>
+
+                <a href="/research-resources/training-workshops/" class="resource-card">
+                    <div class="resource-image">
+                        <img src="{{ "images/training-workshops.jpg" | absURL }}" alt="Training session" />
+                    </div>
+                    <div class="resource-content">
+                        <h3>Training and Workshops</h3>
+                        <p>Offers opportunities to learn new software skills or broaden knowledge on social science topics.</p>
+                    </div>
+                </a>
+
+                <a href="/research-resources/client-support-services/" class="resource-card">
+                    <div class="resource-image">
+                        <img src="{{ "images/client-support.jpg" | absURL }}" alt="Client support tech" />
+                    </div>
+                    <div class="resource-content">
+                        <h3>Client Support Services</h3>
+                        <p>Local tech support for the CGIS complex, assisting with software, hardware, computers, smartphones, tablets, and printers.</p>
+                    </div>
+                </a>
+
+                <a href="/research-resources/computer-labs/" class="resource-card">
+                    <div class="resource-image">
+                        <img src="{{ "images/computer-lab.jpg" | absURL }}" alt="IQSS Computer Lab" />
+                    </div>
+                    <div class="resource-content">
+                        <h3>Computer Labs</h3>
+                        <p>IQSS hosts multiple state-of-the-art public computing labs in collaborative open-space areas for faculty, scholars, post-docs, students, and staff.</p>
+                    </div>
+                </a>
+
+                <a href="/research-resources/sponsored-research-services/" class="resource-card">
+                    <div class="resource-image">
+                        <img src="{{ "images/sponsored-research.jpg" | absURL }}" alt="Discussion between staff" />
+                    </div>
+                    <div class="resource-content">
+                        <h3>Sponsored Research Services</h3>
+                        <p>The Sponsored Research Administration Team supports social scientists throughout the lifecycle of a sponsored project.</p>
+                    </div>
+                </a>
+
+                <a href="/research-resources/research-computing/" class="resource-card">
+                    <div class="resource-image">
+                        <img src="{{ "images/research-computing.jpg" | absURL }}" alt="Copper colored circuit board" />
+                    </div>
+                    <div class="resource-content">
+                        <h3>Research Computing</h3>
+                        <p>Researchers access the Research Computing Environment (RCE) for social science computing and analysis—a centralized place for data storage and collaborative analysis.</p>
+                    </div>
+                </a>
+
+                <a href="/research-resources/undergraduate-research-scholars/" class="resource-card">
+                    <div class="resource-image">
+                        <img src="{{ "images/undergrad-research.jpg" | absURL }}" alt="Undergraduate working on laptop" />
+                    </div>
+                    <div class="resource-content">
+                        <h3>Undergraduate Research Scholars Program</h3>
+                        <p>Opportunity for Harvard College students to gain first-hand research experience working with faculty across the University.</p>
+                    </div>
+                </a>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+.research-resources-page {
+    margin: 0;
+    padding: 0;
+}
+
+/* Hero Section */
+.rr-hero {
+    position: relative;
+    min-height: 400px;
+    overflow: hidden;
+}
+
+.rr-hero-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.rr-hero-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.rr-hero-overlay {
+    position: relative;
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.5);
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    padding: 60px 0;
+}
+
+.rr-hero-overlay h1 {
+    font-size: 48px;
+    font-weight: 300;
+    color: #fff;
+    margin-bottom: 20px;
+    letter-spacing: -1px;
+}
+
+.rr-hero-overlay p {
+    font-size: 20px;
+    color: #fff;
+    max-width: 700px;
+    line-height: 1.6;
+    opacity: 0.9;
+}
+
+/* Resources Section */
+.resources-section {
+    background: #f8f9fa;
+    padding: 60px 0;
+}
+
+.resources-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.resource-card {
+    background: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    flex-direction: column;
+}
+
+.resource-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.12);
+}
+
+.resource-image {
+    width: 100%;
+    height: 220px;
+    overflow: hidden;
+}
+
+.resource-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.resource-card:hover .resource-image img {
+    transform: scale(1.05);
+}
+
+.resource-content {
+    padding: 25px;
+    flex: 1;
+}
+
+.resource-content h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #CC5500;
+    margin-bottom: 12px;
+}
+
+.resource-content p {
+    font-size: 15px;
+    line-height: 1.6;
+    color: #555;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .rr-hero {
+        min-height: 300px;
+    }
+
+    .rr-hero-overlay {
+        min-height: 300px;
+        padding: 40px 0;
+    }
+
+    .rr-hero-overlay h1 {
+        font-size: 32px;
+    }
+
+    .rr-hero-overlay p {
+        font-size: 16px;
+    }
+
+    .resources-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+        padding: 0 20px;
+    }
+
+    .resources-section {
+        padding: 40px 0;
+    }
+}
+</style>
+{{ end }}

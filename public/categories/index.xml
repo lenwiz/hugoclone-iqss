@@ -1,1 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Categories on IQSS Clone - Harvard Institute for Quantitative Social Science</title><link>/categories/</link><description>Recent content in Categories on IQSS Clone - Harvard Institute for Quantitative Social Science</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Tue, 26 May 2026 15:30:00 -0500</lastBuildDate><atom:link href="/categories/index.xml" rel="self" type="application/rss+xml"/><item><title>Updates</title><link>/categories/updates/</link><pubDate>Tue, 26 May 2026 15:30:00 -0500</pubDate><guid>/categories/updates/</guid><description/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on IQSS Clone - Harvard Institute for Quantitative Social Science</title>
+    <link>//localhost:1313/categories/</link>
+    <description>Recent content in Categories on IQSS Clone - Harvard Institute for Quantitative Social Science</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 26 May 2026 15:30:00 -0500</lastBuildDate>
+    <atom:link href="//localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Updates</title>
+      <link>//localhost:1313/categories/updates/</link>
+      <pubDate>Tue, 26 May 2026 15:30:00 -0500</pubDate>
+      <guid>//localhost:1313/categories/updates/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

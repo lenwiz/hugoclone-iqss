@@ -1,0 +1,396 @@
+{{ define "main" }}
+<div class="resource-page">
+    <!-- Hero Section -->
+    {{ if .Params.hero_image }}
+    <div class="rp-hero">
+        <div class="rp-hero-image">
+            <img src="{{ .Params.hero_image | absURL }}" alt="{{ .Title }}" />
+        </div>
+        <div class="rp-hero-overlay">
+            <div class="container">
+                <h1>{{ .Title }}</h1>
+                {{ with .Params.subtitle }}<p>{{ . }}</p>{{ end }}
+            </div>
+        </div>
+    </div>
+    {{ else }}
+    <div class="rp-header">
+        <div class="container">
+            <h1>{{ .Title }}</h1>
+            {{ with .Params.subtitle }}<p class="rp-subtitle">{{ . }}</p>{{ end }}
+        </div>
+    </div>
+    {{ end }}
+
+    <!-- Breadcrumb -->
+    <div class="rp-breadcrumb">
+        <div class="container">
+            <a href="/">Home</a> &rsaquo; <a href="/research-resources/">Research Resources</a> &rsaquo; <span>{{ .Title }}</span>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="rp-content">
+        <div class="container">
+            {{ .Content }}
+        </div>
+    </div>
+</div>
+
+<style>
+.resource-page {
+    margin: 0;
+    padding: 0;
+}
+
+.rp-hero {
+    position: relative;
+    min-height: 350px;
+    overflow: hidden;
+}
+
+.rp-hero-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.rp-hero-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.rp-hero-overlay {
+    position: relative;
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.5);
+    min-height: 350px;
+    display: flex;
+    align-items: center;
+    padding: 60px 0;
+}
+
+.rp-hero-overlay h1 {
+    font-size: 42px;
+    font-weight: 300;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.rp-hero-overlay p {
+    font-size: 18px;
+    color: #fff;
+    max-width: 700px;
+    line-height: 1.6;
+    opacity: 0.9;
+}
+
+.rp-header {
+    background: linear-gradient(135deg, #CC5500 0%, #B8460A 100%);
+    color: white;
+    padding: 60px 0;
+}
+
+.rp-header h1 {
+    font-size: 42px;
+    font-weight: 300;
+    margin: 0;
+}
+
+.rp-subtitle {
+    font-size: 18px;
+    margin-top: 15px;
+    opacity: 0.9;
+}
+
+.rp-breadcrumb {
+    background: #f8f9fa;
+    padding: 15px 0;
+    border-bottom: 1px solid #e5e5e5;
+    font-size: 14px;
+}
+
+.rp-breadcrumb a {
+    color: #CC5500;
+    text-decoration: none;
+}
+
+.rp-breadcrumb a:hover {
+    text-decoration: underline;
+}
+
+.rp-breadcrumb span {
+    color: #666;
+}
+
+.rp-content {
+    padding: 60px 0;
+}
+
+.rp-content .container {
+    max-width: 1000px;
+}
+
+.rp-content h2 {
+    font-size: 28px;
+    font-weight: 400;
+    color: #CC5500;
+    margin: 40px 0 20px 0;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #f0f0f0;
+}
+
+.rp-content h2:first-child {
+    margin-top: 0;
+}
+
+.rp-content h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #333;
+    margin: 25px 0 10px 0;
+}
+
+.rp-content p {
+    font-size: 16px;
+    line-height: 1.7;
+    color: #444;
+    margin-bottom: 15px;
+}
+
+.rp-content ul, .rp-content ol {
+    margin: 15px 0;
+    padding-left: 25px;
+}
+
+.rp-content li {
+    font-size: 16px;
+    line-height: 1.7;
+    color: #444;
+    margin-bottom: 8px;
+}
+
+.rp-content a {
+    color: #CC5500;
+    text-decoration: none;
+}
+
+.rp-content a:hover {
+    text-decoration: underline;
+}
+
+.rp-content img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin: 20px 0;
+}
+
+.rp-content .info-box {
+    background: #f8f9fa;
+    border-left: 4px solid #CC5500;
+    padding: 20px 25px;
+    margin: 25px 0;
+    border-radius: 0 8px 8px 0;
+}
+
+.rp-content .info-box p {
+    margin: 0;
+}
+
+.rp-content .card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+    margin: 30px 0;
+}
+
+.rp-content .card {
+    background: #fff;
+    border: 1px solid #e5e5e5;
+    border-radius: 8px;
+    padding: 25px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.rp-content .card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+}
+
+.rp-content .card img {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto 15px;
+    border-radius: 0;
+}
+
+.rp-content .card h3 {
+    margin: 0 0 10px 0;
+    font-size: 18px;
+    color: #CC5500;
+}
+
+.rp-content .card p {
+    font-size: 14px;
+    color: #666;
+    margin: 0;
+}
+
+.rp-content .team-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 30px;
+    margin: 30px 0;
+}
+
+.rp-content .team-member {
+    text-align: center;
+}
+
+.rp-content .team-member img {
+    width: 150px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.rp-content .team-member h3 {
+    font-size: 16px;
+    margin: 5px 0;
+    color: #CC5500;
+}
+
+.rp-content .team-member .role {
+    font-size: 14px;
+    color: #666;
+}
+
+.rp-content .testimonial-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 25px;
+    margin: 30px 0;
+}
+
+.rp-content .testimonial-card {
+    background: #fff;
+    border: 1px solid #e5e5e5;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.rp-content .testimonial-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+}
+
+.rp-content .testimonial-photo {
+    width: 100%;
+    height: 220px;
+    overflow: hidden;
+}
+
+.rp-content .testimonial-photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 0;
+    margin: 0;
+}
+
+.rp-content .testimonial-body {
+    padding: 25px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.rp-content .testimonial-body p {
+    font-size: 15px;
+    line-height: 1.6;
+    color: #444;
+    font-style: italic;
+    margin-bottom: 15px;
+    flex: 1;
+}
+
+.rp-content .testimonial-author {
+    font-size: 16px;
+    color: #CC5500;
+    margin-bottom: 2px;
+}
+
+.rp-content .testimonial-affiliation {
+    font-size: 14px;
+    color: #666;
+}
+
+.rp-content .cta-button {
+    display: inline-block;
+    background: #CC5500;
+    color: #fff;
+    padding: 12px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 500;
+    margin-top: 10px;
+    transition: background 0.3s ease;
+}
+
+.rp-content .cta-button:hover {
+    background: #B8460A;
+    text-decoration: none;
+}
+
+.rp-content .contact-info {
+    background: #f8f9fa;
+    padding: 25px;
+    border-radius: 8px;
+    margin: 30px 0;
+}
+
+.rp-content .contact-info p {
+    margin: 5px 0;
+}
+
+@media (max-width: 768px) {
+    .rp-hero {
+        min-height: 250px;
+    }
+
+    .rp-hero-overlay {
+        min-height: 250px;
+        padding: 40px 0;
+    }
+
+    .rp-hero-overlay h1,
+    .rp-header h1 {
+        font-size: 32px;
+    }
+
+    .rp-content {
+        padding: 40px 0;
+    }
+
+    .rp-content .card-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .rp-content .team-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+</style>
+{{ end }}

@@ -24,8 +24,8 @@ title = 'IQSS Clone - Harvard Institute for Quantitative Social Science'
   weight = 20
 
 [[menu.main]]
-  name = "Research"
-  url = "/research/"
+  name = "Programs & Products"
+  url = "/programs-products/"
   weight = 30
 
 [[menu.main]]
@@ -35,7 +35,7 @@ title = 'IQSS Clone - Harvard Institute for Quantitative Social Science'
 
 [[menu.main]]
   name = "Resources"
-  url = "/resources/"
+  url = "/research-resources/"
   weight = 50
 
 [[menu.main]]
