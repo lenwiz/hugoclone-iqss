@@ -1,8 +1,7 @@
 ---
-title: "About IQSS"
-date: 2026-05-26
+title: "About"
+date: 2026-05-28
 draft: false
-description: "About IQSS at Harvard IQSS"
+description: "About The Institute for Quantitative Social Science"
+layout: "about"
 ---
-
-Welcome to the About IQSS section of the IQSS website archive.
