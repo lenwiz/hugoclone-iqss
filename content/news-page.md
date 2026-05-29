@@ -1413,6 +1413,7 @@ article_count: 158
 </a>
 
 <a href="/news/al-roth-receives-nobel-prize-in-economics/" class="news-card">
+<div class="news-card-image"><img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/harvard-iqss/files/iqss_square_logo_no_text.jpg?itok=sU68euCn" alt="" /></div>
 <div class="news-card-body">
 <div class="news-card-date">October 16, 2012</div>
 <div class="news-card-title">Al Roth Receives Nobel Prize in Economics</div>
@@ -1421,11 +1422,12 @@ article_count: 158
 </a>
 
 <a href="/news/new-iqss-web-site-launched/" class="news-card">
+<div class="news-card-image"><img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/harvard-iqss/files/iqss_square_logo_no_text.jpg?itok=sU68euCn" alt="" /></div>
 <div class="news-card-body">
 <div class="news-card-date">April 12, 2012</div>
 <div class="news-card-title">New IQSS Web Site Launched!</div>
 <div class="news-card-desc">Created through cross-team collaboration.</div>
-</a>
+</div>
 </a>
 
 </div>
