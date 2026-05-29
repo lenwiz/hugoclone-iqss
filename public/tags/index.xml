@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on IQSS Clone - Harvard Institute for Quantitative Social Science</title>
-    <link>http://localhost:1313/hugoclone-iqss/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on IQSS Clone - Harvard Institute for Quantitative Social Science</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 26 May 2026 15:30:00 -0500</lastBuildDate>
-    <atom:link href="http://localhost:1313/hugoclone-iqss/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Announcement</title>
-      <link>http://localhost:1313/hugoclone-iqss/tags/announcement/</link>
+      <link>http://localhost:1313/tags/announcement/</link>
       <pubDate>Tue, 26 May 2026 15:30:00 -0500</pubDate>
-      <guid>http://localhost:1313/hugoclone-iqss/tags/announcement/</guid>
+      <guid>http://localhost:1313/tags/announcement/</guid>
       <description></description>
     </item>
     <item>
       <title>Archive</title>
-      <link>http://localhost:1313/hugoclone-iqss/tags/archive/</link>
+      <link>http://localhost:1313/tags/archive/</link>
       <pubDate>Tue, 26 May 2026 15:30:00 -0500</pubDate>
-      <guid>http://localhost:1313/hugoclone-iqss/tags/archive/</guid>
+      <guid>http://localhost:1313/tags/archive/</guid>
       <description></description>
     </item>
     <item>
       <title>Iqss</title>
-      <link>http://localhost:1313/hugoclone-iqss/tags/iqss/</link>
+      <link>http://localhost:1313/tags/iqss/</link>
       <pubDate>Tue, 26 May 2026 15:30:00 -0500</pubDate>
-      <guid>http://localhost:1313/hugoclone-iqss/tags/iqss/</guid>
+      <guid>http://localhost:1313/tags/iqss/</guid>
       <description></description>
     </item>
   </channel>

@@ -10,7 +10,7 @@
     <!-- Breadcrumb -->
     <div class="opp-breadcrumb">
         <div class="container">
-            <a href="/">Home</a> &rsaquo; <a href="/about/">About</a> &rsaquo; <span>Job Opportunities</span>
+            <a href="/">Home</a> &rsaquo; <a href="{{ "about/" | relURL }}">About</a> &rsaquo; <span>Job Opportunities</span>
         </div>
     </div>
 
@@ -22,14 +22,11 @@
                 <aside class="opp-sidebar">
                     <nav>
                         <ul>
-                            <li><a href="/about/">About IQSS</a></li>
-                            <li><a href="https://www.iq.harvard.edu/become-an-affiliate" target="_blank">Become an Affiliate</a></li>
-                            <li><a href="/news-page/">News</a></li>
-                            <li><a href="https://www.iq.harvard.edu/metrics" target="_blank">Metrics</a></li>
-                            <li><a href="https://www.iq.harvard.edu/roadmaps" target="_blank">Roadmaps</a></li>
-                            <li class="active"><a href="/opportunities/">Job Opportunities</a></li>
-                            <li><a href="https://www.iq.harvard.edu/connect-with-us" target="_blank">Connect with Us</a></li>
-                            <li><a href="https://www.iq.harvard.edu/contact" target="_blank">Contact</a></li>
+                            <li><a href="{{ "about/" | relURL }}">About IQSS</a></li>
+                            <li><a href="{{ "become-an-affiliate/" | relURL }}">Become an Affiliate</a></li>
+                            <li><a href="{{ "news-page/" | relURL }}">News</a></li>
+                            <li class="active"><a href="{{ "opportunities/" | relURL }}">Job Opportunities</a></li>
+                            <li><a href="{{ "events/" | relURL }}">Events</a></li>
                         </ul>
                     </nav>
                 </aside>
@@ -61,20 +58,20 @@
 
                     <section class="opp-section">
                         <h2>Student Openings</h2>
-                        <p>For Harvard undergraduates: <a href="/research-resources/undergraduate-research-scholars/">Undergraduate Research Scholar</a> program with <a href="/research-resources/undergraduate-research-scholars/#current-opportunities">current URS opportunities</a></p>
+                        <p>For Harvard undergraduates: <a href="{{ "research-resources/undergraduate-research-scholars/" | relURL }}">Undergraduate Research Scholar</a> program with <a href="{{ "research-resources/undergraduate-research-scholars/#current-opportunities" | relURL }}">current URS opportunities</a></p>
                         <div class="opp-listing">
-                            <h3><a href="https://www.iq.harvard.edu/research-assistant-studying-scientific-communities" target="_blank">Research Assistant - Studying Scientific Conduct and Misconduct</a></h3>
+                            <h3>Research Assistant - Studying Scientific Conduct and Misconduct</h3>
                         </div>
                     </section>
 
                     <section class="opp-section">
                         <h2>Additional Affiliation</h2>
-                        <p>Information about visiting scholars and fellows is available on the <a href="/become-an-affiliate/">affiliation page</a>.</p>
+                        <p>Information about visiting scholars and fellows is available on the <a href="{{ "become-an-affiliate/" | relURL }}">affiliation page</a>.</p>
                     </section>
 
                     <section class="opp-section">
                         <h2>Other Participation</h2>
-                        <p>Attending <a href="/events/">seminars and other events</a> is encouraged.</p>
+                        <p>Attending <a href="{{ "events/" | relURL }}">seminars and other events</a> is encouraged.</p>
                     </section>
 
                     <section class="opp-section">
