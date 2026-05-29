@@ -52,7 +52,7 @@ Affiliation enables graduate students and Harvard Faculty to apply for funding o
 ### Faculty
 
 **Benefits:**
-- Apply for funding through IQSS's [Undergraduate Research Scholars Program](/research-resources/undergraduate-research-scholars/)
+- Apply for funding through IQSS's [Undergraduate Research Scholars Program](../research-resources/undergraduate-research-scholars/)
 - Request services of the IQSS Sponsored Team for sponsored research grants
 - Email list for community activities, talks, and events
 - Note: faculty affiliates may be called upon to participate in reviews of scholarly grant applications
