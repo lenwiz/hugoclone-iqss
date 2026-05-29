@@ -24,15 +24,15 @@ An extraordinary claim is an empirical claim that is unusually distant from the 
 
 ## How Do We Evaluate Projects?
 
-<img src="/images/ecee-evaluate.png" alt="ECEE Evaluation Process" />
+<img src="../../images/ecee-evaluate.png" alt="ECEE Evaluation Process" />
 
 ## What We Offer
 
-<img src="/images/ecee-offerings.png" alt="ECEE Offerings" />
+<img src="../../images/ecee-offerings.png" alt="ECEE Offerings" />
 
 ## What is the Process?
 
-<img src="/images/ecee-process.png" alt="ECEE Process" />
+<img src="../../images/ecee-process.png" alt="ECEE Process" />
 
 ## Confidentiality
 

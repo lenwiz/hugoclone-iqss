@@ -31,19 +31,19 @@ Affiliation enables graduate students and Harvard Faculty to apply for funding o
 <div class="card-grid">
 <div class="card">
 <h3>Researcher</h3>
-<img src="/images/uj-researcher.jpg" alt="User journey flowchart for researcher" style="width:100%;height:auto;border-radius:4px;" />
+<img src="../images/uj-researcher.jpg" alt="User journey flowchart for researcher" style="width:100%;height:auto;border-radius:4px;" />
 </div>
 <div class="card">
 <h3>Faculty</h3>
-<img src="/images/uj-faculty.jpg" alt="User journey flowchart for faculty" style="width:100%;height:auto;border-radius:4px;" />
+<img src="../images/uj-faculty.jpg" alt="User journey flowchart for faculty" style="width:100%;height:auto;border-radius:4px;" />
 </div>
 <div class="card">
 <h3>Administrator</h3>
-<img src="/images/uj-administrator.jpg" alt="User journey flowchart for administrator" style="width:100%;height:auto;border-radius:4px;" />
+<img src="../images/uj-administrator.jpg" alt="User journey flowchart for administrator" style="width:100%;height:auto;border-radius:4px;" />
 </div>
 <div class="card">
 <h3>Graduate Student</h3>
-<img src="/images/uj-student.jpg" alt="User journey flowchart for graduate student" style="width:100%;height:auto;border-radius:4px;" />
+<img src="../images/uj-student.jpg" alt="User journey flowchart for graduate student" style="width:100%;height:auto;border-radius:4px;" />
 </div>
 </div>
 

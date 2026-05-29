@@ -11,17 +11,17 @@ subtitle: "IQSS Data Science Services is pleased to assist researchers in the Ha
 
 <div class="card-grid">
 <div class="card">
-<img src="/images/consulting-icon.png" alt="Consulting" />
+<img src="../../images/consulting-icon.png" alt="Consulting" />
 <h3>Consulting</h3>
 <p>We provide short-term support (up to 3 hours per publication) in the form of advice.</p>
 </div>
 <div class="card">
-<img src="/images/collaboration-icon.png" alt="Collaboration" />
+<img src="../../images/collaboration-icon.png" alt="Collaboration" />
 <h3>Collaboration</h3>
 <p>We provide extended support over the lifecycle of a research project by embedding a data science specialist in your research team.</p>
 </div>
 <div class="card">
-<img src="/images/analytical-tool-icon.png" alt="Analytical Tool Building" />
+<img src="../../images/analytical-tool-icon.png" alt="Analytical Tool Building" />
 <h3>Analytical Tool Building</h3>
 <p>We can develop R code to implement your new statistical method or to automate part of your analysis pipeline.</p>
 </div>
