@@ -29,32 +29,44 @@ subtitle: "IQSS Data Science Services is pleased to assist researchers in the Ha
 
 ## Training Services
 
-- **Workshop Materials** — Access materials from our workshops and training sessions
-- **Tutorials** — Step-by-step guides for common data science tasks
-- **Related Resources** — A list of additional data science resources across IQSS and Harvard University
+- **[Workshop Materials](../dss-workshop-materials/)** — Self-contained workshops in Python, R, Stata, and more
+- **[Tutorials](../dss-tutorials/)** — Step-by-step guides for LaTeX, Git, causal inference, web scraping, and more
+- **[Related Resources](../dss-resources/)** — Additional data science resources across IQSS and Harvard University
+
+## Impact
+
+- **[Research Output](../dss-research-output/)** — Publications and dissertations supported by Data Science Services
 
 ## Our Team
 
-<div class="team-grid">
-<div class="team-member">
+<div class="card-grid">
+<div class="card">
+<img src="../../images/dss-worthington.jpg" alt="Steven Worthington" style="width:100px;height:100px;border-radius:50%;object-fit:cover;object-position:top;" />
 <h3>Steven Worthington</h3>
-<div class="role">Director of Data Science Services</div>
+<p>Director of Data Science Services. At IQSS since 2011. PhD in Biological Anthropology from NYU.</p>
 </div>
-<div class="team-member">
+<div class="card">
+<img src="../../images/dss-cetron.jpg" alt="Joshua Cetron" style="width:100px;height:100px;border-radius:50%;object-fit:cover;object-position:top;" />
 <h3>Joshua Cetron</h3>
-<div class="role">Data Science Specialist</div>
+<p>Data Science Specialist. Background in psychology, neuroscience, and multivariate statistics.</p>
 </div>
-<div class="team-member">
+<div class="card">
+<img src="../../images/dss-greifer.jpg" alt="Noah Greifer" style="width:100px;height:100px;border-radius:50%;object-fit:cover;object-position:top;" />
 <h3>Noah Greifer</h3>
-<div class="role">Data Science Specialist</div>
+<p>Data Science Specialist. PhD in Quantitative Methods. Member of DSS since August 2021.</p>
 </div>
-<div class="team-member">
+</div>
+
+<div class="card-grid">
+<div class="card">
+<img src="../../images/dss-liu.jpg" alt="Jinjie Liu" style="width:100px;height:100px;border-radius:50%;object-fit:cover;object-position:top;" />
 <h3>Jinjie Liu</h3>
-<div class="role">Data Science Specialist</div>
+<p>Data Science Specialist. PhD in Political Science from University of Wisconsin-Madison.</p>
 </div>
-<div class="team-member">
+<div class="card">
+<img src="../../images/dss-yuan.jpg" alt="Dan Yuan" style="width:100px;height:100px;border-radius:50%;object-fit:cover;object-position:top;" />
 <h3>Dan Yuan</h3>
-<div class="role">Data Science Project Management Specialist</div>
+<p>Data Science Project Management Specialist.</p>
 </div>
 </div>
 
