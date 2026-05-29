@@ -8,268 +8,268 @@ article_count: 158
 
 <div class="news-grid">
 
-<div class="news-card">
+<a href="/news/class-2026-iqss-whats-next/" class="news-card">
 <div class="news-card-image"><img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/graduation-cap-with-gold-tassle_sq.jpg?itok=UmvNZ9IN" alt="" /></div>
 <div class="news-card-body">
 <div class="news-card-date">May 26, 2026</div>
 <div class="news-card-title">Class of 2026 at IQSS: What's Next?</div>
 <div class="news-card-desc">Graduating members of the IQSS community share their post-graduation plans.</div>
 </div>
-</div>
+</a>
 
-<div class="news-card">
+<a href="/news/iqss-honors-staff-service-milestones/" class="news-card">
 <div class="news-card-image"><img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/2026-05/Service%20awardees%202026%20group%201b.jpeg?h=9b1d031d&itok=myPVto9A" alt="" /></div>
 <div class="news-card-body">
 <div class="news-card-date">May 12, 2026</div>
 <div class="news-card-title">IQSS Honors Staff Service Milestones</div>
 <div class="news-card-desc">IQSS gathered to celebrate staff members who reached important service milestones.</div>
 </div>
-</div>
+</a>
 
-<div class="news-card">
+<a href="/news/data-centers-local-vibes/" class="news-card">
 <div class="news-card-image"><img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/harvard-iqss/files/ansolabehere_stephen_2x3_ratio_large.png?itok=7alqRFRR" alt="" /></div>
 <div class="news-card-body">
 <div class="news-card-date">April 27, 2026</div>
 <div class="news-card-title">On data centers, local vibes matter more than electricity prices – poll</div>
 <div class="news-card-desc">A survey explores what Americans prioritize regarding data centers in their communities.</div>
 </div>
-</div>
+</a>
 
-<div class="news-card">
+<a href="/news/call-for-papers-2026-cga-conference/" class="news-card">
 <div class="news-card-image"><img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/2025-12/CGA_logo_2025%202x3.png?itok=dnfI1tBg" alt="" /></div>
 <div class="news-card-body">
 <div class="news-card-date">April 13, 2026</div>
 <div class="news-card-title">Call for Papers: 2026 CGA Conference</div>
 <div class="news-card-desc">Submissions open for the CGA Conference celebrating the CGA's 20th anniversary.</div>
 </div>
-</div>
+</a>
 
-<div class="news-card">
+<a href="/news/global-flourishing-study-waves-1-2/" class="news-card">
 <div class="news-card-image"><img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/2026-04/Global%20Flourishing%20Study%20landscape_0.jpg?itok=cd5E4IiU" alt="" /></div>
 <div class="news-card-body">
 <div class="news-card-date">April 10, 2026</div>
 <div class="news-card-title">Waves 1 and 2 of the Global Flourishing Study Are Now Open to the Public</div>
 <div class="news-card-desc">The GFS dataset includes data from roughly 200,000 participants across 22 countries.</div>
 </div>
-</div>
+</a>
 
-<div class="news-card">
+<a href="/news/how-forgiving-can-improve-well-being/" class="news-card">
 <div class="news-card-image"><img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/2026-04/Gazette_040126_Richard_Cowden.jpg?h=ad721a25&itok=EQKhHrHp" alt="" /></div>
 <div class="news-card-body">
 <div class="news-card-date">April 08, 2026</div>
 <div class="news-card-title">How forgiving can improve well-being</div>
 <div class="news-card-desc">A Human Flourishing Program study found a connection between forgiveness and improved well-being.</div>
 </div>
-</div>
+</a>
 
-<div class="news-card">
+<a href="/news/forgotten-graves-new-lens-colonial-slavery/" class="news-card">
 <div class="news-card-image"><img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/2026-04/Jason%20and%20Joseph%20Lamson_burial%20ground%20feature%202026.jpg?h=6b511665&itok=vm-fpRD1" alt="" /></div>
 <div class="news-card-body">
 <div class="news-card-date">April 03, 2026</div>
 <div class="news-card-title">Forgotten Graves: A New Lens on Colonial Slavery</div>
 <div class="news-card-desc">Faculty affiliate Jason Ur made an archaeological discovery in Harvard's own neighborhood.</div>
 </div>
-</div>
+</a>
 
-<div class="news-card">
+<a href="/news/dataverse-software-610-release/" class="news-card">
 <div class="news-card-image"><img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/harvard-iqss/files/dataverse_logo_600x400.jpg?itok=hGUsq8hM" alt="" /></div>
 <div class="news-card-body">
 <div class="news-card-date">March 19, 2026</div>
 <div class="news-card-title">Dataverse Software 6.10 Release</div>
 <div class="news-card-desc">The newest Dataverse release includes export improvements, new APIs, and bug fixes.</div>
 </div>
-</div>
+</a>
 
-<div class="news-card">
+<a href="/news/bob-treacy-30-years-java/" class="news-card">
 <div class="news-card-image"><img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/2025-10/Bob-Treacy_2025.jpg?itok=o4L2fXn0" alt="" /></div>
 <div class="news-card-body">
 <div class="news-card-date">March 17, 2026</div>
 <div class="news-card-title">Bob Treacy: From the Factory Floor to Harvard and 30 Years of Java</div>
 <div class="news-card-desc">Bob Treacy discusses his path into software development and AI in research software.</div>
 </div>
-</div>
+</a>
 
-<div class="news-card">
+<a href="/news/cga-project-nsf-challenge/" class="news-card">
 <div class="news-card-image"><img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/2025-12/CGA_logo_2025%202x3.png?itok=dnfI1tBg" alt="" /></div>
 <div class="news-card-body">
 <div class="news-card-date">March 02, 2026</div>
 <div class="news-card-title">CGA Project Selected for NSF Challenge</div>
 <div class="news-card-desc">A CGA project on mapping geographical locations was selected for the NSF I-GUIDE Challenge.</div>
 </div>
-</div>
+</a>
 
-<div class="news-card">
+<a href="/news/pope-leo-vanderweele-vatican/" class="news-card">
 <div class="news-card-image"><img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/2026-02/gazette_Tyler_Vanderweele_Isolation_NS_415.jpeg?h=290a6d99&itok=bJ75OuwI" alt="" /></div>
 <div class="news-card-body">
 <div class="news-card-date">February 20, 2026</div>
 <div class="news-card-title">Pope Leo XIV names epidemiology professor to Vatican advisory group</div>
 <div class="news-card-desc">Tyler VanderWeele was appointed to the Pontifical Academy of Social Sciences.</div>
 </div>
-</div>
+</a>
 
-<div class="news-card">
+<a href="/news/harvard-thinking-ai-shortcuts/" class="news-card">
 <div class="news-card-image"><img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/2026-02/Harvard%20Thinking%20Podcast_banner.jpg?itok=POywJqRB" alt="" /></div>
 <div class="news-card-body">
 <div class="news-card-date">February 18, 2026</div>
 <div class="news-card-title">Harvard Thinking - Preserving learning in the age of AI shortcuts</div>
 <div class="news-card-desc">Affiliate Michael Brenner on how AI has affected learning and critical thinking.</div>
 </div>
-</div>
+</a>
 
-<div class="news-card">
+<a href="/news/dataverse-community-meeting-2026-registration/" class="news-card">
 <div class="news-card-image"><img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/2026-02/Dataverse%20Community%20Meeting%202026%20graphic.png?itok=zqFCBp4c" alt="" /></div>
 <div class="news-card-body">
 <div class="news-card-date">February 16, 2026</div>
 <div class="news-card-title">Register Early for the Dataverse Community Meeting 2026</div>
 <div class="news-card-desc">Early bird registration is still open for DCM 2026 in Barcelona, Spain.</div>
 </div>
-</div>
+</a>
 
-<div class="news-card">
+<a href="/news/art-online-interface/" class="news-card">
 <div class="news-card-image"><img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/harvard-iqss/files/sid_logo.png?itok=yPGiiIqI" alt="" /></div>
 <div class="news-card-body">
 <div class="news-card-date">February 02, 2026</div>
 <div class="news-card-title">The art of the online interface</div>
 <div class="news-card-desc">IQSS is developing LOOP, a desktop app for connecting Harvard Dataverse and Sid.</div>
 </div>
-</div>
+</a>
 
-<div class="news-card">
+<a href="/news/self-appraisals-job-performance/" class="news-card">
 <div class="news-card-image"><img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/2025-12/Iris-Bohnet_2023.jpg?h=2eae137f&itok=BvbCo7q8" alt="" /></div>
 <div class="news-card-body">
 <div class="news-card-date">December 17, 2025</div>
 <div class="news-card-title">Why self-appraisals may not be best way to judge job performance</div>
 <div class="news-card-desc">Faculty affiliate Iris Bohnet discusses biases affecting how employees are rated.</div>
 </div>
-</div>
+</a>
 
-<div class="news-card">
+<a href="/news/science-needs-contrarians/" class="news-card">
 <div class="news-card-image"><img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/2025-12/Gazette_Richard_McNally.jpg?h=ce941423&itok=CYQM6tfK" alt="" /></div>
 <div class="news-card-body">
 <div class="news-card-date">December 10, 2025</div>
 <div class="news-card-title">Science needs contrarians, and contrarians need support</div>
 <div class="news-card-desc">The ECEE program supports Harvard faculty undertaking high-risk research.</div>
 </div>
-</div>
+</a>
 
-<div class="news-card">
+<a href="/news/cga-2026-training-schedule/" class="news-card">
 <div class="news-card-image"><img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/2025-12/CGA_logo_2025%202x3.png?itok=dnfI1tBg" alt="" /></div>
 <div class="news-card-body">
 <div class="news-card-date">December 08, 2025</div>
 <div class="news-card-title">Explore the CGA's 2026 Training Schedule</div>
 <div class="news-card-desc">CGA revamps training workshops for 2026, free for Harvard ID holders.</div>
 </div>
-</div>
+</a>
 
-<div class="news-card">
+<a href="/news/historical-figure-search-500x-faster/" class="news-card">
 <div class="news-card-image"><img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/harvard-iqss/files/cbdb_sq_wht_bkgd.png?itok=7y2aFYQ6" alt="" /></div>
 <div class="news-card-body">
 <div class="news-card-date">December 01, 2025</div>
 <div class="news-card-title">Making Historical Figure Search 500X Faster</div>
 <div class="news-card-desc">The CBDB team redesigned their name indexing method for faster text analysis.</div>
 </div>
-</div>
+</a>
 
-<div class="news-card">
+<a href="/news/differential-privacy-deployments-registry/" class="news-card">
 <div class="news-card-image"><img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/harvard-iqss/files/opendp_logo_600x400_2024.jpg?itok=kusHBvME" alt="" /></div>
 <div class="news-card-body">
 <div class="news-card-date">November 25, 2025</div>
 <div class="news-card-title">Launching the Differential Privacy Deployments Registry</div>
 <div class="news-card-desc">OpenDP launched the Differential Privacy Deployments Registry.</div>
 </div>
-</div>
+</a>
 
-<div class="news-card">
+<a href="/news/mind2market-demo-day/" class="news-card">
 <div class="news-card-image"><img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/2025-12/Mind2Market%20Demo%20Day%202025.jpg?itok=F-qPR8oa" alt="" /></div>
 <div class="news-card-body">
 <div class="news-card-date">November 24, 2025</div>
 <div class="news-card-title">Mind2Market Demo Day</div>
 <div class="news-card-desc">Harvard researchers pitch AI projects ready to become ventures.</div>
 </div>
-</div>
+</a>
 
-<div class="news-card">
+<a href="/news/is-ai-dulling-our-minds/" class="news-card">
 <div class="news-card-image"><img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/2025-11/Dan-Levy_med.jpg?h=6635049d&itok=D1Egiicr" alt="" /></div>
 <div class="news-card-body">
 <div class="news-card-date">November 13, 2025</div>
 <div class="news-card-title">Is AI dulling our minds?</div>
 <div class="news-card-desc">Faculty affiliate Dan Levy on whether AI will help or harm critical thinking.</div>
 </div>
-</div>
+</a>
 
-<div class="news-card">
+<a href="/news/global-flourishing-study-wave-2/" class="news-card">
 <div class="news-card-image"><img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/harvard-iqss/files/global-flourishing-3x2_febsocial-data_now_available.jpg?h=34c07648&itok=R9WkOirg" alt="" /></div>
 <div class="news-card-body">
 <div class="news-card-date">November 03, 2025</div>
 <div class="news-card-title">Global Flourishing Study Wave 2 Extended Datasets Available Now</div>
 <div class="news-card-desc">A new wave of data from the Global Flourishing Study.</div>
 </div>
-</div>
+</a>
 
-<div class="news-card">
+<a href="/news/neru-health-startup/" class="news-card">
 <div class="news-card-image"><img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/2025-10/neru-logo-ex.png?h=d3c10f45&itok=Op6Kf2ox" alt="" /></div>
 <div class="news-card-body">
 <div class="news-card-date">October 24, 2025</div>
 <div class="news-card-title">Neru Health – From Sleep Challenges to Scaling Chronic Care with AI</div>
 <div class="news-card-desc">Neru Health moved beyond sleep problems to chronic care through IQSS Startup Foundry.</div>
 </div>
-</div>
+</a>
 
-<div class="news-card">
+<a href="/news/thresher-national-security/" class="news-card">
 <div class="news-card-image"><img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/2025-10/Two-Six-Tech-Products-M3-Logo-and-Text%20sq2.jpg?h=7a911a9c&itok=RYUCuaBd" alt="" /></div>
 <div class="news-card-body">
 <div class="news-card-date">October 09, 2025</div>
 <div class="news-card-title">From Harvard Research to National Security Innovation: The Story of Thresher</div>
 <div class="news-card-desc">Research into censorship led to new text analysis methods at IQSS.</div>
 </div>
-</div>
+</a>
 
-<div class="news-card">
+<a href="/news/moms-happiness-advice/" class="news-card">
 <div class="news-card-image"><img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/2025-09/Daniel-Gilbert_2025_Gazette_ExtensionDeanLecture.jpg?h=62fc6112&itok=xWO4bIyv" alt="" /></div>
 <div class="news-card-body">
 <div class="news-card-date">September 29, 2025</div>
 <div class="news-card-title">What science says about Mom's happiness advice</div>
 <div class="news-card-desc">IQSS affiliate Daniel Gilbert shared his mother's happiness advice at a lecture.</div>
 </div>
-</div>
+</a>
 
-<div class="news-card">
+<a href="/news/memorious-building-infinite-memory/" class="news-card">
 <div class="news-card-image"><img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/2025-09/Memorious%20logo%203x2.png?itok=oWlOceSV" alt="" /></div>
 <div class="news-card-body">
 <div class="news-card-date">September 25, 2025</div>
 <div class="news-card-title">Memorious: Building Infinite Memory with AI</div>
 <div class="news-card-desc">Harvard researchers aim to reinvent human memory using AI via the IQSS Startup Foundry.</div>
 </div>
-</div>
+</a>
 
-<div class="news-card">
+<a href="/news/two-parent-households-inequality/" class="news-card">
 <div class="news-card-image"><img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/2025-09/Christina-Cross_2025_Gazette.jpeg?h=b78e3fb9&itok=T22ZsSB0" alt="" /></div>
 <div class="news-card-body">
 <div class="news-card-date">September 22, 2025</div>
 <div class="news-card-title">Turns out two-parent households are no fix for racial inequality</div>
 <div class="news-card-desc">IQSS affiliate Christina Cross examines the nuclear family and inequality.</div>
 </div>
-</div>
+</a>
 
-<div class="news-card">
+<a href="/news/terraflow-startup/" class="news-card">
 <div class="news-card-image"><img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/2025-09/terraflow-logo-black_bkgd.png?itok=asv9MtEN" alt="" /></div>
 <div class="news-card-body">
 <div class="news-card-date">September 18, 2025</div>
 <div class="news-card-title">Building terraFlow: How an Idea in the Lab Grew Into a Venture-Backed Startup</div>
 <div class="news-card-desc">Dan Freeman's biomarker project supported by the IQSS Startup Foundry.</div>
 </div>
-</div>
+</a>
 
-<div class="news-card">
+<a href="/news/how-to-regulate-ai/" class="news-card">
 <div class="news-card-image"><img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/2025-09/Gazette_David%20Y%20Yang.jpg?h=426e73e4&itok=yhsrE3sA" alt="" /></div>
 <div class="news-card-body">
 <div class="news-card-date">September 15, 2025</div>
 <div class="news-card-title">How to regulate AI</div>
 <div class="news-card-desc">IQSS affiliate David Y. Yang on regulating AI development.</div>
 </div>
-</div>
+</a>
 
-<div class="news-card">
+<a href="/news/dsm-recognizes-moral-injury/" class="news-card">
 <div class="news-card-image"><img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/2025-07/Human%20Flourishing%20slide%20deck%20banner%20%5B6x5%20new%5D.png?itok=rIb3xxoz" alt="" /></div>
 <div class="news-card-body">
 <div class="news-card-date">September 11, 2025</div>
@@ -1426,6 +1426,6 @@ article_count: 158
 <div class="news-card-title">New IQSS Web Site Launched!</div>
 <div class="news-card-desc">Created through cross-team collaboration.</div>
 </div>
-</div>
+</a>
 
 </div>

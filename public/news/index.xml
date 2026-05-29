@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>News Articles on IQSS Clone - Harvard Institute for Quantitative Social Science</title>
+    <link>http://localhost:1313/news/</link>
+    <description>Recent content in News Articles on IQSS Clone - Harvard Institute for Quantitative Social Science</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 28 May 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/news/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bob Treacy: From the Factory Floor to Harvard and 30 Years of Java</title>
+      <link>http://localhost:1313/news/bob-treacy-30-years-java/</link>
+      <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/news/bob-treacy-30-years-java/</guid>
+      <description>&lt;p&gt;Bob Treacy, Principal Software Architect on the Dataverse Project, discusses his path into software development, Javas evolution over 30 years, and the role of AI in research software.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Building terraFlow: How an Idea in the Lab Grew Into a Venture-Backed Startup</title>
+      <link>http://localhost:1313/news/terraflow-startup/</link>
+      <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/news/terraflow-startup/</guid>
+      <description>&lt;p&gt;Dan Freeman sought to combine pharma companies internal data with scientific literature to find biomarkers, supported by the IQSS Startup Foundry.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Call for Papers: 2026 CGA Conference</title>
+      <link>http://localhost:1313/news/call-for-papers-2026-cga-conference/</link>
+      <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/news/call-for-papers-2026-cga-conference/</guid>
+      <description>&lt;p&gt;Submissions are open for the Center for Geographic Analysis Conference, celebrating the CGAs 20th anniversary with a past, present, and future theme.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>CGA Project Selected for NSF Challenge</title>
+      <link>http://localhost:1313/news/cga-project-nsf-challenge/</link>
+      <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/news/cga-project-nsf-challenge/</guid>
+      <description>&lt;p&gt;A Center for Geographic Analysis project on mapping geographical locations for successful market entry was selected for the NSF I-GUIDE Spatial AI Challenge.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Class of 2026 at IQSS: Whats Next?</title>
+      <link>http://localhost:1313/news/class-2026-iqss-whats-next/</link>
+      <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/news/class-2026-iqss-whats-next/</guid>
+      <description>&lt;p&gt;This May 2026 article celebrates IQSS-affiliated graduate students completing their Harvard programs and shares their next career steps. The graduating affiliates are heading to prestigious positions across academia and beyond. Dorothy Manevich joins the UAWs national political department. Jeremiah Cha and Andrew ODonoghue are both heading to Princeton. Raul Duarte will do a postdoc at Yales Cowles Foundation before joining Florida International University. Additional graduates include David Beavers joining Wake Forest, Ruofan Ma doing a postdoc at MIT, Kiara Hernandez heading to Columbias Center for Political Economy, and Daniel Lowery joining Yale.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Dataverse Software 6.10 Release</title>
+      <link>http://localhost:1313/news/dataverse-software-610-release/</link>
+      <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/news/dataverse-software-610-release/</guid>
+      <description>&lt;p&gt;The newest Dataverse release includes export improvements, new APIs, infrastructure and performance updates, and bug fixes.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>DSM recognizes moral injury, thanks to Human Flourishing Program research</title>
+      <link>http://localhost:1313/news/dsm-recognizes-moral-injury/</link>
+      <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/news/dsm-recognizes-moral-injury/</guid>
+      <description>&lt;p&gt;During COVID-19, frontline workers faced impossible choices; the Human Flourishing Programs research contributed to DSM recognition of moral injury.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Explore the CGAs 2026 Training Schedule</title>
+      <link>http://localhost:1313/news/cga-2026-training-schedule/</link>
+      <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/news/cga-2026-training-schedule/</guid>
+      <description>&lt;p&gt;The Center for Geographic Analysis is revamping its training workshops for 2026, free for Harvard ID holders, covering ArcGIS, QGIS, Python, R, KNIME, and more.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Forgotten Graves: A New Lens on Colonial Slavery</title>
+      <link>http://localhost:1313/news/forgotten-graves-new-lens-colonial-slavery/</link>
+      <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/news/forgotten-graves-new-lens-colonial-slavery/</guid>
+      <description>&lt;p&gt;Harvard archaeologist Jason Ur pivoted during the pandemic to studying Cambridges Old Burying Ground, a colonial-era cemetery with ties to slavery. Using drones, ground-penetrating radar, and geospatial databases, Ur mapped the cemetery and discovered spatial patterns of racial segregation in death. Ground-penetrating radar revealed approximately 50 unmarked burials near the graves of enslaved people.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>From Harvard Research to National Security Innovation: The Story of Thresher</title>
+      <link>http://localhost:1313/news/thresher-national-security/</link>
+      <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/news/thresher-national-security/</guid>
+      <description>&lt;p&gt;Research into social media censorship at IQSS led to new automated text analysis methods that eventually became a national security company.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Global Flourishing Study Wave 2 Extended Datasets Available Now</title>
+      <link>http://localhost:1313/news/global-flourishing-study-wave-2/</link>
+      <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/news/global-flourishing-study-wave-2/</guid>
+      <description>&lt;p&gt;A new wave of data from the Global Flourishing Study is now available for researchers worldwide.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Harvard Thinking - Preserving learning in the age of AI shortcuts</title>
+      <link>http://localhost:1313/news/harvard-thinking-ai-shortcuts/</link>
+      <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/news/harvard-thinking-ai-shortcuts/</guid>
+      <description>&lt;p&gt;Affiliate Michael Brenner weighs in on how AI has affected learning and critical thinking, and how it can be embraced to enhance rather than diminish educational outcomes.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How forgiving can improve well-being</title>
+      <link>http://localhost:1313/news/how-forgiving-can-improve-well-being/</link>
+      <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/news/how-forgiving-can-improve-well-being/</guid>
+      <description>&lt;p&gt;A Human Flourishing Program study found a connection between regular forgiveness and improved psychological well-being and character changes.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How to regulate AI</title>
+      <link>http://localhost:1313/news/how-to-regulate-ai/</link>
+      <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/news/how-to-regulate-ai/</guid>
+      <description>&lt;p&gt;IQSS affiliate David Y. Yang weighs in with other experts on regulating AI development as US legislators pass measures at state and federal levels.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>IQSS Honors Staff Service Milestones</title>
+      <link>http://localhost:1313/news/iqss-honors-staff-service-milestones/</link>
+      <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/news/iqss-honors-staff-service-milestones/</guid>
+      <description>&lt;p&gt;The Institute for Quantitative Social Science held its annual recognition event celebrating staff who reached service milestones of 10 years or more during 2025. Four staff members reached the 20-year mark: Sonia Barbosa, Roy Guyton, William Horka, and Ellen Kraffmiller. Three were recognized for 15 years of service: Stephen Kraffmiller, Liz Salazar, and Len Wisniewski. Three more hit the 10-year milestone: Linda Christlieb, Sarah Duncan, and Brooke Moore.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Is AI dulling our minds?</title>
+      <link>http://localhost:1313/news/is-ai-dulling-our-minds/</link>
+      <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/news/is-ai-dulling-our-minds/</guid>
+      <description>&lt;p&gt;IQSS faculty affiliate Dan Levy weighs in with other Harvard faculty on whether AI will help or harm critical thinking and its effect on the human mind.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Launching the Differential Privacy Deployments Registry</title>
+      <link>http://localhost:1313/news/differential-privacy-deployments-registry/</link>
+      <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/news/differential-privacy-deployments-registry/</guid>
+      <description>&lt;p&gt;OpenDP at IQSS launched the Differential Privacy Deployments Registry to empower users to share details of their differential privacy deployments.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Making Historical Figure Search 500X Faster</title>
+      <link>http://localhost:1313/news/historical-figure-search-500x-faster/</link>
+      <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/news/historical-figure-search-500x-faster/</guid>
+      <description>&lt;p&gt;The China Biographical Database (CBDB) team redesigned their name indexing method to make text analysis research considerably faster.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Memorious: Building Infinite Memory with AI</title>
+      <link>http://localhost:1313/news/memorious-building-infinite-memory/</link>
+      <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/news/memorious-building-infinite-memory/</guid>
+      <description>&lt;p&gt;Harvard researchers aimed to reinvent human memory using AI, with support from the IQSS Startup Foundry.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Mind2Market Demo Day</title>
+      <link>http://localhost:1313/news/mind2market-demo-day/</link>
+      <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/news/mind2market-demo-day/</guid>
+      <description>&lt;p&gt;Harvard researchers including IQSS Startup Foundry teams pitch AI projects ready to become ventures and seeking partners.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Neru Health - From Sleep Challenges to Scaling Chronic Care with AI</title>
+      <link>http://localhost:1313/news/neru-health-startup/</link>
+      <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/news/neru-health-startup/</guid>
+      <description>&lt;p&gt;Through IQSS Startup Foundry mentorship, Neru Health moved beyond solving sleep problems to uncover a bigger opportunity in chronic care using AI.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>On data centers, local vibes matter more than electricity prices</title>
+      <link>http://localhost:1313/news/data-centers-local-vibes/</link>
+      <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/news/data-centers-local-vibes/</guid>
+      <description>&lt;p&gt;A survey led by faculty affiliate Stephen Ansolabehere explores what Americans prioritize regarding large data centers opening in their communities. The research found that local community concerns matter more to residents than electricity pricing when it comes to data center siting decisions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Pope Leo XIV names epidemiology professor to Vatican advisory group</title>
+      <link>http://localhost:1313/news/pope-leo-vanderweele-vatican/</link>
+      <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/news/pope-leo-vanderweele-vatican/</guid>
+      <description>&lt;p&gt;Tyler VanderWeele, director of the Human Flourishing Program at IQSS, was appointed by Pope Leo XIV to the Pontifical Academy of Social Sciences.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Register Early for the Dataverse Community Meeting 2026</title>
+      <link>http://localhost:1313/news/dataverse-community-meeting-2026-registration/</link>
+      <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/news/dataverse-community-meeting-2026-registration/</guid>
+      <description>&lt;p&gt;Early bird registration is open for DCM 2026, co-organized with the Barcelona Supercomputing Center, taking place May 12-15 in Barcelona, Spain.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Science needs contrarians, and contrarians need support</title>
+      <link>http://localhost:1313/news/science-needs-contrarians/</link>
+      <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/news/science-needs-contrarians/</guid>
+      <description>&lt;p&gt;The ECEE program at IQSS supports Harvard faculty undertaking high-risk research that could provide novel insights by testing dominant views in social science.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The art of the online interface</title>
+      <link>http://localhost:1313/news/art-online-interface/</link>
+      <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/news/art-online-interface/</guid>
+      <description>&lt;p&gt;IQSS is developing LOOP, a desktop app providing a direct, streamlined connection between the Harvard Dataverse and Sid for researchers managing data. LOOP eliminates extra steps by letting users move files directly between Dataverse and Sid from any internet-connected device.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Turns out two-parent households are no fix for racial inequality</title>
+      <link>http://localhost:1313/news/two-parent-households-inequality/</link>
+      <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/news/two-parent-households-inequality/</guid>
+      <description>&lt;p&gt;IQSS affiliate Christina Crosss latest book critically examines the idea that a two-parent nuclear family is the simple solution to inequality.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Waves 1 and 2 of the Global Flourishing Study Are Now Open to the Public</title>
+      <link>http://localhost:1313/news/global-flourishing-study-waves-1-2/</link>
+      <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/news/global-flourishing-study-waves-1-2/</guid>
+      <description>&lt;p&gt;The Global Flourishing Study dataset release includes data from roughly 200,000 participants across 22 countries, covering six domains of flourishing in a longitudinal design.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>What science says about Moms happiness advice</title>
+      <link>http://localhost:1313/news/moms-happiness-advice/</link>
+      <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/news/moms-happiness-advice/</guid>
+      <description>&lt;p&gt;IQSS affiliate Daniel Gilbert shared his mothers happiness advice at a lecture, explaining how scientific research on happiness supports conventional wisdom.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Why self-appraisals may not be best way to judge job performance</title>
+      <link>http://localhost:1313/news/self-appraisals-job-performance/</link>
+      <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/news/self-appraisals-job-performance/</guid>
+      <description>&lt;p&gt;Faculty affiliate Iris Bohnet discusses her recent paper on worker performance ratings and biases affecting how employees are rated.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
