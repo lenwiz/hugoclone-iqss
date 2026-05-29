@@ -276,7 +276,7 @@ article_count: 158
 <div class="news-card-title">DSM recognizes moral injury, thanks to Human Flourishing Program research</div>
 <div class="news-card-desc">The Human Flourishing Program's research contributed to DSM recognition of moral injury.</div>
 </div>
-</div>
+</a>
 
 <a href="/news/in-touch-with-our-emotions-finally/" class="news-card">
 <div class="news-card-image"><img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/2025-08/GZ-072225_Risk-Lerner_0152_0.jpeg?itok=sVP9AKkv" alt="" /></div>
