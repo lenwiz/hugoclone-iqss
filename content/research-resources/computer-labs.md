@@ -13,6 +13,8 @@ The labs serve faculty, visiting scholars, post-docs, students, and staff. They 
 
 Current/active MIT affiliates who do not have University active directory accounts may sign up for lab access — IQSS will sponsor a University active directory account; the process may take several days for new users.
 
+The labs are open to all active members of the Harvard and MIT Community.
+
 ## Hours and Location
 
 <div class="info-box">
@@ -32,15 +34,15 @@ IQSS Computer Labs, CGIS Knafel K024/Concourse Level<br>
 <div class="card-grid">
 <div class="card">
 <h3>Concourse Computer Lab</h3>
-<p>State-of-the-art computing labs for faculty, visiting scholars, post-docs, students, and staff.</p>
-</div>
-<div class="card">
-<h3>Training Lab</h3>
-<p>Dedicated space for instructor-led training events requiring computer access.</p>
+<p>State-of-the-art computing lab on the Concourse level (K024) for faculty, visiting scholars, post-docs, students, and staff. Open 24/7.</p>
 </div>
 <div class="card">
 <h3>K301 Computer Lab</h3>
 <p>State-of-the-art public computing lab on the 3rd floor of the CGIS Knafel Building.</p>
+</div>
+<div class="card">
+<h3>Training Lab (SB12)</h3>
+<p>Located in the sub-basement, reached by elevator. Used for instructor-led training events. Turn right after exiting the elevator; room is behind glass doors.</p>
 </div>
 <div class="card">
 <h3>Government Grad Student Lab</h3>
@@ -48,11 +50,11 @@ IQSS Computer Labs, CGIS Knafel K024/Concourse Level<br>
 </div>
 <div class="card">
 <h3>Study Tables</h3>
-<p>Study tables providing an office-like environment, located in the Concourse Computer Lab, room K024.</p>
+<p>Study tables provide a nice, office-like environment. Located in the Concourse Computer Lab, room K024.</p>
 </div>
 <div class="card">
-<h3>Helpdesk Assistance</h3>
-<p>The Lab Helpdesk is here to sign users up for access, offer items for checkout, and provide assistance.</p>
+<h3>Helpdesk</h3>
+<p>The Lab Helpdesk signs users up for access, offers items for checkout, and provides assistance with lab resources.</p>
 </div>
 </div>
 
@@ -74,32 +76,52 @@ IQSS Computer Labs, CGIS Knafel K024/Concourse Level<br>
 <p>The IQSS Computer Labs run a total of 66 different workstations & 16 Mobile Workspaces at CGIS North (Knafel).</p>
 </div>
 <div class="card">
-<h3>Available Software</h3>
-<p>We work to provide all the software you might need to get your work done.</p>
+<h3><a href="../labs-software/">Available Software</a></h3>
+<p>Over 100 applications including Adobe Creative Suite, SPSS, Stata, R, Matlab, ArcGIS, and more. See full list.</p>
 </div>
 <div class="card">
 <h3>Printers</h3>
-<p>Color and black & white printer services via CrimsonPrint.</p>
+<p>Color and black & white printer services via CrimsonPrint. Personal paper allowed if laser-printer compatible.</p>
 </div>
 <div class="card">
 <h3>Training Rooms</h3>
-<p>For instructor-led events requiring students to access a computer and follow the instructor.</p>
+<p>For instructor-led events requiring students to access a computer and follow the instructor. Located in SB12.</p>
 </div>
 <div class="card">
 <h3>Loaner Equipment</h3>
-<p>Wide variety of items for daily checkouts — headsets, converters, portable projectors, and more.</p>
+<p>Wide variety of items for daily checkouts — headsets, converters, portable projectors, and more. Return 30 min before helpdesk closes.</p>
 </div>
 <div class="card">
 <h3>Workspaces</h3>
-<p>Dedicated work tables equipped with a monitor, keyboard, and mouse.</p>
+<p>Dedicated work tables equipped with a monitor, keyboard, and mouse — no need for a main computer station.</p>
 </div>
 </div>
+
+## Lab Announcements
+
+- **Summer Staffing** (May 10, 2023) — Student staff members graduate or leave for the summer; email iqsslabs@harvard.edu for assistance during inconsistent staffing periods.
+- **Fall Updates** (October 7, 2022) — New Dell Optiplex workstations deployed, joining existing Optiplex 7090s and Mac Pros.
+
+## Frequently Asked Questions
+
+See our [full FAQ page](../labs-faq/) for answers to common questions about:
+
+- Eating in the lab
+- Printing from personal computers
+- Remote access to workstations
+- Using your own paper
+- GIS questions
+- Software distribution
+- Item checkout policies
+- Print costs
+- Account signup
 
 ## Still Need Help?
 
-Lab Help Desk Assistants assist with account creation, HarvardKey, print credit, item checkout, and general computer assistance.
+Lab Help Desk Assistants assist with account creation, HarvardKey, print credit, item checkout, and general computer assistance. Due to current staffing, email iqsslabs@harvard.edu for immediate assistance Monday–Friday 9:00 am–5:00 pm.
 
 <div class="contact-info">
 <p><strong>Email:</strong> <a href="mailto:iqsslabs@harvard.edu">iqsslabs@harvard.edu</a></p>
-<p>Monday–Friday 9:00 am–5:00 pm</p>
+<p><strong>Hours:</strong> Helpdesk staffed Mon–Thu 8am–9pm, Fri 9am–5pm, Sat–Sun 12pm–5pm</p>
+<p><strong>Location:</strong> CGIS Knafel K024, 1737 Cambridge Street, Cambridge MA 02138</p>
 </div>
