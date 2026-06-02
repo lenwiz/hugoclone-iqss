@@ -62,6 +62,9 @@
     <loc>http://localhost:1313/news/announcing-the-magaro-peer-pre-review-program/</loc>
     <lastmod>2026-05-28T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/research-resources/labs-software/</loc>
+    <lastmod>2026-05-28T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/become-an-affiliate/</loc>
     <lastmod>2026-05-28T00:00:00+00:00</lastmod>
   </url><url>
@@ -69,6 +72,9 @@
     <lastmod>2026-05-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/news/beyond-100-installations-dataverses-growth-and-global-role-i/</loc>
+    <lastmod>2026-05-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/startup-foundry-advisors/</loc>
     <lastmod>2026-05-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/news/bob-treacy-30-years-java/</loc>
@@ -111,6 +117,9 @@
     <lastmod>2026-05-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/news/community-announcement-new-space-arrangements-at-iqss/</loc>
+    <lastmod>2026-05-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/research-resources/labs-faq/</loc>
     <lastmod>2026-05-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/news/crime-and-police-reform-in-americadoes-politics-matter/</loc>
@@ -182,6 +191,9 @@
     <loc>http://localhost:1313/news/digitized-canon-intisar-rabb-on-shariasource/</loc>
     <lastmod>2026-05-28T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/funding-dissertation-awards/</loc>
+    <lastmod>2026-05-28T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/news/douglas-richardson-awarded-lifetime-achievement-honors/</loc>
     <lastmod>2026-05-28T00:00:00+00:00</lastmod>
   </url><url>
@@ -218,6 +230,9 @@
     <loc>http://localhost:1313/news/from-the-directors-an-update-on-dataverse/</loc>
     <lastmod>2026-05-28T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/funding/</loc>
+    <lastmod>2026-05-28T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/news/future-of-media-project-who-owns-canadian-news-media/</loc>
     <lastmod>2026-05-28T00:00:00+00:00</lastmod>
   </url><url>
@@ -231,6 +246,9 @@
     <lastmod>2026-05-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/events/geocoding-arcgis/</loc>
+    <lastmod>2026-05-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/get-help/</loc>
     <lastmod>2026-05-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/events/getting-started-making-maps-qgis-and-arcgis/</loc>
@@ -359,6 +377,12 @@
     <loc>http://localhost:1313/news/iqss-launches-sid-cloud-research-software/</loc>
     <lastmod>2026-05-28T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/startup-foundry-academic-founders/</loc>
+    <lastmod>2026-05-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/startup-foundry-innovation-community/</loc>
+    <lastmod>2026-05-28T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/news/iqss-welcomes-dr-stefano-iacus/</loc>
     <lastmod>2026-05-28T00:00:00+00:00</lastmod>
   </url><url>
@@ -425,6 +449,9 @@
     <loc>http://localhost:1313/news/mind2market-demo-day/</loc>
     <lastmod>2026-05-28T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/funding-mindich/</loc>
+    <lastmod>2026-05-28T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/news/nasa-tournament-lab-launches-asteroid-hunter-contest/</loc>
     <lastmod>2026-05-28T00:00:00+00:00</lastmod>
   </url><url>
@@ -459,6 +486,9 @@
     <lastmod>2026-05-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/news/opendp-seeks-interviewees-for-software-study/</loc>
+    <lastmod>2026-05-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/our-impact/</loc>
     <lastmod>2026-05-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/news/pacss-2022-call-for-proposals/</loc>
@@ -506,16 +536,28 @@
     <loc>http://localhost:1313/news/registration-open-for-the-8th-annual-dataverse-community-mee/</loc>
     <lastmod>2026-05-28T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/research-resources/dss-resources/</loc>
+    <lastmod>2026-05-28T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/news/remembering-sidney-verba/</loc>
     <lastmod>2026-05-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/research-resources/research-computing/</loc>
     <lastmod>2026-05-28T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/funding-research-grants/</loc>
+    <lastmod>2026-05-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/research-resources/dss-research-output/</loc>
+    <lastmod>2026-05-28T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/research-resources/</loc>
     <lastmod>2026-05-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/research-technology/</loc>
+    <lastmod>2026-05-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/book-a-desk/</loc>
     <lastmod>2026-05-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/news/restructuring-the-dataverse-ui/</loc>
@@ -542,6 +584,9 @@
     <loc>http://localhost:1313/research-resources/sponsored-research-services/</loc>
     <lastmod>2026-05-28T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/startup-foundry-stories/</loc>
+    <lastmod>2026-05-28T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/news/streamlining-the-publication-process-with-magaro-peer-pre-re/</loc>
     <lastmod>2026-05-28T00:00:00+00:00</lastmod>
   </url><url>
@@ -554,16 +599,25 @@
     <loc>http://localhost:1313/news/the-enigma-of-the-undecided-voter/</loc>
     <lastmod>2026-05-28T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/startup-foundry/</loc>
+    <lastmod>2026-05-28T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/news/tracking-the-american-electorate-the-cooperative-election-st/</loc>
     <lastmod>2026-05-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/research-resources/training-workshops/</loc>
     <lastmod>2026-05-28T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/funding-travel-grants/</loc>
+    <lastmod>2026-05-28T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/news/travel-time-estimation-for-geospatial-big-data/</loc>
     <lastmod>2026-05-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/news/two-parent-households-inequality/</loc>
+    <lastmod>2026-05-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/research-resources/dss-tutorials/</loc>
     <lastmod>2026-05-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/news/twitter-sentiment-geographical-index/</loc>
@@ -600,6 +654,9 @@
     <lastmod>2026-05-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/news/self-appraisals-job-performance/</loc>
+    <lastmod>2026-05-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/research-resources/dss-workshop-materials/</loc>
     <lastmod>2026-05-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/announcement/</loc>

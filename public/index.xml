@@ -947,13 +947,6 @@
       <description>&lt;img src=&#34;https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/harvard-iqss/files/ji_su_yoo_0.jpg?itok=9QPL_krF&#34; alt=&#34;&#34; style=&#34;width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;&#34; /&gt;&#xA;&lt;p&gt;Ji Su Yoo, a Harvard alumna and IQSS Fellow, was named a 2020 recipient of the Paul &amp;amp; Daisy Soros Fellowship for New Americans. The prestigious fellowship supports outstanding graduate students who are immigrants or children of immigrants in the United States.&lt;/p&gt;&#xA;&lt;p&gt;Yoo&amp;rsquo;s research focuses on technology in decision-making, exploring how algorithmic systems affect fairness, accountability, and transparency in high-stakes contexts. Her work at the intersection of computer science and public policy reflects IQSS&amp;rsquo;s interdisciplinary approach to studying technology&amp;rsquo;s social impact.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Job Opportunities</title>
-      <link>http://localhost:1313/opportunities/</link>
-      <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/opportunities/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Join Dataverse for the GREI Collaborative Webinar Series</title>
       <link>http://localhost:1313/news/join-dataverse-for-the-grei-collaborative-webinar-series/</link>
       <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
@@ -1134,6 +1127,13 @@
       <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/news/opendp-seeks-interviewees-for-software-study/</guid>
       <description>&lt;img src=&#34;https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/harvard-iqss/files/opendp_logo_square.png?itok=BjEHHQXB&#34; alt=&#34;&#34; style=&#34;width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;&#34; /&gt;&#xA;&lt;p&gt;The OpenDP Project is seeking data analysts, researchers, and data professionals to participate in a software usability study focused on DP Creator, an innovative application designed to make differential privacy more accessible to practitioners without deep technical expertise in privacy mathematics. This research study aims to gather valuable feedback that will shape the development of tools that enable broader adoption of privacy-preserving data analysis methods.&lt;/p&gt;&#xA;&lt;p&gt;DP Creator represents an important step toward democratizing differential privacy by providing intuitive interfaces for creating differentially private analyses without requiring users to understand the underlying mathematical complexities. The software study will involve testing the application with realistic data analysis tasks, providing feedback on the user interface and workflow, and sharing insights about how differential privacy tools can better serve the needs of working data analysts. Participants&amp;rsquo; experiences and suggestions will directly inform ongoing development to make the tool more effective and user-friendly.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Our Impact</title>
+      <link>http://localhost:1313/our-impact/</link>
+      <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/our-impact/</guid>
+      <description>&lt;p&gt;These are examples of how IQSS drives tangible change in the world.&lt;/p&gt;&#xA;&lt;h2 id=&#34;investigating-flight-attendants-safety&#34;&gt;Investigating Flight Attendants&amp;rsquo; Safety&lt;/h2&gt;&#xA;&lt;img src=&#34;../images/impact-flight-attendant.jpg&#34; alt=&#34;Flight attendant walking down airplane aisle&#34; style=&#34;width:200px;float:right;margin:0 0 15px 20px;border-radius:8px;&#34; /&gt;&#xA;&lt;p&gt;The longest-running longitudinal study of its kind, led by Dr. Eileen McNeely, executive director of &lt;a href=&#34;https://shine.sph.harvard.edu/&#34;&gt;SHINE&lt;/a&gt; at IQSS. The study collected data on uniforms from major US airlines. Laboratory tests found harmful substances on a manufacturer&amp;rsquo;s uniforms. Analysis showed a connection between uniform introduction and reports of debilitating medical issues including respiratory problems and thyroid disease.&lt;/p&gt;</description>
     </item>
     <item>
       <title>PaCSS 2022: Call for Proposals</title>
