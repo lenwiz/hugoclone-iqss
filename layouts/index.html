@@ -9,57 +9,76 @@
 <div class="container">
     <div class="content-grid">
         <div class="content-card">
-            <h3>👥 People Directory</h3>
-            <p>Explore our community of over 1,000 faculty, staff, affiliates, and students advancing quantitative social science.</p>
+            <h3>About</h3>
+            <p>Learn about IQSS, our mission, history, and how we build infrastructure and community for social scientists.</p>
+            <p><a href="{{ "about/" | relURL }}">About IQSS →</a></p>
+        </div>
+
+        <div class="content-card">
+            <h3>People</h3>
+            <p>Our community of directors, faculty, staff, students, and affiliates working together to advance quantitative social science.</p>
             <p><a href="{{ "people/" | relURL }}">Browse People →</a></p>
         </div>
 
         <div class="content-card">
-            <h3>🔬 Research & Programs</h3>
-            <p>Interdisciplinary research programs, initiatives, and collaborative opportunities across the social sciences.</p>
-            <p><a href="{{ "research/" | relURL }}">View Research →</a></p>
+            <h3>Programs & Products</h3>
+            <p>Faculty-led scientific programs, incubation of research initiatives, and the IQSS Startup Foundry.</p>
+            <p><a href="{{ "programs-products/" | relURL }}">Programs & Products →</a></p>
         </div>
 
         <div class="content-card">
-            <h3>🛠️ Services & Support</h3>
-            <p>Data science consulting, statistical support, and computing resources for your research projects.</p>
-            <p><a href="{{ "services/" | relURL }}">Explore Services →</a></p>
+            <h3>Resources & Services</h3>
+            <p>Data science consulting, computer labs, training workshops, client support, and sponsored research services.</p>
+            <p><a href="{{ "research-resources/" | relURL }}">Resources & Services →</a></p>
         </div>
 
         <div class="content-card">
-            <h3>📚 Resources & Training</h3>
-            <p>Workshops, training materials, and educational resources for quantitative methods.</p>
-            <p><a href="{{ "resources/" | relURL }}">View Resources →</a></p>
+            <h3>News</h3>
+            <p>The latest from IQSS — research highlights, program updates, and community stories.</p>
+            <p><a href="{{ "news-page/" | relURL }}">Latest News →</a></p>
         </div>
 
         <div class="content-card">
-            <h3>📰 News & Events</h3>
-            <p>Stay updated with the latest research highlights, announcements, and upcoming events.</p>
-            <p><a href="{{ "news-events/" | relURL }}">Latest Updates →</a></p>
-        </div>
-
-        <div class="content-card">
-            <h3>🎯 Opportunities</h3>
-            <p>Job openings, funding opportunities, and fellowship programs within the IQSS community.</p>
+            <h3>Opportunities</h3>
+            <p>Staff, academic, and student positions at IQSS. Join us in transforming social science.</p>
             <p><a href="{{ "opportunities/" | relURL }}">View Opportunities →</a></p>
         </div>
-    </div>
 
-    <section style="margin: 60px 0;">
-        <h2 style="text-align: center; margin-bottom: 30px; color: #CC5500;">Featured Research & Updates</h2>
-        {{ range first 3 (where .Site.RegularPages "Section" "blog") }}
-        <div style="border-left: 4px solid #CC5500; padding-left: 20px; margin-bottom: 30px;">
-            <h3><a href="{{ .RelPermalink }}" style="color: #CC5500; text-decoration: none;">{{ .Title }}</a></h3>
-            <p style="color: #666; margin: 10px 0;">{{ .Date.Format "January 2, 2006" }}</p>
-            <p>{{ .Summary }}</p>
+        <div class="content-card">
+            <h3>Blog</h3>
+            <p>Cool ideas, tips, and short blurbs from the IQSS community on data science, tools, and more.</p>
+            <p><a href="{{ "iqss-blog/" | relURL }}">Read the Blog →</a></p>
         </div>
-        {{ end }}
-    </section>
 
-    <section style="background: #f8f9fa; padding: 40px; border-radius: 8px; margin: 40px 0;">
-        <h2 style="color: #CC5500; margin-bottom: 20px;">About This Archive</h2>
-        <p>This site contains a comprehensive archive of Harvard IQSS website content, including personnel directories, research information, and institutional resources. It serves as an educational resource and reference for the quantitative social science community.</p>
-        <p style="margin-top: 15px;"><strong>Note:</strong> This is an educational archive. For current information, please visit the official <a href="https://iq.harvard.edu" style="color: #CC5500;">IQSS website</a>.</p>
-    </section>
+        <div class="content-card">
+            <h3>Funding</h3>
+            <p>Grants, awards, and funding opportunities for faculty and graduate students.</p>
+            <p><a href="{{ "funding/" | relURL }}">Explore Funding →</a></p>
+        </div>
+
+        <div class="content-card">
+            <h3>Events</h3>
+            <p>Year-round opportunities for training, consulting, and learning at IQSS.</p>
+            <p><a href="{{ "events/" | relURL }}">Upcoming Events →</a></p>
+        </div>
+
+        <div class="content-card">
+            <h3>Desk Space</h3>
+            <p>IQSS affiliates can book time slots at our office to work and meet.</p>
+            <p><a href="{{ "book-a-desk/" | relURL }}">Reserve a Desk →</a></p>
+        </div>
+
+        <div class="content-card">
+            <h3>Get Help</h3>
+            <p>Have a question? Find information on affiliating, computing, grants, workshops, and more.</p>
+            <p><a href="{{ "get-help/" | relURL }}">Get Help →</a></p>
+        </div>
+
+        <div class="content-card">
+            <h3>Donate</h3>
+            <p>Support IQSS and help expand our research, programs, and community.</p>
+            <p><a href="https://community.alumni.harvard.edu/give/51724705" target="_blank">Make a Gift →</a></p>
+        </div>
+    </div>
 </div>
 {{ end }}
