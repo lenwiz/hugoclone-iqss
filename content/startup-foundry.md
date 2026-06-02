@@ -30,12 +30,12 @@ The IQSS Startup Foundry fosters collaborations through an ecosystem and venture
 <div class="card-grid">
 <div class="card">
 <img src="../images/sf-academic-founders.jpg" alt="Academic Founders" style="width:100%;height:auto;border-radius:4px;margin-bottom:10px;" />
-<h3>Academic Founders</h3>
+<h3><a href="../startup-foundry-academic-founders/">Academic Founders</a></h3>
 <p>For Harvard faculty: transform select research projects into companies with real-world impact without leaving your day job. Create new opportunities to further academic research at scales impossible within any university.</p>
 </div>
 <div class="card">
 <img src="../images/sf-innovation-community.jpg" alt="Business and Startup Experts" style="width:100%;height:auto;border-radius:4px;margin-bottom:10px;" />
-<h3>Business and Startup Experts</h3>
+<h3><a href="../startup-foundry-innovation-community/">Business and Startup Experts</a></h3>
 <p>A network of operating executives and seasoned entrepreneurs works with academics on business model, strategy, and other key aspects of early-stage company building.</p>
 </div>
 </div>
