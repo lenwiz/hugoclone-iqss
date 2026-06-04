@@ -13,4 +13,4 @@ subtitle: "Associate Professor, Fudan University"
 
 **Associate Professor, Fudan University**
 
-IQSS Visitor/Affiliate.
+Main research direction is the political geography during historical period of China, Particularly concerned about the border demarcation of the administrative regions in the Republican Period.

@@ -13,4 +13,7 @@ subtitle: "Visiting Scholar, CGA"
 
 **Visiting Scholar, CGA**
 
-IQSS Visitor/Affiliate.
+Xiran Zhou's research interests include two primary areas:
+
+1. Extracting geographical knowledge from maps and remote sensing imagery.
+2. Analyzing big geospatial data to advance sustainable development.

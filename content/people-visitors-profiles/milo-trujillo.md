@@ -13,4 +13,4 @@ subtitle: "PhD student, University of Vermont"
 
 **PhD student, University of Vermont**
 
-IQSS Visitor/Affiliate.
+Milo's research applies network science and complex systems to understanding intentional community design. His past work includes "propaganda simulations, constraint-based automatic community design, analysis of alt-tech social platforms," and coordinating volunteer groups through the Pursuance Project. He is working with IQSS to recreate network structure and community behavior patterns from limited organizational data.

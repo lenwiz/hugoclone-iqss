@@ -13,4 +13,4 @@ subtitle: "Visiting Scholar, CGA; Assoc Professor, University of Kentucky"
 
 **Visiting Scholar, CGA; Assoc Professor, University of Kentucky**
 
-IQSS Visitor/Affiliate.
+Matthew W. Wilson, PhD, is Associate Professor of Geography at the University of Kentucky and Visiting Scholar at the Center for Geographic Analysis at Harvard University. He co-founded and co-directs the New Mappings Collaboratory which studies and facilitates new engagements with geographic representation. He is co-editor of Understanding Spatial Media, published by SAGE, and his most recent book is New Lines, published with the University of Minnesota Press. He has previously taught at the Harvard Graduate School of Design, and his current research examines mid-20th century, digital mapping practices.

@@ -13,4 +13,4 @@ subtitle: "Visiting PhD Student, LISH; Copenhagen Business School"
 
 **Visiting PhD Student, LISH; Copenhagen Business School**
 
-IQSS Visitor/Affiliate.
+Yotam's goal is to provide research based insights on the roots, determinants and implications of scientific practices and organization, with a focus on research funding, and scientific communication.

@@ -13,4 +13,4 @@ subtitle: "Visiting Fellow, China Biographical Database"
 
 **Visiting Fellow, China Biographical Database**
 
-IQSS Visitor/Affiliate.
+Zhenling Liu's field of research is Digital Humanities and Digital Literacy.

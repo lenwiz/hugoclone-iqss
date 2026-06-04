@@ -13,4 +13,4 @@ subtitle: "Associate, CGA; Research Fellow, Harvard Medical School"
 
 **Associate, CGA; Research Fellow, Harvard Medical School**
 
-IQSS Visitor/Affiliate.
+Dr. Wei Luo is a Research Associate at the Computational Health Informatics Program (CHIP) at Boston Children's Hospital and Harvard Medical School, and an Associate at the Center for Geographic Analysis at Harvard University. He has broad training backgrounds in Geography (GIScience), Public Health (Epidemiology), Computer Science (Visual Analytics), and Network Science. He proposed a new research area: geo-social visual analytics, which aims to integrate spatial analysis, social network analysis, and machine learning into visual analytics environments. He has designed and developed a series of geovisual analytics tools and high performance computational models for infectious disease transmission and control (i.e., influenza, HIV), international trade, social media, crime analysis, climate change impacts, and water crisis.
