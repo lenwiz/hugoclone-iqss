@@ -6,6 +6,7 @@ layout: "resource-page"
 hero_image: ""
 subtitle: "Esther and Sidney Rabb Professor of Anthropology"
 ---
+<img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_4_5__690x865/public/harvard-iqss/files/arthur_kleinman_0.jpg" alt="Arthur Kleinman" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
 
 ## Arthur Kleinman
 

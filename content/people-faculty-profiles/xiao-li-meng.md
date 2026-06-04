@@ -6,6 +6,7 @@ layout: "resource-page"
 hero_image: ""
 subtitle: "Whipple V. N. Jones Professor of Statistics"
 ---
+<img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_4_5__690x865/public/harvard-iqss/files/xiao-li_meng_0.png" alt="Xiao-Li Meng" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
 
 ## Xiao-Li Meng
 

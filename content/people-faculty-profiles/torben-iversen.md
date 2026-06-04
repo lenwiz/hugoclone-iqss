@@ -6,6 +6,7 @@ layout: "resource-page"
 hero_image: ""
 subtitle: "Harold Hitchings Burbank Professor of Political Economy"
 ---
+<img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_4_5__690x865/public/harvard-iqss/files/torben-iversen_2022.jpg" alt="Torben Iversen" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
 
 ## Torben Iversen
 

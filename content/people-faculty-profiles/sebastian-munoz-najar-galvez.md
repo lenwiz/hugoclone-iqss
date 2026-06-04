@@ -6,6 +6,7 @@ layout: "resource-page"
 hero_image: ""
 subtitle: "Bluhm Family Assistant Professor of Data Science and Education"
 ---
+<img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_4_5__690x865/public/harvard-iqss/files/sebastian-munoz-najar-galvez_2024.jpg" alt="Sebastian Munoz-Najar Galvez" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
 
 ## Sebastian Munoz-Najar Galvez
 

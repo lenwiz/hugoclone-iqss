@@ -6,6 +6,7 @@ layout: "resource-page"
 hero_image: ""
 subtitle: "Fred and Eleanor Glimp Professor of Economics"
 ---
+<img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_4_5__690x865/public/harvard-iqss/files/ed_glaeser_0.png" alt="Edward Glaeser" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
 
 ## Edward Glaeser
 

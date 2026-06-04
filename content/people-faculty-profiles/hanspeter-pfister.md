@@ -6,6 +6,7 @@ layout: "resource-page"
 hero_image: ""
 subtitle: "An Wang Professor of Computer Science"
 ---
+<img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_4_5__690x865/public/harvard-iqss/files/pfisterh_website_01.jpg" alt="Hanspeter Pfister" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
 
 ## Hanspeter Pfister
 
