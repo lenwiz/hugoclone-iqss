@@ -13,4 +13,4 @@ subtitle: "Entrepreneur-In-Residence, IQSS Startup Foundry"
 
 **Entrepreneur-In-Residence, IQSS Startup Foundry**
 
-IQSS Visitor/Affiliate.
+Brad Rosen is a serial entrepreneur and technology executive with deep experience building and scaling data-driven companies at the intersection of AI, software, and applied research. He is a co-founder and former COO of NODAR, a 3D vision company advancing perception systems for autonomous vehicles, and has led or founded multiple venture-backed companies across enterprise and consumer markets, with successful exits to strategic acquirers including Cisco, Motorola, and others. Brad holds a BS in Electrical Engineering from the University of Colorado and an MBA from MIT Sloan. At the Institute for Quantitative Social Science (IQSS) Startup Foundry, he focuses on helping translate cutting-edge research in data science, causal inference, and AI into commercially viable products and impactful real-world applications.

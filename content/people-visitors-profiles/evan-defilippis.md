@@ -13,4 +13,10 @@ subtitle: "Associate of Dept of Psychology, FAS"
 
 **Associate of Dept of Psychology, FAS**
 
-IQSS Visitor/Affiliate.
+My research lies at the intersection of behavioral economics and psychology, applying formal modeling techniques to understand complex social systems. My research focuses on three main topics:
+
+1. How to optimize organizational and project design principles to enhance creative ideation, crowdsourcing, and collaborative outcomes.
+2. Behavioral interventions to increase the likelihood of conflict resolution
+3. The psychology of persuasion and negotiation
+
+Through my affiliation with IQSS, I am implementing a theoretically-grounded intervention designed to reduce affective polarization between political partisans and quantifiably increase receptivity to cross-ideological persuasion.

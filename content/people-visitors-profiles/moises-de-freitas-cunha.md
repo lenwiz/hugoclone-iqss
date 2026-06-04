@@ -13,4 +13,8 @@ subtitle: "Postdoctoral Fellow, Weatherhead Center"
 
 **Postdoctoral Fellow, Weatherhead Center**
 
-IQSS Visitor/Affiliate.
+Moisés de Freitas Cunha is a PhD specialist in Urban Historical Studies, Fulbright Fellow, Harvard Postdoctoral Fellow, and holds a master's and doctorate from the PEPG – Postgraduate Studies Program in Social Sciences at the Pontifical Catholic University of São Paulo.
+
+His postdoctoral studies (PUCSP/Weatherhead Research Cluster on Global History at Harvard), funded by FAPESP and IBRAM Motores e Máquinas, aim to measure historical, urban inequalities and environmental racism in cities throughout the Americas and Europe, among other objectives and expected results.
+
+His research connects the colonial and slavery past to current urban inequalities, focusing on Brazil/Portugal and USA/England relations, analyzing the production and accumulation of wealth and capital (economic-financial, political, cultural, social, etc.) based on the commodities coffee and cotton that resulted in the emergence of São Paulo and New York, considering European immigration, urbanization and industrialization as the main vectors of growth.

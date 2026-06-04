@@ -13,4 +13,6 @@ subtitle: "Visiting Fellow, HGSE; Research Lead, Harvard Project on Workforce"
 
 **Visiting Fellow, HGSE; Research Lead, Harvard Project on Workforce**
 
-IQSS Visitor/Affiliate.
+Salman is currently a Postdoctoral Fellow at the National Bureau of Economic Research (NBER) in the Economics of Crime, a Visiting Fellow at the Harvard Graduate School of Education, and a Research Lead at the Harvard Project on Workforce.
+
+He completed his PhD from Harvard University in May 2025. His research focuses on investigating inequalities in the economics of crime, higher education and the labor market, and AI and the future of work. In his research, he draws on labor economics, econometrics, and large administrative datasets to identify the causal impacts of different policies in schools, colleges, and society.

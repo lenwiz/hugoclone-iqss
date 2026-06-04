@@ -13,4 +13,4 @@ subtitle: "LMU Munich"
 
 **LMU Munich**
 
-IQSS Visitor/Affiliate.
+Alice is a PhD candidate in Human Biology at the Ludwig-Maximilian University (LMU) of Munich. At Harvard, she is an Institute Fellow working in Marie-Abèle Bind's Lab at the Department of Statistics of FAS. She completed an MSc in Statistics at the KU Leuven in Belgium. Her research interests focus on applying causal inference methods to understand environmental epidemiology problems. Her projects include the estimation of effects of air pollution on multiple sclerosis relapses and on the human gut microbiome.

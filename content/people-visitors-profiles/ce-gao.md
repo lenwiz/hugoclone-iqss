@@ -13,4 +13,4 @@ subtitle: "Dept of Chinese Literature, Peking University"
 
 **Dept of Chinese Literature, Peking University**
 
-IQSS Visitor/Affiliate.
+Intellectual history of pre-modern China and database of digital humanity (CBDB)

@@ -13,4 +13,4 @@ subtitle: "Postdoctoral Fellow in Education, GSE"
 
 **Postdoctoral Fellow in Education, GSE**
 
-IQSS Visitor/Affiliate.
+Chris's work develops and showcases methods for drawing causal conclusions from observational data when identification assumptions are suspect. He is particularly interested in applying these methods to sociological questions related to suicide and mental health in the US. In the past, he has worked on instrumental variables methods and the interrupted time series design. He is currently working on panel data methods for causal inference with Luke Miratrix.

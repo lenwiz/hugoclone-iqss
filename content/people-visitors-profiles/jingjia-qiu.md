@@ -13,4 +13,4 @@ subtitle: "Visiting Scholar, Chinese Biographical Database"
 
 **Visiting Scholar, Chinese Biographical Database**
 
-IQSS Visitor/Affiliate.
+Jingjia Qiu "works on Digital Humanities and History Research of Liao-Jin dynasties in Ancient China: Centering on the CBDB Project."

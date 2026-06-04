@@ -13,4 +13,4 @@ subtitle: "Research Associate, Human Flourishing Program"
 
 **Research Associate, Human Flourishing Program**
 
-IQSS Visitor/Affiliate.
+Charlotte Duffee is a historian and philosopher of medicine whose research centers on how Western conceptions of suffering have evolved and shaped American medical practice. She earned her Ph.D. in the history and philosophy of science from the University of Toronto and also holds degrees from the New School and New York University. Her scholarship has been published in journals including the American Journal of Bioethics, PAIN, Bioethics, and the History of Medicine and Allied Sciences.

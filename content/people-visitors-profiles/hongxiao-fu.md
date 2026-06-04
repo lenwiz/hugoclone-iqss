@@ -13,4 +13,4 @@ subtitle: "Digital Humanities Researcher"
 
 **Digital Humanities Researcher**
 
-IQSS Visitor/Affiliate.
+Hongxiao Fu "is interested in the fields of Digital Humanities, with a particular focus on geographical distribution and social network analysis of archaeological data."

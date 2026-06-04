@@ -13,4 +13,4 @@ subtitle: "Research Scholar, China Biographical Database"
 
 **Research Scholar, China Biographical Database**
 
-IQSS Visitor/Affiliate.
+Yuqi works on the China Biographical Database (CBDB) Project at IQSS. Her research interests span Quantitative History and Digital Humanities, focusing particularly on Social Network Analysis of archaeological data.

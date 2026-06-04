@@ -13,4 +13,4 @@ subtitle: "Visiting Scholar, China Biographical Database"
 
 **Visiting Scholar, China Biographical Database**
 
-IQSS Visitor/Affiliate.
+Li Cong's research interests include "digital humanity and local gazetteer, and national culture park."
