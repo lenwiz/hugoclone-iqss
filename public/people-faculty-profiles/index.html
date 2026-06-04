@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Faculty Profiles | IQSS Clone - Harvard Institute for Quantitative Social Science</title>
+    <meta name="description" content="A comprehensive archive and clone of the IQSS website content">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #fff;
+        }
+
+         
+        .harvard-red { background-color: #CC5500; }
+        .harvard-black { background-color: #1E1E1E; }
+
+         
+        .site-header {
+            background: #CC5500;
+            color: white;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        .header-top {
+            background: #B8460A;
+            padding: 8px 0;
+            font-size: 14px;
+        }
+
+        .header-top .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .header-top a {
+            color: #fff;
+            text-decoration: none;
+            margin-left: 20px;
+        }
+
+        .header-main {
+            padding: 20px 0;
+        }
+
+        .header-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .site-logo {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .harvard-logo img {
+            height: 24px;
+            width: auto;
+        }
+
+        .iqss-logo img {
+            height: 60px;
+            width: auto;
+            filter: brightness(0) invert(1);  
+        }
+
+        .site-logo-text h1 {
+            font-size: 28px;
+            font-weight: 300;
+            letter-spacing: -1px;
+        }
+
+        .site-logo-text a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .site-tagline {
+            font-size: 14px;
+            opacity: 0.9;
+            margin-top: 4px;
+        }
+
+         
+        .main-nav {
+            background: #fff;
+            border-bottom: 1px solid #e5e5e5;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .nav-menu {
+            display: flex;
+            list-style: none;
+        }
+
+        .nav-menu li {
+            position: relative;
+        }
+
+        .nav-menu a {
+            display: block;
+            padding: 15px 20px;
+            color: #333;
+            text-decoration: none;
+            font-weight: 500;
+            transition: all 0.3s ease;
+        }
+
+        .nav-menu a:hover {
+            background: #CC5500;
+            color: white;
+        }
+
+         
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        main {
+            padding: 40px 0;
+            min-height: 60vh;
+        }
+
+         
+        .hero {
+            background: linear-gradient(135deg, #CC5500 0%, #B8460A 100%);
+            color: white;
+            padding: 60px 0;
+            margin-bottom: 40px;
+        }
+
+        .hero h1 {
+            font-size: 48px;
+            font-weight: 300;
+            margin-bottom: 20px;
+            letter-spacing: -2px;
+        }
+
+        .hero p {
+            font-size: 20px;
+            opacity: 0.9;
+            max-width: 800px;
+        }
+
+         
+        .content-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin: 40px 0;
+        }
+
+        .content-card {
+            background: #fff;
+            border: 1px solid #e5e5e5;
+            border-radius: 8px;
+            padding: 30px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .content-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+        }
+
+        .content-card h3 {
+            color: #CC5500;
+            margin-bottom: 15px;
+            font-size: 20px;
+        }
+
+        .content-card a {
+            color: #CC5500;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+         
+        .page-content {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .page-content h1 {
+            color: #CC5500;
+            margin-bottom: 20px;
+            font-size: 36px;
+            font-weight: 300;
+        }
+
+        .page-content h2 {
+            color: #333;
+            margin: 30px 0 15px 0;
+            font-size: 24px;
+        }
+
+        .page-content p {
+            margin-bottom: 15px;
+            line-height: 1.7;
+        }
+
+         
+        .people-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 20px;
+            margin: 30px 0;
+        }
+
+        .person-card {
+            background: #fff;
+            border: 1px solid #e5e5e5;
+            border-radius: 8px;
+            padding: 20px;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+
+        .person-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+        }
+
+        .person-card h3 {
+            color: #CC5500;
+            margin-bottom: 10px;
+            font-size: 18px;
+        }
+
+        .person-card a {
+            color: #CC5500;
+            text-decoration: none;
+        }
+
+         
+        .site-footer {
+            background: #1E1E1E;
+            color: #ccc;
+            padding: 40px 0 20px 0;
+            margin-top: 60px;
+        }
+
+        .footer-content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            margin-bottom: 30px;
+        }
+
+        .footer-section h4 {
+            color: #fff;
+            margin-bottom: 15px;
+            font-size: 16px;
+        }
+
+        .footer-section a {
+            color: #ccc;
+            text-decoration: none;
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        .footer-section a:hover {
+            color: #fff;
+        }
+
+        .footer-bottom {
+            border-top: 1px solid #444;
+            padding-top: 20px;
+            text-align: center;
+            font-size: 14px;
+        }
+
+         
+        @media (max-width: 768px) {
+            .header-content {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .nav-menu {
+                flex-direction: column;
+            }
+
+            .hero h1 {
+                font-size: 36px;
+            }
+
+            .hero p {
+                font-size: 18px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="site-header">
+        <div class="header-top">
+            <div class="container">
+                <div class="harvard-logo">
+                    <a href="https://harvard.edu">
+                        <img src="http://localhost:1313/images/harvard-logo.svg" alt="Harvard University" />
+                    </a>
+                </div>
+                <div>
+                    <a href="https://community.alumni.harvard.edu/give/51724705" target="_blank">Donate</a>
+                    <a href="/funding/">Funding</a>
+                    <a href="/events/">Events</a>
+                    <a href="/book-a-desk/">Desk Space</a>
+                    <a href="/get-help/">Get Help</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="header-main">
+            <div class="header-content">
+                <div class="site-logo">
+                    <div class="iqss-logo">
+                        <a href="http://localhost:1313/">
+                            <img src="http://localhost:1313/images/iqss-logo.png" alt="Institute for Quantitative Social Science" />
+                        </a>
+                    </div>
+                    <div class="site-logo-text">
+                        <h1><a href="http://localhost:1313/">The Institute for Quantitative Social Science</a></h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <nav class="main-nav">
+        <div class="nav-container">
+            <ul class="nav-menu">
+                
+                <li><a href="/about/">About</a></li>
+                
+                <li><a href="/people/">People</a></li>
+                
+                <li><a href="/programs-products/">Programs &amp; Products</a></li>
+                
+                <li><a href="/research-resources/">Resources &amp; Services</a></li>
+                
+                <li><a href="/our-impact/">Our Impact</a></li>
+                
+                <li><a href="/news-page/">News</a></li>
+                
+                <li><a href="/opportunities/">Opportunities</a></li>
+                
+                <li><a href="/iqss-blog/">Blog</a></li>
+                
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        
+<div class="container">
+    <div class="page-content">
+        <h1>Faculty Profiles</h1>
+        
+
+        
+        <div style="margin-top: 40px;">
+            
+            
+            <div style="border: 1px solid #e5e5e5; border-radius: 8px; padding: 25px; margin-bottom: 20px; background: #fff;">
+                <h3 style="margin-bottom: 15px;">
+                    <a href="/people-faculty-profiles/andrew-ballard/" style="color: #CC5500; text-decoration: none;">Andrew Ballard</a>
+                </h3>
+                <p style="color: #666; line-height: 1.6;"><img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_4_5__690x865/public/harvard-iqss/files/andrew-ballard_1.png" alt="Andrew Ballard" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
+<h2 id="andrew-ballard">Andrew Ballard</h2>
+<p><strong>Assistant Professor, Department of Government, American University</strong></p>
+<p>Andrew Ballard is an Assistant Professor of Government at American University specializing in Congressional …</p></p>
+                
+            </div>
+            
+            <div style="border: 1px solid #e5e5e5; border-radius: 8px; padding: 25px; margin-bottom: 20px; background: #fff;">
+                <h3 style="margin-bottom: 15px;">
+                    <a href="/people-faculty-profiles/christopher-avery/" style="color: #CC5500; text-decoration: none;">Christopher Avery</a>
+                </h3>
+                <p style="color: #666; line-height: 1.6;"><img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_4_5__690x865/public/harvard-iqss/files/chris_avery_hks-2019_0.jpg" alt="Christopher Avery" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
+<h2 id="christopher-avery">Christopher Avery</h2>
+<p><strong>Roy E. Larsen Professor of Public Policy, HKS</strong></p>
+<p><strong>Email:</strong> <a href="mailto:chris_avery@harvard.edu">chris_avery@harvard.edu</a></p>
+<p>Chris N. Avery, Roy E. Larsen Professor of Public Policy, teaches analytic courses in microeconomics and …</p></p>
+                
+            </div>
+            
+            <div style="border: 1px solid #e5e5e5; border-radius: 8px; padding: 25px; margin-bottom: 20px; background: #fff;">
+                <h3 style="margin-bottom: 15px;">
+                    <a href="/people-faculty-profiles/emmanuel-akyeampong/" style="color: #CC5500; text-decoration: none;">Emmanuel Akyeampong</a>
+                </h3>
+                <p style="color: #666; line-height: 1.6;"><img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_4_5__690x865/public/harvard-iqss/files/emmanuel-akyeampong_2019.jpg" alt="Emmanuel Akyeampong" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
+<h2 id="emmanuel-akyeampong">Emmanuel Akyeampong</h2>
+<p><strong>Oppenheimer Faculty Director; Ellen Gurney Professor of History and of African and African American Studies</strong></p>
+<p><strong>Email:</strong> <a href="mailto:akyeamp@fas.harvard.edu">akyeamp@fas.harvard.edu</a></p>
+<p>Professor Akyeampong joined …</p></p>
+                
+            </div>
+            
+            <div style="border: 1px solid #e5e5e5; border-radius: 8px; padding: 25px; margin-bottom: 20px; background: #fff;">
+                <h3 style="margin-bottom: 15px;">
+                    <a href="/people-faculty-profiles/hillel-bavli/" style="color: #CC5500; text-decoration: none;">Hillel Bavli</a>
+                </h3>
+                <p style="color: #666; line-height: 1.6;"><img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_4_5__690x865/public/harvard-iqss/files/bavli-hillel-2020.jpg" alt="Hillel Bavli" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
+<h2 id="hillel-bavli">Hillel Bavli</h2>
+<p><strong>Assistant Professor of Law, SMU Dedman School of Law</strong></p>
+<p>Hillel Bavli is an Assistant Professor of Law at SMU Dedman School of Law and an affiliate of the Institute for Quantitative Social …</p></p>
+                
+            </div>
+            
+            <div style="border: 1px solid #e5e5e5; border-radius: 8px; padding: 25px; margin-bottom: 20px; background: #fff;">
+                <h3 style="margin-bottom: 15px;">
+                    <a href="/people-faculty-profiles/iris-bohnet/" style="color: #CC5500; text-decoration: none;">Iris Bohnet</a>
+                </h3>
+                <p style="color: #666; line-height: 1.6;"><img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_4_5__690x865/public/2025-12/Iris-Bohnet_2023.jpg" alt="Iris Bohnet" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
+<h2 id="iris-bohnet">Iris Bohnet</h2>
+<p><strong>Albert Pratt Professor of Business and Government, HKS</strong></p>
+<p><strong>Email:</strong> <a href="mailto:iris_bohnet@harvard.edu">iris_bohnet@harvard.edu</a></p>
+<p>Iris Bohnet is Professor of Public Policy at the Harvard Kennedy School. She directs the Women and …</p></p>
+                
+            </div>
+            
+            <div style="border: 1px solid #e5e5e5; border-radius: 8px; padding: 25px; margin-bottom: 20px; background: #fff;">
+                <h3 style="margin-bottom: 15px;">
+                    <a href="/people-faculty-profiles/james-alt/" style="color: #CC5500; text-decoration: none;">James Alt</a>
+                </h3>
+                <p style="color: #666; line-height: 1.6;"><img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_4_5__690x865/public/harvard-iqss/files/james_alt_0.jpg" alt="James Alt" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
+<h2 id="james-alt">James Alt</h2>
+<p><strong>Frank G. Thomson Professor of Government, Emeritus</strong></p>
+<p><strong>Email:</strong> <a href="mailto:jalt@iq.harvard.edu">jalt@iq.harvard.edu</a></p>
+<p>James E. Alt is the Frank G. Thomson Professor of Government, Emeritus. His current interests are in …</p></p>
+                
+            </div>
+            
+            <div style="border: 1px solid #e5e5e5; border-radius: 8px; padding: 25px; margin-bottom: 20px; background: #fff;">
+                <h3 style="margin-bottom: 15px;">
+                    <a href="/people-faculty-profiles/joseph-blitzstein/" style="color: #CC5500; text-decoration: none;">Joseph Blitzstein</a>
+                </h3>
+                <p style="color: #666; line-height: 1.6;"><img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_4_5__690x865/public/harvard-iqss/files/blitzstein_joseph-2019.jpg" alt="Joseph Blitzstein" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
+<h2 id="joseph-blitzstein">Joseph Blitzstein</h2>
+<p><strong>Professor of the Practice in Statistics</strong></p>
+<p><strong>Email:</strong> <a href="mailto:blitz@fas.harvard.edu">blitz@fas.harvard.edu</a></p>
+<p>Joe Blitzstein is a Professor of the Practice in Statistics at Harvard University. He completed his Ph.D. at …</p></p>
+                
+            </div>
+            
+            <div style="border: 1px solid #e5e5e5; border-radius: 8px; padding: 25px; margin-bottom: 20px; background: #fff;">
+                <h3 style="margin-bottom: 15px;">
+                    <a href="/people-faculty-profiles/mahzarin-banaji/" style="color: #CC5500; text-decoration: none;">Mahzarin Banaji</a>
+                </h3>
+                <p style="color: #666; line-height: 1.6;"><img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_4_5__690x865/public/harvard-iqss/files/mahzarin-banaji_2016.png" alt="Mahzarin Banaji" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
+<h2 id="mahzarin-banaji">Mahzarin Banaji</h2>
+<p><strong>Richard Clarke Cabot Professor of Social Ethics, Department of Psychology</strong></p>
+<p><strong>Email:</strong> <a href="mailto:mahzarin_banaji@harvard.edu">mahzarin_banaji@harvard.edu</a></p>
+<p>Banaji taught at Yale University from 1986-2002 as Reuben Post Halleck …</p></p>
+                
+            </div>
+            
+            <div style="border: 1px solid #e5e5e5; border-radius: 8px; padding: 25px; margin-bottom: 20px; background: #fff;">
+                <h3 style="margin-bottom: 15px;">
+                    <a href="/people-faculty-profiles/matthew-baum/" style="color: #CC5500; text-decoration: none;">Matthew Baum</a>
+                </h3>
+                <p style="color: #666; line-height: 1.6;"><img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_4_5__690x865/public/2025-10/Matthew-Baum_2025.jpg" alt="Matthew Baum" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
+<h2 id="matthew-baum">Matthew Baum</h2>
+<p><strong>Marvin Kalb Professor of Global Communications and Professor of Public Policy, HKS</strong></p>
+<p><strong>Email:</strong> <a href="mailto:matthew_baum@harvard.edu">matthew_baum@harvard.edu</a></p>
+<p>Matthew A. Baum is Marvin Kalb Professor of Global Communications and …</p></p>
+                
+            </div>
+            
+            <div style="border: 1px solid #e5e5e5; border-radius: 8px; padding: 25px; margin-bottom: 20px; background: #fff;">
+                <h3 style="margin-bottom: 15px;">
+                    <a href="/people-faculty-profiles/matthew-blackwell/" style="color: #CC5500; text-decoration: none;">Matthew Blackwell</a>
+                </h3>
+                <p style="color: #666; line-height: 1.6;"><img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_4_5__690x865/public/harvard-iqss/files/matthew_blackwell_0.png" alt="Matthew Blackwell" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
+<h2 id="matthew-blackwell">Matthew Blackwell</h2>
+<p><strong>Associate Professor of Government, FAS</strong></p>
+<p><strong>Email:</strong> <a href="mailto:mblackwell@gov.harvard.edu">mblackwell@gov.harvard.edu</a></p>
+<p>Matthew Blackwell is an Associate Professor of Government at Harvard University. He studies political …</p></p>
+                
+            </div>
+            
+            <div style="border: 1px solid #e5e5e5; border-radius: 8px; padding: 25px; margin-bottom: 20px; background: #fff;">
+                <h3 style="margin-bottom: 15px;">
+                    <a href="/people-faculty-profiles/max-bazerman/" style="color: #CC5500; text-decoration: none;">Max Bazerman</a>
+                </h3>
+                <p style="color: #666; line-height: 1.6;"><img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_4_5__690x865/public/harvard-iqss/files/max_bazerman_0.jpg" alt="Max Bazerman" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
+<h2 id="max-bazerman">Max Bazerman</h2>
+<p><strong>Jesse Isidor Straus Professor of Business Administration, Harvard Business School</strong></p>
+<p><strong>Email:</strong> <a href="mailto:mbazerman@hbs.edu">mbazerman@hbs.edu</a></p>
+<p>Max H. Bazerman holds the Jesse Isidor Straus Professorship of Business …</p></p>
+                
+            </div>
+            
+            <div style="border: 1px solid #e5e5e5; border-radius: 8px; padding: 25px; margin-bottom: 20px; background: #fff;">
+                <h3 style="margin-bottom: 15px;">
+                    <a href="/people-faculty-profiles/melani-cammett/" style="color: #CC5500; text-decoration: none;">Melani Cammett</a>
+                </h3>
+                <p style="color: #666; line-height: 1.6;"><img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_4_5__690x865/public/harvard-iqss/files/screen_shot_2015-01-29_at_1.00.56_pm_0.png" alt="Melani Cammett" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
+<h2 id="melani-cammett">Melani Cammett</h2>
+<p><strong>Clarence Dillon Professor of International Affairs, Department of Government; Professor in the Department of Global Health and Population, Chan School of Public Health</strong></p>
+<p><strong>Email: …</strong></p></p>
+                
+            </div>
+            
+            <div style="border: 1px solid #e5e5e5; border-radius: 8px; padding: 25px; margin-bottom: 20px; background: #fff;">
+                <h3 style="margin-bottom: 15px;">
+                    <a href="/people-faculty-profiles/michael-p-brenner/" style="color: #CC5500; text-decoration: none;">Michael P. Brenner</a>
+                </h3>
+                <p style="color: #666; line-height: 1.6;"><img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_4_5__690x865/public/harvard-iqss/files/michael_brenner_0.png" alt="Michael P. Brenner" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
+<h2 id="michael-p-brenner">Michael P. Brenner</h2>
+<p><strong>Michael F. Cronin Professor of Applied Mathematics and Applied Physics and Professor of Physics</strong></p>
+<p><strong>Email:</strong> <a href="mailto:brenner@seas.harvard.edu">brenner@seas.harvard.edu</a></p>
+<p>His research group uses applied mathematics methods …</p></p>
+                
+            </div>
+            
+            <div style="border: 1px solid #e5e5e5; border-radius: 8px; padding: 25px; margin-bottom: 20px; background: #fff;">
+                <h3 style="margin-bottom: 15px;">
+                    <a href="/people-faculty-profiles/robert-bates/" style="color: #CC5500; text-decoration: none;">Robert Bates</a>
+                </h3>
+                <p style="color: #666; line-height: 1.6;"><img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_4_5__690x865/public/harvard-iqss/files/bob_bates_0.png" alt="Robert Bates" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
+<h2 id="robert-bates">Robert Bates</h2>
+<p><strong>Eaton Professor of the Science of Government, Emeritus</strong></p>
+<p><strong>Email:</strong> <a href="mailto:robert.bates.harvard.edu@gmail.com">robert.bates.harvard.edu@gmail.com</a></p>
+<p>Robert H. Bates is Eaton Professor in the Department of Government and a member of the …</p></p>
+                
+            </div>
+            
+            <div style="border: 1px solid #e5e5e5; border-radius: 8px; padding: 25px; margin-bottom: 20px; background: #fff;">
+                <h3 style="margin-bottom: 15px;">
+                    <a href="/people-faculty-profiles/sebastian-bauhoff/" style="color: #CC5500; text-decoration: none;">Sebastian Bauhoff</a>
+                </h3>
+                <p style="color: #666; line-height: 1.6;"><img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_4_5__690x865/public/harvard-iqss/files/sebastian-bauhoff_2019.jpg" alt="Sebastian Bauhoff" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
+<h2 id="sebastian-bauhoff">Sebastian Bauhoff</h2>
+<p><strong>Assistant Professor of Global Health and Economics, HSPH</strong></p>
+<p><strong>Email:</strong> <a href="mailto:sbauhoff@hsph.harvard.edu">sbauhoff@hsph.harvard.edu</a></p>
+<p>Sebastian Bauhoff is an Assistant Professor of Global Health and Economics at the Harvard …</p></p>
+                
+            </div>
+            
+            <div style="border: 1px solid #e5e5e5; border-radius: 8px; padding: 25px; margin-bottom: 20px; background: #fff;">
+                <h3 style="margin-bottom: 15px;">
+                    <a href="/people-faculty-profiles/stephen-ansolabehere/" style="color: #CC5500; text-decoration: none;">Stephen Ansolabehere</a>
+                </h3>
+                <p style="color: #666; line-height: 1.6;"><img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_4_5__690x865/public/harvard-iqss/files/ansolabehere_stephen_crop_sm_0.jpg" alt="Stephen Ansolabehere" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
+<h2 id="stephen-ansolabehere">Stephen Ansolabehere</h2>
+<p><strong>Frank G. Thompson Professor of Government</strong></p>
+<p><strong>Email:</strong> <a href="mailto:sda@gov.harvard.edu">sda@gov.harvard.edu</a></p>
+<p>Stephen Ansolabehere is Frank G. Thompson Professor of Government at Harvard University. He specializes in …</p></p>
+                
+            </div>
+            
+            <div style="border: 1px solid #e5e5e5; border-radius: 8px; padding: 25px; margin-bottom: 20px; background: #fff;">
+                <h3 style="margin-bottom: 15px;">
+                    <a href="/people-faculty-profiles/suzanne-preston-blier/" style="color: #CC5500; text-decoration: none;">Suzanne Preston Blier</a>
+                </h3>
+                <p style="color: #666; line-height: 1.6;"><img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_4_5__690x865/public/harvard-iqss/files/suzanne_blier_0.jpg" alt="Suzanne Preston Blier" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
+<h2 id="suzanne-preston-blier">Suzanne Preston Blier</h2>
+<p><strong>Allen Whitehill Clowes Professor of Fine Arts and of African and African American Studies</strong></p>
+<p><strong>Email:</strong> <a href="mailto:blier@fas.harvard.edu">blier@fas.harvard.edu</a></p>
+<p>Suzanne Preston Blier earned her Ph.D. in 1981 from …</p></p>
+                
+            </div>
+            
+            <div style="border: 1px solid #e5e5e5; border-radius: 8px; padding: 25px; margin-bottom: 20px; background: #fff;">
+                <h3 style="margin-bottom: 15px;">
+                    <a href="/people-faculty-profiles/tomiko-brown-nagin/" style="color: #CC5500; text-decoration: none;">Tomiko Brown-Nagin</a>
+                </h3>
+                <p style="color: #666; line-height: 1.6;"><img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_4_5__690x865/public/harvard-iqss/files/tomiko_brown-nagin_0_1.png" alt="Tomiko Brown-Nagin" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
+<h2 id="tomiko-brown-nagin">Tomiko Brown-Nagin</h2>
+<p><strong>Daniel P.S. Paul Professor of Constitutional Law; Professor of History, Faculty of Arts and Sciences</strong></p>
+<p><strong>Email:</strong> <a href="mailto:tbrownnagin@law.harvard.edu">tbrownnagin@law.harvard.edu</a></p>
+<p>Tomiko Brown-Nagin is described as &ldquo;an …</p></p>
+                
+            </div>
+            
+            
+
+            
+        </div>
+        
+    </div>
+</div>
+
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Institute for Quantitative Social Science</h4>
+                    <p>Harvard University<br>
+                    1737 Cambridge Street<br>
+                    Cambridge, MA 02138</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <a href="/about/">About IQSS</a>
+                    <a href="/people/">People</a>
+                    <a href="/programs/">Programs</a>
+                    <a href="/data-science/">Data Science Services</a>
+                </div>
+                <div class="footer-section">
+                    <h4>Connect</h4>
+                    <a href="/news/">News & Updates</a>
+                    <a href="/events/">Events</a>
+                    <a href="/contact/">Contact Us</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Harvard University. This is an educational archive of IQSS content.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
