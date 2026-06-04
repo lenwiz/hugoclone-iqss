@@ -11,4 +11,6 @@ subtitle: "Eaton Professor of the Science of Government"
 
 **Eaton Professor of the Science of Government**
 
-IQSS Faculty Affiliate. For full profile details, see the IQSS People directory.
+Daniel Ziblatt is Eaton Professor of the Science of Government at Harvard University and resident faculty at the Minda de Gunzburg Center for European Studies (CES). His research and teaching interests include democratization, state-building, comparative politics, and historical political economy, with a particular interest in European political development.
+
+His latest book *How Democracies Die* (co-authored with Steven Levitsky) was on the *New York Times* bestseller list and has been translated into 22 languages. His second book *Conservative Parties and the Birth of Democracy* (2017) offers a new interpretation of the historical democratization of Europe, drawing lessons for new and old democracies under siege today. His book *Structuring the State: The Formation of Italy and Germany and the Puzzle of Federalism* (2006) draws lessons from nineteenth century experiences of state-building in Italy and Germany.

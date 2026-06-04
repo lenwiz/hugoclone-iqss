@@ -11,4 +11,4 @@ subtitle: "Frank Plumpton Ramsey Professor of Political Economy"
 
 **Frank Plumpton Ramsey Professor of Political Economy**
 
-IQSS Faculty Affiliate. For full profile details, see the IQSS People directory.
+Richard J. Zeckhauser is the Frank Plumpton Ramsey Professor of Political Economy at Harvard University John F. Kennedy School of Government. He pursues a blend of conceptual and applied research. He believes society's primary challenge is allocating resources according to citizens' preferences. Much of his conceptual work explores possibilities for democratic, decentralized allocation procedures. His ongoing policy work examines ways to promote human health, help labor and financial markets function more efficiently, and support informed choices by individuals and government agencies. His current major research focuses on "the performance of institutions confronted with inadequate commitment capabilities, incomplete information flow and human participants who fail to behave" according to rational models (such as engaging in herd behavior). Financial markets and health risks serve as the subjects of his major empirical investigations.
