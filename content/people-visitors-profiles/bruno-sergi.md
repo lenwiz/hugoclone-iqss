@@ -13,4 +13,6 @@ subtitle: "Instructor, DCE; Co-director, LEAD"
 
 **Instructor, DCE; Co-director, LEAD**
 
-IQSS Visitor/Affiliate.
+Bruno S. Sergi is an instructor at Harvard University who teaches development economics and emerging markets courses. His research focuses on the political economy of emerging markets, covering investments, sustainable development, technology, institutional transparency, corruption, and global development practices. He chairs and co-directs the Lab for Entrepreneurship and Development (LEAD) in Cambridge, USA.
+
+His advisory work spans public and private sectors, and he has served as economic coach of The South East Europe Trade Union Economic Experts Network since 2009. He edits Cambridge Elements in the Economics of Emerging Markets (Cambridge University Press) and serves as Associate Editor of The American Economist. He has authored, co-authored, or edited over thirty books and 200 scholarly papers.

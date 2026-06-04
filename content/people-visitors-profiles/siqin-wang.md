@@ -13,4 +13,4 @@ subtitle: "Associate Chair, Spatial Data Lab, CGA; Assoc Professor, USC"
 
 **Associate Chair, Spatial Data Lab, CGA; Assoc Professor, USC**
 
-IQSS Visitor/Affiliate.
+Dr. Wang's research focuses on geospatial science and spatiotemporal big data analytics (e.g., AI) applied to digital health geography, environmental health, population-health-environment interactions, and computational social science more broadly.

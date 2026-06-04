@@ -13,4 +13,6 @@ subtitle: "Visiting Fellow, LISH"
 
 **Visiting Fellow, LISH**
 
-IQSS Visitor/Affiliate.
+Philip Brookins is a senior research fellow at the Max Planck Institute for Research on Collective Goods in Bonn, Germany. His research uses game-theoretic techniques to model behavior in competitive settings like contests and tournaments, and experimental methods to test such models.
+
+He examines how individuals and groups behave in contests when information-constrained, such as not being fully informed about competitors' number or characteristics, and how they behave when competing as part of a team composed of heterogeneously talented members. He joined the Max Planck Institute in 2016 after earning doctoral, master's, and bachelor's degrees in economics and a bachelor's in mathematics from Florida State University.

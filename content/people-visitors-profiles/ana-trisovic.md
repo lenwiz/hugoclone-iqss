@@ -13,4 +13,6 @@ subtitle: "Postdoctoral Fellow"
 
 **Postdoctoral Fellow**
 
-IQSS Visitor/Affiliate.
+Ana Trisovic is a Research Scientist at MIT's Computer Science and Artificial Intelligence Laboratory (CSAIL), working at the FutureTech Lab studying AI's societal and scientific impacts. She holds a PhD in Applied Computer Science from the University of Cambridge & CERN (2018) and is affiliated with CSAIL, MIT Sloan School of Management, and Harvard's Institute for Quantitative Social Science.
+
+Her research interests include AI, Science & Society—examining foundation model adoption, AI-driven automation, and the risks of de-democratization. Her work translates large-scale empirical findings into policy recommendations.
