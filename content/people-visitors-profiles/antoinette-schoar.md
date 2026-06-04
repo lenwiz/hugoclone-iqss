@@ -13,4 +13,6 @@ subtitle: "Professor, MIT Sloan School of Management"
 
 **Professor, MIT Sloan School of Management**
 
-IQSS Visitor/Affiliate.
+Antoinette Schoar is the Michael M. Koerner Associate Professor of Entrepreneurial Finance at the MIT Sloan School of Management. She has been teaching at Sloan for six years in the areas of corporate finance and entrepreneurship. While starting at Sloan she has developed a new course on Entrepreneurial finance which is a second year elective. Professor Schoar holds a PhD in Economics from the University of Chicago and an undergraduate degree from the University of Cologne, Germany. She received several prestigious scholarships from the German National Scholarship foundation, ministry of commerce and the George Stigler Center at the University of Chicago. She is a member of the American Finance Association and the National Bureau of Economic Research.
+
+Professor Schoar's current research examines returns and capital flows in the venture capital industry, financing of SMEs and start up firms in emerging markets and the impact of corporate governance practices on firm performance. Her paper "The Effects of Corporate Diversification on Productivity" won the 2003 Journal of Finance Brattle Prize. She has published several papers in the Journal of Finance, the Journal of Financial Economics and the Quarterly Journal of Economics. Her work has been featured in the Financial Times, the New York Times and the Economist.
