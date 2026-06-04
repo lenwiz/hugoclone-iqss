@@ -11,7 +11,7 @@ subtitle: "IQSS Affiliate; Research Scientist, Facebook"
 
 ## Angela Lee
 
-**IQSS Affiliate; Research Scientist, Facebook**
+<strong>IQSS Affiliate; Research Scientist, Facebook</strong>
 
 Angela Lee completed a PhD in sociology at Harvard University in 2021. She is currently a Research Scientist at Facebook.
 

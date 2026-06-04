@@ -11,6 +11,6 @@ subtitle: "Fellow, CBDB; Joint PhD Student, Harvard"
 
 ## Shaoqing Zhou
 
-**Fellow, CBDB; Joint PhD Student, Harvard**
+<strong>Fellow, CBDB; Joint PhD Student, Harvard</strong>
 
 Shaoqing Zhou's research interest is digital humanity.

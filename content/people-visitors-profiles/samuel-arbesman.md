@@ -11,6 +11,6 @@ subtitle: "Research Fellow, Harvard Medical School"
 
 ## Samuel Arbesman
 
-**Research Fellow, Harvard Medical School**
+<strong>Research Fellow, Harvard Medical School</strong>
 
 IQSS Visitor/Affiliate.

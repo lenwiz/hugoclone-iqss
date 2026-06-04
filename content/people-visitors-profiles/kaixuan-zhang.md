@@ -11,6 +11,6 @@ subtitle: "Data Science Fellow"
 
 ## Kaixuan Zhang
 
-**Data Science Fellow**
+<strong>Data Science Fellow</strong>
 
 Kaixuan Zhang is a Data Science Fellow with a research focus on "computer vision and document intelligence."

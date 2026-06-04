@@ -11,6 +11,6 @@ subtitle: "IQSS Fellow"
 
 ## Alejandro Kantor
 
-**IQSS Fellow**
+<strong>IQSS Fellow</strong>
 
 Alejandro is an IQSS Fellow working on research related to course data from HarvardX and the EdX platform with Professor Dustin Tingley and the Office of the Vice Provost for the Advancement in Learning. Through his research, Alejandro develops statistical models as well as interactive visualizations. He is also a Senior Project Analyst at the Office for Faculty Affairs of the Faculty of Arts and Sciences.

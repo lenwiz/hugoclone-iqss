@@ -11,6 +11,6 @@ subtitle: "Visiting Fellow, China Biographical Database"
 
 ## Zhenling Liu
 
-**Visiting Fellow, China Biographical Database**
+<strong>Visiting Fellow, China Biographical Database</strong>
 
 Zhenling Liu's field of research is Digital Humanities and Digital Literacy.

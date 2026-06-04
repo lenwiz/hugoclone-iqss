@@ -11,6 +11,6 @@ subtitle: "Visiting Fellow, LISH"
 
 ## Florian Hillen
 
-**Visiting Fellow, LISH**
+<strong>Visiting Fellow, LISH</strong>
 
 Florian Hillen is a Visiting Fellow at Harvard University, IQSS, at the Laboratory for Innovation Science at Harvard. He studies Management & Technology at TUM, Technology Management at CDTM, and Medicine at LMU. His research focuses on "management practices and organizational structures in medical research laboratories."

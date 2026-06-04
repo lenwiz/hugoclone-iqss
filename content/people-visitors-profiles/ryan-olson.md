@@ -11,7 +11,7 @@ subtitle: "Faculty Affiliate, Human Flourishing Program"
 
 ## Ryan Olson
 
-**Faculty Affiliate, Human Flourishing Program**
+<strong>Faculty Affiliate, Human Flourishing Program</strong>
 
 Ryan S. Olson is a research professor at the University of Virginia and a senior fellow at the Institute for Advanced Studies in Culture. A classicist by training, Olson's current scholarship focuses on the literary, historical, religious, and cultural context of ancient education from Archaic Greece through Late Antiquity, offering comparative insights for periods of cultural transformation, including the late modern world.
 

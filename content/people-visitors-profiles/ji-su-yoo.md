@@ -11,6 +11,6 @@ subtitle: "Visiting Fellow"
 
 ## Ji Su Yoo
 
-**Visiting Fellow**
+<strong>Visiting Fellow</strong>
 
 Ji Su Yoo conducts research with Professor Latanya Sweeney on data analysis to evaluate the impact of technology on society through various projects. She recently co-wrote a paper on vulnerabilities in voter registration websites called Voter Identity Theft: Submitting Changes to Voter Registrations Online to Disrupt Elections. She also co-wrote the De-anonymization of South Korean Resident Registration Numbers in 2015. She is currently interested in exposing how technology and its use in government and policy-making may exacerbate or reflect existing political and societal inequalities. Her interests also include national identification systems and data privacy in health care research. She graduated from Harvard College in 2015 with a B.A. in Social Studies.

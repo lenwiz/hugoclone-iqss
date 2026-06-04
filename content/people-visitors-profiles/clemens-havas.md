@@ -11,6 +11,6 @@ subtitle: "Visiting Fellow, CGA"
 
 ## Clemens Havas
 
-**Visiting Fellow, CGA**
+<strong>Visiting Fellow, CGA</strong>
 
 Clemens Havas is a PhD candidate at University of Salzburg's Department of Geoinformatics – Z_GIS with a background in computer science. He specializes in combining state-of-the-art machine learning algorithms with geospatial analysis to extract information about large-scale events like a natural disaster. The information is provided in near real-time after the outbreak of an event by utilizing new data sources like social media networks.

@@ -11,7 +11,7 @@ subtitle: "Postdoctoral Fellow, NBER"
 
 ## Chika Okafor
 
-**Postdoctoral Fellow, NBER**
+<strong>Postdoctoral Fellow, NBER</strong>
 
 As an economist and a lawyer with diverse policy expertise, Chika Okafor uses the tools of economics, law, and public policy to explore foundational matters of justice—with recent research spanning economic inequality, criminal justice, and climate change. Methodologically, his scholarship integrates economic theory, empirical techniques, and legal analysis to uncover mechanisms of—as well as inform solutions to—major economic and social problems impacting contemporary American society.
 

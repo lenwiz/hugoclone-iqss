@@ -11,7 +11,7 @@ subtitle: "Postdoctoral Fellow, LISH"
 
 ## Misha Teplitskiy
 
-**Postdoctoral Fellow, LISH**
+<strong>Postdoctoral Fellow, LISH</strong>
 
 Misha Teplitskiy is a Postdoctoral Fellow at the Laboratory for Innovation Science at Harvard (LISH). Previously, he was in the Sociology PhD program at the University of Chicago, where he worked with James Evans to apply computational social science techniques to studying the evaluation, robustness, and diffusion of scientific knowledge. His research bridges Sociology of Science and Management, focusing on how institutional and organizational factors affect scientific discovery and collaborative knowledge production.
 

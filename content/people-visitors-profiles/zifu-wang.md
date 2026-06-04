@@ -11,7 +11,7 @@ subtitle: "Postdoctoral Research Fellow, CGA"
 
 ## Zifu Wang
 
-**Postdoctoral Research Fellow, CGA**
+<strong>Postdoctoral Research Fellow, CGA</strong>
 
 Zifu Wang, PhD is a Postdoctoral Research Fellow at the Center for Geographic Analysis (CGA), whose research lies at the intersection of Geographic Information Science (GIS), Artificial Intelligence (AI), and computational science. His work focuses on transforming complex spatial and textual data into evidence-based intelligence for public-policy applications in humanitarian response, crime prevention, public health, and transportation safety.
 

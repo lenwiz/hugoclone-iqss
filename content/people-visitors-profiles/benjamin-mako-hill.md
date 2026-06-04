@@ -11,6 +11,6 @@ subtitle: "Faculty Associate, Berkman Center; Asst Prof, UW"
 
 ## Benjamin Mako Hill
 
-**Faculty Associate, Berkman Center; Asst Prof, UW**
+<strong>Faculty Associate, Berkman Center; Asst Prof, UW</strong>
 
 Benjamin Mako Hill is a social scientist, technologist, and activist. In all three roles, he works to understand why some attempts at peer production—like Wikipedia and Linux—"build large volunteer communities while the vast majority never attract even a second contributor." He is an Assistant Professor in the Department of Communication at the University of Washington and a founding member of the Community Data Science Collective. He is also an Adjunct Assistant Professor in UW's Department of Human-Centered Designed and Engineering as well as a Faculty Associate at the Berkman Klein Center for Internet and Society and an affiliate at the Institute for Quantitative Social Science—both at Harvard University. He has also been a leader, developer, and contributor to the free and open source software community for more than a decade as part of the Debian and Ubuntu projects. He is the author of several best-selling technical books, a member of the Free Software Foundation board of directors and an advisor to the Wikimedia Foundation. Hill has a Masters degree from the MIT Media Lab and a PhD from MIT in an interdepartmental program between the Sloan School of Management and the Media Lab.

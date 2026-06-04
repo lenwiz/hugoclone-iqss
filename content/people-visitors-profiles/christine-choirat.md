@@ -11,7 +11,7 @@ subtitle: "Senior Research Scientist, Harvard Chan SPH"
 
 ## Christine Choirat
 
-**Senior Research Scientist, Harvard Chan SPH**
+<strong>Senior Research Scientist, Harvard Chan SPH</strong>
 
 I am a Senior Research Scientist at the Harvard T.H. Chan School of Public Health and at the Institute for Quantitative Social Science.
 

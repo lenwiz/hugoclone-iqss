@@ -11,7 +11,7 @@ subtitle: "Visiting Scholar, HGSE"
 
 ## Michael Walsh McGarrah
 
-**Visiting Scholar, HGSE**
+<strong>Visiting Scholar, HGSE</strong>
 
 Michael Walsh McGarrah is a Visiting Scholar at HGSE whose research focuses on risk factors for early substance use among children and the dimensionality of psychopathology regarding internalizing and externalizing behaviors. He employs advanced psychometric and statistical methods in structural equation modeling, including latent class growth models and auto-regressive latent trajectory models with structured residuals.
 

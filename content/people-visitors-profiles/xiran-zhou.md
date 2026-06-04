@@ -11,7 +11,7 @@ subtitle: "Visiting Scholar, CGA"
 
 ## Xiran Zhou
 
-**Visiting Scholar, CGA**
+<strong>Visiting Scholar, CGA</strong>
 
 Xiran Zhou's research interests include two primary areas:
 

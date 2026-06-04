@@ -11,6 +11,6 @@ subtitle: "Fellow, CBDB; PhD candidate, Peking University"
 
 ## Chengxi Yan
 
-**Fellow, CBDB; PhD candidate, Peking University**
+<strong>Fellow, CBDB; PhD candidate, Peking University</strong>
 
 Chengxi Yan is a fellow in the China Biographical Database whose research focuses on "natural language processing, information visualization and digital humanities." His current research interest involves constructing automatic workflows for analysis and mining of ancient texts using deep learning and complex network theory.

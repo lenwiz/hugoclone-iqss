@@ -11,6 +11,6 @@ subtitle: "Postdoctoral Fellow, Dept of Government"
 
 ## Feyaad Allie
 
-**Postdoctoral Fellow, Dept of Government**
+<strong>Postdoctoral Fellow, Dept of Government</strong>
 
 Feyaad Allie is a postdoctoral fellow in the Department of Government. In July 2024, he will begin his appointment as an Assistant Professor of Government. His research "broadly focuses on identity, democracy, and representation." His book project examines the causes and consequences of political inclusion of marginalized groups, focusing on India. In additional work, he studies the intersection of technology and politics and religion's role in intergroup relations. His methods include "large-scale administrative data, original surveys, archival documents, and in-depth interviews during fieldwork." He earned his Ph.D. in Political Science from Stanford University and a BA in Government from Dartmouth College.

@@ -11,7 +11,7 @@ subtitle: "Fellow, IQSS"
 
 ## Deborah Hurley
 
-**Fellow, IQSS**
+<strong>Fellow, IQSS</strong>
 
 Deborah Hurley is the Principal of the consulting firm she founded in 1996, which advises governments, international organizations, companies, Non-governmental organizations, and foundations on advanced science and technology policy. She is a Fellow of the Institute for Quantitative Social Science at Harvard University and directed the Harvard University Information Infrastructure Project. At the Organization for Economic Cooperation and Development (OECD), in Paris, France, she identified emerging legal, economic, social and technological issues related to information and communications technologies, biotechnology, environmental and energy technologies, nanotechnology, technology policy, and other advanced technology fields. Hurley was responsible for drafting, negotiation and adoption of the OECD Guidelines for the Security of Information Systems. She also initiated the OECD activities on cryptography technologies and policy in the early 1990s. Prior to joining the OECD, she practiced computer and intellectual property law in the United States.
 

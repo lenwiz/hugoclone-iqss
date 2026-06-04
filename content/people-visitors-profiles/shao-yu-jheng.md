@@ -11,7 +11,7 @@ subtitle: "Predoctoral Research Fellow"
 
 ## Shao-Yu Jheng
 
-**Predoctoral Research Fellow**
+<strong>Predoctoral Research Fellow</strong>
 
 Shao-Yu Jheng's research topics include "(i) (rapid) industrialization and premature deindustrialization, (ii) state capacity and industrial policy, (iii) institutions," (iv) USA's aid policy, spanning political economy, economic history, development economics, and industrial organization.
 

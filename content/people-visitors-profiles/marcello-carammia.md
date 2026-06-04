@@ -11,7 +11,7 @@ subtitle: "Assoc Professor, University of Catania"
 
 ## Marcello Carammia
 
-**Assoc Professor, University of Catania**
+<strong>Assoc Professor, University of Catania</strong>
 
 Marcello Carammia is an Associate Professor of Political Science at the Department of Political and Social Sciences, University of Catania (Italy). Between 2015 and 2019, he was a Senior Researcher at the European Union Asylum Agency, where he was responsible for the Agency's Research Programme on the push and pull factors of asylum migration.
 

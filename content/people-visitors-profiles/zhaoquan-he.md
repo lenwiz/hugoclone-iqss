@@ -11,6 +11,6 @@ subtitle: "Visiting Scholar, China Biographical Database"
 
 ## Zhaoquan He
 
-**Visiting Scholar, China Biographical Database**
+<strong>Visiting Scholar, China Biographical Database</strong>
 
 I'm interested in the Chinese History from 10th to 14th century, Genealogies of Song Dynasty，and Didital Humanities.During my visiting at Harvard University,I will participate in CBDB Project and focus on the biographical research of Song imperial clans.I would also like to learn how to dig new information based on database and improve my research through new perspectives.

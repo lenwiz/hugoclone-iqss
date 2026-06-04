@@ -11,6 +11,6 @@ subtitle: "PhD Candidate, American University"
 
 ## Selim Yaman
 
-**PhD Candidate, American University**
+<strong>PhD Candidate, American University</strong>
 
 Selim Yaman is a PhD candidate in Political Science at American University's School of Public Affairs, where he specializes in political methodology and comparative politics. His research focuses on natural language processing and Bayesian statistics. Yaman also serves as a Fellow at the Center for Data Science at American University and replication analyst at Political Analysis. Before starting doctoral study, he lived and worked in the UK, and Turkey.

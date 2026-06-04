@@ -11,6 +11,6 @@ subtitle: "Visiting Fellow, LISH; Asst Professor, MIT Sloan"
 
 ## Neil Thompson
 
-**Visiting Fellow, LISH; Asst Professor, MIT Sloan**
+<strong>Visiting Fellow, LISH; Asst Professor, MIT Sloan</strong>
 
 Neil is an Assistant Professor of Innovation and Strategy at the MIT Sloan School of Management and co-director of the Experimental Innovation Lab (X-Lab). He is also an associate member of the MIT Computer Science and Artificial Intelligence Lab (CSAIL) and the Broad Institute of Harvard and MIT. He earned his PhD in Business and Public Policy at Berkeley, along with master's degrees in Computer Science and Statistics. He holds "a masters in ecoNomics from the London School of Economics, and undergraduate degrees in Physics and International Development." Before entering academia, he worked at organizations including Lawrence Livermore National Laboratories, Bain and Company, The United Nations, the World Bank, and the Canadian Parliament.

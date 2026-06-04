@@ -11,6 +11,6 @@ subtitle: "Visiting Fellow, LISH; Max Planck Institute"
 
 ## Laura Rosendahl Huber
 
-**Visiting Fellow, LISH; Max Planck Institute**
+<strong>Visiting Fellow, LISH; Max Planck Institute</strong>
 
 Laura Rosendahl Huber holds a Ph.D. in Economics from the University of Amsterdam and is currently working as a Senior Research Fellow at the Max Planck Institute for Innovation and Competition in Munich, Germany. Her research integrates entrepreneurship research with experimental methods and focuses on the empirical analysis of entrepreneurship education, entrepreneurial teams, and the evaluation of policies aimed at fostering entrepreneurship and innovation. In particular, she is interested in gaining a better understanding of the gender inequality among both entrepreneurs and inventors (and potential solutions), and how team composition affects team performance in creative processes. A common denominator in her research is the use of field experiments.

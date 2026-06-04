@@ -11,6 +11,6 @@ subtitle: "Visiting Scholar, China Biographical Database"
 
 ## Shiyin Chen
 
-**Visiting Scholar, China Biographical Database**
+<strong>Visiting Scholar, China Biographical Database</strong>
 
 He majors in Confucian Classics and Ming history. In recent years, he has published some books about Confucian Classics study and Ming history, namely, *Annotations about The Book of Rites* (Fudan University Press, 2018), *Supplementary Remarks of Chen Hao's Explanation about The Book of Rites* (Anhui Education Press, 2020), *From Duke Zhou to First Emperor of Qin: Autobiographies of 12 famous people* (Lijiang Press, 2019), *Unstable Identity: A Brief History of Ming Dynasty Based-on Ritual System* (Zhejiang Guji Press, 2021).

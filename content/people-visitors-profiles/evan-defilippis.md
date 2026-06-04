@@ -11,7 +11,7 @@ subtitle: "Associate of Dept of Psychology, FAS"
 
 ## Evan DeFilippis
 
-**Associate of Dept of Psychology, FAS**
+<strong>Associate of Dept of Psychology, FAS</strong>
 
 My research lies at the intersection of behavioral economics and psychology, applying formal modeling techniques to understand complex social systems. My research focuses on three main topics:
 

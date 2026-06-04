@@ -11,6 +11,6 @@ subtitle: "Visiting PhD Student, LISH; Copenhagen Business School"
 
 ## Yotam Sofer
 
-**Visiting PhD Student, LISH; Copenhagen Business School**
+<strong>Visiting PhD Student, LISH; Copenhagen Business School</strong>
 
 Yotam's goal is to provide research based insights on the roots, determinants and implications of scientific practices and organization, with a focus on research funding, and scientific communication.

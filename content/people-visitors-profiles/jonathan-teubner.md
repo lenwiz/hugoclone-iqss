@@ -11,7 +11,7 @@ subtitle: "Visiting Scholar, Human Flourishing Program"
 
 ## Jonathan D Teubner
 
-**Visiting Scholar, Human Flourishing Program**
+<strong>Visiting Scholar, Human Flourishing Program</strong>
 
 Jonathan D. Teubner is a Visiting Scholar at Harvard's Human Flourishing Program and a Fellow at the Institute for Advanced Studies in Culture at UVA. He has led initiatives in academia, business, and nonprofits, and pioneered the application of machine learning to improving peace building methods.
 

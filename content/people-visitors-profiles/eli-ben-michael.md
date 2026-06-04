@@ -11,6 +11,6 @@ subtitle: "Post-Doctoral Fellow; Asst Prof, Carnegie Mellon"
 
 ## Eli Ben-Michael
 
-**Post-Doctoral Fellow; Asst Prof, Carnegie Mellon**
+<strong>Post-Doctoral Fellow; Asst Prof, Carnegie Mellon</strong>
 
 Eli is an assistant professor in the Department of Statistics & Data Science and the Heinz College of Information Systems and Public Policy at Carnegie Mellon University. His research focuses on "developing statistical and computational methods to solve practical issues in public policy and social science research." He is particularly interested in "bringing together ideas from statistics, optimization, and machine learning" to create methods for credible and robust causal inference and data-driven decision making.

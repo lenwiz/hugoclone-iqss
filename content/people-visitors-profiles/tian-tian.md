@@ -11,6 +11,6 @@ subtitle: "Visiting Fellow, CGA"
 
 ## Tian Tian
 
-**Visiting Fellow, CGA**
+<strong>Visiting Fellow, CGA</strong>
 
 Tian Tian is a doctoral candidate in Urban and Rural Planning at Wuhan University, specializes in employing data analysis and modeling methodologies within urban studies. Her research is dedicated to unraveling the intricate mechanisms that underlie urban interactions. At the CGA, she participates in the Spatial Data Lab project, advancing replicable geospatial data analytics with workflow-based case studies.

@@ -11,7 +11,7 @@ subtitle: "Instructor, DCE; Co-director, LEAD"
 
 ## Bruno S Sergi
 
-**Instructor, DCE; Co-director, LEAD**
+<strong>Instructor, DCE; Co-director, LEAD</strong>
 
 Bruno S. Sergi is an instructor at Harvard University who teaches development economics and emerging markets courses. His research focuses on the political economy of emerging markets, covering investments, sustainable development, technology, institutional transparency, corruption, and global development practices. He chairs and co-directs the Lab for Entrepreneurship and Development (LEAD) in Cambridge, USA.
 

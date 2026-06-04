@@ -11,6 +11,6 @@ subtitle: "Associate Professor, Fudan University"
 
 ## Jianping Xu
 
-**Associate Professor, Fudan University**
+<strong>Associate Professor, Fudan University</strong>
 
 Main research direction is the political geography during historical period of China, Particularly concerned about the border demarcation of the administrative regions in the Republican Period.

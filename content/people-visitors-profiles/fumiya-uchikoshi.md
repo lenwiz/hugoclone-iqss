@@ -11,7 +11,7 @@ subtitle: "Harvard Academy Scholar"
 
 ## Fumiya Uchikoshi
 
-**Harvard Academy Scholar**
+<strong>Harvard Academy Scholar</strong>
 
 Fumiya Uchikoshi is an Academy Scholar (stipendiary postdoctoral fellow) at the Harvard Academy for International and Area Studies, housed at the Weatherhead Center for International Affairs at Harvard University.
 

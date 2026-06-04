@@ -11,6 +11,6 @@ subtitle: "Pre-Doctoral Fellow, IQSS"
 
 ## Dylan Carlson Sirvent Leon
 
-**Pre-Doctoral Fellow, IQSS**
+<strong>Pre-Doctoral Fellow, IQSS</strong>
 
 Dylan is a member of the Strengthening Communities cluster, "an interdisciplinary group researching energy transition politics at the local level." He graduated from Yale with a BA in Political Science, writing his senior thesis on the congressional politics of climate change.

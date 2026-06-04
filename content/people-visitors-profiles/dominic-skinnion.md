@@ -11,6 +11,6 @@ subtitle: "Affiliate; PhD student, MIT"
 
 ## Dominic Skinnion
 
-**Affiliate; PhD student, MIT**
+<strong>Affiliate; PhD student, MIT</strong>
 
 Dom is interested in political science methodology, survey research, and American politics. Prior to his work at IQSS as a Quantitative Social Science Researcher, Dom worked as a research assistant during undergrad under Professor Gary King and Professor Chase Harrison. He also served as a course assistant for GOV50: Data, under Professor Suzanna Linn and Professor Matthew Blackwell.

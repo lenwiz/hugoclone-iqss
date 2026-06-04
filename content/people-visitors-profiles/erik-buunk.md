@@ -11,7 +11,7 @@ subtitle: "IQSS Affiliate"
 
 ## Erik Buunk
 
-**IQSS Affiliate**
+<strong>IQSS Affiliate</strong>
 
 Erik has a master's in Environmental Science and experience in IT implementations, software development, SCRUM and Lean/Six Sigma and graphic design.
 

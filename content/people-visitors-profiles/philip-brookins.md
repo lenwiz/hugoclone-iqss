@@ -11,7 +11,7 @@ subtitle: "Visiting Fellow, LISH"
 
 ## Philip Brookins
 
-**Visiting Fellow, LISH**
+<strong>Visiting Fellow, LISH</strong>
 
 Philip Brookins is a senior research fellow at the Max Planck Institute for Research on Collective Goods in Bonn, Germany. His research uses game-theoretic techniques to model behavior in competitive settings like contests and tournaments, and experimental methods to test such models.
 

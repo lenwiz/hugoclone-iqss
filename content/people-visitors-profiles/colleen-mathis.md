@@ -11,6 +11,6 @@ subtitle: "Affiliate"
 
 ## Colleen Mathis
 
-**Affiliate**
+<strong>Affiliate</strong>
 
 IQSS Visitor/Affiliate.

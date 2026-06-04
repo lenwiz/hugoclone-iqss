@@ -11,6 +11,6 @@ subtitle: "Visiting Scholar, CGA"
 
 ## Lingbo Liu
 
-**Visiting Scholar, CGA**
+<strong>Visiting Scholar, CGA</strong>
 
 Lingbo Liu is a Lecturer at the Department of Urban Planning, School of Urban Design, Wuhan University, vice director of Urban Innovation Lab, and a Visiting Scholar at Harvard University. His research field focuses on healthy cities, using multi-source data and spatial quantitative models to capture the spatiotemporal features of urban system, analyze the coupling mechanism of the space-human system, and provide decision support for public policy, urban planning and design. His research highlights the characteristics of the entropy models in analyzing urban complex systems and explores a potential systematic path of Social Physics 2.0. Since 2019, as one of the core members, he has participated in the workflow-based spatial analysis platform project initiated by CGA of Harvard University.

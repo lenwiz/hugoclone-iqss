@@ -11,7 +11,7 @@ subtitle: "Senior AI and Data Executive"
 
 ## Ra'ad Siraj
 
-**Senior AI and Data Executive**
+<strong>Senior AI and Data Executive</strong>
 
 Ra'ad Siraj is a senior data and AI executive with more than 30 years of experience building and scaling enterprise data, AI, and technology programs in regulated industries. He is known for deploying AI at scale while embedding governance and accountability as operational infrastructure — not compliance overhead.
 

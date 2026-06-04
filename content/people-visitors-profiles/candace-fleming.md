@@ -11,7 +11,7 @@ subtitle: "IQSS Startup Foundry Executive Fellow"
 
 ## Candace Fleming
 
-**IQSS Startup Foundry Executive Fellow**
+<strong>IQSS Startup Foundry Executive Fellow</strong>
 
 Candace Fleming is an Executive Fellow in the Harvard IQSS Startup Foundry, working "at the intersection of data, innovation, and entrepreneurship." She has over twenty years of experience as a finance and operations leader, helping build and scale companies by transforming complex ideas into practical, high-impact businesses.
 

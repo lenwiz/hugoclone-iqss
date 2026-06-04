@@ -11,6 +11,6 @@ subtitle: "Executive Affiliate, Startup Foundry; SeeDigital.ai"
 
 ## Craig Marris
 
-**Executive Affiliate, Startup Foundry; SeeDigital.ai**
+<strong>Executive Affiliate, Startup Foundry; SeeDigital.ai</strong>
 
 Craig Marris is an Executive Affiliate at IQSS, where he mentors startups developing applied AI and data science solutions with societal impact. He is the co-founder and Co-CEO of SeeDigital.ai, a company using AI-powered CCTV analytics and agentic automation to elevate workplace safety and operational compliance. Craig is also the co-founder of Coretex, a global telematics and compliance platform that he helped scale from inception to its successful $188 million acquisition by EROAD. With senior executive experience spanning technology, sustainability, transportation, and AI-enabled operations, he brings strategic insight and hands-on leadership to innovators navigating the intersection of data science and real-world problem-solving.

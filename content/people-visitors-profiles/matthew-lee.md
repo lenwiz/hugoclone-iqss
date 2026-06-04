@@ -11,6 +11,6 @@ subtitle: "Research Associate, Human Flourishing Program"
 
 ## Matthew T Lee
 
-**Research Associate, Human Flourishing Program**
+<strong>Research Associate, Human Flourishing Program</strong>
 
 Matthew T. Lee is a Research Associate and Director of the Flourishing Network at the Human Flourishing Program. His research explores well-being and flourishing, benevolent service to others, and the integration of social science and the humanities.

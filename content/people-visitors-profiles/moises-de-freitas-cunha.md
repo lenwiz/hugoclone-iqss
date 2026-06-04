@@ -11,7 +11,7 @@ subtitle: "Postdoctoral Fellow, Weatherhead Center"
 
 ## Moises de Freitas Cunha
 
-**Postdoctoral Fellow, Weatherhead Center**
+<strong>Postdoctoral Fellow, Weatherhead Center</strong>
 
 Moisés de Freitas Cunha is a PhD specialist in Urban Historical Studies, Fulbright Fellow, Harvard Postdoctoral Fellow, and holds a master's and doctorate from the PEPG – Postgraduate Studies Program in Social Sciences at the Pontifical Catholic University of São Paulo.
 

@@ -11,7 +11,7 @@ subtitle: "Professor, Northeastern University"
 
 ## Alessandro Vespignani
 
-**Professor, Northeastern University**
+<strong>Professor, Northeastern University</strong>
 
 Alessandro Vespignani is Sternberg Distinguished Professor at Northeastern University with appointments in the College of Computer and Information Sciences, the Bouve' College of Health Sciences and the Department of Physics.
 

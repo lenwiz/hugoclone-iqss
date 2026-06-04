@@ -11,6 +11,6 @@ subtitle: "Postdoctoral Fellow, Weatherhead Center"
 
 ## Gal Bitton
 
-**Postdoctoral Fellow, Weatherhead Center**
+<strong>Postdoctoral Fellow, Weatherhead Center</strong>
 
 Gal Bitton is a postdoctoral researcher at the Weatherhead Center for International Affairs at Harvard University and an Azrieli Fellow. She earned her Ph.D. in Political Science from Tel Aviv University in January 2025. Her research lies at the intersection of international political economy and political psychology, with a focus on financial decision-making and policymaking. She explores issues such as financial liberalization, cultural influences on financial behavior, and voter attitudes toward redistribution policies. More broadly, her interests span political economy, political behavior, and voting preferences. Methodologically, she specializes in experimental and observational research, with expertise in survey design and in-depth data analysis.

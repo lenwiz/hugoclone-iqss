@@ -11,6 +11,6 @@ subtitle: "Executive-In-Residence, LISH"
 
 ## Elizabeth Richard
 
-**Executive-In-Residence, LISH**
+<strong>Executive-In-Residence, LISH</strong>
 
 Elizabeth E. Richard is founder and principal of EER Strategies, LLC and a visiting fellow of the Laboratory for Innovation Science at Harvard at the Institute for Quantitative Social Science. She was previously a senior strategist for NASA's Human Health and Performance Directorate where she handled strategic planning and partnership development, and played a key role in establishing the NASA Center of Excellence for Collaborative Innovation. She specializes in innovation strategy, collaborative engagement, organizational change management, open innovation, and strategic planning across public, private, and nonprofit sectors. She frequently speaks and writes on strategy innovation and collaborative engagement, and has designed and led many client workshops. She earned her bachelor's degree from Pennsylvania State University and her MBA from the University of Houston.

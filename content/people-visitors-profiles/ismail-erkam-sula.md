@@ -11,7 +11,7 @@ subtitle: "Post-Doctoral Researcher, IQSS"
 
 ## Ismail Erkam Sula
 
-**Post-Doctoral Researcher, IQSS**
+<strong>Post-Doctoral Researcher, IQSS</strong>
 
 Dr. Sula specializes in foreign policy and research methodology in social sciences, currently working on computer-assisted data collection methods. His research combines event data analysis with content analysis to observe the parallelism of words and deeds in foreign policy.
 

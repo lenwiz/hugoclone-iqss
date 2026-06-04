@@ -11,7 +11,7 @@ subtitle: "Visiting Scholar; Assoc Prof, Univ of Macerata"
 
 ## Gianluca Busilacchi
 
-**Visiting Scholar; Assoc Prof, Univ of Macerata**
+<strong>Visiting Scholar; Assoc Prof, Univ of Macerata</strong>
 
 Gianluca Busilacchi is an Associate Professor of Economic Sociology at the University of Macerata (Italy). He has also been a Visiting Fellow at the University of Barcelona, the London School of Economics, the European University Institute, and the Center for European Studies at Harvard University, and was a Marie Curie Fellow at the Centre for Social Policy of the University of Antwerp.
 

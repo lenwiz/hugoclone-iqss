@@ -11,7 +11,7 @@ subtitle: "GIS Research Fellow, CGA"
 
 ## Crhistian Gonzalez-Cuatianquis
 
-**GIS Research Fellow, CGA**
+<strong>GIS Research Fellow, CGA</strong>
 
 Crhistian Joel Gonzalez-Cuatianquis is a PhD candidate in Regional Science and Economic Geography at GSSI, with an economics background. He previously worked at Mexico's CONEVAL, coordinating research on social rights, evaluations, and subnational social development policies.
 

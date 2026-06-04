@@ -11,6 +11,6 @@ subtitle: "Visiting Scholar, LISH; Professor Emeritus, Georgia Tech"
 
 ## Marie Thursby
 
-**Visiting Scholar, LISH; Professor Emeritus, Georgia Tech**
+<strong>Visiting Scholar, LISH; Professor Emeritus, Georgia Tech</strong>
 
 IQSS Visitor/Affiliate.

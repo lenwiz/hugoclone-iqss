@@ -11,7 +11,7 @@ subtitle: "Postdoctoral Fellow, CGA"
 
 ## Junghwan Kim
 
-**Postdoctoral Fellow, CGA**
+<strong>Postdoctoral Fellow, CGA</strong>
 
 Junghwan Kim is a postdoctoral fellow at CGA. He earned his "Ph.D. in Geography (2021) from the University of Illinois at Urbana-Champaign (UIUC)." He also holds a "B.S. in Urban Planning and Engineering (Summa Cum Laude) from Yonsei University (2016)" in South Korea and a Master of Urban Planning from UIUC (2018).
 

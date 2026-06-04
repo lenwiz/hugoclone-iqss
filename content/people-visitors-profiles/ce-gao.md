@@ -11,6 +11,6 @@ subtitle: "Dept of Chinese Literature, Peking University"
 
 ## Ce Gao
 
-**Dept of Chinese Literature, Peking University**
+<strong>Dept of Chinese Literature, Peking University</strong>
 
 Intellectual history of pre-modern China and database of digital humanity (CBDB)

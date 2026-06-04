@@ -11,6 +11,6 @@ subtitle: "Visiting Scholar, Chinese Biographical Database"
 
 ## Jingjia Qiu
 
-**Visiting Scholar, Chinese Biographical Database**
+<strong>Visiting Scholar, Chinese Biographical Database</strong>
 
 Jingjia Qiu "works on Digital Humanities and History Research of Liao-Jin dynasties in Ancient China: Centering on the CBDB Project."

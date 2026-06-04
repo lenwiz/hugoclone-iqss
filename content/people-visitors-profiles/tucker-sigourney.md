@@ -11,6 +11,6 @@ subtitle: "Postdoctoral Fellow, Human Flourishing Program"
 
 ## Tucker Sigourney
 
-**Postdoctoral Fellow, Human Flourishing Program**
+<strong>Postdoctoral Fellow, Human Flourishing Program</strong>
 
 Tucker is a John and Daria Barry postdoctoral fellow at the Human Flourishing Program. His main areas of study are ethics and action theory, especially within the broadly Aristotelian tradition, and his work so far has focused primarily on questions of forgiveness and love. He holds a Ph.D. in philosophy from Florida State University and undergraduate degrees in philosophy and physics from Grove City College.

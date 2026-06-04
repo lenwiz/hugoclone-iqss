@@ -11,6 +11,6 @@ subtitle: "Visiting Scholar, China Biographical Database"
 
 ## Li Cong
 
-**Visiting Scholar, China Biographical Database**
+<strong>Visiting Scholar, China Biographical Database</strong>
 
 Li Cong's research interests include "digital humanity and local gazetteer, and national culture park."

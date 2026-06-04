@@ -358,7 +358,7 @@ layout: "people-category"
 <div class="people-card-image"><img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_4_5__690x865/public/harvard-iqss/files/ania_jaroszwicz_2016.png" alt="Ania Jaroszewicz" /></div>
 <div class="people-card-body">
 <div class="people-card-name">Ania Jaroszewicz</div>
-<div class="people-card-title">Postdoctoral Fellow</div>
+<div class="people-card-title">Research Scientist</div>
 </div>
 </a>
 <a href="../people-visitors-profiles/shao-yu-jheng/" class="people-card people-card-link" style="text-decoration:none;color:inherit;">
@@ -729,7 +729,7 @@ layout: "people-category"
 <div class="people-card-image"><img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_4_5__690x865/public/harvard-iqss/files/ana-trisovic_2019_0.png" alt="Ana Trisovic" /></div>
 <div class="people-card-body">
 <div class="people-card-name">Ana Trisovic</div>
-<div class="people-card-title">Postdoctoral Fellow</div>
+<div class="people-card-title">Research Scientist</div>
 </div>
 </a>
 <a href="../people-visitors-profiles/milo-trujillo/" class="people-card people-card-link" style="text-decoration:none;color:inherit;">

@@ -11,7 +11,7 @@ subtitle: "Associate Professor, NYU Stern; Affiliate, LISH"
 
 ## Hila Lifshitz Assaf
 
-**Associate Professor, NYU Stern; Affiliate, LISH**
+<strong>Associate Professor, NYU Stern; Affiliate, LISH</strong>
 
 Hila Lifshitz-Assaf is an Associate Professor of Information, Operations and Management Sciences at New York University Stern School of Business. She is also an affiliate of the Laboratory for Innovation Science at Harvard.
 

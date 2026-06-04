@@ -11,7 +11,7 @@ subtitle: "Visiting Fellow, HGSE; Research Lead, Harvard Project on Workforce"
 
 ## Salman Khan
 
-**Visiting Fellow, HGSE; Research Lead, Harvard Project on Workforce**
+<strong>Visiting Fellow, HGSE; Research Lead, Harvard Project on Workforce</strong>
 
 Salman is currently a Postdoctoral Fellow at the National Bureau of Economic Research (NBER) in the Economics of Crime, a Visiting Fellow at the Harvard Graduate School of Education, and a Research Lead at the Harvard Project on Workforce.
 

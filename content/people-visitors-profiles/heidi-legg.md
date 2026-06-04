@@ -11,7 +11,7 @@ subtitle: "IQSS Affiliate; Former Fellow, Future of Media Project"
 
 ## Heidi R Legg
 
-**IQSS Affiliate; Former Fellow, Future of Media Project**
+<strong>IQSS Affiliate; Former Fellow, Future of Media Project</strong>
 
 Heidi Legg was the Future of Media fellow at IQSS at Harvard (2020-2022), where she indexed the entire US and Canadian media system with extensive ownership details. She mapped commercial and non-profit media ecosystems to offer solutions on transparency and trust in news. Her work appeared in Axios, USA Today, Nieman Labs, CJR, and Press-Gazette.
 

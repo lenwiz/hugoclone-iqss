@@ -11,7 +11,7 @@ subtitle: "Professor, MIT Sloan School of Management"
 
 ## Antoinette Schoar
 
-**Professor, MIT Sloan School of Management**
+<strong>Professor, MIT Sloan School of Management</strong>
 
 Antoinette Schoar is the Michael M. Koerner Associate Professor of Entrepreneurial Finance at the MIT Sloan School of Management. She has been teaching at Sloan for six years in the areas of corporate finance and entrepreneurship. While starting at Sloan she has developed a new course on Entrepreneurial finance which is a second year elective. Professor Schoar holds a PhD in Economics from the University of Chicago and an undergraduate degree from the University of Cologne, Germany. She received several prestigious scholarships from the German National Scholarship foundation, ministry of commerce and the George Stigler Center at the University of Chicago. She is a member of the American Finance Association and the National Bureau of Economic Research.
 

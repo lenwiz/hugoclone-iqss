@@ -11,7 +11,7 @@ subtitle: "Visiting Scholar, CGA"
 
 ## Rafael Albuquerque
 
-**Visiting Scholar, CGA**
+<strong>Visiting Scholar, CGA</strong>
 
 Rafael Albuquerque is a Visiting Scholar at the Center for Geographic Analysis (CGA) at Harvard University and a PhD Candidate in Marketing at the Federal University of Rio Grande do Sul (UFRGS). His research explores "the intersection of consumer mobility behavior and economic growth in urban environments," using geospatial data science, machine learning, and social media analytics.
 

@@ -11,6 +11,6 @@ subtitle: "Fellow, China Biographical Database"
 
 ## Wanchun Nie
 
-**Fellow, China Biographical Database**
+<strong>Fellow, China Biographical Database</strong>
 
 Wanchun's research focuses on political institutions from Han to Tang Dynasty. In addition, in the CBDB project, she is concerned with how digital humanities tools can be used to analyze families and regional groups in fence towns (fanzhen).

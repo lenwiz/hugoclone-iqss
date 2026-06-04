@@ -11,7 +11,7 @@ subtitle: "Visiting Fellow; Oral-Maxillofacial Surgery, Charite Berlin"
 
 ## Robert Gaudin
 
-**Visiting Fellow; Oral-Maxillofacial Surgery, Charite Berlin**
+<strong>Visiting Fellow; Oral-Maxillofacial Surgery, Charite Berlin</strong>
 
 Robert Gaudin, MD graduated from Medical School in Hamburg, Germany, defending his doctoral thesis in 2014. From January 2015 to June 2016, he was a research fellow at Harvard Medical School's Department of Facial Plastics, working on developing a "Bionic Face" in an animal model and conducting basic clinical studies.
 

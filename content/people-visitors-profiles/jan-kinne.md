@@ -11,6 +11,6 @@ subtitle: "CGA Visiting Fellow"
 
 ## Jan Kinne
 
-**CGA Visiting Fellow**
+<strong>CGA Visiting Fellow</strong>
 
 Jan Kinne is a postdoc in the research area "Economics of Innovation and Business Dynamics" at the Center for European Economic Research (ZEW Mannheim). He studied geoinformatics at the University of Heidelberg and received his PhD from the University of Salzburg on the topic of "web-based innovation indicators for microgeographic analyses". He continues to conduct methodological research around the use of (text-based) web data for innovation research. He is also the co-founder and CEO of ISTARI.AI. The company specializes in AI-based analysis of enterprise web data.

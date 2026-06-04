@@ -11,7 +11,7 @@ subtitle: "Executive Associate, IQSS Startup Foundry"
 
 ## Jacqueline Claudia
 
-**Executive Associate, IQSS Startup Foundry**
+<strong>Executive Associate, IQSS Startup Foundry</strong>
 
 Jacqueline Claudia is an operator, strategist, and founder whose work spans applied AI, data-driven policy, sustainability, and organizational scaling. She is an Executive Affiliate at the Institute for Quantitative Social Science and a mentor in the Startup Foundry, where she works with teams to sharpen their analytical approach, test assumptions against real-world conditions, and build solutions capable of scaling beyond the lab. Jacqueline is also Executive Director of The White Line Foundation and founder of Signal North Group, advising high-growth companies and mission-driven organizations on translating strategy into execution with clarity, speed, and disciplined customer focus. She is an Unreasonable Fellow, recognized for leadership at the intersection of technology, sustainability, and systems change.
 

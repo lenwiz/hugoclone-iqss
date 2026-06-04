@@ -11,7 +11,7 @@ subtitle: "Senior Researcher, Center for Geographic Analysis"
 
 ## Joshua Lieberman
 
-**Senior Researcher, Center for Geographic Analysis**
+<strong>Senior Researcher, Center for Geographic Analysis</strong>
 
 Josh is a senior researcher at the Center for Geographic Analysis with a background in "earth and environmental sciences, as well as geographic information / interoperability science and information standards innovation." His research interests include "geospatial semantics, spatial data science, hydrology, and predictive modeling / decision support for disaster management."
 

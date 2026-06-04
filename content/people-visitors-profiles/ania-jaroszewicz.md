@@ -11,7 +11,7 @@ subtitle: "Postdoctoral Fellow"
 
 ## Ania Jaroszewicz
 
-**Postdoctoral Fellow**
+<strong>Postdoctoral Fellow</strong>
 
 Ania Jaroszewicz is a behavioral scientist whose work "examines questions related to poverty and inequality," with current research on how people decide to ask for help.
 

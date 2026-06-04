@@ -11,6 +11,6 @@ subtitle: "Research Scientist, Meta"
 
 ## Ben Fifield
 
-**Research Scientist, Meta**
+<strong>Research Scientist, Meta</strong>
 
 IQSS Visitor/Affiliate.

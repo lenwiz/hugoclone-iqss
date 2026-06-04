@@ -11,7 +11,7 @@ subtitle: "Associate of IQSS; Assoc Professor, Jagiellonian University"
 
 ## Dorota Weziak-Bialowolska
 
-**Associate of IQSS; Assoc Professor, Jagiellonian University**
+<strong>Associate of IQSS; Assoc Professor, Jagiellonian University</strong>
 
 Dorota Weziak-Bialowolska is a faculty affiliate at Human Flourishing Program at the Institute for Quantitative Social Science and an associate professor at the Centre for Evaluation and Analysis of Public Policies at the Jagiellonian University. She received her master's degree in quantitative methods (2003), her doctoral degree in economics (2008) and post-doctoral degree (habilitation) in sociology (2016). Her research interests are in methodology including impact assessment and evaluation as well as psychometrics, composite scales, and indicators. Her recent focus is on determinants of positive health and human flourishing.
 

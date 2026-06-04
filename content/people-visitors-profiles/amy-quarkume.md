@@ -11,7 +11,7 @@ subtitle: "Associate of IQSS; Assoc Professor, Howard University"
 
 ## Amy Yeboah Quarkume
 
-**Associate of IQSS; Assoc Professor, Howard University**
+<strong>Associate of IQSS; Assoc Professor, Howard University</strong>
 
 Dr. Amy Yeboah Quarkume, known as "Dr. A," is described as "a daughter of Africa, scholar, filmmaker, data scientist" and Associate Professor of Africana Studies at Howard University. She holds a PhD in African American Studies, two Master of Arts degrees in Sociology and African American Studies, and is pursuing an MS in Data Analytics and Computational Social Science from UMass, along with data science credentials from Harvard Extension School and MIT.
 

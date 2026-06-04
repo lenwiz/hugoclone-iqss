@@ -11,7 +11,7 @@ subtitle: "Fellow, IQSS; Director, Microsoft Corporation"
 
 ## Dritan Nesho
 
-**Fellow, IQSS; Director, Microsoft Corporation**
+<strong>Fellow, IQSS; Director, Microsoft Corporation</strong>
 
 Dritan Nesho is a business executive and entrepreneur with experience in corporate strategy, market research, product development, technology, media, and public policy.
 

@@ -11,7 +11,7 @@ subtitle: "Affiliate, Dataverse; Director, Open Inference Initiative"
 
 ## Benjamin Lewis
 
-**Affiliate, Dataverse; Director, Open Inference Initiative**
+<strong>Affiliate, Dataverse; Director, Open Inference Initiative</strong>
 
 Ben Lewis works on open infrastructure for machine-actionable spatial data and auditable spatial inference systems. His current work focuses on improving support for spatio-temporal data and machine-readable metadata in research repositories such as Harvard Dataverse, to make spatial data easier to find, reuse, and incorporate into reproducible workflows.
 

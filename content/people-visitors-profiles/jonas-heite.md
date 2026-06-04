@@ -11,6 +11,6 @@ subtitle: "Visiting Fellow, LISH; Max Planck Institute"
 
 ## Jonas Heite
 
-**Visiting Fellow, LISH; Max Planck Institute**
+<strong>Visiting Fellow, LISH; Max Planck Institute</strong>
 
 Jonas is a Research Fellow and PhD Candidate at the Max Planck Institute for Innovation and Competition and at the LMU Munich, Germany. He is a Visiting Scholar at the Laboratory for Innovation Science at Harvard, Institute for Quantitative Social Sciences (IQSS). His research focuses on incentives, behavior and performance of individuals in tournaments, particularly investigating the effect of pressure due to heterogeneous abilities of contestants through field and lab experiments.
