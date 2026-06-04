@@ -1,0 +1,14 @@
+---
+title: "Andrew Ho"
+date: 2026-05-28
+draft: false
+layout: "resource-page"
+hero_image: ""
+subtitle: "Charles William Eliot Professor of Education"
+---
+
+## Andrew Ho
+
+**Charles William Eliot Professor of Education**
+
+IQSS Faculty Affiliate. For full profile details, see the IQSS People directory.
