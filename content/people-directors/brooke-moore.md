@@ -15,8 +15,6 @@ subtitle: "Director of Sponsored Research Administration"
 
 **Email:** [bmoore@iq.harvard.edu](mailto:bmoore@iq.harvard.edu)
 
-Joined IQSS in 2014. Manages the sponsored research team, oversees financial management and research compliance, and provides pre-award support. Also serves as administrative lead on several scientific research programs.
+Brooke joined the finance team at IQSS in 2014 and is currently the Director of Sponsored Research Administration. At IQSS, Brooke manages the sponsored research team and overall program. She is responsible for overseeing the financial management and research compliance of the sponsored research portfolio and providing pre-award support as needed. Brooke is also the administrative lead on several of IQSS's scientific research programs.
 
-Member of Harvards Board of First-Year Advisers.
-
-**Education:** B.A. in Political Science and History, UW-Madison; M.B.A., UMass-Amherst
+Brooke received her B.A. in Political Science and History from the University of Wisconsin-Madison and her M.B.A. from the Isenberg School of Management at the University of Massachusetts-Amherst. She is a member of the Board of First-Year Advisers, serving as an academic adviser to four Harvard first-year students.

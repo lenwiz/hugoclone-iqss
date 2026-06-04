@@ -15,8 +15,10 @@ subtitle: "Director, IQSS Startup Foundry"
 
 **Email:** [dkleiman@iq.harvard.edu](mailto:dkleiman@iq.harvard.edu)
 
-Leads the IQSS Startup Foundry, catalyzing faculty-led innovation and commercialization. Career includes leadership at HBSs D^3 Startup Foundry, The Players Impact, and founding The Upside Angels.
+Debi Kleiman leads the IQSS Startup Foundry at Harvard, where she catalyzes faculty-led innovation and commercialization across the University.
 
-Previously Executive Director of Babson Colleges Blank Center for Entrepreneurship. Author of "First Pitch: Winning Money, Mentors and More for Your Startup."
+Her distinguished career includes leadership roles at Harvard Business School's D^3 Startup Foundry and The Players Impact, where she directed an accelerator for elite athlete entrepreneurs, and as Managing Partner and founder of The Upside Angels. Prior to Harvard, Debi served as Executive Director of Babson College's Blank Center for Entrepreneurship while also teaching entrepreneurship as an adjunct professor.
 
-**Education:** BS, Cornell; MBA, Harvard Business School
+A respected voice in the startup ecosystem, Debi serves on multiple tech startup boards as a coach and business advisor. She mentors at nationally recognized accelerators, university-based entrepreneurship programs and contributes her expertise as a national board member for SCORE. Her bestselling book, "First Pitch: Winning Money, Mentors and More for Your Startup," has become essential reading for entrepreneurs navigating their early-stage startup journey.
+
+Frequently sought after for her insights, Debi delivers compelling talks, workshops, and panel discussions on pitching and fundraising strategies and entrepreneurial marketing. She holds a BS from Cornell University and an MBA from Harvard Business School.

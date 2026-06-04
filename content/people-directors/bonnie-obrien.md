@@ -15,8 +15,4 @@ subtitle: "Director of Human Resources"
 
 **Email:** [bobrien@iq.harvard.edu](mailto:bobrien@iq.harvard.edu)
 
-Joined IQSS in 2012. Provides overall HR leadership in recruitment, employee relations, and organizational development. Previously worked at UC San Diego.
-
-SPHR certified with 20+ years of HR experience. Currently pursuing a Masters in Industrial-Organizational Psychology.
-
-**Education:** Bachelors in Liberal Arts; HR Management Certificate, UCSD
+Bonnie O'Brien joined IQSS in 2012 and is currently the Director of Human Resources. She provides overall HR leadership and support in the areas of recruitment and retention, employee relations, organizational and policy development, performance management, and oversees academic personnel. Before Harvard, she worked at UC San Diego in a similar HR role. She holds a bachelors degree in liberal arts, a Human Resources Management certificate from UCSD, a Senior Professional in Human Resources (SPHR) certification, and has 20 years of comprehensive HR experience, over 15 of those in higher education. She is currently enrolled in a Master's program for Industrial-Organizational Psychology.

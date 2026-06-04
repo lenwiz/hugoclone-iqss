@@ -15,8 +15,6 @@ subtitle: "Executive Director of IQSS"
 
 **Email:** [ejackson@iq.harvard.edu](mailto:ejackson@iq.harvard.edu)
 
-Elizabeth Jackson joined IQSS in July 2022, coming from Greater Portland Health in Maine and Harvard TH Chan School of Public Healths Department of Global Health and Population. She previously served as Chief Administrative Officer of Greater Portland Health and has worked in health system strengthening across Africa, Asia, and Latin America.
+Elizabeth Jackson is the Executive Director of IQSS. Elizabeth joined IQSS in July 2022 from both Greater Portland Health in Maine, and the Department of Global Health and Population at the Harvard TH Chan School of Public Health. Elizabeth has dedicated her career to work in alignment with the mission of IQSS. She served most recently as the Chief Administrative Officer of Greater Portland Health, has provided health system and community strengthening efforts with partners in Africa, Asia, and Latin America, and has led trauma-informed resilience trainings. Elizabeth has developed, implemented, and overseen health and education programs in several academic, community, public sector, and health settings. She has also previously worked at the World Health Organization, the Yale Global Health Leadership Institute, and the Harvard Global Health Institute. Elizabeth received her Masters in Public Health from Yale University and her Bachelors from Bates College.
 
-Past affiliations include the World Health Organization, Yale Global Health Leadership Institute, and Harvard Global Health Institute.
-
-**Education:** MPH, Yale University; BA, Bates College
+Elizabeth is honored to be part of the team at IQSS advancing the Institute's mission in its next phase of actionable social science innovations to address society's greatest challenges.
