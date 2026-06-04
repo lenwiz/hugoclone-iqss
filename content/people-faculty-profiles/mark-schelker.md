@@ -11,4 +11,4 @@ subtitle: "Professor of Economics, University of Fribourg"
 
 **Professor of Economics, University of Fribourg**
 
-IQSS Faculty Affiliate. For full profile details, see the IQSS People directory.
+Mark is a professor of economics at the University of Fribourg. He mostly works in political economics and public economics. He is interested in how political institutions affect political, economic and social outcomes, and how economic and political networks interact over time and space.
