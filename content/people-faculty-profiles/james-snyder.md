@@ -11,4 +11,4 @@ subtitle: "Leroy B. Williams Professor of History and Political Science"
 
 **Leroy B. Williams Professor of History and Political Science**
 
-IQSS Faculty Affiliate. For full profile details, see the IQSS People directory.
+Professor Snyder's primary research and teaching interests are in American politics. He has written on "elections, campaign finance, legislative behavior and institutions, direct democracy, the media, and corruption." He is a Research Associate at the National Bureau of Economic Research and a Fellow of the American Academy of Arts and Sciences.

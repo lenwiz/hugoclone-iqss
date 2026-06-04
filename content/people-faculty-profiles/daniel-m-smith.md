@@ -11,4 +11,4 @@ subtitle: "Associate Professor of Government"
 
 **Associate Professor of Government**
 
-IQSS Faculty Affiliate. For full profile details, see the IQSS People directory.
+Daniel M. Smith is Associate Professor of Government at Harvard University. His research focuses on "electoral and legislative institutions, party organization, and voter behavior in Japan and Western Europe."

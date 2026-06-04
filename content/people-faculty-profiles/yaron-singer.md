@@ -11,4 +11,4 @@ subtitle: "Associate in Computer Science"
 
 **Associate in Computer Science**
 
-IQSS Faculty Affiliate. For full profile details, see the IQSS People directory.
+Yaron Singer is an Associate in Computer Science. He previously held the position of "Gordon McKay Professor of Computer Science and Applied Mathematics at Harvard." Before that, he was a postdoctoral researcher at Google Research and earned his PhD from UC Berkeley. His awards include the 2012 Best Student Paper Award at the ACM conference on Web Search and Data Mining, the 2010 Facebook Fellowship, the 2009 Microsoft Research Fellowship, and "several entrepreneurial awards for work on social networks."

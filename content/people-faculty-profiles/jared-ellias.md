@@ -11,4 +11,4 @@ subtitle: "Professor of Law"
 
 **Professor of Law**
 
-IQSS Faculty Affiliate. For full profile details, see the IQSS People directory.
+Jared Ellias is a Professor of Law and Affiliated Faculty at IQSS. He "studies corporate law, corporate financial distress and bankruptcy law using quantitative methods and text analysis."

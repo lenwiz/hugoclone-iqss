@@ -11,4 +11,4 @@ subtitle: "Associate Professor, Department of Government"
 
 **Associate Professor, Department of Government**
 
-IQSS Faculty Affiliate. For full profile details, see the IQSS People directory.
+Alisha Holland studies the comparative political economy of development with a focus on urban politics, social policy, and Latin America. Before joining the Harvard faculty, she was an Assistant Professor in the Politics Department at Princeton University and a Junior Fellow at the Harvard Society of Fellows. Her first book, *Forbearance as Redistribution: The Politics of Informal Welfare in Latin America* (Cambridge Studies in Comparative Politics), examines the politics of enforcement against property law violations by the poor, such as squatting, street vending, and electricity theft. Her articles have appeared in the *American Journal of Political Science*, *American Political Science Review*, *Comparative Political Studies*, and *World Politics*, among others. She is currently writing a book on the politics of mass infrastructure projects in Latin America.

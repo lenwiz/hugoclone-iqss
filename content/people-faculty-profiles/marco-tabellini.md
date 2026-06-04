@@ -11,4 +11,8 @@ subtitle: "Assistant Professor, Harvard Business School"
 
 **Assistant Professor, Harvard Business School**
 
-IQSS Faculty Affiliate. For full profile details, see the IQSS People directory.
+Marco Tabellini is an Assistant Professor in the Business, Government, and International Economy unit at Harvard Business School and a Research Affiliate at CEPR and IZA. He "earned his PhD in Economics from the Massachusetts Institute of Technology in 2018" and was a Postdoctoral Fellow at HBS in 2018-2019 before joining the faculty. He also holds a B.S. and M.S. in Economics and Social Sciences from Bocconi University.
+
+He is "a political economist with strong interest in economic history and labor economics" whose research focuses on the political and economic effects of migration. His work seeks to understand factors that facilitate or hinder immigrant assimilation, how different ethnic groups influence inter-group relations, and how migration might foster political and social integration of under-represented populations.
+
+His research has focused primarily on the early twentieth century US, characterized by massive European immigration and "the first wave of the Great Migration of African Americans from the rural South to the urban North." He has also studied the second Great Migration (1940-1970), investigating how it contributed to the development of the civil rights movement.

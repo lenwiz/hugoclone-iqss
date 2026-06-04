@@ -11,4 +11,4 @@ subtitle: "Assistant Professor of Economics"
 
 **Assistant Professor of Economics**
 
-IQSS Faculty Affiliate. For full profile details, see the IQSS People directory.
+David Yang's research focuses on "political economy, behavioral and experimental economics, economic history, and cultural economics." He studies "the forces of stability and forces of changes in authoritarian regimes," drawing from historical and contemporary China. He earned a B.A. in Statistics and B.S. in Business Administration from UC Berkeley, and a PhD in Economics from Stanford.

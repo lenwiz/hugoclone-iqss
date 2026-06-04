@@ -11,4 +11,4 @@ subtitle: "Assistant Professor of Public Policy, HKS"
 
 **Assistant Professor of Public Policy, HKS**
 
-IQSS Faculty Affiliate. For full profile details, see the IQSS People directory.
+Benjamin Schneer is an Assistant Professor of Public Policy at Harvard Kennedy School. He studies American Politics, with work focused on three areas: (1) understanding how individuals and groups engage in political expression to influence lawmakers and each other; (2) tracing the effects of electoral institutions on political behavior of citizens and legislators; and (3) "Documenting the long-run career incentives faced by government officials and how these incentives shape policy-making." He received his PhD in the Department of Government at Harvard University.

@@ -11,4 +11,4 @@ subtitle: "Associate Professor of Pediatrics, HMS"
 
 **Associate Professor of Pediatrics, HMS**
 
-IQSS Faculty Affiliate. For full profile details, see the IQSS People directory.
+Dr. Stamoulis' research interests are at the intersection of Computational Cognitive Neuroscience and Data Science. She leads multiple projects that together aim to elucidate the evolving neural circuitry of the typically/atypically developing brain that supports cognitive function across domains, using large-scale brain datasets and novel computational tools. A recent research direction in her laboratory aims to bridge Neuroscience with the Social Sciences through Data Science and elucidate the impact of the individual brain's topological organization (the connectome) on group/collective behaviors (e.g., cooperation).
