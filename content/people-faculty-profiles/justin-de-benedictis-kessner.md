@@ -11,4 +11,4 @@ subtitle: "Assistant Professor of Public Policy, Kennedy School"
 
 **Assistant Professor of Public Policy, Kennedy School**
 
-IQSS Faculty Affiliate. For full profile details, see the IQSS People directory.
+Justin de Benedictis-Kessner is a political scientist and Assistant Professor of Public Policy at the Harvard Kennedy School. He researches American politics, focusing on "political behavior, public policy, local politics, elections, and experimental and quantitative methodology."

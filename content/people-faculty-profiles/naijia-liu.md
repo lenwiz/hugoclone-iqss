@@ -11,4 +11,4 @@ subtitle: "Assistant Professor, Department of Government"
 
 **Assistant Professor, Department of Government**
 
-IQSS Faculty Affiliate. For full profile details, see the IQSS People directory.
+Naijia is a political methodologist with "a broad interest on quantitative methods on social sciences." She works on projects involving missing data imputation, text analysis/NLP, and social media studies.

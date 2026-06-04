@@ -11,4 +11,4 @@ subtitle: "Professor of Linguistics"
 
 **Professor of Linguistics**
 
-IQSS Faculty Affiliate. For full profile details, see the IQSS People directory.
+Kevin M. Ryan is Professor of Linguistics at Harvard University, where he chaired the Department from 2019 to 2025. His research centers on phonology and poetics, using "quantitative corpus analysis to model the cognitive organization of speech and verbal arts." A major thread of this work examines prosodic systems such as stress, weight, meter, and phrasal phonology, showing how "gradient statistical patterns in language data inform phonological theory." He authored *Prosodic weight: categories and continua* (Oxford University Press, 2019).

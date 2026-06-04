@@ -11,4 +11,4 @@ subtitle: "Assistant Professor of Business Administration"
 
 **Assistant Professor of Business Administration**
 
-IQSS Faculty Affiliate. For full profile details, see the IQSS People directory.
+Jeremy Yang is an Assistant Professor of Business Administration in the Marketing Unit at Harvard Business School. His research centers on "developing data products to improve advertising, targeting, and pricing decisions." These algorithmic solutions draw on economic or behavioral insights and are implemented using machine learning and causal inference techniques. He is also "broadly interested in the creator economy and web3." He earned his PhD in management from MIT.

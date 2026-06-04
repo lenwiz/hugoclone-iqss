@@ -11,4 +11,4 @@ subtitle: "Instructor in Psychiatry, HMS"
 
 **Instructor in Psychiatry, HMS**
 
-IQSS Faculty Affiliate. For full profile details, see the IQSS People directory.
+Dr. Yassin works at the crossroads of "machine learning, psychiatry, and neuroscience," with a focus on "schizophrenia and autism." His DEI work centers on neurodiversity.

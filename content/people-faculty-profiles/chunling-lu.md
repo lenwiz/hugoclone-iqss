@@ -11,4 +11,4 @@ subtitle: "Associate Professor of Medicine, HMS"
 
 **Associate Professor of Medicine, HMS**
 
-IQSS Faculty Affiliate. For full profile details, see the IQSS People directory.
+Chunling Lu, Ph.D., is a health economist at Harvard Medical School holding assistant professor positions in medicine and global health and social medicine. Her research spans five areas: tracking and analyzing "national and global funding sources for health;" developing methodologies and cost-collecting technologies for evaluation research; "evaluating the impact of global health aid on health system strengthening" in resource-poor settings; evaluating universal health coverage progress; and "measuring the economic burden of diseases in developing countries."

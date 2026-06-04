@@ -11,4 +11,4 @@ subtitle: "Assistant Professor, Department of Biostatistics"
 
 **Assistant Professor, Department of Biostatistics**
 
-IQSS Faculty Affiliate. For full profile details, see the IQSS People directory.
+Rajarshi Mukherjee's research focuses on "causal inference from observational studies using non-parametric methods, sparse signal detection problems in genomics, and networks analysis" with applications in neural spike train analysis.
