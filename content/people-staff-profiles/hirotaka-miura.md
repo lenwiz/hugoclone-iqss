@@ -13,4 +13,4 @@ subtitle: "Research Associate, Laboratory for Innovation Science"
 
 **Research Associate, Laboratory for Innovation Science**
 
-IQSS Staff Member.
+Hirotaka Miura is a Research Associate at Harvard Business School, primarily supporting research by Professor Chiara Farronato, an affiliated researcher at the Laboratory for Innovation Science at Harvard. He holds "a master's degree in Mathematics of Finance from Columbia University" and a bachelor's in Mathematics/Economics from UCLA. His prior work experience includes positions at the Federal Reserve Bank of San Francisco, NEC Corporation, GE Japan, GE Healthcare Japan, the Center for Infection and Immunity at Columbia University Mailman School of Public Health, and the Federal Reserve Bank of New York.

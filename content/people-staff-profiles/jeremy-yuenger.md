@@ -13,4 +13,4 @@ subtitle: "IT Client Support Services II, Harvard-MIT Data Center"
 
 **IT Client Support Services II, Harvard-MIT Data Center**
 
-IQSS Staff Member.
+Jeremy joined IQSS in 2013, and most recently has been serving in an application specialist role supporting the Dataverse Project and the FASRC cluster. In his spare time, he enjoys building mechanical keyboards, learning circuitry and PCB design, photography, and curating a vast collection of bad movies.

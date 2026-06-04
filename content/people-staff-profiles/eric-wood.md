@@ -13,4 +13,4 @@ subtitle: "IT Client Support Services"
 
 **IT Client Support Services**
 
-IQSS Staff Member.
+Eric works at Harvard's Institute for Quantitative Social Sciences. He provides desktop support to clients at IQSS as well as support to users of IQSS's Resource Computing Environment. He has been instrumental in the shift to work from home for faculty and staff since the beginning of the pandemic. He shall continue to play a vital role in the "return to the new normal" on campus.

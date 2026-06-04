@@ -13,4 +13,4 @@ subtitle: "Developer, Dataverse Core Development Team"
 
 **Developer, Dataverse Core Development Team**
 
-IQSS Staff Member.
+Oliver is a Research Software Engineer working on solutions for management, publication and archiving of research data and research software. His mission is bringing together these two worlds, fostering Open Science and Reproducibility. Located at the Central Library of Forschungszentrum Jülich, Germany, he works closely together with the IQSS as part of the Dataverse Core Team. His focus there is addressing topics like containerization and research software readiness of Dataverse repositories. As Co-PI of HERMES he develops a new key infrastructure element for automated, metadata rich research software publications.

@@ -13,4 +13,4 @@ subtitle: "IT Client Support Services Associate"
 
 **IT Client Support Services Associate**
 
-IQSS Staff Member.
+Bailey Moore joined IQSS in 2024 as an IT Client Services Support Specialist. She studied Computer Networking at Lamar Institute of Technology. Originally from Texas, she moved to New York and then Boston. She previously served as a Network Administrator for a School District and worked IT Help Desk for Neches FCU.

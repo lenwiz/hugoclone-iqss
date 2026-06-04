@@ -13,4 +13,4 @@ subtitle: "Geospatial Data Scientist, Center for Geographic Analysis"
 
 **Geospatial Data Scientist, Center for Geographic Analysis**
 
-IQSS Staff Member.
+Jack Hayes is a senior at William & Mary pursuing a major in Data Science with a focus in Spatial Data Analytics. He is "passionate about using spatial science and machine learning to advance efforts in various environmentalism fields." Previously serving as an NSF REU Student Research Fellow at the Center for Geographic Analysis and now a Data Scientist, he aims to help "forward research through the use of big data and spatiotemporal analysis."

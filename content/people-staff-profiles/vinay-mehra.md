@@ -13,4 +13,4 @@ subtitle: "Associate of IQSS"
 
 **Associate of IQSS**
 
-IQSS Staff Member.
+Vinay Mehra is passionate about "curating academic literature to make new knowledge accessible to a broader audience," emphasizing social science and data's role in shaping worldview. His research centers on identifying social science ideas developable into commercial ventures for public benefit. He has a strong background in media and information, having held leadership positions at Politico and The Boston Globe, and has launched multiple companies as an entrepreneur in the data and information space.

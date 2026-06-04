@@ -13,4 +13,4 @@ subtitle: "Research Associate, Laboratory for Innovation Science"
 
 **Research Associate, Laboratory for Innovation Science**
 
-IQSS Staff Member.
+Chetan Krishna is a research associate focusing on the processes of science and technology commercialization and the adoption of AI/ML/NLP in businesses. His interests lie broadly in innovation and energy/sustainability. Chetan received his master's degree from the Massachusetts Institute of Technology's Technology Policy Program and received a bachelor's degree in Mechanical Engineering from the Indian Institute of Technology, Delhi.

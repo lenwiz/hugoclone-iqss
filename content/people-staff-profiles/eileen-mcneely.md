@@ -13,4 +13,4 @@ subtitle: "Executive Director, SHINE, Human Flourishing Program"
 
 **Executive Director, SHINE, Human Flourishing Program**
 
-IQSS Staff Member.
+Dr. McNeely founded SHINE (Sustainability and Health Initiative for Netpositive Enterprise) to explore how "work can be a platform for societal flourishing and business can be a force for good." SHINE's research spans organizational and behavioral psychology, public health, epidemiology, sociology, business economics and ethics, data science, and social policy. The program partners with academics, businesses, unions, and non-profits to foster mutual learning about real-world challenges and solutions.

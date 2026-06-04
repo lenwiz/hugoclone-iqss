@@ -13,4 +13,4 @@ subtitle: "Feature Writer"
 
 **Feature Writer**
 
-IQSS Staff Member.
+Courtney Hayes is an award-winning writer and documentary filmmaker who started her career at PBS' *Frontline*. She has written and produced documentaries for The History Channel, Discovery, and Curiosity Stream, and created digital stories for leading brands. She currently writes interview-based feature articles for IQSS.
