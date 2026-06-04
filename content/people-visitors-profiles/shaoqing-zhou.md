@@ -13,4 +13,4 @@ subtitle: "Fellow, CBDB; Joint PhD Student, Harvard"
 
 **Fellow, CBDB; Joint PhD Student, Harvard**
 
-IQSS Visitor/Affiliate.
+Shaoqing Zhou's research interest is digital humanity.

@@ -13,4 +13,4 @@ subtitle: "Visiting Fellow, CGA"
 
 **Visiting Fellow, CGA**
 
-IQSS Visitor/Affiliate.
+Yuting Chen is a PhD student from the Institute of Space and Earth Information Science, the Chinese University of Hong Kong. Her research focuses on "virtual geographic environment, geographic knowledge engineering and geospatial big data analysis." She has a computer science and software engineering background. During her PhD, she worked on a project involving "Collaborative Simulation and Evaluation of Interaction between Global Change and Human Activities and Environment Based on Virtual Geographic Environment," dealing with intelligent data and model sharing and multi-dimensional visualization for collaborative geographic research. As a visiting scholar at CGA, she studies under the supervision of Prof. Jason Ur and Dr. Wendy Guan.

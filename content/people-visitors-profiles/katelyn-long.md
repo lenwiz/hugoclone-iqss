@@ -13,4 +13,4 @@ subtitle: "Post-Doctoral Fellow, Human Flourishing Program"
 
 **Post-Doctoral Fellow, Human Flourishing Program**
 
-IQSS Visitor/Affiliate.
+Katelyn Long's current work focuses on the group dynamics of religion on human flourishing and the development of tradition-specific spiritual well-being measures. She completed her doctoral studies at Boston University School of Public Health where her dissertation focused on the role of faith-based and charitable health providers in the context of the broader health system. Her other public health work has been in the areas of chronic disease prevention, adolescent health, mental health, and positive deviance in vulnerable communities. She earned her Master of Science in Public Health from the University of Utah and her undergraduate degree in religion with a minor in music from Vanguard University.

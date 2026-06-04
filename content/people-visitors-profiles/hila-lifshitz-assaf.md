@@ -13,4 +13,6 @@ subtitle: "Associate Professor, NYU Stern; Affiliate, LISH"
 
 **Associate Professor, NYU Stern; Affiliate, LISH**
 
-IQSS Visitor/Affiliate.
+Hila Lifshitz-Assaf is an Associate Professor of Information, Operations and Management Sciences at New York University Stern School of Business. She is also an affiliate of the Laboratory for Innovation Science at Harvard.
+
+Her research centers on understanding the "micro-foundations of scientific and technological innovation and knowledge creation processes in the digital age." She investigates how innovation capacity is being transformed and what challenges and opportunities this presents for R&D organizations and professionals. She carried out a three-year longitudinal field study of NASA's experimentation with open innovation platforms and communities, which resulted in a scientific breakthrough. This work received the best dissertation Grigor McClelland Award at EGOS 2015, Best ASQ paper based on dissertation (2018), and Best published paper from the organizational communication and information systems division of the Academy of Management (2018).

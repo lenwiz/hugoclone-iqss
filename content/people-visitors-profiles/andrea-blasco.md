@@ -13,4 +13,4 @@ subtitle: "Research Associate, LISH"
 
 **Research Associate, LISH**
 
-IQSS Visitor/Affiliate.
+Andrea Blasco is a research associate at IQSS at Harvard University, working for the Laboratory for Innovation Science at Harvard (LISH). His research interests span Industrial Organization, Economics of innovation, and Media Economics. Much of his work focuses on understanding the relationship between R&D and the legal system of IP rights. An equally important part of his research analyzes key economic concepts and issues affecting new and traditional media. Andrea holds a PhD in Economics from the University of Bologna, and a Master M2 from Toulouse School of Economics.

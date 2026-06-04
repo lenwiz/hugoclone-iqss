@@ -13,4 +13,4 @@ subtitle: "Data Science Fellow"
 
 **Data Science Fellow**
 
-IQSS Visitor/Affiliate.
+Kaixuan Zhang is a Data Science Fellow with a research focus on "computer vision and document intelligence."

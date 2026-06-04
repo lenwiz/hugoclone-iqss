@@ -13,4 +13,6 @@ subtitle: "IQSS Affiliate; Research Scientist, Facebook"
 
 **IQSS Affiliate; Research Scientist, Facebook**
 
-IQSS Visitor/Affiliate.
+Angela Lee completed a PhD in sociology at Harvard University in 2021. She is currently a Research Scientist at Facebook.
+
+Her dissertation research examined wealth inequality by gender in the United States. She looked at trends in the gender wealth gap over the past three decades, changes in the gender wealth gap over the life course, and wealth inequality between husbands and wives. She has also studied crime and criminal justice, including the causal effect of employment on crime for juvenile offenders and the high rates of dropout in residential drug treatment.

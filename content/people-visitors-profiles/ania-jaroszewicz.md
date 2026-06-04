@@ -13,4 +13,6 @@ subtitle: "Postdoctoral Fellow"
 
 **Postdoctoral Fellow**
 
-IQSS Visitor/Affiliate.
+Ania Jaroszewicz is a behavioral scientist whose work "examines questions related to poverty and inequality," with current research on how people decide to ask for help.
+
+She "completed her PhD in behavioral decision research at Carnegie Mellon University." Before that, she worked in consumer protection for the federal government and studied economics and psychology at UC Berkeley. She is "a 2016 recipient of the Paul & Daisy Soros Fellowship."

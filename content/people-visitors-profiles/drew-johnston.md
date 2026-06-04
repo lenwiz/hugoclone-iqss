@@ -13,4 +13,4 @@ subtitle: "Research Associate, Opportunity Insights"
 
 **Research Associate, Opportunity Insights**
 
-IQSS Visitor/Affiliate.
+Drew Johnston is a Research Associate at Opportunity Insights. His research interests span "urban economics, labor economics, and political economy." He is particularly focused on how social networks interact with these fields and on leveraging new data sources to address questions in these areas.

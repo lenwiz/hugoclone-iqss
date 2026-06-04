@@ -13,4 +13,6 @@ subtitle: "Visiting Scholar, Data Privacy Lab"
 
 **Visiting Scholar, Data Privacy Lab**
 
-IQSS Visitor/Affiliate.
+Murat Kantarcioglu is an Associate Professor of Computer Science and Director of the UTD Data Security and Privacy Lab at the University of Texas at Dallas. He received the NSF CAREER award and the Purdue University CERIAS Diamond Award for Academic excellence. He has published over 100 papers on data security and privacy in peer-reviewed journals and conferences. His research has been funded by the National Science Foundation, Air Force Office of Scientific Research, Office of Naval Research, National Security Agency, Army Research Office, and National Institutes of Health. His work has been featured by the Boston Globe, ABC News, and other media outlets, and he has received two best paper awards.
+
+His research focuses on "creating technologies that can efficiently extract useful information from any data without sacrificing privacy or security." Recently he has worked on security and privacy issues raised by data mining, privacy issues in social networks, security issues in big data, and big data analytics for cyber-security. During his time at Harvard Data Privacy Lab, he plans to explore discrimination issues in big data analytics.

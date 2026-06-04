@@ -13,4 +13,4 @@ subtitle: "Visiting Researcher, CGA"
 
 **Visiting Researcher, CGA**
 
-IQSS Visitor/Affiliate.
+Nicole is a Visiting Researcher at the CGA and was previously a Principal Member of Technical Staff on the Oracle Spatial development team. Nicole has a Ph.D. in Geography from the University of California, Santa Barbara, a M.S. in Geographic and Geodetic Information Systems from the University of London, and a B.S. in Land Surveying from the University of the West Indies. Prior to working for Oracle Corporation, Nicole's experience in the field of geomatics included, a data capture engineer/GIS specialist at Trimble, a GIS consultant at Fujitsu-ICL, and a land surveyor on the Channel Tunnel project linking England to France.

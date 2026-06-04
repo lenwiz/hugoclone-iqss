@@ -13,4 +13,4 @@ subtitle: "Postdoctoral Fellow, Islamic Law, HLS"
 
 **Postdoctoral Fellow, Islamic Law, HLS**
 
-IQSS Visitor/Affiliate.
+Dr. Yusuf Celik's research focuses on "philosophical hermeneutics, posthumanism, and the Digital Humanities." He has also been active in software engineering, working as an independent contractor for high-profile clients as a "lead developer, consultant, code coach, and Scrum master." He is currently building tools and platforms that enable researchers to "derive quantifiable insights from historical and legal texts."

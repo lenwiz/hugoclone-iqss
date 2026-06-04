@@ -13,4 +13,8 @@ subtitle: "IQSS Affiliate"
 
 **IQSS Affiliate**
 
-IQSS Visitor/Affiliate.
+Erik has a master's in Environmental Science and experience in IT implementations, software development, SCRUM and Lean/Six Sigma and graphic design.
+
+When he was an Institute Fellow from 2019-2020, Erik Buunk worked on IQSS-affiliated Scientific Programs. He was also involved in internal IQSS projects such as the improvement of metrics, the cross-check of user stories for the migration of the computer cluster environments (RCE to Sid) and the development of a data visualization for the Harvard Dataverse homepage.
+
+Before IQSS, Erik has worked for governmental organizations as an Information Consultant, Project Manager, and Business Analyst. His main focus was to bridge the gap between the needs of end users and the technical implementation, and he was looking for improvements in work processes either through better technical solutions or smarter workflows.

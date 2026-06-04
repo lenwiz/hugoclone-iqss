@@ -13,4 +13,8 @@ subtitle: "Senior Research Scientist, Harvard Chan SPH"
 
 **Senior Research Scientist, Harvard Chan SPH**
 
-IQSS Visitor/Affiliate.
+I am a Senior Research Scientist at the Harvard T.H. Chan School of Public Health and at the Institute for Quantitative Social Science.
+
+I was trained as a statistician (PhD 2003, Paris Dauphine). My research interests are data science and high-performance computing, reproducible research, and environmental policy and health policy.
+
+Recent published works include the New England Journal of Medicine, the Journal of the American Medical Association, and the Annals of Applied Statistics.

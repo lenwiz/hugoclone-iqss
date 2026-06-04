@@ -13,4 +13,8 @@ subtitle: "Predoctoral Research Fellow"
 
 **Predoctoral Research Fellow**
 
-IQSS Visitor/Affiliate.
+Shao-Yu Jheng's research topics include "(i) (rapid) industrialization and premature deindustrialization, (ii) state capacity and industrial policy, (iii) institutions," (iv) USA's aid policy, spanning political economy, economic history, development economics, and industrial organization.
+
+Previously working at National Taiwan University, his works explored USA's lend-lease aid to China during WWII, Qing Taiwan's land institutions, and impacts of Japanese colonial legacies on Taiwan's postwar industrialization.
+
+At Harvard, he works with Professor Melissa Dell to "utilize deep learning methods to unlock the potential of large-scale Japanese historical archival data," aiming to answer major questions about the East Asian miracle.

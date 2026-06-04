@@ -13,4 +13,4 @@ subtitle: "Postdoctoral Fellow, Harvard Data Science Initiative"
 
 **Postdoctoral Fellow, Harvard Data Science Initiative**
 
-IQSS Visitor/Affiliate.
+Melody is a Wojcicki Troper Harvard Data Science Institute Postdoctoral Fellow. Her research focuses on developing methods for credible causal inference under real world complications. Before Harvard, Melody received her PhD in Statistics from UC Berkeley, where she was generously supported by the NSF Graduate Research Fellowship Program. Her research was awarded the John T. Williams dissertation prize by the Society of Political Methodology.

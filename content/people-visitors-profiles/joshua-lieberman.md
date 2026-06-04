@@ -13,4 +13,6 @@ subtitle: "Senior Researcher, Center for Geographic Analysis"
 
 **Senior Researcher, Center for Geographic Analysis**
 
-IQSS Visitor/Affiliate.
+Josh is a senior researcher at the Center for Geographic Analysis with a background in "earth and environmental sciences, as well as geographic information / interoperability science and information standards innovation." His research interests include "geospatial semantics, spatial data science, hydrology, and predictive modeling / decision support for disaster management."
+
+Josh is a "Retired Director of Innovation Programs at the Open Geospatial Consortium" and sometime instructor of advanced geospatial analysis in Harvard DCE.

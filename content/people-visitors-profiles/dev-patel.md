@@ -13,4 +13,4 @@ subtitle: "Prize Fellow in Economics, History, and Politics"
 
 **Prize Fellow in Economics, History, and Politics**
 
-IQSS Visitor/Affiliate.
+Dev Patel is a development economist focusing on the environment, education, and gender.

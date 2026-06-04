@@ -13,4 +13,10 @@ subtitle: "Visiting Scholar; Assoc Prof, Univ of Macerata"
 
 **Visiting Scholar; Assoc Prof, Univ of Macerata**
 
-IQSS Visitor/Affiliate.
+Gianluca Busilacchi is an Associate Professor of Economic Sociology at the University of Macerata (Italy). He has also been a Visiting Fellow at the University of Barcelona, the London School of Economics, the European University Institute, and the Center for European Studies at Harvard University, and was a Marie Curie Fellow at the Centre for Social Policy of the University of Antwerp.
+
+From 2010 to 2020, he served as a Member of the Regional Parliament of Marche, where he held positions as Chair of the Health and Welfare Committee, Chair of the Committee on Policy Evaluation, and Majority Leader.
+
+His research interests include comparative social policy, poverty and labor markets, social assistance policies, and, on the theoretical side, analytical sociology. He is currently working on a project analyzing how institutions shape the individual behavior of beneficiaries of active social policies, using mixed methods.
+
+His research has been published in journals such as Social Indicators Research, Social Policy and Administration, and the Journal of International and Comparative Social Policy.

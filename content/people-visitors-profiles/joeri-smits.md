@@ -13,4 +13,4 @@ subtitle: "Postdoctoral Research Fellow"
 
 **Postdoctoral Research Fellow**
 
-IQSS Visitor/Affiliate.
+Dr. Joeri Smits conducts research in "applied microeconomics, econometrics, and political economy." He earned his PhD from the Swiss Federal Institute of Technology Zurich and held a postdoctoral position at Yale before joining Harvard.
