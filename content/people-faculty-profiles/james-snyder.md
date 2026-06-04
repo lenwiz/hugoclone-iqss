@@ -7,6 +7,8 @@ hero_image: ""
 subtitle: "Leroy B. Williams Professor of History and Political Science"
 ---
 
+<img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_4_5__690x865/public/harvard-iqss/files/jams_synder_0.png" alt="" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
+
 ## James Snyder
 
 **Leroy B. Williams Professor of History and Political Science**

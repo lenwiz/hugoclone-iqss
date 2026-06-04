@@ -7,6 +7,8 @@ hero_image: ""
 subtitle: "Professor of Public Policy, Kennedy School"
 ---
 
+<img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_4_5__690x865/public/harvard-iqss/files/maya-sen_2015b.png" alt="" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
+
 ## Maya Sen
 
 **Professor of Public Policy, Kennedy School**

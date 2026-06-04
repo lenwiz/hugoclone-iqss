@@ -772,216 +772,252 @@ layout: "people-category"
 </div>
 </a>
 <a href="../people-faculty-profiles/robert-sampson/" class="people-card people-card-link" style="text-decoration:none;color:inherit;">
+<div class="people-card-image"><img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_4_5__690x865/public/harvard-iqss/files/robert_sampson_0.jpg" alt="" /></div>
 <div class="people-card-body">
 <div class="people-card-name">Robert Sampson</div>
 <div class="people-card-title">Henry Ford II Professor of the Social Sciences</div>
 </div>
 </a>
 <a href="../people-faculty-profiles/brian-schaffner/" class="people-card people-card-link" style="text-decoration:none;color:inherit;">
+<div class="people-card-image"><img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_4_5__690x865/public/harvard-iqss/files/brian-schaffner_2024.jpeg" alt="" /></div>
 <div class="people-card-body">
 <div class="people-card-name">Brian Schaffner</div>
 <div class="people-card-title">Professor of Political Science, Tufts University</div>
 </div>
 </a>
 <a href="../people-faculty-profiles/mark-schelker/" class="people-card people-card-link" style="text-decoration:none;color:inherit;">
+<div class="people-card-image"><img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_4_5__690x865/public/harvard-iqss/files/mark-schelker_2016_med.jpg" alt="" /></div>
 <div class="people-card-body">
 <div class="people-card-name">Mark Schelker</div>
 <div class="people-card-title">Professor of Economics, University of Fribourg</div>
 </div>
 </a>
 <a href="../people-faculty-profiles/benjamin-schneer/" class="people-card people-card-link" style="text-decoration:none;color:inherit;">
+<div class="people-card-image"><img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_4_5__690x865/public/harvard-iqss/files/ben-schneer_2019.jpg" alt="" /></div>
 <div class="people-card-body">
 <div class="people-card-name">Benjamin Schneer</div>
 <div class="people-card-title">Assistant Professor of Public Policy, HKS</div>
 </div>
 </a>
 <a href="../people-faculty-profiles/margo-seltzer/" class="people-card people-card-link" style="text-decoration:none;color:inherit;">
+<div class="people-card-image"><img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_4_5__690x865/public/harvard-iqss/files/margo_seltzer_0.png" alt="" /></div>
 <div class="people-card-body">
 <div class="people-card-name">Margo I. Seltzer</div>
 <div class="people-card-title">Herchel Smith Professor of Computer Science</div>
 </div>
 </a>
 <a href="../people-faculty-profiles/maya-sen/" class="people-card people-card-link" style="text-decoration:none;color:inherit;">
+<div class="people-card-image"><img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_4_5__690x865/public/harvard-iqss/files/maya-sen_2015b.png" alt="" /></div>
 <div class="people-card-body">
 <div class="people-card-name">Maya Sen</div>
 <div class="people-card-title">Professor of Public Policy, Kennedy School</div>
 </div>
 </a>
 <a href="../people-faculty-profiles/mahnum-shahzad/" class="people-card people-card-link" style="text-decoration:none;color:inherit;">
+<div class="people-card-image"><img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_4_5__690x865/public/harvard-iqss/files/mahnum_shahzad_-_headshot_1.png" alt="" /></div>
 <div class="people-card-body">
 <div class="people-card-name">Mahnum Shahzad</div>
 <div class="people-card-title">Instructor, Harvard Medical School</div>
 </div>
 </a>
 <a href="../people-faculty-profiles/neil-shephard/" class="people-card people-card-link" style="text-decoration:none;color:inherit;">
+<div class="people-card-image"><img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_4_5__690x865/public/harvard-iqss/files/neil_shephard_0.png" alt="" /></div>
 <div class="people-card-body">
 <div class="people-card-name">Neil Shephard</div>
 <div class="people-card-title">Frank B. Baird Jr. Professor of Science</div>
 </div>
 </a>
 <a href="../people-faculty-profiles/kenneth-shepsle/" class="people-card people-card-link" style="text-decoration:none;color:inherit;">
+<div class="people-card-image"><img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_4_5__690x865/public/harvard-iqss/files/kenneth_shepsle_0.jpg" alt="" /></div>
 <div class="people-card-body">
 <div class="people-card-name">Kenneth Shepsle</div>
 <div class="people-card-title">George D. Markham Professor of Government</div>
 </div>
 </a>
 <a href="../people-faculty-profiles/andrei-shleifer/" class="people-card people-card-link" style="text-decoration:none;color:inherit;">
+<div class="people-card-image"><img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_4_5__690x865/public/harvard-iqss/files/andrei_shleifer_1_0.jpg" alt="" /></div>
 <div class="people-card-body">
 <div class="people-card-name">Andrei Shleifer</div>
 <div class="people-card-title">John L. Loeb Professor of Economics</div>
 </div>
 </a>
 <a href="../people-faculty-profiles/yaron-singer/" class="people-card people-card-link" style="text-decoration:none;color:inherit;">
+<div class="people-card-image"><img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_4_5__690x865/public/harvard-iqss/files/yaron_singer_0.png" alt="" /></div>
 <div class="people-card-body">
 <div class="people-card-name">Yaron Singer</div>
 <div class="people-card-title">Associate in Computer Science</div>
 </div>
 </a>
 <a href="../people-faculty-profiles/daniel-m-smith/" class="people-card people-card-link" style="text-decoration:none;color:inherit;">
+<div class="people-card-image"><img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_4_5__690x865/public/harvard-iqss/files/daniel_smith_0.png" alt="" /></div>
 <div class="people-card-body">
 <div class="people-card-name">Daniel M Smith</div>
 <div class="people-card-title">Associate Professor of Government</div>
 </div>
 </a>
 <a href="../people-faculty-profiles/james-snyder/" class="people-card people-card-link" style="text-decoration:none;color:inherit;">
+<div class="people-card-image"><img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_4_5__690x865/public/harvard-iqss/files/jams_synder_0.png" alt="" /></div>
 <div class="people-card-body">
 <div class="people-card-name">James Snyder</div>
 <div class="people-card-title">Leroy B. Williams Professor of History and Political Science</div>
 </div>
 </a>
 <a href="../people-faculty-profiles/caterina-stamoulis/" class="people-card people-card-link" style="text-decoration:none;color:inherit;">
+<div class="people-card-image"><img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_4_5__690x865/public/harvard-iqss/files/stamoulis-caterina.jpg" alt="" /></div>
 <div class="people-card-body">
 <div class="people-card-name">Caterina Stamoulis</div>
 <div class="people-card-title">Associate Professor of Pediatrics, HMS</div>
 </div>
 </a>
 <a href="../people-faculty-profiles/matthew-stephenson/" class="people-card people-card-link" style="text-decoration:none;color:inherit;">
+<div class="people-card-image"><img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_4_5__690x865/public/harvard-iqss/files/matthew_stephenson.png" alt="" /></div>
 <div class="people-card-body">
 <div class="people-card-name">Matthew Stephenson</div>
 <div class="people-card-title">Eli Goldston Professor of Law</div>
 </div>
 </a>
 <a href="../people-faculty-profiles/sv-subramanian/" class="people-card people-card-link" style="text-decoration:none;color:inherit;">
+<div class="people-card-image"><img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_4_5__690x865/public/harvard-iqss/files/sv_subramanian.png" alt="" /></div>
 <div class="people-card-body">
 <div class="people-card-name">SV Subramanian</div>
 <div class="people-card-title">Professor of Population Health and Geography</div>
 </div>
 </a>
 <a href="../people-faculty-profiles/latanya-sweeney/" class="people-card people-card-link" style="text-decoration:none;color:inherit;">
+<div class="people-card-image"><img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_4_5__690x865/public/harvard-iqss/files/iqss-faculty-member.jpg" alt="" /></div>
 <div class="people-card-body">
 <div class="people-card-name">Latanya Sweeney</div>
 <div class="people-card-title">Daniel Paul Professor of Government and Technology</div>
 </div>
 </a>
 <a href="../people-faculty-profiles/marco-tabellini/" class="people-card people-card-link" style="text-decoration:none;color:inherit;">
+<div class="people-card-image"><img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_4_5__690x865/public/harvard-iqss/files/marco-tabellini-2021.jpg" alt="" /></div>
 <div class="people-card-body">
 <div class="people-card-name">Marco Tabellini</div>
 <div class="people-card-title">Assistant Professor, Harvard Business School</div>
 </div>
 </a>
 <a href="../people-faculty-profiles/dustin-tingley/" class="people-card people-card-link" style="text-decoration:none;color:inherit;">
+<div class="people-card-image"><img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_4_5__690x865/public/harvard-iqss/files/dustin-tingley_2023.jpg" alt="" /></div>
 <div class="people-card-body">
 <div class="people-card-name">Dustin Tingley</div>
 <div class="people-card-title">Professor of Government</div>
 </div>
 </a>
 <a href="../people-faculty-profiles/jason-ur/" class="people-card people-card-link" style="text-decoration:none;color:inherit;">
+<div class="people-card-image"><img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_4_5__690x865/public/harvard-iqss/files/jason-ur_0.jpg" alt="" /></div>
 <div class="people-card-body">
 <div class="people-card-name">Jason Ur</div>
 <div class="people-card-title">Professor of Archaeology and Ethnology</div>
 </div>
 </a>
 <a href="../people-faculty-profiles/adaner-usmani/" class="people-card people-card-link" style="text-decoration:none;color:inherit;">
+<div class="people-card-image"><img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_4_5__690x865/public/harvard-iqss/files/adaner-usmani_2019_0.jpg" alt="" /></div>
 <div class="people-card-body">
 <div class="people-card-name">Adaner Usmani</div>
 <div class="people-card-title">Assistant Professor of Sociology</div>
 </div>
 </a>
 <a href="../people-faculty-profiles/salil-vadhan/" class="people-card people-card-link" style="text-decoration:none;color:inherit;">
+<div class="people-card-image"><img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_4_5__690x865/public/harvard-iqss/files/salil_vadhan.png" alt="" /></div>
 <div class="people-card-body">
 <div class="people-card-name">Salil Vadhan</div>
 <div class="people-card-title">Vicky Joseph Professor of Computer Science</div>
 </div>
 </a>
 <a href="../people-faculty-profiles/tyler-vanderweele/" class="people-card people-card-link" style="text-decoration:none;color:inherit;">
+<div class="people-card-image"><img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_4_5__690x865/public/harvard-iqss/files/tyler-vanderweele_2017_crop.png" alt="" /></div>
 <div class="people-card-body">
 <div class="people-card-name">Tyler VanderWeele</div>
 <div class="people-card-title">John L. Loeb and Frances Lehman Loeb Professor of Epidemiology</div>
 </div>
 </a>
 <a href="../people-faculty-profiles/jim-waldo/" class="people-card people-card-link" style="text-decoration:none;color:inherit;">
+<div class="people-card-image"><img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_4_5__690x865/public/harvard-iqss/files/jim-waldo_2019.png" alt="" /></div>
 <div class="people-card-body">
 <div class="people-card-name">Jim Waldo</div>
 <div class="people-card-title">Gordon McKay Professor of the Practice of Computer Science</div>
 </div>
 </a>
 <a href="../people-faculty-profiles/yuhua-wang/" class="people-card people-card-link" style="text-decoration:none;color:inherit;">
+<div class="people-card-image"><img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_4_5__690x865/public/harvard-iqss/files/yuhua_wang_0_1.png" alt="" /></div>
 <div class="people-card-body">
 <div class="people-card-name">Yuhua Wang</div>
 <div class="people-card-title">Associate Professor of Government</div>
 </div>
 </a>
 <a href="../people-faculty-profiles/jeremy-wei/" class="people-card people-card-link" style="text-decoration:none;color:inherit;">
+<div class="people-card-image"><img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_4_5__690x865/public/harvard-iqss/files/jeremy-wei_2025.png" alt="" /></div>
 <div class="people-card-body">
 <div class="people-card-name">Jeremy Wei</div>
 <div class="people-card-title">Program Instructor, DCE</div>
 </div>
 </a>
 <a href="../people-faculty-profiles/michael-wilson/" class="people-card people-card-link" style="text-decoration:none;color:inherit;">
+<div class="people-card-image"><img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_4_5__690x865/public/harvard-iqss/files/michael_wilson_0.jpg" alt="" /></div>
 <div class="people-card-body">
 <div class="people-card-name">Michael Wilson</div>
 <div class="people-card-title">Instructor in Emergency Medicine, HMS</div>
 </div>
 </a>
 <a href="../people-faculty-profiles/christopher-winship/" class="people-card people-card-link" style="text-decoration:none;color:inherit;">
+<div class="people-card-image"><img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_4_5__690x865/public/harvard-iqss/files/christopher-winship_2019.jpeg" alt="" /></div>
 <div class="people-card-body">
 <div class="people-card-name">Christopher Winship</div>
 <div class="people-card-title">Diker-Tishman Professor of Sociology</div>
 </div>
 </a>
 <a href="../people-faculty-profiles/richard-wrangham/" class="people-card people-card-link" style="text-decoration:none;color:inherit;">
+<div class="people-card-image"><img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_4_5__690x865/public/harvard-iqss/files/richard_wrangham.png" alt="" /></div>
 <div class="people-card-body">
 <div class="people-card-name">Richard Wrangham</div>
 <div class="people-card-title">Ruth Moore Professor of Biological Anthropology, Emeritus</div>
 </div>
 </a>
 <a href="../people-faculty-profiles/jeremy-yang/" class="people-card people-card-link" style="text-decoration:none;color:inherit;">
+<div class="people-card-image"><img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_4_5__690x865/public/harvard-iqss/files/jeremy_yang_2022.png" alt="" /></div>
 <div class="people-card-body">
 <div class="people-card-name">Jeremy Yang</div>
 <div class="people-card-title">Assistant Professor of Business Administration</div>
 </div>
 </a>
 <a href="../people-faculty-profiles/david-y-yang/" class="people-card people-card-link" style="text-decoration:none;color:inherit;">
+<div class="people-card-image"><img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_4_5__690x865/public/harvard-iqss/files/david-y-yang_2019.jpg" alt="" /></div>
 <div class="people-card-body">
 <div class="people-card-name">David Y Yang</div>
 <div class="people-card-title">Assistant Professor of Economics</div>
 </div>
 </a>
 <a href="../people-faculty-profiles/walid-yassin/" class="people-card people-card-link" style="text-decoration:none;color:inherit;">
+<div class="people-card-image"><img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_4_5__690x865/public/harvard-iqss/files/walid-yassin_2023exp.jpg" alt="" /></div>
 <div class="people-card-body">
 <div class="people-card-name">Walid Yassin</div>
 <div class="people-card-title">Instructor in Psychiatry, HMS</div>
 </div>
 </a>
 <a href="../people-faculty-profiles/richard-zeckhauser/" class="people-card people-card-link" style="text-decoration:none;color:inherit;">
+<div class="people-card-image"><img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_4_5__690x865/public/harvard-iqss/files/richard_zeckhauser_0.jpg" alt="" /></div>
 <div class="people-card-body">
 <div class="people-card-name">Richard Zeckhauser</div>
 <div class="people-card-title">Frank Plumpton Ramsey Professor of Political Economy</div>
 </div>
 </a>
 <a href="../people-faculty-profiles/malika-zeghal/" class="people-card people-card-link" style="text-decoration:none;color:inherit;">
+<div class="people-card-image"><img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_4_5__690x865/public/harvard-iqss/files/malika_zeghal_0.png" alt="" /></div>
 <div class="people-card-body">
 <div class="people-card-name">Malika Zeghal</div>
 <div class="people-card-title">Prince Alwaleed Bin Talal Professor in Contemporary Islamic Thought</div>
 </div>
 </a>
 <a href="../people-faculty-profiles/xiang-zhou/" class="people-card people-card-link" style="text-decoration:none;color:inherit;">
+<div class="people-card-image"><img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_4_5__690x865/public/harvard-iqss/files/xiang_zhou_0_0.png" alt="" /></div>
 <div class="people-card-body">
 <div class="people-card-name">Xiang Zhou</div>
 <div class="people-card-title">Associate Professor of Sociology</div>
 </div>
 </a>
 <a href="../people-faculty-profiles/daniel-ziblatt/" class="people-card people-card-link" style="text-decoration:none;color:inherit;">
+<div class="people-card-image"><img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_4_5__690x865/public/harvard-iqss/files/daniel_ziblatt_0.jpg" alt="" /></div>
 <div class="people-card-body">
 <div class="people-card-name">Daniel Ziblatt</div>
 <div class="people-card-title">Eaton Professor of the Science of Government</div>

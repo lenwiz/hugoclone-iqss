@@ -7,6 +7,8 @@ hero_image: ""
 subtitle: "John L. Loeb Professor of Economics"
 ---
 
+<img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_4_5__690x865/public/harvard-iqss/files/andrei_shleifer_1_0.jpg" alt="" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
+
 ## Andrei Shleifer
 
 **John L. Loeb Professor of Economics**
