@@ -644,19 +644,35 @@
 </style>
 
 <script>
+
+window.addEventListener('message', function(event) {
+    if (event.origin !== 'https://giscus.app') return;
+    var data = typeof event.data === 'string' ? JSON.parse(event.data) : event.data;
+    if (!data.giscus || !data.giscus.discussion) return;
+    var discussion = data.giscus.discussion;
+    var term = discussion.title;
+    var count = discussion.totalCommentCount;
+    var el = document.querySelector('.comment-count[data-term="' + term.replace(/"/g, '\\"') + '"]');
+    if (el && count !== undefined) {
+        el.textContent = '(' + count + ' comment' + (count !== 1 ? 's' : '') + ')';
+    }
+});
+
+
 document.addEventListener('DOMContentLoaded', function() {
     var counts = document.querySelectorAll('.comment-count');
-    counts.forEach(function(el) {
+    counts.forEach(function(el, index) {
         var term = el.getAttribute('data-term');
-        fetch('https://giscus.app/api/discussions?repo=lenwiz/hugoclone-iqss&category=Announcements&term=' + encodeURIComponent(term))
-            .then(function(r) { return r.json(); })
-            .then(function(data) {
-                if (data && data.discussion && data.discussion.totalCommentCount !== undefined) {
-                    var count = data.discussion.totalCommentCount;
-                    el.textContent = '(' + count + ' comment' + (count !== 1 ? 's' : '') + ')';
-                }
-            })
-            .catch(function() {});
+        setTimeout(function() {
+            var iframe = document.createElement('iframe');
+            iframe.style.display = 'none';
+            iframe.src = 'https://giscus.app/widget?origin=' + encodeURIComponent(window.location.href)
+                + '&session=&repo=lenwiz%2Fhugoclone-iqss&repoId=R_kgDOSoprKw'
+                + '&category=Announcements&categoryId=DIC_kwDOSoprK84C-58S'
+                + '&mapping=specific&term=' + encodeURIComponent(term)
+                + '&strict=0&reactionsEnabled=0&emitMetadata=1&inputPosition=top&theme=light&lang=en';
+            document.body.appendChild(iframe);
+        }, index * 500); 
     });
 });
 </script>
