@@ -1,0 +1,13 @@
+{
+  "name": "iqss-blog-bot",
+  "version": "1.0.0",
+  "description": "Slack bot that publishes approved messages to the IQSS blog",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@slack/bolt": "^3.17.0",
+    "octokit": "^3.1.0"
+  }
+}
