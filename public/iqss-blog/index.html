@@ -632,34 +632,27 @@
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-    var counts = document.querySelectorAll('.comment-count');
-    counts.forEach(function(el) {
-        var term = el.getAttribute('data-term');
-        
-        fetch('https://giscus.app/api/discussions?repo=lenwiz%2Fhugoclone-iqss&category=Announcements&term=' + encodeURIComponent(term))
-        .then(function(r) { return r.json(); })
-        .then(function(data) {
-            if (data && data.discussion && data.discussion.totalCommentCount > 0) {
-                var count = data.discussion.totalCommentCount;
-                el.textContent = '(' + count + ' comment' + (count !== 1 ? 's' : '') + ')';
-            } else {
-                
-                return fetch('https://giscus.app/api/discussions?repo=lenwiz%2Fhugoclone-iqss&category=General&term=' + encodeURIComponent(term))
-                .then(function(r) { return r.json(); })
-                .then(function(data2) {
-                    if (data2 && data2.discussion && data2.discussion.totalCommentCount > 0) {
-                        var count = data2.discussion.totalCommentCount;
-                        el.textContent = '(' + count + ' comment' + (count !== 1 ? 's' : '') + ')';
-                    } else {
-                        el.textContent = '(0 comments)';
-                    }
-                });
+    fetch('https://api.github.com/repos/lenwiz/hugoclone-iqss/discussions', {
+        headers: { 'Accept': 'application/vnd.github+json' }
+    })
+    .then(function(r) { return r.json(); })
+    .then(function(discussions) {
+        if (!Array.isArray(discussions)) return;
+        var counts = document.querySelectorAll('.comment-count');
+        counts.forEach(function(el) {
+            var term = el.getAttribute('data-term');
+            var total = 0;
+            discussions.forEach(function(d) {
+                if (d.title === term) {
+                    total += d.comments || 0;
+                }
+            });
+            if (total > 0) {
+                el.textContent = '(' + total + ' comment' + (total !== 1 ? 's' : '') + ')';
             }
-        })
-        .catch(function() {
-            el.textContent = '(0 comments)';
         });
-    });
+    })
+    .catch(function() {});
 });
 </script>
 
