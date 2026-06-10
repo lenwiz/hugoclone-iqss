@@ -8,68 +8,16 @@
                 <div class="blog-main">
                     <h1 class="blog-title-with-image"><img src="{{ "images/blog-header.png" | absURL }}" alt="IQSS Cool Ideas Blog" /> IQSS "cool ideas" blog</h1>
 
+                    {{ range (where .Site.RegularPages "Section" "blog-posts").ByDate.Reverse }}
                     <article class="blog-post">
-                        <h2><a href="{{ "blog-posts/testing-the-commenting-functionality/" | relURL }}">Testing the commenting functionality</a></h2>
+                        <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
                         <div class="blog-meta">
-                            <span class="blog-date">December 12, 2024</span> · <span class="blog-author">Len Wisniewski</span> · <span class="blog-category">Uncategorized</span>
+                            <span class="blog-date">{{ .Params.post_date }}</span>{{ with .Params.author }} · <span class="blog-author">{{ . }}</span>{{ end }}{{ with .Params.category }} · <span class="blog-category">{{ . }}</span>{{ end }}
                         </div>
-                        <p>This is just a test....</p>
-                        <div class="blog-discussion"><a href="{{ "blog-posts/testing-the-commenting-functionality/" | relURL }}">💬 Discussion</a> <span class="comment-count">(2 comments)</span></div>
+                        <p>{{ .Summary }}</p>
+                        <div class="blog-discussion"><a href="{{ .RelPermalink }}">💬 Discussion</a> <span class="comment-count">({{ .Params.comment_count | default 0 }} comments)</span></div>
                     </article>
-
-                    <article class="blog-post">
-                        <h2><a href="{{ "blog-posts/ask-the-data/" | relURL }}">Ask the Data</a></h2>
-                        <div class="blog-meta">
-                            <span class="blog-date">December 12, 2024</span> · <span class="blog-author">Len Wisniewski</span> · <span class="blog-category">Data science, Dataverse</span>
-                        </div>
-                        <p>A post by Phil Durbin sharing tips for using the Ask the Data tool with Dataverse to ask questions about datasets stored in Harvard Dataverse.</p>
-                        <div class="blog-discussion"><a href="{{ "blog-posts/ask-the-data/" | relURL }}">💬 Discussion</a> <span class="comment-count">(0 comments)</span></div>
-                    </article>
-
-                    <article class="blog-post">
-                        <h2><a href="{{ "blog-posts/travel-and-reimbursement-tips-and-tricks/" | relURL }}">Travel and reimbursement tips and tricks</a></h2>
-                        <div class="blog-meta">
-                            <span class="blog-date">December 12, 2024</span> · <span class="blog-author">Len Wisniewski</span> · <span class="blog-category">Business operations</span>
-                        </div>
-                        <p>Here are some resources and guides for using Concur and guidance on Travel and Reimbursement....</p>
-                        <div class="blog-discussion"><a href="{{ "blog-posts/travel-and-reimbursement-tips-and-tricks/" | relURL }}">💬 Discussion</a> <span class="comment-count">(0 comments)</span></div>
-                    </article>
-
-                    <article class="blog-post">
-                        <h2><a href="{{ "blog-posts/using-ai-to-simplify-the-grant-process/" | relURL }}">Using AI to simplify the grant process</a></h2>
-                        <div class="blog-meta">
-                            <span class="blog-date">December 12, 2024</span> · <span class="blog-author">Len Wisniewski</span> · <span class="blog-category">Machine learning, AI, and LLMs; Sponsored research</span>
-                        </div>
-                        <p>A GrantSolutions Federal article discusses how AI can streamline the grant process.</p>
-                        <div class="blog-discussion"><a href="{{ "blog-posts/using-ai-to-simplify-the-grant-process/" | relURL }}">💬 Discussion</a> <span class="comment-count">(0 comments)</span></div>
-                    </article>
-
-                    <article class="blog-post">
-                        <h2><a href="{{ "blog-posts/writing-python-code-for-digital-embroidery/" | relURL }}">Writing python code for digital embroidery</a></h2>
-                        <div class="blog-meta">
-                            <span class="blog-date">December 12, 2024</span> · <span class="blog-author">Len Wisniewski</span> · <span class="blog-category">Python programming</span>
-                        </div>
-                        <p>Maker spaces with digital sewing machines can use Python code uploads. Packages like Patro enable digital embroidery programming.</p>
-                        <div class="blog-discussion"><a href="{{ "blog-posts/writing-python-code-for-digital-embroidery/" | relURL }}">💬 Discussion</a> <span class="comment-count">(0 comments)</span></div>
-                    </article>
-
-                    <article class="blog-post">
-                        <h2><a href="{{ "blog-posts/visually-understanding-machine-learning/" | relURL }}">Visually understanding machine learning</a></h2>
-                        <div class="blog-meta">
-                            <span class="blog-date">December 12, 2024</span> · <span class="blog-author">Len Wisniewski</span> · <span class="blog-category">Machine learning, AI, and LLMs</span>
-                        </div>
-                        <p>An article by Stephen Wolfram (Mathematica creator) that visually explains neural network computational models during machine learning.</p>
-                        <div class="blog-discussion"><a href="{{ "blog-posts/visually-understanding-machine-learning/" | relURL }}">💬 Discussion</a> <span class="comment-count">(1 comment)</span></div>
-                    </article>
-
-                    <article class="blog-post">
-                        <h2><a href="{{ "blog-posts/cool-ideas-blog/" | relURL }}">"cool ideas" blog</a></h2>
-                        <div class="blog-meta">
-                            <span class="blog-date">December 12, 2024</span> · <span class="blog-author">Len Wisniewski</span> · <span class="blog-category">Desktop tools</span>
-                        </div>
-                        <p>Introduces the blog as a collection of short blurbs. Describes installation of the Reacji Channeler package in Slack for binding emojis to channels.</p>
-                        <div class="blog-discussion"><a href="{{ "blog-posts/cool-ideas-blog/" | relURL }}">💬 Discussion</a> <span class="comment-count">(0 comments)</span></div>
-                    </article>
+                    {{ end }}
                 </div>
 
                 <!-- Sidebar -->
@@ -77,11 +25,9 @@
                     <div class="sidebar-section">
                         <h3>Recent Posts</h3>
                         <ul>
-                            <li><a href="{{ "blog-posts/testing-the-commenting-functionality/" | relURL }}">Testing the commenting functionality</a></li>
-                            <li><a href="{{ "blog-posts/ask-the-data/" | relURL }}">Ask the Data</a></li>
-                            <li><a href="{{ "blog-posts/travel-and-reimbursement-tips-and-tricks/" | relURL }}">Travel and reimbursement tips and tricks</a></li>
-                            <li><a href="{{ "blog-posts/using-ai-to-simplify-the-grant-process/" | relURL }}">Using AI to simplify the grant process</a></li>
-                            <li><a href="{{ "blog-posts/writing-python-code-for-digital-embroidery/" | relURL }}">Writing python code for digital embroidery</a></li>
+                            {{ range first 5 (where .Site.RegularPages "Section" "blog-posts").ByDate.Reverse }}
+                            <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+                            {{ end }}
                         </ul>
                     </div>
 

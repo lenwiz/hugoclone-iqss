@@ -1,3 +1,4 @@
+require('dotenv').config();
 const { App } = require('@slack/bolt');
 const { Octokit } = require('octokit');
 
