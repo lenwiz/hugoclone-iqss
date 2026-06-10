@@ -147,10 +147,66 @@ app.event('reaction_added', async ({ event }) => {
     const slug = slugify(title) || `post-${Date.now()}`;
 
     // Check if this is a thread reply
-    if (event.item.ts !== message.thread_ts && message.thread_ts) {
-      // This is a reply - add as comment to parent post
-      // For now, we'll append to the parent post file
-      console.log('Thread reply published - feature coming soon');
+    if (message.thread_ts && event.item.ts !== message.thread_ts) {
+      // This is a reply - get parent message to find the post slug
+      const parentResult = await app.client.conversations.history({
+        channel: event.item.channel,
+        latest: message.thread_ts,
+        inclusive: true,
+        limit: 1,
+      });
+      const parentMessage = parentResult.messages[0];
+      if (!parentMessage) return;
+
+      const parentTitle = (parentMessage.text || '').split('\n')[0].slice(0, 100) || 'Untitled Post';
+      const parentSlug = slugify(parentTitle) || `post-${message.thread_ts}`;
+      const path = `content/blog-posts/${parentSlug}.md`;
+
+      // Get existing file content
+      try {
+        const existing = await octokit.rest.repos.getContent({
+          owner: GITHUB_REPO_OWNER,
+          repo: GITHUB_REPO_NAME,
+          path,
+        });
+
+        const currentContent = Buffer.from(existing.data.content, 'base64').toString('utf8');
+
+        // Append the reply as a comment
+        const replyAuthor = await getUserName(message.user);
+        const replyDate = formatDate(message.ts);
+        const replyText = text;
+        const commentBlock = `\n\n---\n\n**${replyAuthor}** · ${replyDate}\n\n${replyText}\n`;
+
+        const updatedContent = currentContent + commentBlock;
+
+        // Update comment count in frontmatter
+        const countMatch = updatedContent.match(/comment_count: (\d+)/);
+        const currentCount = countMatch ? parseInt(countMatch[1]) : 0;
+        const finalContent = updatedContent.replace(/comment_count: \d+/, `comment_count: ${currentCount + 1}`);
+
+        await octokit.rest.repos.createOrUpdateFileContents({
+          owner: GITHUB_REPO_OWNER,
+          repo: GITHUB_REPO_NAME,
+          path,
+          message: `Reply by ${replyAuthor} on: ${parentTitle}`,
+          content: Buffer.from(finalContent).toString('base64'),
+          sha: existing.data.sha,
+        });
+
+        await app.client.chat.postEphemeral({
+          channel: event.item.channel,
+          user: event.user,
+          text: `✅ Reply published to blog post "${parentTitle}"`,
+        });
+      } catch (err) {
+        console.error('Error appending reply:', err);
+        await app.client.chat.postEphemeral({
+          channel: event.item.channel,
+          user: event.user,
+          text: `⚠️ Could not find parent blog post to add reply to.`,
+        });
+      }
       return;
     }
 
