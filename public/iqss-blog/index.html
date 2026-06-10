@@ -393,7 +393,7 @@
                             <span class="blog-date">December 12, 2024</span> · <span class="blog-author">Len Wisniewski</span> · <span class="blog-category">Uncategorized</span>
                         </div>
                         <p>This is just a test....</p>
-                        <div class="blog-comments">1 comment</div>
+                        <div class="blog-discussion"><a href="/blog-posts/testing-the-commenting-functionality/">💬 Discussion</a> <span class="comment-count" data-term="Testing the commenting functionality"></span></div>
                     </article>
 
                     <article class="blog-post">
@@ -401,42 +401,54 @@
                         <div class="blog-meta">
                             <span class="blog-date">December 12, 2024</span> · <span class="blog-author">Len Wisniewski</span> · <span class="blog-category">Data science, Dataverse</span>
                         </div>
-                        <p>A post by Phil Durbin sharing tips for using the Ask the Data tool with Dataverse to ask questions about datasets stored in Harvard Dataverse.</p></article>
+                        <p>A post by Phil Durbin sharing tips for using the Ask the Data tool with Dataverse to ask questions about datasets stored in Harvard Dataverse.</p>
+                        <div class="blog-discussion"><a href="/blog-posts/ask-the-data/">💬 Discussion</a> <span class="comment-count" data-term="Ask the Data"></span></div>
+                    </article>
 
                     <article class="blog-post">
                         <h2><a href="/blog-posts/travel-and-reimbursement-tips-and-tricks/">Travel and reimbursement tips and tricks</a></h2>
                         <div class="blog-meta">
                             <span class="blog-date">December 12, 2024</span> · <span class="blog-author">Len Wisniewski</span> · <span class="blog-category">Business operations</span>
                         </div>
-                        <p>Here are some resources and guides for using Concur and guidance on Travel and Reimbursement....</p></article>
+                        <p>Here are some resources and guides for using Concur and guidance on Travel and Reimbursement....</p>
+                        <div class="blog-discussion"><a href="/blog-posts/travel-and-reimbursement-tips-and-tricks/">💬 Discussion</a> <span class="comment-count" data-term="Travel and reimbursement tips and tricks"></span></div>
+                    </article>
 
                     <article class="blog-post">
                         <h2><a href="/blog-posts/using-ai-to-simplify-the-grant-process/">Using AI to simplify the grant process</a></h2>
                         <div class="blog-meta">
                             <span class="blog-date">December 12, 2024</span> · <span class="blog-author">Len Wisniewski</span> · <span class="blog-category">Machine learning, AI, and LLMs; Sponsored research</span>
                         </div>
-                        <p>A GrantSolutions Federal article discusses how AI can streamline the grant process.</p></article>
+                        <p>A GrantSolutions Federal article discusses how AI can streamline the grant process.</p>
+                        <div class="blog-discussion"><a href="/blog-posts/using-ai-to-simplify-the-grant-process/">💬 Discussion</a> <span class="comment-count" data-term="Using AI to simplify the grant process"></span></div>
+                    </article>
 
                     <article class="blog-post">
                         <h2><a href="/blog-posts/writing-python-code-for-digital-embroidery/">Writing python code for digital embroidery</a></h2>
                         <div class="blog-meta">
                             <span class="blog-date">December 12, 2024</span> · <span class="blog-author">Len Wisniewski</span> · <span class="blog-category">Python programming</span>
                         </div>
-                        <p>Maker spaces with digital sewing machines can use Python code uploads. Packages like Patro enable digital embroidery programming.</p></article>
+                        <p>Maker spaces with digital sewing machines can use Python code uploads. Packages like Patro enable digital embroidery programming.</p>
+                        <div class="blog-discussion"><a href="/blog-posts/writing-python-code-for-digital-embroidery/">💬 Discussion</a> <span class="comment-count" data-term="Writing python code for digital embroidery"></span></div>
+                    </article>
 
                     <article class="blog-post">
                         <h2><a href="/blog-posts/visually-understanding-machine-learning/">Visually understanding machine learning</a></h2>
                         <div class="blog-meta">
                             <span class="blog-date">December 12, 2024</span> · <span class="blog-author">Len Wisniewski</span> · <span class="blog-category">Machine learning, AI, and LLMs</span>
                         </div>
-                        <p>An article by Stephen Wolfram (Mathematica creator) that visually explains neural network computational models during machine learning.</p></article>
+                        <p>An article by Stephen Wolfram (Mathematica creator) that visually explains neural network computational models during machine learning.</p>
+                        <div class="blog-discussion"><a href="/blog-posts/visually-understanding-machine-learning/">💬 Discussion</a> <span class="comment-count" data-term="Visually understanding machine learning"></span></div>
+                    </article>
 
                     <article class="blog-post">
                         <h2><a href="/blog-posts/cool-ideas-blog/">"cool ideas" blog</a></h2>
                         <div class="blog-meta">
                             <span class="blog-date">December 12, 2024</span> · <span class="blog-author">Len Wisniewski</span> · <span class="blog-category">Desktop tools</span>
                         </div>
-                        <p>Introduces the blog as a collection of short blurbs. Describes installation of the Reacji Channeler package in Slack for binding emojis to channels.</p></article>
+                        <p>Introduces the blog as a collection of short blurbs. Describes installation of the Reacji Channeler package in Slack for binding emojis to channels.</p>
+                        <div class="blog-discussion"><a href="/blog-posts/cool-ideas-blog/">💬 Discussion</a> <span class="comment-count" data-term="cool ideas blog"></span></div>
+                    </article>
                 </div>
 
                 
@@ -553,6 +565,27 @@
     color: #999;
 }
 
+.blog-discussion {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.blog-discussion a {
+    color: #CC5500;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.blog-discussion a:hover {
+    text-decoration: underline;
+}
+
+.comment-count {
+    font-size: 13px;
+    color: #888;
+    margin-left: 5px;
+}
+
  
 .blog-sidebar {
     flex: 0 0 260px;
@@ -610,6 +643,23 @@
 
 </style>
 
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    var counts = document.querySelectorAll('.comment-count');
+    counts.forEach(function(el) {
+        var term = el.getAttribute('data-term');
+        fetch('https://giscus.app/api/discussions?repo=lenwiz/hugoclone-iqss&category=General&term=' + encodeURIComponent(term))
+            .then(function(r) { return r.json(); })
+            .then(function(data) {
+                if (data && data.discussion && data.discussion.totalCommentCount !== undefined) {
+                    var count = data.discussion.totalCommentCount;
+                    el.textContent = '(' + count + ' comment' + (count !== 1 ? 's' : '') + ')';
+                }
+            })
+            .catch(function() {});
+    });
+});
+</script>
 
     </main>
 
