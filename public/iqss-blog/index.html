@@ -385,7 +385,10 @@
             <div class="blog-layout">
                 
                 <div class="blog-main">
-                    <h1 class="blog-title-with-image"><img src="http://localhost:1313/images/blog-header.png" alt="IQSS Cool Ideas Blog" /> IQSS "cool ideas" blog</h1>
+                    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:20px;">
+                        <h1 class="blog-title-with-image" style="margin-bottom:0;padding-bottom:0;border-bottom:none;"><img src="http://localhost:1313/images/blog-header.png" alt="IQSS Cool Ideas Blog" /> IQSS "cool ideas" blog</h1>
+                        <a href="https://github.com/lenwiz/hugoclone-iqss/new/main/content/blog-posts?filename=new-post.md&value=---%0Atitle%3A%20%22Your%20Post%20Title%22%0Adate%3A%202026-06-10%0Adraft%3A%20false%0Alayout%3A%20%22blog-post%22%0Apost_date%3A%20%22June%2010%2C%202026%22%0Aauthor%3A%20%22Your%20Name%22%0Acategory%3A%20%22Uncategorized%22%0Acomment_count%3A%200%0A---%0A%0AWrite%20your%20blog%20post%20content%20here.%0A" target="_blank" class="new-post-btn">+ New Post</a>
+                    </div>
 
                     <article class="blog-post">
                         <h2><a href="/blog-posts/testing-the-commenting-functionality/">Testing the commenting functionality</a></h2>
@@ -482,6 +485,23 @@
 .blog-title-with-image img {
     width: 133px;
     height: auto;
+}
+
+.new-post-btn {
+    display: inline-block;
+    background: #CC5500;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    white-space: nowrap;
+    transition: background 0.2s;
+}
+
+.new-post-btn:hover {
+    background: #B8460A;
 }
 
 .blog-content {
