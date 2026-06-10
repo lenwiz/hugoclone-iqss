@@ -387,7 +387,39 @@
                 <div class="blog-main">
                     <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:20px;">
                         <h1 class="blog-title-with-image" style="margin-bottom:0;padding-bottom:0;border-bottom:none;"><img src="http://localhost:1313/images/blog-header.png" alt="IQSS Cool Ideas Blog" /> IQSS "cool ideas" blog</h1>
-                        <a href="https://github.com/lenwiz/hugoclone-iqss/new/main/content/blog-posts?filename=new-post.md&value=---%0Atitle%3A%20%22Your%20Post%20Title%22%0Adate%3A%202026-06-10%0Adraft%3A%20false%0Alayout%3A%20%22blog-post%22%0Apost_date%3A%20%22June%2010%2C%202026%22%0Aauthor%3A%20%22Your%20Name%22%0Acategory%3A%20%22Uncategorized%22%0Acomment_count%3A%200%0A---%0A%0AWrite%20your%20blog%20post%20content%20here.%0A" target="_blank" class="new-post-btn">+ New Post</a>
+                        <button onclick="toggleNewPostForm()" class="new-post-btn">+ New Post</button>
+                    </div>
+
+                    
+                    <div id="new-post-form" style="display:none;background:#f8f9fa;border:1px solid #e5e5e5;border-radius:8px;padding:25px;margin-bottom:30px;">
+                        <h3 style="margin:0 0 15px;color:#CC5500;">Create a New Blog Post</h3>
+                        <div id="gh-auth-section">
+                            <p style="font-size:14px;color:#666;margin-bottom:15px;">Sign in with GitHub to create a post. Only IQSS organization members with repo access can submit.</p>
+                            <button onclick="githubAuth()" class="new-post-btn" style="margin-bottom:15px;">Sign in with GitHub</button>
+                        </div>
+                        <div id="post-form-fields" style="display:none;">
+                            <p style="font-size:13px;color:#666;margin-bottom:15px;">Signed in as <strong id="gh-username"></strong></p>
+                            <label style="display:block;margin-bottom:5px;font-weight:500;font-size:14px;">Title</label>
+                            <input type="text" id="post-title" placeholder="Your post title" style="width:100%;padding:10px;border:1px solid #ddd;border-radius:4px;margin-bottom:15px;font-size:15px;" />
+                            <label style="display:block;margin-bottom:5px;font-weight:500;font-size:14px;">Category</label>
+                            <select id="post-category" style="width:100%;padding:10px;border:1px solid #ddd;border-radius:4px;margin-bottom:15px;font-size:15px;">
+                                <option>Uncategorized</option>
+                                <option>Data science</option>
+                                <option>Dataverse</option>
+                                <option>Desktop tools</option>
+                                <option>Machine learning, AI, and LLMs</option>
+                                <option>Python programming</option>
+                                <option>Sponsored research</option>
+                                <option>Business operations</option>
+                            </select>
+                            <label style="display:block;margin-bottom:5px;font-weight:500;font-size:14px;">Content</label>
+                            <textarea id="post-content" rows="8" placeholder="Write your blog post content here..." style="width:100%;padding:10px;border:1px solid #ddd;border-radius:4px;margin-bottom:15px;font-size:15px;font-family:inherit;"></textarea>
+                            <div style="display:flex;gap:10px;">
+                                <button onclick="submitPost()" class="new-post-btn">Submit Post (creates PR)</button>
+                                <button onclick="toggleNewPostForm()" style="padding:10px 20px;border:1px solid #ddd;border-radius:5px;background:#fff;cursor:pointer;">Cancel</button>
+                            </div>
+                            <p id="post-status" style="margin-top:10px;font-size:13px;color:#666;"></p>
+                        </div>
                     </div>
 
                     <article class="blog-post">
@@ -650,6 +682,162 @@
 
 </style>
 
+<script>
+var ghToken = localStorage.getItem('gh_token');
+
+function toggleNewPostForm() {
+    var form = document.getElementById('new-post-form');
+    form.style.display = form.style.display === 'none' ? 'block' : 'none';
+    if (ghToken) {
+        showFormFields();
+    }
+}
+
+function githubAuth() {
+    
+    var token = prompt('Enter your GitHub Personal Access Token (with repo scope).\n\nCreate one at: https://github.com/settings/tokens/new?scopes=repo&description=IQSS+Blog+Posts');
+    if (!token) return;
+
+    
+    fetch('https://api.github.com/user', {
+        headers: { 'Authorization': 'token ' + token }
+    })
+    .then(function(r) { return r.json(); })
+    .then(function(user) {
+        if (!user.login) {
+            alert('Invalid token. Please try again.');
+            return;
+        }
+        
+        return fetch('https://api.github.com/orgs/IQSS/members/' + user.login, {
+            headers: { 'Authorization': 'token ' + token }
+        }).then(function(r) {
+            if (r.status === 204 || r.status === 302) {
+                
+                ghToken = token;
+                localStorage.setItem('gh_token', token);
+                showFormFields(user.login);
+            } else {
+                
+                return fetch('https://api.github.com/repos/lenwiz/hugoclone-iqss/collaborators/' + user.login, {
+                    headers: { 'Authorization': 'token ' + token }
+                }).then(function(r2) {
+                    if (r2.status === 204) {
+                        ghToken = token;
+                        localStorage.setItem('gh_token', token);
+                        showFormFields(user.login);
+                    } else {
+                        alert('Access denied. You must be a member of the IQSS GitHub organization or a repo collaborator.');
+                    }
+                });
+            }
+        });
+    })
+    .catch(function() { alert('Authentication failed. Please check your token.'); });
+}
+
+function showFormFields(username) {
+    document.getElementById('gh-auth-section').style.display = 'none';
+    document.getElementById('post-form-fields').style.display = 'block';
+    if (username) {
+        document.getElementById('gh-username').textContent = username;
+    } else {
+        
+        fetch('https://api.github.com/user', { headers: { 'Authorization': 'token ' + ghToken }})
+        .then(function(r) { return r.json(); })
+        .then(function(u) { document.getElementById('gh-username').textContent = u.login; });
+    }
+}
+
+function submitPost() {
+    var title = document.getElementById('post-title').value.trim();
+    var category = document.getElementById('post-category').value;
+    var content = document.getElementById('post-content').value.trim();
+    var status = document.getElementById('post-status');
+
+    if (!title || !content) {
+        status.textContent = 'Please fill in both title and content.';
+        status.style.color = 'red';
+        return;
+    }
+
+    var slug = title.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+    var today = new Date();
+    var months = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+    var dateStr = months[today.getMonth()] + ' ' + today.getDate() + ', ' + today.getFullYear();
+
+    var fileContent = '---\ntitle: "' + title.replace(/"/g, '\\"') + '"\ndate: ' + today.toISOString().split('T')[0] + '\ndraft: false\nlayout: "blog-post"\npost_date: "' + dateStr + '"\nauthor: ""\ncategory: "' + category + '"\ncomment_count: 0\n---\n\n' + content + '\n';
+
+    var branch = 'blog-post-' + slug + '-' + Date.now();
+
+    status.textContent = 'Creating branch...';
+    status.style.color = '#666';
+
+    
+    fetch('https://api.github.com/repos/lenwiz/hugoclone-iqss/git/ref/heads/main', {
+        headers: { 'Authorization': 'token ' + ghToken }
+    })
+    .then(function(r) { return r.json(); })
+    .then(function(ref) {
+        var sha = ref.object.sha;
+        
+        return fetch('https://api.github.com/repos/lenwiz/hugoclone-iqss/git/refs', {
+            method: 'POST',
+            headers: { 'Authorization': 'token ' + ghToken, 'Content-Type': 'application/json' },
+            body: JSON.stringify({ ref: 'refs/heads/' + branch, sha: sha })
+        });
+    })
+    .then(function(r) { return r.json(); })
+    .then(function() {
+        status.textContent = 'Creating file...';
+        
+        return fetch('https://api.github.com/repos/lenwiz/hugoclone-iqss/contents/content/blog-posts/' + slug + '.md', {
+            method: 'PUT',
+            headers: { 'Authorization': 'token ' + ghToken, 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+                message: 'New blog post: ' + title,
+                content: btoa(unescape(encodeURIComponent(fileContent))),
+                branch: branch
+            })
+        });
+    })
+    .then(function(r) { return r.json(); })
+    .then(function() {
+        status.textContent = 'Creating pull request...';
+        
+        return fetch('https://api.github.com/repos/lenwiz/hugoclone-iqss/pulls', {
+            method: 'POST',
+            headers: { 'Authorization': 'token ' + ghToken, 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+                title: 'New blog post: ' + title,
+                head: branch,
+                base: 'main',
+                body: 'New blog post submitted via the IQSS Blog.\n\n**Title:** ' + title + '\n**Category:** ' + category
+            })
+        });
+    })
+    .then(function(r) { return r.json(); })
+    .then(function(pr) {
+        status.innerHTML = '✅ Post submitted! <a href="' + pr.html_url + '" target="_blank">View Pull Request #' + pr.number + '</a>';
+        status.style.color = 'green';
+        document.getElementById('post-title').value = '';
+        document.getElementById('post-content').value = '';
+    })
+    .catch(function(err) {
+        status.textContent = 'Error: ' + err.message;
+        status.style.color = 'red';
+    });
+}
+
+
+if (ghToken) {
+    document.addEventListener('DOMContentLoaded', function() {
+        
+        fetch('https://api.github.com/user', { headers: { 'Authorization': 'token ' + ghToken }})
+        .then(function(r) { if (!r.ok) { localStorage.removeItem('gh_token'); ghToken = null; }});
+    });
+}
+</script>
 
     </main>
 
