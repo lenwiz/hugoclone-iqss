@@ -393,26 +393,9 @@
                     
                     <div id="new-post-form" style="display:none;background:#f8f9fa;border:1px solid #e5e5e5;border-radius:8px;padding:25px;margin-bottom:30px;">
                         <h3 style="margin:0 0 10px;color:#CC5500;">Create a New Blog Post</h3>
-                        <p style="font-size:14px;color:#666;margin-bottom:15px;">Sign in with GitHub below to create a new post. Your post will appear as a Discussion in the repository. Only IQSS organization members can post.</p>
-                        <div class="giscus-new-post"></div>
-                        <script src="https://giscus.app/client.js"
-                            data-repo="lenwiz/hugoclone-iqss"
-                            data-repo-id="R_kgDOSoprKw"
-                            data-category="Announcements"
-                            data-category-id="DIC_kwDOSoprK84C-58S"
-                            data-mapping="number"
-                            data-term="0"
-                            data-strict="0"
-                            data-reactions-enabled="1"
-                            data-emit-metadata="0"
-                            data-input-position="top"
-                            data-theme="light"
-                            data-lang="en"
-                            data-loading="lazy"
-                            crossorigin="anonymous"
-                            async>
-                        </script>
-                        <p style="font-size:12px;color:#999;margin-top:10px;">New posts appear after being approved. Use the title field for your post title and the comment body for content.</p>
+                        <p style="font-size:14px;color:#666;margin-bottom:15px;">Sign in with GitHub below and write your post. It will be created as a Discussion. Only IQSS organization members can post.</p>
+                        <div id="giscus-new-post-container"></div>
+                        <p style="font-size:12px;color:#999;margin-top:10px;">Your post title will be the Discussion title. Write your content in the comment box.</p>
                     </div>
 
                     <article class="blog-post">
@@ -678,7 +661,30 @@
 <script>
 function toggleNewPostForm() {
     var form = document.getElementById('new-post-form');
-    form.style.display = form.style.display === 'none' ? 'block' : 'none';
+    var isHidden = form.style.display === 'none';
+    form.style.display = isHidden ? 'block' : 'none';
+
+    
+    var container = document.getElementById('giscus-new-post-container');
+    if (isHidden && !container.querySelector('iframe')) {
+        var script = document.createElement('script');
+        script.src = 'https://giscus.app/client.js';
+        script.setAttribute('data-repo', 'lenwiz/hugoclone-iqss');
+        script.setAttribute('data-repo-id', 'R_kgDOSoprKw');
+        script.setAttribute('data-category', 'Announcements');
+        script.setAttribute('data-category-id', 'DIC_kwDOSoprK84C-58S');
+        script.setAttribute('data-mapping', 'specific');
+        script.setAttribute('data-term', 'New Blog Posts');
+        script.setAttribute('data-strict', '0');
+        script.setAttribute('data-reactions-enabled', '1');
+        script.setAttribute('data-emit-metadata', '0');
+        script.setAttribute('data-input-position', 'top');
+        script.setAttribute('data-theme', 'light');
+        script.setAttribute('data-lang', 'en');
+        script.setAttribute('crossorigin', 'anonymous');
+        script.async = true;
+        container.appendChild(script);
+    }
 }
 </script>
 
