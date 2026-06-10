@@ -6,6 +6,7 @@ layout: "blog-post"
 post_date: "December 12, 2024"
 author: "Len Wisniewski"
 category: "Desktop tools"
+comment_count: 0
 ---
 
 This inaugural post introduces the IQSS "cool ideas" blog, describing a system for collecting ideas via Slack. The team installed the Reacji Channeler package in Slack to bind emojis to channels. Any message in a public channel can be flagged as a "cool idea" by reacting with either the sunglasses emoji or the "Cool" lettering emoji. Tagged posts get reposted to the #iqss-cool-ideas public channel.

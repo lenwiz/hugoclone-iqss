@@ -6,6 +6,7 @@ layout: "blog-post"
 post_date: "December 12, 2024"
 author: "Len Wisniewski"
 category: "Business operations"
+comment_count: 0
 ---
 
 Here are some resources and guides for using Concur and guidance on Travel and Reimbursement from Harvard's administrative and finance pages.

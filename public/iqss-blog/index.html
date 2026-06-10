@@ -393,7 +393,7 @@
                             <span class="blog-date">December 12, 2024</span> · <span class="blog-author">Len Wisniewski</span> · <span class="blog-category">Uncategorized</span>
                         </div>
                         <p>This is just a test....</p>
-                        <div class="blog-discussion"><a href="/blog-posts/testing-the-commenting-functionality/">💬 Discussion</a> <span class="comment-count" data-term="Testing the commenting functionality"></span></div>
+                        <div class="blog-discussion"><a href="/blog-posts/testing-the-commenting-functionality/">💬 Discussion</a> <span class="comment-count">(2 comments)</span></div>
                     </article>
 
                     <article class="blog-post">
@@ -402,7 +402,7 @@
                             <span class="blog-date">December 12, 2024</span> · <span class="blog-author">Len Wisniewski</span> · <span class="blog-category">Data science, Dataverse</span>
                         </div>
                         <p>A post by Phil Durbin sharing tips for using the Ask the Data tool with Dataverse to ask questions about datasets stored in Harvard Dataverse.</p>
-                        <div class="blog-discussion"><a href="/blog-posts/ask-the-data/">💬 Discussion</a> <span class="comment-count" data-term="Ask the Data"></span></div>
+                        <div class="blog-discussion"><a href="/blog-posts/ask-the-data/">💬 Discussion</a> <span class="comment-count">(0 comments)</span></div>
                     </article>
 
                     <article class="blog-post">
@@ -411,7 +411,7 @@
                             <span class="blog-date">December 12, 2024</span> · <span class="blog-author">Len Wisniewski</span> · <span class="blog-category">Business operations</span>
                         </div>
                         <p>Here are some resources and guides for using Concur and guidance on Travel and Reimbursement....</p>
-                        <div class="blog-discussion"><a href="/blog-posts/travel-and-reimbursement-tips-and-tricks/">💬 Discussion</a> <span class="comment-count" data-term="Travel and reimbursement tips and tricks"></span></div>
+                        <div class="blog-discussion"><a href="/blog-posts/travel-and-reimbursement-tips-and-tricks/">💬 Discussion</a> <span class="comment-count">(0 comments)</span></div>
                     </article>
 
                     <article class="blog-post">
@@ -420,7 +420,7 @@
                             <span class="blog-date">December 12, 2024</span> · <span class="blog-author">Len Wisniewski</span> · <span class="blog-category">Machine learning, AI, and LLMs; Sponsored research</span>
                         </div>
                         <p>A GrantSolutions Federal article discusses how AI can streamline the grant process.</p>
-                        <div class="blog-discussion"><a href="/blog-posts/using-ai-to-simplify-the-grant-process/">💬 Discussion</a> <span class="comment-count" data-term="Using AI to simplify the grant process"></span></div>
+                        <div class="blog-discussion"><a href="/blog-posts/using-ai-to-simplify-the-grant-process/">💬 Discussion</a> <span class="comment-count">(0 comments)</span></div>
                     </article>
 
                     <article class="blog-post">
@@ -429,7 +429,7 @@
                             <span class="blog-date">December 12, 2024</span> · <span class="blog-author">Len Wisniewski</span> · <span class="blog-category">Python programming</span>
                         </div>
                         <p>Maker spaces with digital sewing machines can use Python code uploads. Packages like Patro enable digital embroidery programming.</p>
-                        <div class="blog-discussion"><a href="/blog-posts/writing-python-code-for-digital-embroidery/">💬 Discussion</a> <span class="comment-count" data-term="Writing python code for digital embroidery"></span></div>
+                        <div class="blog-discussion"><a href="/blog-posts/writing-python-code-for-digital-embroidery/">💬 Discussion</a> <span class="comment-count">(0 comments)</span></div>
                     </article>
 
                     <article class="blog-post">
@@ -438,7 +438,7 @@
                             <span class="blog-date">December 12, 2024</span> · <span class="blog-author">Len Wisniewski</span> · <span class="blog-category">Machine learning, AI, and LLMs</span>
                         </div>
                         <p>An article by Stephen Wolfram (Mathematica creator) that visually explains neural network computational models during machine learning.</p>
-                        <div class="blog-discussion"><a href="/blog-posts/visually-understanding-machine-learning/">💬 Discussion</a> <span class="comment-count" data-term="Visually understanding machine learning"></span></div>
+                        <div class="blog-discussion"><a href="/blog-posts/visually-understanding-machine-learning/">💬 Discussion</a> <span class="comment-count">(1 comment)</span></div>
                     </article>
 
                     <article class="blog-post">
@@ -447,7 +447,7 @@
                             <span class="blog-date">December 12, 2024</span> · <span class="blog-author">Len Wisniewski</span> · <span class="blog-category">Desktop tools</span>
                         </div>
                         <p>Introduces the blog as a collection of short blurbs. Describes installation of the Reacji Channeler package in Slack for binding emojis to channels.</p>
-                        <div class="blog-discussion"><a href="/blog-posts/cool-ideas-blog/">💬 Discussion</a> <span class="comment-count" data-term="cool ideas blog"></span></div>
+                        <div class="blog-discussion"><a href="/blog-posts/cool-ideas-blog/">💬 Discussion</a> <span class="comment-count">(0 comments)</span></div>
                     </article>
                 </div>
 
@@ -630,31 +630,6 @@
 
 </style>
 
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-    fetch('https://api.github.com/repos/lenwiz/hugoclone-iqss/discussions', {
-        headers: { 'Accept': 'application/vnd.github+json' }
-    })
-    .then(function(r) { return r.json(); })
-    .then(function(discussions) {
-        if (!Array.isArray(discussions)) return;
-        var counts = document.querySelectorAll('.comment-count');
-        counts.forEach(function(el) {
-            var term = el.getAttribute('data-term');
-            var total = 0;
-            discussions.forEach(function(d) {
-                if (d.title === term) {
-                    total += d.comments || 0;
-                }
-            });
-            if (total > 0) {
-                el.textContent = '(' + total + ' comment' + (total !== 1 ? 's' : '') + ')';
-            }
-        });
-    })
-    .catch(function() {});
-});
-</script>
 
     </main>
 
