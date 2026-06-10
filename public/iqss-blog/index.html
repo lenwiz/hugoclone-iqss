@@ -648,7 +648,7 @@ document.addEventListener('DOMContentLoaded', function() {
     var counts = document.querySelectorAll('.comment-count');
     counts.forEach(function(el) {
         var term = el.getAttribute('data-term');
-        fetch('https://giscus.app/api/discussions?repo=lenwiz/hugoclone-iqss&category=General&term=' + encodeURIComponent(term))
+        fetch('https://giscus.app/api/discussions?repo=lenwiz/hugoclone-iqss&category=Announcements&term=' + encodeURIComponent(term))
             .then(function(r) { return r.json(); })
             .then(function(data) {
                 if (data && data.discussion && data.discussion.totalCommentCount !== undefined) {
