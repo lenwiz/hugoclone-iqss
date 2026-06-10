@@ -85,19 +85,6 @@
                         </ul>
                     </div>
 
-                    <div class="sidebar-section">
-                        <h3>Categories</h3>
-                        <ul>
-                            <li>Business operations</li>
-                            <li>Data science</li>
-                            <li>Dataverse</li>
-                            <li>Desktop tools</li>
-                            <li>Machine learning, AI, and LLMs</li>
-                            <li>Python programming</li>
-                            <li>Sponsored research</li>
-                            <li>Uncategorized</li>
-                        </ul>
-                    </div>
                 </aside>
             </div>
         </div>
@@ -265,35 +252,26 @@
 </style>
 
 <script>
-// Listen for giscus metadata messages to update comment counts
-window.addEventListener('message', function(event) {
-    if (event.origin !== 'https://giscus.app') return;
-    var data = typeof event.data === 'string' ? JSON.parse(event.data) : event.data;
-    if (!data.giscus || !data.giscus.discussion) return;
-    var discussion = data.giscus.discussion;
-    var term = discussion.title;
-    var count = discussion.totalCommentCount;
-    var el = document.querySelector('.comment-count[data-term="' + term.replace(/"/g, '\\"') + '"]');
-    if (el && count !== undefined) {
-        el.textContent = '(' + count + ' comment' + (count !== 1 ? 's' : '') + ')';
-    }
-});
-
-// Load hidden giscus iframes to get comment counts via metadata
 document.addEventListener('DOMContentLoaded', function() {
     var counts = document.querySelectorAll('.comment-count');
-    counts.forEach(function(el, index) {
+    counts.forEach(function(el) {
         var term = el.getAttribute('data-term');
-        setTimeout(function() {
-            var iframe = document.createElement('iframe');
-            iframe.style.display = 'none';
-            iframe.src = 'https://giscus.app/widget?origin=' + encodeURIComponent(window.location.href)
-                + '&session=&repo=lenwiz%2Fhugoclone-iqss&repoId=R_kgDOSoprKw'
-                + '&category=Announcements&categoryId=DIC_kwDOSoprK84C-58S'
-                + '&mapping=specific&term=' + encodeURIComponent(term)
-                + '&strict=0&reactionsEnabled=0&emitMetadata=1&inputPosition=top&theme=light&lang=en';
-            document.body.appendChild(iframe);
-        }, index * 500); // Stagger requests
+        fetch('https://giscus.app/api/discussions?repo=lenwiz%2Fhugoclone-iqss&category=Announcements&term=' + encodeURIComponent(term), {
+            method: 'GET',
+            headers: { 'Accept': 'application/json' }
+        })
+        .then(function(r) { return r.json(); })
+        .then(function(data) {
+            if (data && data.discussion) {
+                var count = data.discussion.totalCommentCount || 0;
+                el.textContent = '(' + count + ' comment' + (count !== 1 ? 's' : '') + ')';
+            } else {
+                el.textContent = '(0 comments)';
+            }
+        })
+        .catch(function(err) {
+            el.textContent = '(0 comments)';
+        });
     });
 });
 </script>
