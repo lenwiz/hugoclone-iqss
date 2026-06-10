@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog Posts on IQSS Clone - Harvard Institute for Quantitative Social Science</title>
+    <link>http://localhost:1313/blog-posts/</link>
+    <description>Recent content in Blog Posts on IQSS Clone - Harvard Institute for Quantitative Social Science</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 28 May 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/blog-posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ask the Data</title>
+      <link>http://localhost:1313/blog-posts/ask-the-data/</link>
+      <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog-posts/ask-the-data/</guid>
+      <description>&lt;p&gt;A post by Phil Durbin shared with the Dataverse community, providing tips for using the Ask the Data tool with Dataverse where you can ask questions about your dataset stored in the Harvard Dataverse repository.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>cool ideas blog</title>
+      <link>http://localhost:1313/blog-posts/cool-ideas-blog/</link>
+      <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog-posts/cool-ideas-blog/</guid>
+      <description>&lt;p&gt;This inaugural post introduces the IQSS &amp;ldquo;cool ideas&amp;rdquo; blog, describing a system for collecting ideas via Slack. The team installed the Reacji Channeler package in Slack to bind emojis to channels. Any message in a public channel can be flagged as a &amp;ldquo;cool idea&amp;rdquo; by reacting with either the sunglasses emoji or the &amp;ldquo;Cool&amp;rdquo; lettering emoji. Tagged posts get reposted to the #iqss-cool-ideas public channel.&lt;/p&gt;&#xA;&lt;p&gt;Similarly, staff can tag messages with a newspaper emoji to flag potential newsletter items, which get reposted to #iqss-news.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Testing the commenting functionality</title>
+      <link>http://localhost:1313/blog-posts/testing-the-commenting-functionality/</link>
+      <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog-posts/testing-the-commenting-functionality/</guid>
+      <description>&lt;p&gt;This is just a test.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Travel and reimbursement tips and tricks</title>
+      <link>http://localhost:1313/blog-posts/travel-and-reimbursement-tips-and-tricks/</link>
+      <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog-posts/travel-and-reimbursement-tips-and-tricks/</guid>
+      <description>&lt;p&gt;Here are some resources and guides for using Concur and guidance on Travel and Reimbursement from Harvard&amp;rsquo;s administrative and finance pages.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Using AI to simplify the grant process</title>
+      <link>http://localhost:1313/blog-posts/using-ai-to-simplify-the-grant-process/</link>
+      <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog-posts/using-ai-to-simplify-the-grant-process/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://home.grantsolutions.gov/home/event-recap/artificial-intelligence-ai-in-grants-management/&#34;&gt;This article&lt;/a&gt; by GrantSolutions Federal discusses how AI can be used to simplify the grant process.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Visually understanding machine learning</title>
+      <link>http://localhost:1313/blog-posts/visually-understanding-machine-learning/</link>
+      <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog-posts/visually-understanding-machine-learning/</guid>
+      <description>&lt;p&gt;An article by Stephen Wolfram (creator of Mathematica) is very helpful for visually understanding neural network computational models during machine learning. The piece is titled &amp;ldquo;What&amp;rsquo;s Really Going On in Machine Learning? Some Minimal Models&amp;rdquo; from August 2024.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Writing python code for digital embroidery</title>
+      <link>http://localhost:1313/blog-posts/writing-python-code-for-digital-embroidery/</link>
+      <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog-posts/writing-python-code-for-digital-embroidery/</guid>
+      <description>&lt;p&gt;Maker spaces now have digital sewing machines that accept Python code uploads. This enables data scientists who are sewing enthusiasts to create in their Maker spaces. Several Python packages are available for digital embroidery, such as Patro on GitHub.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

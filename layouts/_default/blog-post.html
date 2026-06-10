@@ -1,0 +1,49 @@
+{{ define "main" }}
+<div class="blog-post-page">
+    <div class="blog-post-content">
+        <div class="container" style="max-width:800px;">
+            <div class="blog-post-meta">
+                <span class="blog-date">{{ .Params.post_date }}</span> · <span class="blog-author">{{ .Params.author }}</span> · <span class="blog-category">{{ .Params.category }}</span>
+            </div>
+            <h1>{{ .Title }}</h1>
+            <div class="blog-post-body">
+                {{ .Content }}
+            </div>
+            <div style="margin-top:30px;">
+                <a href="{{ "iqss-blog/" | relURL }}" style="color:#CC5500;text-decoration:none;">← Back to Blog</a>
+            </div>
+            <div class="blog-post-comments">
+                <h3>Comments</h3>
+                <script src="https://giscus.app/client.js"
+                    data-repo="lenwiz/hugoclone-iqss"
+                    data-repo-id="R_kgDOSoprKw"
+                    data-category="General"
+                    data-category-id="DIC_kwDOSoprK84C-58T"
+                    data-mapping="specific"
+                    data-term="{{ .Title }}"
+                    data-strict="0"
+                    data-reactions-enabled="1"
+                    data-emit-metadata="0"
+                    data-input-position="top"
+                    data-theme="light"
+                    data-lang="en"
+                    crossorigin="anonymous"
+                    async>
+                </script>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+.blog-post-page { margin: 0; padding: 0; }
+.blog-post-content { padding: 40px 0 60px; }
+.blog-post-meta { font-size: 14px; color: #888; margin-bottom: 10px; }
+.blog-post-page h1 { font-size: 32px; font-weight: 400; color: #333; margin-bottom: 25px; }
+.blog-post-body { font-size: 17px; line-height: 1.7; color: #444; }
+.blog-post-body p { margin-bottom: 15px; }
+.blog-post-body a { color: #CC5500; }
+.blog-post-comments { margin-top: 40px; padding-top: 30px; border-top: 2px solid #f0f0f0; }
+.blog-post-comments h3 { font-size: 20px; color: #CC5500; margin-bottom: 20px; }
+</style>
+{{ end }}
