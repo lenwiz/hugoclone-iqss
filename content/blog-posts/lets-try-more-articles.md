@@ -5,7 +5,7 @@ draft: false
 layout: "blog-post"
 post_date: "June 16, 2026 at 5:50 PM"
 author: "Len Wisniewski"
-comment_count: 1
+comment_count: 2
 ---
 
 Jason Ur, Stephen Phillips Professor of Archaeology and Ethnology and IQSS affiliate, is working to unearth histories long hidden in Cambridge. Known for pioneering archaeological work in the Middle East, Ur has turned his attention to Cambridge’s Old Burying Ground, where questions about segregation and slavery have remained buried for centuries. Using drones, ground-penetrating radar, and a geospatial database, he is re-mapping the past and challenging how we understand it.
@@ -21,3 +21,10 @@ High-resolution Cold War imagery allowed Ur to trace ancient roadways, irrigatio
 <div class="blog-post-meta">June 16, 2026 at 5:54 PM · Len Wisniewski</div>
 
 Grave comment 3
+
+
+---
+
+<div class="blog-post-meta">June 16, 2026 at 5:51 PM · Len Wisniewski</div>
+
+Grave comment 1
