@@ -6,7 +6,7 @@ layout: "blog-post"
 post_date: "June 16, 2026"
 author: "Len Wisniewski"
 category: "Uncategorized"
-comment_count: 1
+comment_count: 2
 ---
 
 Sixth post
@@ -17,3 +17,10 @@ Sixth post
 **Len Wisniewski** · June 16, 2026
 
 Yes
+
+
+---
+
+**Len Wisniewski** · June 16, 2026
+
+Second comment to sixth post.
