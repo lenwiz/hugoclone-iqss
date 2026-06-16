@@ -5,11 +5,18 @@ draft: false
 layout: "blog-post"
 post_date: "June 16, 2026 at 6:04 PM"
 author: "Len Wisniewski"
-comment_count: 1
+comment_count: 2
 ---
 
 Here's a new(s) article
 
+
+---
+
+<!-- ts:1781647485.814489 -->
+<div class="blog-post-meta">June 16, 2026 at 6:04 PM · Len Wisniewski</div>
+
+New comment 1
 
 ---
 
