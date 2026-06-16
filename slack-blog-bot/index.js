@@ -55,15 +55,14 @@ function formatDate(ts) {
 }
 
 // Helper: Create or update blog post file via GitHub API
-async function createBlogPost(title, content, author, date, slug) {
+async function createBlogPost(title, content, author, date, slug, isoDate) {
   const fileContent = `---
 title: "${title.replace(/"/g, '\\"')}"
-date: ${new Date().toISOString().split('T')[0]}
+date: ${isoDate || new Date().toISOString()}
 draft: false
 layout: "blog-post"
 post_date: "${date}"
 author: "${author}"
-category: "Uncategorized"
 comment_count: 0
 ---
 
@@ -168,11 +167,13 @@ app.event('reaction_added', async ({ event }) => {
     const date = formatDate(message.ts);
     const text = message.text || '';
 
-    // Use first line as title, rest as content
+    // Use first line as title (brief synopsis), rest as content
+    // If the message is short (one line), use it as both title and content
     const lines = text.split('\n');
     const title = lines[0].slice(0, 100) || 'Untitled Post';
-    const content = lines.slice(1).join('\n').trim() || title;
+    const content = lines.length > 1 ? lines.slice(1).join('\n').trim() : text;
     const slug = slugify(title) || `post-${Date.now()}`;
+    const isoDate = new Date(parseFloat(message.ts) * 1000).toISOString();
 
     console.log('[DEBUG] title:', title, 'slug:', slug, 'thread_ts:', message.thread_ts, 'item.ts:', event.item.ts);
 
@@ -252,7 +253,7 @@ app.event('reaction_added', async ({ event }) => {
     }
 
     console.log('[DEBUG] Creating blog post:', slug);
-    await createBlogPost(title, content, author, date, slug);
+    await createBlogPost(title, content, author, date, slug, isoDate);
     console.log('[DEBUG] Blog post created successfully');
 
     await app.client.chat.postEphemeral({

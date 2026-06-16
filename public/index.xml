@@ -9,6 +9,13 @@
     <lastBuildDate>Tue, 16 Jun 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Eighth post</title>
+      <link>http://localhost:1313/blog-posts/eighth-post/</link>
+      <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog-posts/eighth-post/</guid>
+      <description>&lt;p&gt;Eighth post&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;&lt;strong&gt;Len Wisniewski&lt;/strong&gt; · June 16, 2026 at 4:25 PM&lt;/p&gt;&#xA;&lt;p&gt;Eighth reply&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Moving on to seventh post</title>
       <link>http://localhost:1313/blog-posts/moving-on-to-seventh-post/</link>
       <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
