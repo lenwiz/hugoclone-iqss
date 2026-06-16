@@ -95,6 +95,8 @@ comment_count: 0
 ---
 
 ${content}
+
+<!--more-->
 `;
 
   const path = `content/blog-posts/${slug}.md`;
