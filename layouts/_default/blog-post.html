@@ -2,10 +2,10 @@
 <div class="blog-post-page">
     <div class="blog-post-content">
         <div class="container" style="max-width:800px;">
-            <div class="blog-post-meta">
-                <span class="blog-date">{{ .Params.post_date }}</span> · <span class="blog-author">{{ .Params.author }}</span> · <span class="blog-category">{{ .Params.category }}</span>
-            </div>
             <h1>{{ .Title }}</h1>
+            <div class="blog-post-meta">
+                <span class="blog-date">{{ .Params.post_date }}</span>{{ with .Params.author }} · <span class="blog-author">{{ . }}</span>{{ end }}{{ with .Params.category }} · <span class="blog-category">{{ . }}</span>{{ end }}
+            </div>
             <div class="blog-post-body">
                 {{ .Content }}
             </div>

@@ -12,26 +12,13 @@
                     <article class="blog-post">
                         <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
                         <div class="blog-meta">
-                            <span class="blog-date">{{ .Params.post_date }}</span>{{ with .Params.author }} · <span class="blog-author">{{ . }}</span>{{ end }}{{ with .Params.category }} · <span class="blog-category">{{ . }}</span>{{ end }}
+                            <span class="blog-date">{{ .Params.post_date }}</span>{{ with .Params.category }} · <span class="blog-category">{{ . }}</span>{{ end }}
                         </div>
-                        <p>{{ .Summary }}</p>
-                        <div class="blog-discussion"><a href="{{ .RelPermalink }}">💬 Discussion</a> <span class="comment-count">({{ .Params.comment_count | default 0 }} comments)</span></div>
+                        <div class="blog-discussion"><a href="{{ .RelPermalink }}">💬 Discussion</a> ({{ .Params.comment_count | default 0 }} comments)</div>
                     </article>
                     {{ end }}
                 </div>
 
-                <!-- Sidebar -->
-                <aside class="blog-sidebar">
-                    <div class="sidebar-section">
-                        <h3>Recent Posts</h3>
-                        <ul>
-                            {{ range first 5 (where .Site.RegularPages "Section" "blog-posts").ByDate.Reverse }}
-                            <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
-                            {{ end }}
-                        </ul>
-                    </div>
-
-                </aside>
             </div>
         </div>
     </div>

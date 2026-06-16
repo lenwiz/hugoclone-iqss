@@ -43,11 +43,15 @@ async function getUserName(userId) {
   } catch { return 'IQSS Staff'; }
 }
 
-// Helper: Format date
+// Helper: Format date with time
 function formatDate(ts) {
   const date = new Date(parseFloat(ts) * 1000);
   const months = ['January','February','March','April','May','June','July','August','September','October','November','December'];
-  return `${months[date.getMonth()]} ${date.getDate()}, ${date.getFullYear()}`;
+  let hours = date.getHours();
+  const minutes = date.getMinutes().toString().padStart(2, '0');
+  const ampm = hours >= 12 ? 'PM' : 'AM';
+  hours = hours % 12 || 12;
+  return `${months[date.getMonth()]} ${date.getDate()}, ${date.getFullYear()} at ${hours}:${minutes} ${ampm}`;
 }
 
 // Helper: Create or update blog post file via GitHub API
@@ -108,25 +112,49 @@ async function deleteBlogPost(slug) {
   } catch { /* file doesn't exist */ }
 }
 
-// Handle ✅ reaction added
+// Handle ALL reactions for debugging
 app.event('reaction_added', async ({ event }) => {
+  console.log(`[DEBUG] reaction_added: emoji=${event.reaction}, channel=${event.item.channel}, expected_channel=${CHANNEL_ID}, expected_emoji=${PUBLISH_EMOJI}`);
   if (event.reaction !== PUBLISH_EMOJI) return;
   if (event.item.channel !== CHANNEL_ID) return;
+  console.log('[DEBUG] Passed filters - processing reaction');
 
   try {
     // Get the message that was reacted to
+    console.log('[DEBUG] Fetching message at ts:', event.item.ts);
+
+    // First try conversations.history (works for top-level messages)
+    let message;
     const result = await app.client.conversations.history({
       channel: event.item.channel,
       latest: event.item.ts,
       inclusive: true,
       limit: 1,
     });
+    message = result.messages[0];
 
-    const message = result.messages[0];
+    // If message has a thread_ts different from its own ts, it might be a reply
+    // that conversations.history returned as the parent. Use conversations.replies to get the actual reply.
+    if (message && message.ts !== event.item.ts) {
+      // The message we got isn't the one reacted to - fetch from thread
+      const threadResult = await app.client.conversations.replies({
+        channel: event.item.channel,
+        ts: message.thread_ts || message.ts,
+        latest: event.item.ts,
+        inclusive: true,
+        limit: 50,
+      });
+      const replyMsg = threadResult.messages.find(m => m.ts === event.item.ts);
+      if (replyMsg) message = replyMsg;
+    }
+
+    console.log('[DEBUG] Message found:', !!message, 'text:', message?.text?.slice(0, 50), 'ts:', message?.ts, 'thread_ts:', message?.thread_ts);
     if (!message) return;
 
     // Check authorization
+    console.log('[DEBUG] Checking auth: reactor=', event.user, 'message_author=', message.user);
     const authorized = await isAuthorized(event.user, message.user);
+    console.log('[DEBUG] Authorized:', authorized);
     if (!authorized) {
       await app.client.chat.postEphemeral({
         channel: event.item.channel,
@@ -146,8 +174,11 @@ app.event('reaction_added', async ({ event }) => {
     const content = lines.slice(1).join('\n').trim() || title;
     const slug = slugify(title) || `post-${Date.now()}`;
 
+    console.log('[DEBUG] title:', title, 'slug:', slug, 'thread_ts:', message.thread_ts, 'item.ts:', event.item.ts);
+
     // Check if this is a thread reply
     if (message.thread_ts && event.item.ts !== message.thread_ts) {
+      console.log('[DEBUG] This is a thread reply');
       // This is a reply - get parent message to find the post slug
       const parentResult = await app.client.conversations.history({
         channel: event.item.channel,
@@ -156,19 +187,39 @@ app.event('reaction_added', async ({ event }) => {
         limit: 1,
       });
       const parentMessage = parentResult.messages[0];
+      console.log('[DEBUG] Parent message text:', parentMessage?.text?.slice(0, 50));
       if (!parentMessage) return;
 
       const parentTitle = (parentMessage.text || '').split('\n')[0].slice(0, 100) || 'Untitled Post';
       const parentSlug = slugify(parentTitle) || `post-${message.thread_ts}`;
       const path = `content/blog-posts/${parentSlug}.md`;
+      console.log('[DEBUG] Parent title:', parentTitle, 'slug:', parentSlug, 'path:', path);
 
-      // Get existing file content
+      // Get existing file content, or create parent post first
+      console.log('[DEBUG] Looking for parent post file:', path);
       try {
-        const existing = await octokit.rest.repos.getContent({
-          owner: GITHUB_REPO_OWNER,
-          repo: GITHUB_REPO_NAME,
-          path,
-        });
+        let existing;
+        try {
+          existing = await octokit.rest.repos.getContent({
+            owner: GITHUB_REPO_OWNER,
+            repo: GITHUB_REPO_NAME,
+            path,
+          });
+        } catch (e) {
+          // Parent post doesn't exist yet - create it first
+          console.log('[DEBUG] Parent post not found, creating it first');
+          const parentAuthor = await getUserName(parentMessage.user);
+          const parentDate = formatDate(parentMessage.ts);
+          const parentContent = (parentMessage.text || '').split('\n').slice(1).join('\n').trim() || parentTitle;
+          await createBlogPost(parentTitle, parentContent, parentAuthor, parentDate, parentSlug);
+          // Re-fetch after creation
+          existing = await octokit.rest.repos.getContent({
+            owner: GITHUB_REPO_OWNER,
+            repo: GITHUB_REPO_NAME,
+            path,
+          });
+        }
+        console.log('[DEBUG] Found parent file, appending reply');
 
         const currentContent = Buffer.from(existing.data.content, 'base64').toString('utf8');
 
@@ -200,7 +251,7 @@ app.event('reaction_added', async ({ event }) => {
           text: `✅ Reply published to blog post "${parentTitle}"`,
         });
       } catch (err) {
-        console.error('Error appending reply:', err);
+        console.error('Error appending reply:', err.message, err.status);
         await app.client.chat.postEphemeral({
           channel: event.item.channel,
           user: event.user,
@@ -210,7 +261,9 @@ app.event('reaction_added', async ({ event }) => {
       return;
     }
 
+    console.log('[DEBUG] Creating blog post:', slug);
     await createBlogPost(title, content, author, date, slug);
+    console.log('[DEBUG] Blog post created successfully');
 
     await app.client.chat.postEphemeral({
       channel: event.item.channel,
@@ -225,8 +278,10 @@ app.event('reaction_added', async ({ event }) => {
 
 // Handle ✅ reaction removed (unpublish)
 app.event('reaction_removed', async ({ event }) => {
+  console.log(`[DEBUG] reaction_removed: emoji=${event.reaction}, channel=${event.item.channel}`);
   if (event.reaction !== PUBLISH_EMOJI) return;
   if (event.item.channel !== CHANNEL_ID) return;
+  console.log('[DEBUG] Processing reaction removal');
 
   try {
     const result = await app.client.conversations.history({
