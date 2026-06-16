@@ -7,6 +7,8 @@ title = 'IQSS Clone - Harvard Institute for Quantitative Social Science'
   description = 'A comprehensive archive and clone of the IQSS website content'
   author = 'IQSS Archive'
 
+summaryLength = 40
+
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]

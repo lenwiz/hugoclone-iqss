@@ -9,6 +9,34 @@ const MODERATORS = (process.env.MODERATORS || '').split(',').map(s => s.trim());
 const GITHUB_REPO_OWNER = 'lenwiz';
 const GITHUB_REPO_NAME = 'hugoclone-iqss';
 
+// Queue to serialize GitHub operations (prevents SHA conflicts)
+const operationQueue = [];
+let processing = false;
+
+async function enqueue(fn) {
+  return new Promise((resolve, reject) => {
+    operationQueue.push({ fn, resolve, reject });
+    processQueue();
+  });
+}
+
+async function processQueue() {
+  if (processing) return;
+  processing = true;
+  while (operationQueue.length > 0) {
+    const { fn, resolve, reject } = operationQueue.shift();
+    try {
+      const result = await fn();
+      resolve(result);
+    } catch (err) {
+      reject(err);
+    }
+    // Small delay between operations to let GitHub propagate
+    await new Promise(r => setTimeout(r, 2000));
+  }
+  processing = false;
+}
+
 const app = new App({
   token: process.env.SLACK_BOT_TOKEN,
   signingSecret: process.env.SLACK_SIGNING_SECRET,
@@ -116,7 +144,10 @@ app.event('reaction_added', async ({ event }) => {
   console.log(`[DEBUG] reaction_added: emoji=${event.reaction}, channel=${event.item.channel}, expected_channel=${CHANNEL_ID}, expected_emoji=${PUBLISH_EMOJI}`);
   if (event.reaction !== PUBLISH_EMOJI) return;
   if (event.item.channel !== CHANNEL_ID) return;
-  console.log('[DEBUG] Passed filters - processing reaction');
+  console.log('[DEBUG] Passed filters - queuing operation');
+
+  await enqueue(async () => {
+  console.log('[DEBUG] Processing reaction (from queue)');
 
   try {
     // Get the message that was reacted to
@@ -219,21 +250,43 @@ app.event('reaction_added', async ({ event }) => {
         // Update comment count in frontmatter
         const countMatch = updatedContent.match(/comment_count: (\d+)/);
         const currentCount = countMatch ? parseInt(countMatch[1]) : 0;
-        const finalContent = updatedContent.replace(/comment_count: \d+/, `comment_count: ${currentCount + 1}`);
+        let finalContent = updatedContent.replace(/comment_count: \d+/, `comment_count: ${currentCount + 1}`);
 
-        console.log('[DEBUG] Updating file with reply, sha:', existing.data.sha);
-        try {
-          await octokit.rest.repos.createOrUpdateFileContents({
-            owner: GITHUB_REPO_OWNER,
-            repo: GITHUB_REPO_NAME,
-            path,
-            message: `Reply by ${replyAuthor} on: ${parentTitle}`,
-            content: Buffer.from(finalContent).toString('base64'),
-            sha: existing.data.sha,
-          });
-          console.log('[DEBUG] Reply committed successfully');
-        } catch (commitErr) {
-          console.error('[DEBUG] Commit failed:', commitErr.message, commitErr.status);
+        // Retry with fresh SHA if conflict (handles rapid successive reactions)
+        for (let attempt = 0; attempt < 3; attempt++) {
+          try {
+            if (attempt > 0) {
+              // Re-fetch to get fresh SHA and content
+              const fresh = await octokit.rest.repos.getContent({
+                owner: GITHUB_REPO_OWNER,
+                repo: GITHUB_REPO_NAME,
+                path,
+              });
+              const freshContent = Buffer.from(fresh.data.content, 'base64').toString('utf8');
+              const freshUpdated = freshContent + commentBlock;
+              const freshCount = (freshUpdated.match(/comment_count: (\d+)/) || [, '0'])[1];
+              finalContent = freshUpdated.replace(/comment_count: \d+/, `comment_count: ${parseInt(freshCount) + 1}`);
+              existing = fresh;
+            }
+            await octokit.rest.repos.createOrUpdateFileContents({
+              owner: GITHUB_REPO_OWNER,
+              repo: GITHUB_REPO_NAME,
+              path,
+              message: `Reply by ${replyAuthor} on: ${parentTitle}`,
+              content: Buffer.from(finalContent).toString('base64'),
+              sha: existing.data.sha,
+            });
+            console.log('[DEBUG] Reply committed successfully');
+            break;
+          } catch (commitErr) {
+            if (commitErr.status === 409 && attempt < 2) {
+              console.log('[DEBUG] SHA conflict, retrying...');
+              await new Promise(r => setTimeout(r, 1000));
+            } else {
+              console.error('[DEBUG] Commit failed:', commitErr.message, commitErr.status);
+              break;
+            }
+          }
         }
 
         await app.client.chat.postEphemeral({
@@ -265,6 +318,7 @@ app.event('reaction_added', async ({ event }) => {
   } catch (error) {
     console.error('Error publishing post:', error);
   }
+  }); // end enqueue
 });
 
 // Handle ✅ reaction removed (unpublish)
@@ -272,7 +326,10 @@ app.event('reaction_removed', async ({ event }) => {
   console.log(`[DEBUG] reaction_removed: emoji=${event.reaction}, channel=${event.item.channel}`);
   if (event.reaction !== PUBLISH_EMOJI) return;
   if (event.item.channel !== CHANNEL_ID) return;
-  console.log('[DEBUG] Processing reaction removal');
+  console.log('[DEBUG] Queuing reaction removal');
+
+  await enqueue(async () => {
+  console.log('[DEBUG] Processing reaction removal (from queue)');
 
   try {
     const result = await app.client.conversations.history({
@@ -303,6 +360,7 @@ app.event('reaction_removed', async ({ event }) => {
   } catch (error) {
     console.error('Error removing post:', error);
   }
+  }); // end enqueue
 });
 
 // Start the app

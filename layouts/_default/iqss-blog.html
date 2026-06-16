@@ -14,6 +14,8 @@
                         <div class="blog-meta">
                             <span class="blog-date">{{ .Params.post_date }}</span>
                         </div>
+                        <div class="blog-excerpt">{{ .Summary }}</div>
+                        {{ if .Truncated }}<a href="{{ .RelPermalink }}" class="read-more-link">Read more →</a>{{ end }}
                         <div class="blog-discussion"><a href="{{ .RelPermalink }}">💬 Discussion</a> ({{ .Params.comment_count | default 0 }} comments)</div>
                     </article>
                     {{ end }}
@@ -119,6 +121,26 @@
 }
 
 .blog-discussion a:hover {
+    text-decoration: underline;
+}
+
+.blog-excerpt {
+    font-size: 15px;
+    line-height: 1.6;
+    color: #444;
+    margin-bottom: 10px;
+}
+
+.read-more-link {
+    display: inline-block;
+    color: #CC5500;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.read-more-link:hover {
     text-decoration: underline;
 }
 
