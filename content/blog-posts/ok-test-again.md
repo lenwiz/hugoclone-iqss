@@ -5,7 +5,7 @@ draft: false
 layout: "blog-post"
 post_date: "June 16, 2026 at 6:14 PM"
 author: "Len Wisniewski"
-comment_count: 3
+comment_count: 4
 ---
 
 Ok, test again
@@ -19,6 +19,13 @@ Ok, test again
 <div class="blog-post-meta">June 16, 2026 at 6:14 PM · Len Wisniewski</div>
 
 Test again comment 1
+
+---
+
+<!-- ts:1781648066.494489 -->
+<div class="blog-post-meta">June 16, 2026 at 6:14 PM · Len Wisniewski</div>
+
+Test again comment 2
 
 ---
 
