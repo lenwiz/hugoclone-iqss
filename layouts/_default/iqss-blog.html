@@ -12,7 +12,7 @@
                     <article class="blog-post">
                         <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
                         <div class="blog-meta">
-                            <span class="blog-date">{{ .Params.post_date }}</span>{{ with .Params.category }} · <span class="blog-category">{{ . }}</span>{{ end }}
+                            <span class="blog-date">{{ .Params.post_date }}</span>
                         </div>
                         <div class="blog-discussion"><a href="{{ .RelPermalink }}">💬 Discussion</a> ({{ .Params.comment_count | default 0 }} comments)</div>
                     </article>

@@ -4,7 +4,7 @@
         <div class="container" style="max-width:800px;">
             <h1>{{ .Title }}</h1>
             <div class="blog-post-meta">
-                <span class="blog-date">{{ .Params.post_date }}</span>{{ with .Params.author }} · <span class="blog-author">{{ . }}</span>{{ end }}{{ with .Params.category }} · <span class="blog-category">{{ . }}</span>{{ end }}
+                <span class="blog-date">{{ .Params.post_date }}</span>{{ with .Params.author }} · <span class="blog-author">{{ . }}</span>{{ end }}
             </div>
             <div class="blog-post-body">
                 {{ .Content }}

@@ -195,30 +195,14 @@ app.event('reaction_added', async ({ event }) => {
       const path = `content/blog-posts/${parentSlug}.md`;
       console.log('[DEBUG] Parent title:', parentTitle, 'slug:', parentSlug, 'path:', path);
 
-      // Get existing file content, or create parent post first
+      // Get existing file content
       console.log('[DEBUG] Looking for parent post file:', path);
       try {
-        let existing;
-        try {
-          existing = await octokit.rest.repos.getContent({
-            owner: GITHUB_REPO_OWNER,
-            repo: GITHUB_REPO_NAME,
-            path,
-          });
-        } catch (e) {
-          // Parent post doesn't exist yet - create it first
-          console.log('[DEBUG] Parent post not found, creating it first');
-          const parentAuthor = await getUserName(parentMessage.user);
-          const parentDate = formatDate(parentMessage.ts);
-          const parentContent = (parentMessage.text || '').split('\n').slice(1).join('\n').trim() || parentTitle;
-          await createBlogPost(parentTitle, parentContent, parentAuthor, parentDate, parentSlug);
-          // Re-fetch after creation
-          existing = await octokit.rest.repos.getContent({
-            owner: GITHUB_REPO_OWNER,
-            repo: GITHUB_REPO_NAME,
-            path,
-          });
-        }
+        const existing = await octokit.rest.repos.getContent({
+          owner: GITHUB_REPO_OWNER,
+          repo: GITHUB_REPO_NAME,
+          path,
+        });
         console.log('[DEBUG] Found parent file, appending reply');
 
         const currentContent = Buffer.from(existing.data.content, 'base64').toString('utf8');
@@ -227,7 +211,7 @@ app.event('reaction_added', async ({ event }) => {
         const replyAuthor = await getUserName(message.user);
         const replyDate = formatDate(message.ts);
         const replyText = text;
-        const commentBlock = `\n\n---\n\n**${replyAuthor}** · ${replyDate}\n\n${replyText}\n`;
+        const commentBlock = `\n\n---\n\n<div class="blog-post-meta">${replyDate} · ${replyAuthor}</div>\n\n${replyText}\n`;
 
         const updatedContent = currentContent + commentBlock;
 
@@ -236,14 +220,20 @@ app.event('reaction_added', async ({ event }) => {
         const currentCount = countMatch ? parseInt(countMatch[1]) : 0;
         const finalContent = updatedContent.replace(/comment_count: \d+/, `comment_count: ${currentCount + 1}`);
 
-        await octokit.rest.repos.createOrUpdateFileContents({
-          owner: GITHUB_REPO_OWNER,
-          repo: GITHUB_REPO_NAME,
-          path,
-          message: `Reply by ${replyAuthor} on: ${parentTitle}`,
-          content: Buffer.from(finalContent).toString('base64'),
-          sha: existing.data.sha,
-        });
+        console.log('[DEBUG] Updating file with reply, sha:', existing.data.sha);
+        try {
+          await octokit.rest.repos.createOrUpdateFileContents({
+            owner: GITHUB_REPO_OWNER,
+            repo: GITHUB_REPO_NAME,
+            path,
+            message: `Reply by ${replyAuthor} on: ${parentTitle}`,
+            content: Buffer.from(finalContent).toString('base64'),
+            sha: existing.data.sha,
+          });
+          console.log('[DEBUG] Reply committed successfully');
+        } catch (commitErr) {
+          console.error('[DEBUG] Commit failed:', commitErr.message, commitErr.status);
+        }
 
         await app.client.chat.postEphemeral({
           channel: event.item.channel,
@@ -255,7 +245,7 @@ app.event('reaction_added', async ({ event }) => {
         await app.client.chat.postEphemeral({
           channel: event.item.channel,
           user: event.user,
-          text: `⚠️ Could not find parent blog post to add reply to.`,
+          text: `⚠️ Could not add reply. Make sure the parent post has ✅ first. (Error: ${err.message})`,
         });
       }
       return;
