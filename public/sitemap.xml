@@ -2,6 +2,21 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/blog-posts/are-we-now-at-521/</loc>
+    <lastmod>2026-06-16T21:21:27+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog-posts/another-full-post-at-520/</loc>
+    <lastmod>2026-06-16T21:21:07+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog-posts/heres-a-second-one-at-519/</loc>
+    <lastmod>2026-06-16T21:19:52+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog-posts/welcome-to-iqss-cool-ideas-blog/</loc>
+    <lastmod>2026-06-16T21:19:32+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog-posts/expanded-access-to-generative-ai-tools-at-fas/</loc>
+    <lastmod>2026-06-16T21:18:02+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/people-staff-profiles/brendan-case/</loc>
     <lastmod>2026-06-04T00:00:00+00:00</lastmod>
   </url><url>

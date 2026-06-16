@@ -153,29 +153,41 @@ app.event('reaction_added', async ({ event }) => {
     // Get the message that was reacted to
     console.log('[DEBUG] Fetching message at ts:', event.item.ts);
 
-    // First try conversations.history (works for top-level messages)
     let message;
+
+    // First try conversations.history (works for top-level messages)
     const result = await app.client.conversations.history({
       channel: event.item.channel,
       latest: event.item.ts,
       inclusive: true,
       limit: 1,
     });
-    message = result.messages[0];
 
-    // If message has a thread_ts different from its own ts, it might be a reply
-    // that conversations.history returned as the parent. Use conversations.replies to get the actual reply.
-    if (message && message.ts !== event.item.ts) {
-      // The message we got isn't the one reacted to - fetch from thread
-      const threadResult = await app.client.conversations.replies({
+    if (result.messages[0] && result.messages[0].ts === event.item.ts) {
+      // Direct hit - this is a top-level message
+      message = result.messages[0];
+    } else {
+      // Not found in channel history - must be a thread reply
+      // Get recent messages to find which thread this reply belongs to
+      const recentMessages = await app.client.conversations.history({
         channel: event.item.channel,
-        ts: message.thread_ts || message.ts,
-        latest: event.item.ts,
-        inclusive: true,
-        limit: 50,
+        limit: 20,
       });
-      const replyMsg = threadResult.messages.find(m => m.ts === event.item.ts);
-      if (replyMsg) message = replyMsg;
+
+      // Search each thread for the reacted message
+      for (const msg of recentMessages.messages) {
+        if (msg.reply_count > 0 || msg.thread_ts) {
+          const threadResult = await app.client.conversations.replies({
+            channel: event.item.channel,
+            ts: msg.ts,
+          });
+          const found = threadResult.messages.find(m => m.ts === event.item.ts);
+          if (found) {
+            message = found;
+            break;
+          }
+        }
+      }
     }
 
     console.log('[DEBUG] Message found:', !!message, 'text:', message?.text?.slice(0, 50), 'ts:', message?.ts, 'thread_ts:', message?.thread_ts);

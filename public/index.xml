@@ -6,8 +6,43 @@
     <description>Recent content in Harvard Institute for Quantitative Social Science on IQSS Clone - Harvard Institute for Quantitative Social Science</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 04 Jun 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 16 Jun 2026 21:21:27 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Are we now at 5:21?</title>
+      <link>http://localhost:1313/blog-posts/are-we-now-at-521/</link>
+      <pubDate>Tue, 16 Jun 2026 21:21:27 +0000</pubDate>
+      <guid>http://localhost:1313/blog-posts/are-we-now-at-521/</guid>
+      <description>&lt;p&gt;Are we now at 5:21?&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Another full post at 5:20</title>
+      <link>http://localhost:1313/blog-posts/another-full-post-at-520/</link>
+      <pubDate>Tue, 16 Jun 2026 21:21:07 +0000</pubDate>
+      <guid>http://localhost:1313/blog-posts/another-full-post-at-520/</guid>
+      <description>&lt;p&gt;Another full post at 5:20&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Here&#39;s a second one at 5:19</title>
+      <link>http://localhost:1313/blog-posts/heres-a-second-one-at-519/</link>
+      <pubDate>Tue, 16 Jun 2026 21:19:52 +0000</pubDate>
+      <guid>http://localhost:1313/blog-posts/heres-a-second-one-at-519/</guid>
+      <description>&lt;p&gt;Here&amp;rsquo;s a second one at 5:19&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Welcome to IQSS cool ideas blog!</title>
+      <link>http://localhost:1313/blog-posts/welcome-to-iqss-cool-ideas-blog/</link>
+      <pubDate>Tue, 16 Jun 2026 21:19:32 +0000</pubDate>
+      <guid>http://localhost:1313/blog-posts/welcome-to-iqss-cool-ideas-blog/</guid>
+      <description>&lt;p&gt;Welcome to IQSS cool ideas blog!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Expanded Access to Generative AI Tools at FAS</title>
+      <link>http://localhost:1313/blog-posts/expanded-access-to-generative-ai-tools-at-fas/</link>
+      <pubDate>Tue, 16 Jun 2026 21:18:02 +0000</pubDate>
+      <guid>http://localhost:1313/blog-posts/expanded-access-to-generative-ai-tools-at-fas/</guid>
+      <description>&lt;p&gt;Hi All,&lt;/p&gt;&#xA;&lt;p&gt;I just want to bring your attention to an e-mail from May 6 about &amp;ldquo;Expanded Access to Generative AI Tools at FAS&amp;rdquo; that everyone should have received. Essentially there are three tiers of access to AI tools: 1) Free, 2) API key, and 3) License. I just want to clarify how IQSS is approaching access to each of these tiers. The form mentioned in the June 6 e-mail is only in regard to “License access”.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Brendan Case</title>
       <link>http://localhost:1313/people-staff-profiles/brendan-case/</link>
