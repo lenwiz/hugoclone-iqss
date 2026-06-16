@@ -5,7 +5,7 @@ draft: false
 layout: "blog-post"
 post_date: "June 16, 2026 at 5:18 PM"
 author: "Len Wisniewski"
-comment_count: 0
+comment_count: 1
 ---
 
 Hi All,
@@ -19,3 +19,10 @@ I just want to bring your attention to an e-mail from May 6 about "Expanded Acce
 *License access*: this tier is targeted to “power users”. This tier includes a ChatGPT license, a Claude (Code) license and licenses for “Pro” versions of Microsoft Copilot and Google Gemini. The license cost will be covered by FAS for faculty, postdocs, staff, and students in FAS. A power user for these tools would be using a quantity of tokens, cost, or functionality that is high or very advanced.
 
 We want to be responsible in requesting these for “power users” who will make productive use and who have greater volume AI work. For example, the Claude licenses are priced at $750 per month and $2250 per month, so you should consider these licenses if your API key usage is approaching this level.  *If you are considering filling out the form for one of these AI licenses*, please reach out to me (<mailto:lwisniewski@iq.harvard.edu|lwisniewski@iq.harvard.edu> or <@U02UPGGF8> via Slack) and I will submit it on your behalf. It is preferable for us to request these from a single source so we can maintain consistent justification (and approval) as an organization when requesting these valuable resources.
+
+
+---
+
+<div class="blog-post-meta">June 16, 2026 at 5:18 PM · Len Wisniewski</div>
+
+Comment 1
