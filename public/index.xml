@@ -6,8 +6,22 @@
     <description>Recent content in Harvard Institute for Quantitative Social Science on IQSS Clone - Harvard Institute for Quantitative Social Science</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 16 Jun 2026 21:52:55 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 16 Jun 2026 22:14:04 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ok, test again</title>
+      <link>http://localhost:1313/blog-posts/ok-test-again/</link>
+      <pubDate>Tue, 16 Jun 2026 22:14:04 +0000</pubDate>
+      <guid>http://localhost:1313/blog-posts/ok-test-again/</guid>
+      <description>&lt;p&gt;Ok, test again&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Here&#39;s a new(s) article</title>
+      <link>http://localhost:1313/blog-posts/heres-a-news-article/</link>
+      <pubDate>Tue, 16 Jun 2026 22:04:26 +0000</pubDate>
+      <guid>http://localhost:1313/blog-posts/heres-a-news-article/</guid>
+      <description>&lt;p&gt;Here&amp;rsquo;s a new(s) article&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;!-- ts:1781647485.814489 --&gt;&#xA;&lt;div class=&#34;blog-post-meta&#34;&gt;June 16, 2026 at 6:04 PM · Len Wisniewski&lt;/div&gt;&#xA;&lt;p&gt;New comment 1&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;!-- ts:1781647531.020399 --&gt;&#xA;&lt;div class=&#34;blog-post-meta&#34;&gt;June 16, 2026 at 6:05 PM · Len Wisniewski&lt;/div&gt;&#xA;&lt;p&gt;New comment 2&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;!-- ts:1781647591.151439 --&gt;&#xA;&lt;div class=&#34;blog-post-meta&#34;&gt;June 16, 2026 at 6:06 PM · Len Wisniewski&lt;/div&gt;&#xA;&lt;p&gt;New comment 3&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;!-- ts:1781647681.521089 --&gt;&#xA;&lt;div class=&#34;blog-post-meta&#34;&gt;June 16, 2026 at 6:08 PM · Len Wisniewski&lt;/div&gt;&#xA;&lt;p&gt;New comment 4&lt;/p&gt;</description>
+    </item>
     <item>
       <title>A short article</title>
       <link>http://localhost:1313/blog-posts/a-short-article/</link>

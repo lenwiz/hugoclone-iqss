@@ -1,5 +1,5 @@
 ---
-title: "Blog Posts"
+title: Blog Posts
 date: 2026-05-28
 draft: false
 ---
