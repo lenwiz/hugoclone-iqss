@@ -5,7 +5,7 @@ draft: false
 layout: "blog-post"
 post_date: "June 16, 2026 at 6:04 PM"
 author: "Len Wisniewski"
-comment_count: 3
+comment_count: 4
 ---
 
 Here's a new(s) article
@@ -31,3 +31,10 @@ New comment 2
 <div class="blog-post-meta">June 16, 2026 at 6:06 PM · Len Wisniewski</div>
 
 New comment 3
+
+---
+
+<!-- ts:1781647681.521089 -->
+<div class="blog-post-meta">June 16, 2026 at 6:08 PM · Len Wisniewski</div>
+
+New comment 4
