@@ -5,7 +5,7 @@ draft: false
 layout: "blog-post"
 post_date: "June 16, 2026 at 5:18 PM"
 author: "Len Wisniewski"
-comment_count: 1
+comment_count: 2
 ---
 
 Hi All,
@@ -26,3 +26,10 @@ We want to be responsible in requesting these for “power users” who will mak
 <div class="blog-post-meta">June 16, 2026 at 5:18 PM · Len Wisniewski</div>
 
 Comment 1
+
+
+---
+
+<div class="blog-post-meta">June 16, 2026 at 5:19 PM · Len Wisniewski</div>
+
+Comment 2
