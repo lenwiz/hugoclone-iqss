@@ -251,33 +251,64 @@ app.event('reaction_added', async ({ event }) => {
 
         const currentContent = Buffer.from(existing.data.content, 'base64').toString('utf8');
 
-        // Append the reply as a comment
+        // Insert reply in chronological order based on timestamp
         const replyAuthor = await getUserName(message.user);
         const replyDate = formatDate(message.ts);
+        const replyTs = parseFloat(message.ts);
         const replyText = text;
-        const commentBlock = `\n\n---\n\n<div class="blog-post-meta">${replyDate} · ${replyAuthor}</div>\n\n${replyText}\n`;
+        const commentBlock = `\n\n---\n\n<!-- ts:${replyTs} -->\n<div class="blog-post-meta">${replyDate} · ${replyAuthor}</div>\n\n${replyText}`;
 
-        const updatedContent = currentContent + commentBlock;
+        // Split content into main post and existing replies
+        const parts = currentContent.split('\n\n---\n\n');
+        const mainPost = parts[0];
+        const existingReplies = parts.slice(1);
+
+        // Parse timestamps from existing replies and insert new one in order
+        const allReplies = [...existingReplies];
+        let inserted = false;
+        const newReplyWithTs = `<!-- ts:${replyTs} -->\n<div class="blog-post-meta">${replyDate} · ${replyAuthor}</div>\n\n${replyText}`;
+
+        // Find correct position based on timestamp
+        for (let i = 0; i < allReplies.length; i++) {
+          const tsMatch = allReplies[i].match(/<!-- ts:([\d.]+) -->/);
+          if (tsMatch && parseFloat(tsMatch[1]) > replyTs) {
+            allReplies.splice(i, 0, newReplyWithTs);
+            inserted = true;
+            break;
+          }
+        }
+        if (!inserted) allReplies.push(newReplyWithTs);
+
+        const updatedContent = mainPost + (allReplies.length > 0 ? '\n\n---\n\n' + allReplies.join('\n\n---\n\n') : '');
 
         // Update comment count in frontmatter
-        const countMatch = updatedContent.match(/comment_count: (\d+)/);
-        const currentCount = countMatch ? parseInt(countMatch[1]) : 0;
-        let finalContent = updatedContent.replace(/comment_count: \d+/, `comment_count: ${currentCount + 1}`);
+        let finalContent = updatedContent.replace(/comment_count: \d+/, `comment_count: ${allReplies.length}`);
 
         // Retry with fresh SHA if conflict (handles rapid successive reactions)
         for (let attempt = 0; attempt < 3; attempt++) {
           try {
             if (attempt > 0) {
-              // Re-fetch to get fresh SHA and content
+              // Re-fetch and redo time-ordered insertion
               const fresh = await octokit.rest.repos.getContent({
                 owner: GITHUB_REPO_OWNER,
                 repo: GITHUB_REPO_NAME,
                 path,
               });
               const freshContent = Buffer.from(fresh.data.content, 'base64').toString('utf8');
-              const freshUpdated = freshContent + commentBlock;
-              const freshCount = (freshUpdated.match(/comment_count: (\d+)/) || [, '0'])[1];
-              finalContent = freshUpdated.replace(/comment_count: \d+/, `comment_count: ${parseInt(freshCount) + 1}`);
+              const freshParts = freshContent.split('\n\n---\n\n');
+              const freshMain = freshParts[0];
+              const freshReplies = [...freshParts.slice(1)];
+              let ins = false;
+              for (let i = 0; i < freshReplies.length; i++) {
+                const tsM = freshReplies[i].match(/<!-- ts:([\d.]+) -->/);
+                if (tsM && parseFloat(tsM[1]) > replyTs) {
+                  freshReplies.splice(i, 0, newReplyWithTs);
+                  ins = true;
+                  break;
+                }
+              }
+              if (!ins) freshReplies.push(newReplyWithTs);
+              finalContent = (freshMain + (freshReplies.length > 0 ? '\n\n---\n\n' + freshReplies.join('\n\n---\n\n') : '')).replace(/comment_count: \d+/, `comment_count: ${freshReplies.length}`);
               existing = fresh;
             }
             await octokit.rest.repos.createOrUpdateFileContents({
