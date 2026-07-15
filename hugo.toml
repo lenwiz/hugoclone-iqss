@@ -59,3 +59,8 @@ summaryLength = 40
   name = "AI for Social Science"
   url = "/ai-for-social-science/"
   weight = 90
+
+[[menu.main]]
+  name = "Metrics"
+  url = "https://iqss.github.io/iqss-metrics-dashboard/"
+  weight = 100
