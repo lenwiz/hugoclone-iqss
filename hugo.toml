@@ -54,3 +54,8 @@ summaryLength = 40
   name = "Blog"
   url = "/iqss-blog/"
   weight = 80
+
+[[menu.main]]
+  name = "AI for Social Science"
+  url = "/ai-for-social-science/"
+  weight = 90
