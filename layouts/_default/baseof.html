@@ -411,21 +411,12 @@
             transform: translateY(-7px) rotate(-45deg);
         }
 
-        /* ── Tablet (≤ 1024px): compact nav, no overflow ── */
+        /* ── Tablet & below (≤ 1024px): hamburger nav
+             The 10-item menu overflows at ~900px, so the hamburger
+             activates before any clipping can occur. The header
+             (logo + site name) stays horizontal until 768px.        ── */
         @media (max-width: 1024px) {
-            .nav-menu a { padding: 15px 7px; font-size: 14px; }
-            .site-logo-text .site-name { font-size: 22px; }
-        }
-
-        /* ── Mobile (≤ 768px): hamburger menu ── */
-        @media (max-width: 768px) {
-            /* Header */
-            .header-content { flex-direction: column; text-align: center; gap: 10px; }
-            .site-logo { flex-direction: column; gap: 8px; }
-            .site-logo-text .site-name { font-size: 20px; }
-            .iqss-logo img { height: 44px; }
-
-            /* Nav: show hamburger, hide menu by default */
+            /* Nav: hamburger replaces the full item row */
             .nav-container {
                 display: flex;
                 flex-wrap: wrap;
@@ -448,8 +439,14 @@
                 white-space: normal;
             }
             .nav-menu li:last-child a { border-bottom: none; }
+        }
 
-            /* Generic hero */
+        /* ── Mobile (≤ 768px): stack header, shrink logo + hero text ── */
+        @media (max-width: 768px) {
+            .header-content { flex-direction: column; text-align: center; gap: 10px; }
+            .site-logo { flex-direction: column; gap: 8px; }
+            .site-logo-text .site-name { font-size: 20px; }
+            .iqss-logo img { height: 44px; }
             .hero h1 { font-size: 36px; letter-spacing: -1px; }
             .hero p { font-size: 18px; }
         }
