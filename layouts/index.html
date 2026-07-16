@@ -2,7 +2,7 @@
 <style>
 /* ── Homepage responsive layout ── */
 
-/* Hero inner overlay: extract layout so media queries can override */
+/* Hero inner overlay */
 .home-hero-inner {
     position: relative; z-index: 1;
     background: rgba(0,0,0,0.55);
@@ -10,6 +10,12 @@
     display: flex; align-items: center;
     padding: 60px 0;
 }
+
+/* Section wrappers — padding extracted so breakpoints can scale it */
+.home-section { padding: 50px 0; }
+
+/* Section headings — font-size extracted so breakpoints can scale it */
+.home-h2 { font-size: 30px; }
 
 /* 3-col card grids → fluid */
 .home-grid {
@@ -35,30 +41,47 @@
 .home-impact-img img { width: 100%; border-radius: 8px; }
 .home-impact-body { flex: 1; }
 
+/* Affiliate section overlay */
+.home-affiliate-inner {
+    position: relative; z-index: 1;
+    background: rgba(0,0,0,0.55);
+    min-height: 300px;
+    display: flex; align-items: center;
+    padding: 60px 0;
+}
+
 /* ── Tablet (≤ 1024px): 2 columns ── */
 @media (max-width: 1024px) {
     .home-grid { grid-template-columns: repeat(2, 1fr); }
 }
 
-/* ── Mobile (≤ 768px): 1 column ── */
+/* ── Mobile (≤ 768px): 1 column, tighter spacing ── */
 @media (max-width: 768px) {
+    .home-section { padding: 30px 0; }
+    .home-h2 { font-size: 22px; }
     .home-grid { grid-template-columns: 1fr; }
     .home-hero-inner { min-height: 280px; padding: 36px 0; }
     .home-hero-inner h1 { font-size: 28px !important; }
     .home-impact-flex { flex-direction: column; gap: 20px; }
     .home-impact-img  { flex: none; width: 100%; }
+    .home-affiliate-inner { padding: 36px 0; min-height: 200px; }
+    .home-affiliate-inner h2 { font-size: 26px !important; }
 }
 
 /* ── Small phone (≤ 480px) ── */
 @media (max-width: 480px) {
+    .home-section { padding: 20px 0; }
+    .home-h2 { font-size: 18px; }
     .home-hero-inner { min-height: 220px; padding: 24px 0; }
     .home-hero-inner h1 { font-size: 22px !important; }
     .home-grid { gap: 12px; }
+    .home-affiliate-inner { padding: 24px 0; }
+    .home-affiliate-inner h2 { font-size: 20px !important; }
 }
 </style>
 
 <!-- Hero Section -->
-<div class="home-hero" style="position:relative;min-height:400px;overflow:hidden;">
+<div class="home-hero" style="position:relative;overflow:hidden;">
     <img src="{{ "images/home-hero.jpg" | absURL }}" alt="" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;" />
     <div class="home-hero-inner"><!-- C-05: overlay darkened from 0.15 to 0.55 for WCAG 1.4.3 contrast -->
         <div class="container">
@@ -87,10 +110,10 @@
 </div>
 
 <!-- Latest News Section -->
-<div style="background:#fff;padding:50px 0;">
+<div class="home-section" style="background:#fff;">
     <div class="container">
         <div class="home-section-hdr">
-            <h2 style="font-size:30px;font-weight:400;color:#CC5500;margin:0;">Latest News</h2>
+            <h2 class="home-h2" style="font-weight:400;color:#CC5500;margin:0;">Latest News</h2>
             <a href="{{ "news-page/" | relURL }}" style="color:#CC5500;text-decoration:none;font-weight:500;">All News <span aria-hidden="true">→</span></a><!-- M-03 -->
         </div>
         <div class="home-grid">
@@ -120,10 +143,10 @@
 </div>
 
 <!-- Funding Opportunities Section -->
-<div style="background:#f8f9fa;padding:50px 0;">
+<div class="home-section" style="background:#f8f9fa;">
     <div class="container">
         <div class="home-section-hdr">
-            <h2 style="font-size:30px;font-weight:400;color:#CC5500;margin:0;">Funding Opportunities</h2>
+            <h2 class="home-h2" style="font-weight:400;color:#CC5500;margin:0;">Funding Opportunities</h2>
             <a href="{{ "funding/" | relURL }}" style="color:#CC5500;text-decoration:none;font-weight:500;">View all funding opportunities <span aria-hidden="true">→</span></a><!-- M-03 -->
         </div>
         <div class="home-grid">
@@ -153,9 +176,9 @@
 </div>
 
 <!-- Our Impact Section -->
-<div style="background:#fff;padding:50px 0;">
+<div class="home-section" style="background:#fff;">
     <div class="container">
-        <h2 style="font-size:30px;font-weight:400;color:#CC5500;margin-bottom:30px;">Our Impact</h2>
+        <h2 class="home-h2" style="font-weight:400;color:#CC5500;margin-bottom:30px;">Our Impact</h2>
         <div class="home-impact-flex">
             <div class="home-impact-img">
                 <img src="{{ "images/home-impact-flight.jpg" | absURL }}" alt="Flight attendant" />
@@ -170,9 +193,9 @@
 </div>
 
 <!-- Research Resources Section -->
-<div style="background:#f8f9fa;padding:50px 0;">
+<div class="home-section" style="background:#f8f9fa;">
     <div class="container">
-        <h2 style="font-size:30px;font-weight:400;color:#CC5500;margin-bottom:30px;">Research Resources</h2>
+        <h2 class="home-h2" style="font-weight:400;color:#CC5500;margin-bottom:30px;">Research Resources</h2>
         <div class="home-grid home-grid-sm">
             <a href="{{ "research-resources/research-computing/" | relURL }}" style="text-decoration:none;color:inherit;background:#fff;border-radius:8px;padding:25px;box-shadow:0 2px 6px rgba(0,0,0,0.05);transition:transform 0.3s;">
                 <h3 style="font-size:17px;color:#CC5500;margin-bottom:8px;">Research Computing</h3>
@@ -203,10 +226,10 @@
 </div>
 
 <!-- Upcoming Events Section -->
-<div style="background:#fff;padding:50px 0;">
+<div class="home-section" style="background:#fff;">
     <div class="container">
         <div class="home-section-hdr">
-            <h2 style="font-size:30px;font-weight:400;color:#CC5500;margin:0;">Upcoming Events</h2>
+            <h2 class="home-h2" style="font-weight:400;color:#CC5500;margin:0;">Upcoming Events</h2>
             <a href="{{ "events/" | relURL }}" style="color:#CC5500;text-decoration:none;font-weight:500;">View All Events <span aria-hidden="true">→</span></a><!-- M-03 -->
         </div>
         <div style="max-width:700px;">
@@ -248,9 +271,9 @@
 </div>
 
 <!-- Become an Affiliate Section -->
-<div style="position:relative;min-height:300px;overflow:hidden;">
+<div style="position:relative;overflow:hidden;">
     <img src="{{ "images/home-affiliate-bg.jpg" | absURL }}" alt="" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;" />
-    <div style="position:relative;z-index:1;background:rgba(0,0,0,0.55);min-height:300px;display:flex;align-items:center;padding:60px 0;"><!-- M-09/C-05: darkened for contrast -->
+    <div class="home-affiliate-inner"><!-- M-09/C-05: darkened for contrast -->
         <div class="container" style="text-align:center;color:#fff;">
             <h2 style="font-size:36px;font-weight:300;margin-bottom:15px;">Become an Affiliate</h2>
             <p style="font-size:18px;max-width:600px;margin:0 auto 25px;line-height:1.6;">IQSS welcomes scholars to affiliate, enabling graduate students and faculty to apply for funding or access services like Sponsored Research Services.</p><!-- M-09: removed opacity:0.9, line-height 1.6 -->
