@@ -22,12 +22,18 @@
     </div>
     {{ end }}
 
-    <!-- Breadcrumb -->
-    <div class="rp-breadcrumb">
+    <!-- Breadcrumb — M-06: semantic nav with ol and aria-current -->
+    <nav aria-label="Breadcrumb" class="rp-breadcrumb">
         <div class="container">
-            <a href="/">Home</a> &rsaquo; <a href="{{ "research-resources/" | relURL }}">Research Resources</a> &rsaquo; <span>{{ .Title }}</span>
+            <ol style="list-style:none;display:flex;gap:6px;align-items:center;padding:0;margin:0;">
+                <li><a href="/">Home</a></li>
+                <li aria-hidden="true" style="color:#999;">&rsaquo;</li>
+                <li><a href="{{ "research-resources/" | relURL }}">Research Resources</a></li>
+                <li aria-hidden="true" style="color:#999;">&rsaquo;</li>
+                <li><span aria-current="page">{{ .Title }}</span></li>
+            </ol>
         </div>
-    </div>
+    </nav>
 
     <!-- Main Content -->
     <div class="rp-content">

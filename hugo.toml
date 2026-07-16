@@ -1,6 +1,6 @@
 baseURL = 'https://lenwiz.github.io/hugoclone-iqss/'
 languageCode = 'en'
-title = 'IQSS Clone - Harvard Institute for Quantitative Social Science'
+title = 'Harvard Institute for Quantitative Social Science'
 
 [params]
   subtitle = 'Harvard Institute for Quantitative Social Science Archive'
