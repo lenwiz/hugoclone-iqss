@@ -1,8 +1,66 @@
 {{ define "main" }}
+<style>
+/* ── Homepage responsive layout ── */
+
+/* Hero inner overlay: extract layout so media queries can override */
+.home-hero-inner {
+    position: relative; z-index: 1;
+    background: rgba(0,0,0,0.55);
+    min-height: 400px;
+    display: flex; align-items: center;
+    padding: 60px 0;
+}
+
+/* 3-col card grids → fluid */
+.home-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+.home-grid-sm { gap: 20px; }
+
+/* Section header row (heading + view-all link) */
+.home-section-hdr {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+/* Our Impact side-by-side layout */
+.home-impact-flex { display: flex; gap: 40px; align-items: center; }
+.home-impact-img  { flex: 0 0 250px; }
+.home-impact-img img { width: 100%; border-radius: 8px; }
+.home-impact-body { flex: 1; }
+
+/* ── Tablet (≤ 1024px): 2 columns ── */
+@media (max-width: 1024px) {
+    .home-grid { grid-template-columns: repeat(2, 1fr); }
+}
+
+/* ── Mobile (≤ 768px): 1 column ── */
+@media (max-width: 768px) {
+    .home-grid { grid-template-columns: 1fr; }
+    .home-hero-inner { min-height: 280px; padding: 36px 0; }
+    .home-hero-inner h1 { font-size: 28px !important; }
+    .home-impact-flex { flex-direction: column; gap: 20px; }
+    .home-impact-img  { flex: none; width: 100%; }
+}
+
+/* ── Small phone (≤ 480px) ── */
+@media (max-width: 480px) {
+    .home-hero-inner { min-height: 220px; padding: 24px 0; }
+    .home-hero-inner h1 { font-size: 22px !important; }
+    .home-grid { gap: 12px; }
+}
+</style>
+
 <!-- Hero Section -->
 <div class="home-hero" style="position:relative;min-height:400px;overflow:hidden;">
     <img src="{{ "images/home-hero.jpg" | absURL }}" alt="" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;" />
-    <div style="position:relative;z-index:1;background:rgba(0,0,0,0.55);min-height:400px;display:flex;align-items:center;padding:60px 0;"><!-- C-05: overlay darkened from 0.15 to 0.55 for WCAG 1.4.3 contrast -->
+    <div class="home-hero-inner"><!-- C-05: overlay darkened from 0.15 to 0.55 for WCAG 1.4.3 contrast -->
         <div class="container">
             <p style="color:#fff;font-size:16px;opacity:0.8;margin-bottom:10px;">Institute for Quantitative Social Science</p>
             <h1 style="color:#fff;font-size:42px;font-weight:300;margin-bottom:20px;max-width:700px;">To solve society's greatest challenges by creating, preserving, and disseminating social science knowledge</h1>
@@ -31,11 +89,11 @@
 <!-- Latest News Section -->
 <div style="background:#fff;padding:50px 0;">
     <div class="container">
-        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:30px;">
+        <div class="home-section-hdr">
             <h2 style="font-size:30px;font-weight:400;color:#CC5500;margin:0;">Latest News</h2>
             <a href="{{ "news-page/" | relURL }}" style="color:#CC5500;text-decoration:none;font-weight:500;">All News <span aria-hidden="true">→</span></a><!-- M-03 -->
         </div>
-        <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:25px;">
+        <div class="home-grid">
             <a href="{{ "news/class-2026-iqss-whats-next/" | relURL }}" aria-label="Class of 2026 at IQSS: What's Next? — May 26, 2026" style="text-decoration:none;color:inherit;border-radius:8px;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,0.06);transition:transform 0.3s;">
                 <img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_16_9__480x270/public/graduation-cap-with-gold-tassle_sq.jpg?itok=UmvNZ9IN" alt="Graduation cap with gold tassel" style="width:100%;height:160px;object-fit:cover;" /><!-- M-05 -->
                 <div style="padding:15px;">
@@ -64,11 +122,11 @@
 <!-- Funding Opportunities Section -->
 <div style="background:#f8f9fa;padding:50px 0;">
     <div class="container">
-        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:30px;">
+        <div class="home-section-hdr">
             <h2 style="font-size:30px;font-weight:400;color:#CC5500;margin:0;">Funding Opportunities</h2>
             <a href="{{ "funding/" | relURL }}" style="color:#CC5500;text-decoration:none;font-weight:500;">View all funding opportunities <span aria-hidden="true">→</span></a><!-- M-03 -->
         </div>
-        <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:25px;">
+        <div class="home-grid">
             <a href="{{ "research-resources/undergraduate-research-scholars/" | relURL }}" style="text-decoration:none;color:inherit;background:#fff;border-radius:8px;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,0.06);">
                 <div style="padding:20px;">
                     <span style="font-size:0.8rem;background:#FFF3E8;color:#CC5500;padding:3px 8px;border-radius:10px;"><span aria-hidden="true">▸ </span>For Faculty</span><!-- M-02, M-07 -->
@@ -98,11 +156,11 @@
 <div style="background:#fff;padding:50px 0;">
     <div class="container">
         <h2 style="font-size:30px;font-weight:400;color:#CC5500;margin-bottom:30px;">Our Impact</h2>
-        <div style="display:flex;gap:40px;align-items:center;">
-            <div style="flex:0 0 250px;">
-                <img src="{{ "images/home-impact-flight.jpg" | absURL }}" alt="Flight attendant" style="width:100%;border-radius:8px;" />
+        <div class="home-impact-flex">
+            <div class="home-impact-img">
+                <img src="{{ "images/home-impact-flight.jpg" | absURL }}" alt="Flight attendant" />
             </div>
-            <div style="flex:1;">
+            <div class="home-impact-body">
                 <h3 style="font-size:22px;color:#333;margin-bottom:15px;">Investigating Flight Attendants' Safety</h3>
                 <p style="font-size:16px;line-height:1.6;color:#444;">The longest-running longitudinal study of its kind, led by Dr. Eileen McNeely at IQSS. Laboratory tests found harmful substances on airline uniforms, connecting them to reports of debilitating medical issues. Findings provided evidence in a class action lawsuit holding the manufacturer accountable.</p>
                 <a href="{{ "our-impact/" | relURL }}" style="color:#CC5500;text-decoration:none;font-weight:500;margin-top:15px;display:inline-block;">See more impact stories <span aria-hidden="true">→</span></a><!-- M-03 -->
@@ -115,7 +173,7 @@
 <div style="background:#f8f9fa;padding:50px 0;">
     <div class="container">
         <h2 style="font-size:30px;font-weight:400;color:#CC5500;margin-bottom:30px;">Research Resources</h2>
-        <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:20px;">
+        <div class="home-grid home-grid-sm">
             <a href="{{ "research-resources/research-computing/" | relURL }}" style="text-decoration:none;color:inherit;background:#fff;border-radius:8px;padding:25px;box-shadow:0 2px 6px rgba(0,0,0,0.05);transition:transform 0.3s;">
                 <h3 style="font-size:17px;color:#CC5500;margin-bottom:8px;">Research Computing</h3>
                 <p style="font-size:14px;color:#666;line-height:1.5;">A centralized place to store your data and run your analysis on FASRC clusters.</p>
@@ -147,7 +205,7 @@
 <!-- Upcoming Events Section -->
 <div style="background:#fff;padding:50px 0;">
     <div class="container">
-        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:30px;">
+        <div class="home-section-hdr">
             <h2 style="font-size:30px;font-weight:400;color:#CC5500;margin:0;">Upcoming Events</h2>
             <a href="{{ "events/" | relURL }}" style="color:#CC5500;text-decoration:none;font-weight:500;">View All Events <span aria-hidden="true">→</span></a><!-- M-03 -->
         </div>

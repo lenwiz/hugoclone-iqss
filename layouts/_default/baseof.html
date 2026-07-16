@@ -378,24 +378,92 @@
         }
         p { margin-bottom: 1em; }      /* paragraph spacing baseline */
 
-        /* Responsive */
+        /* ── Hamburger toggle (hidden on desktop) ── */
+        .nav-toggle {
+            display: none;
+            background: none;
+            border: none;
+            cursor: pointer;
+            padding: 11px 8px;
+            margin-left: auto;
+            flex-direction: column;
+            gap: 5px;
+            min-width: 44px;
+            min-height: 44px;
+            align-items: center;
+            justify-content: center;
+        }
+        .hamburger-bar {
+            display: block;
+            width: 22px;
+            height: 2px;
+            background: #333;
+            border-radius: 2px;
+            transition: transform 0.25s ease, opacity 0.2s ease;
+        }
+        .nav-toggle[aria-expanded="true"] .hamburger-bar:nth-child(1) {
+            transform: translateY(7px) rotate(45deg);
+        }
+        .nav-toggle[aria-expanded="true"] .hamburger-bar:nth-child(2) {
+            opacity: 0;
+        }
+        .nav-toggle[aria-expanded="true"] .hamburger-bar:nth-child(3) {
+            transform: translateY(-7px) rotate(-45deg);
+        }
+
+        /* ── Tablet (≤ 1024px): compact nav, no overflow ── */
+        @media (max-width: 1024px) {
+            .nav-menu a { padding: 15px 7px; font-size: 14px; }
+            .site-logo-text .site-name { font-size: 22px; }
+        }
+
+        /* ── Mobile (≤ 768px): hamburger menu ── */
         @media (max-width: 768px) {
-            .header-content {
-                flex-direction: column;
-                text-align: center;
-            }
+            /* Header */
+            .header-content { flex-direction: column; text-align: center; gap: 10px; }
+            .site-logo { flex-direction: column; gap: 8px; }
+            .site-logo-text .site-name { font-size: 20px; }
+            .iqss-logo img { height: 44px; }
 
+            /* Nav: show hamburger, hide menu by default */
+            .nav-container {
+                display: flex;
+                flex-wrap: wrap;
+                align-items: center;
+                justify-content: flex-end;
+            }
+            .nav-toggle { display: flex; }
             .nav-menu {
+                display: none;
                 flex-direction: column;
+                width: 100%;
+                border-top: 1px solid #e5e5e5;
+                padding: 6px 0;
             }
+            .nav-menu.is-open { display: flex; }
+            .nav-menu a {
+                padding: 13px 20px;
+                font-size: 15px;
+                border-bottom: 1px solid #f0f0f0;
+                white-space: normal;
+            }
+            .nav-menu li:last-child a { border-bottom: none; }
 
-            .hero h1 {
-                font-size: 36px;
-            }
+            /* Generic hero */
+            .hero h1 { font-size: 36px; letter-spacing: -1px; }
+            .hero p { font-size: 18px; }
+        }
 
-            .hero p {
-                font-size: 18px;
-            }
+        /* ── Small phone (≤ 480px): tighten further ── */
+        @media (max-width: 480px) {
+            .header-top-links { display: none; }
+            .header-top .container { justify-content: center; }
+            .header-main { padding: 12px 0; }
+            .site-logo-text .site-name { font-size: 17px; }
+            .iqss-logo img { height: 36px; }
+            main { padding: 24px 0; }
+            .hero h1 { font-size: 28px; }
+            .hero p { font-size: 16px; }
         }
 
         /* N-08: Print stylesheet — hide chrome, restore logo, expand external links */
@@ -421,7 +489,7 @@
                         <img src="{{ "images/harvard-logo.svg" | absURL }}" alt="Harvard University home page" /><!-- N-02 -->
                     </a>
                 </div>
-                <div>
+                <div class="header-top-links">
                     <a href="https://community.alumni.harvard.edu/give/51724705" target="_blank" rel="noopener noreferrer" aria-label="Donate to IQSS (Harvard giving page, opens in new tab)">Donate<span class="sr-only"> (opens in new tab)</span></a><!-- S-03 -->
                     <a href="{{ "funding/" | relURL }}" aria-label="IQSS funding opportunities">Funding</a><!-- N-04 -->
                     <a href="{{ "events/" | relURL }}" aria-label="IQSS events calendar">Events</a><!-- N-04 -->
@@ -449,7 +517,12 @@
 
     <nav class="main-nav" aria-label="Main navigation"><!-- S-01 -->
         <div class="nav-container">
-            <ul class="nav-menu">
+            <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Open navigation menu">
+                <span class="hamburger-bar"></span>
+                <span class="hamburger-bar"></span>
+                <span class="hamburger-bar"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
                 {{ range .Site.Menus.main }}
                 <li><a href="{{ .URL }}">{{ .Name }}</a></li>
                 {{ end }}
@@ -491,5 +564,26 @@
             </div>
         </div>
     </footer>
+
+    <script>
+    (function () {
+        var toggle = document.querySelector('.nav-toggle');
+        var menu   = document.getElementById('nav-menu');
+        if (!toggle || !menu) return;
+        toggle.addEventListener('click', function () {
+            var open = toggle.getAttribute('aria-expanded') === 'true';
+            toggle.setAttribute('aria-expanded', String(!open));
+            toggle.setAttribute('aria-label', open ? 'Open navigation menu' : 'Close navigation menu');
+            menu.classList.toggle('is-open', !open);
+        });
+        menu.querySelectorAll('a').forEach(function (a) {
+            a.addEventListener('click', function () {
+                toggle.setAttribute('aria-expanded', 'false');
+                toggle.setAttribute('aria-label', 'Open navigation menu');
+                menu.classList.remove('is-open');
+            });
+        });
+    }());
+    </script>
 </body>
 </html>
