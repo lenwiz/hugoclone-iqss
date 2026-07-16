@@ -47,12 +47,13 @@ The full top-10 ranking for social sciences in the Nature Index 2025, based on a
 
 <div style="overflow-x:auto;margin:25px 0;">
 <table style="width:100%;border-collapse:collapse;font-size:15px;">
+<caption style="text-align:left;font-size:13px;color:#666;padding:0 0 10px 0;">Nature Index 2025 top 10 institutions for social sciences, ranked by article Share (January–December 2025)</caption><!-- S-05 -->
 <thead>
 <tr style="background:#1a3a5c;color:#fff;">
-<th style="padding:14px 20px;text-align:center;font-weight:600;width:80px;">Rank</th>
-<th style="padding:14px 20px;text-align:left;font-weight:600;">Institution</th>
-<th style="padding:14px 20px;text-align:left;font-weight:600;">Location</th>
-<th style="padding:14px 20px;text-align:right;font-weight:600;width:100px;">Share</th>
+<th scope="col" style="padding:14px 20px;text-align:center;font-weight:600;width:80px;">Rank</th>
+<th scope="col" style="padding:14px 20px;text-align:left;font-weight:600;">Institution</th>
+<th scope="col" style="padding:14px 20px;text-align:left;font-weight:600;">Location</th>
+<th scope="col" style="padding:14px 20px;text-align:right;font-weight:600;width:100px;">Share</th>
 </tr>
 </thead>
 <tbody>
@@ -126,4 +127,4 @@ Harvard's Share of 68.61 represents a commanding margin — nearly one-third mor
 
 The Nature Index ranking affirms Harvard's sustained commitment to advancing social science knowledge. Harvard also leads the Nature Index health-sciences ranking and ranks among the top academic institutions globally in biological sciences. IQSS plays a central role in this success, providing the infrastructure, data resources, methodological expertise, and collaborative environment that enable faculty, students, and staff across the University to produce research at the highest levels.
 
-<a href="https://www.nature.com/nature-index/news/top-ten-institutions-universities-social-sciences-research-twenty-twenty-five" class="cta-button" target="_blank">Read the Full Nature Index Article →</a>
+<a href="https://www.nature.com/nature-index/news/top-ten-institutions-universities-social-sciences-research-twenty-twenty-five" class="cta-button" target="_blank" rel="noopener noreferrer" aria-label="Read the full Nature Index 2025 article on nature.com (opens in new tab)">Read the Full Nature Index Article <span aria-hidden="true">→</span><span class="sr-only"> (opens in new tab)</span></a><!-- S-03 -->

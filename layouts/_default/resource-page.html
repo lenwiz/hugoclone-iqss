@@ -4,7 +4,7 @@
     {{ if .Params.hero_image }}
     <div class="rp-hero">
         <div class="rp-hero-image">
-            <img src="{{ .Params.hero_image | absURL }}" alt="{{ .Title }}" />
+            <img src="{{ .Params.hero_image | absURL }}" alt="{{ .Params.hero_image_alt | default "" }}" /><!-- S-06: use hero_image_alt front matter; empty string = decorative -->
         </div>
         <div class="rp-hero-overlay">
             <div class="container">

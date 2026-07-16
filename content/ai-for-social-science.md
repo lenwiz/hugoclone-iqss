@@ -32,7 +32,7 @@ Large language models like Claude, GPT-4, and Llama are the most versatile AI to
 
 ### Recommended Tools
 
-<div class="card-grid">
+<div class="card-grid" role="region" aria-label="Recommended AI tools for research"><!-- S-07 -->
 <div class="card">
 <h3>Claude (Anthropic)</h3>
 <p>Strong at nuanced instruction-following, long documents (up to 200K tokens), and structured output. Well-suited for qualitative coding tasks with complex schemas.</p>
@@ -81,8 +81,9 @@ NLP methods, many now powered by transformer-based models, remain the workhorse 
 
 ### Key Python Libraries
 
-```python
-# Sentiment / classification
+<figure><!-- S-09 -->
+<figcaption style="font-size:13px;font-weight:600;color:#555;margin-bottom:6px;">Python: sentiment classification, topic modeling, and named entity recognition</figcaption>
+<pre style="background:#1e2d3d;color:#e8f0f8;padding:20px 25px;border-radius:8px;overflow-x:auto;font-size:14px;line-height:1.6;"><code># Sentiment / classification
 from transformers import pipeline
 classifier = pipeline("text-classification", model="cardiffnlp/twitter-roberta-base-sentiment")
 
@@ -94,8 +95,8 @@ topics, probs = model.fit_transform(docs)
 # NER
 import spacy
 nlp = spacy.load("en_core_web_trf")
-doc = nlp("The World Bank announced a new initiative in Geneva.")
-```
+doc = nlp("The World Bank announced a new initiative in Geneva.")</code></pre>
+</figure>
 
 ### Key R Packages
 

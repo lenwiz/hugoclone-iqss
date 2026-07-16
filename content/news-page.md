@@ -8,7 +8,7 @@ article_count: 158
 
 <div class="news-grid">
 
-<a href="../news/harvard-ranked-1-social-sciences-nature-index-2025/" class="news-card" style="border:2px solid #1a3a5c;">
+<a href="../news/harvard-ranked-1-social-sciences-nature-index-2025/" class="news-card" style="border:2px solid #1a3a5c;" aria-label="Harvard Ranked #1 in the World for Social Sciences Research — July 15, 2026"><!-- S-04 -->
 <div class="news-card-image" style="background:linear-gradient(135deg,#1a3a5c 0%,#0d2137 100%);display:flex;align-items:center;justify-content:center;min-height:160px;">
 <div style="text-align:center;color:#fff;padding:20px;">
 <div style="font-size:11px;font-weight:700;letter-spacing:2px;color:#f0c040;margin-bottom:4px;">NATURE INDEX 2025</div>
@@ -23,7 +23,7 @@ article_count: 158
 </div>
 </a>
 
-<a href="../news/class-2026-iqss-whats-next/" class="news-card">
+<a href="../news/class-2026-iqss-whats-next/" class="news-card" aria-label="Class of 2026 at IQSS: What's Next? — May 26, 2026">
 <div class="news-card-image"><img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/graduation-cap-with-gold-tassle_sq.jpg?itok=UmvNZ9IN" alt="" /></div>
 <div class="news-card-body">
 <div class="news-card-date">May 26, 2026</div>
@@ -32,7 +32,7 @@ article_count: 158
 </div>
 </a>
 
-<a href="../news/iqss-honors-staff-service-milestones/" class="news-card">
+<a href="../news/iqss-honors-staff-service-milestones/" class="news-card" aria-label="IQSS Honors Staff Service Milestones — May 12, 2026">
 <div class="news-card-image"><img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/2026-05/Service%20awardees%202026%20group%201b.jpeg?h=9b1d031d&itok=myPVto9A" alt="" /></div>
 <div class="news-card-body">
 <div class="news-card-date">May 12, 2026</div>
@@ -41,7 +41,7 @@ article_count: 158
 </div>
 </a>
 
-<a href="../news/data-centers-local-vibes/" class="news-card">
+<a href="../news/data-centers-local-vibes/" class="news-card" aria-label="On data centers, local vibes matter more than electricity prices — April 27, 2026">
 <div class="news-card-image"><img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/harvard-iqss/files/ansolabehere_stephen_2x3_ratio_large.png?itok=7alqRFRR" alt="" /></div>
 <div class="news-card-body">
 <div class="news-card-date">April 27, 2026</div>
@@ -50,7 +50,7 @@ article_count: 158
 </div>
 </a>
 
-<a href="../news/call-for-papers-2026-cga-conference/" class="news-card">
+<a href="../news/call-for-papers-2026-cga-conference/" class="news-card" aria-label="Call for Papers: 2026 CGA Conference — April 13, 2026">
 <div class="news-card-image"><img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/2025-12/CGA_logo_2025%202x3.png?itok=dnfI1tBg" alt="" /></div>
 <div class="news-card-body">
 <div class="news-card-date">April 13, 2026</div>

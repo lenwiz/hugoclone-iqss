@@ -354,6 +354,13 @@
             font-size: 14px;
         }
 
+        /* S-02: Prevent sticky nav from obscuring focused/targeted elements */
+        html { scroll-padding-top: 55px; }
+        :target,
+        a:focus,
+        button:focus,
+        [tabindex]:focus { scroll-margin-top: 55px; }
+
         /* Responsive */
         @media (max-width: 768px) {
             .header-content {
@@ -386,7 +393,7 @@
                     </a>
                 </div>
                 <div>
-                    <a href="https://community.alumni.harvard.edu/give/51724705" target="_blank">Donate</a>
+                    <a href="https://community.alumni.harvard.edu/give/51724705" target="_blank" rel="noopener noreferrer" aria-label="Donate to IQSS (Harvard giving page, opens in new tab)">Donate<span class="sr-only"> (opens in new tab)</span></a><!-- S-03 -->
                     <a href="{{ "funding/" | relURL }}">Funding</a>
                     <a href="{{ "events/" | relURL }}">Events</a>
                     <a href="{{ "book-a-desk/" | relURL }}">Desk Space</a>
@@ -411,7 +418,7 @@
         </div>
     </header>
 
-    <nav class="main-nav">
+    <nav class="main-nav" aria-label="Main navigation"><!-- S-01 -->
         <div class="nav-container">
             <ul class="nav-menu">
                 {{ range .Site.Menus.main }}
@@ -427,6 +434,7 @@
 
     <footer class="site-footer">
         <div class="container">
+            <nav aria-label="Footer navigation"><!-- S-08 -->
             <div class="footer-content">
                 <div class="footer-section">
                     <h4>Institute for Quantitative Social Science</h4>
@@ -448,6 +456,7 @@
                     <a href="{{ "contact/" | relURL }}">Contact Us</a>
                 </div>
             </div>
+            </nav><!-- /footer navigation -->
             <div class="footer-bottom">
                 <p>&copy; 2026 Harvard University. This is an educational archive of IQSS content.</p>
             </div>
