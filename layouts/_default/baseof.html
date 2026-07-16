@@ -397,6 +397,18 @@
                 font-size: 18px;
             }
         }
+
+        /* N-08: Print stylesheet — hide chrome, restore logo, expand external links */
+        @media print {
+            .skip-link, .header-top, .main-nav, .site-footer { display: none !important; }
+            .iqss-logo img { filter: none !important; }  /* N-03: logo visible in print */
+            body { font-size: 12pt; color: #000 !important; background: #fff !important; }
+            .site-header { background: #fff !important; color: #000 !important; box-shadow: none; }
+            .site-logo-text a { color: #000 !important; }
+            a { color: #000 !important; }
+            a[href^="http"]::after { content: " <" attr(href) ">"; font-size: 9pt; color: #444; }
+            .content-card, .person-card { box-shadow: none !important; border: 1px solid #ccc !important; }
+        }
     </style>
 </head>
 <body>
@@ -406,15 +418,15 @@
             <div class="container">
                 <div class="harvard-logo">
                     <a href="https://harvard.edu">
-                        <img src="{{ "images/harvard-logo.svg" | absURL }}" alt="Harvard University" />
+                        <img src="{{ "images/harvard-logo.svg" | absURL }}" alt="Harvard University home page" /><!-- N-02 -->
                     </a>
                 </div>
                 <div>
                     <a href="https://community.alumni.harvard.edu/give/51724705" target="_blank" rel="noopener noreferrer" aria-label="Donate to IQSS (Harvard giving page, opens in new tab)">Donate<span class="sr-only"> (opens in new tab)</span></a><!-- S-03 -->
-                    <a href="{{ "funding/" | relURL }}">Funding</a>
-                    <a href="{{ "events/" | relURL }}">Events</a>
-                    <a href="{{ "book-a-desk/" | relURL }}">Desk Space</a>
-                    <a href="{{ "get-help/" | relURL }}">Get Help</a>
+                    <a href="{{ "funding/" | relURL }}" aria-label="IQSS funding opportunities">Funding</a><!-- N-04 -->
+                    <a href="{{ "events/" | relURL }}" aria-label="IQSS events calendar">Events</a><!-- N-04 -->
+                    <a href="{{ "book-a-desk/" | relURL }}" aria-label="Book desk space at IQSS">Desk Space</a><!-- N-04 -->
+                    <a href="{{ "get-help/" | relURL }}" aria-label="Get help from IQSS">Get Help</a><!-- N-04 -->
                 </div>
             </div>
         </div>
@@ -468,9 +480,9 @@
                 </div>
                 <div class="footer-section">
                     <h4>Connect</h4>
-                    <a href="{{ "news/" | relURL }}">News & Updates</a>
-                    <a href="{{ "events/" | relURL }}">Events</a>
-                    <a href="{{ "contact/" | relURL }}">Contact Us</a>
+                    <a href="{{ "news/" | relURL }}" aria-label="IQSS news and updates">News & Updates</a><!-- N-07 -->
+                    <a href="{{ "events/" | relURL }}" aria-label="IQSS events calendar">Events</a><!-- N-07 -->
+                    <a href="{{ "contact/" | relURL }}" aria-label="Contact IQSS">Contact Us</a><!-- N-07 -->
                 </div>
             </div>
             </nav><!-- /footer navigation -->

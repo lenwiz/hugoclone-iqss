@@ -10,7 +10,7 @@ subtitle: "Practical tools, methods, and use cases for integrating artificial in
 
 Artificial intelligence is reshaping what is possible in social science research. Tasks that once required years of manual coding — classifying thousands of survey responses, reading millions of news articles, transcribing oral histories — can now be completed in hours. More importantly, AI opens entirely new research designs: detecting patterns across text corpora too large for any team, generating synthetic survey populations for power analysis, or applying computer vision to historical photographs and satellite imagery.
 
-This page is a practical guide to the tools, methods, and active use cases most relevant to IQSS researchers. It is organized by research task so you can find the right approach for your problem.
+This page is a practical guide to the tools, methods, and active use cases most relevant to <abbr title="Institute for Quantitative Social Science">IQSS</abbr> researchers. It is organized by research task so you can find the right approach for your problem.
 
 ---
 
@@ -20,7 +20,7 @@ Large language models like Claude, GPT-4, and Llama are the most versatile AI to
 
 ### What Researchers Are Doing with LLMs
 
-**Text classification and coding** — LLMs can apply researcher-defined coding schemes to open-ended responses, legislative transcripts, social media posts, or news archives. In many studies, GPT-4 and Claude match or exceed inter-rater reliability between human coders, at a fraction of the cost and time. See: [Argyle et al. 2023, "Out of One, Many"](https://doi.org/10.1017/pan.2023.2); Gilardi et al. 2023.
+**Text classification and coding** — <abbr title="Large Language Models">LLMs</abbr> can apply researcher-defined coding schemes to open-ended responses, legislative transcripts, social media posts, or news archives. In many studies, GPT-4 and Claude match or exceed inter-rater reliability between human coders, at a fraction of the cost and time. See: [Argyle et al. 2023, "Out of One, Many"](https://doi.org/10.1017/pan.2023.2); Gilardi et al. 2023.
 
 **Synthetic respondents and survey simulation** — LLMs conditioned on demographic profiles can simulate survey responses, enabling pre-study power analysis, testing question wording, or studying populations that are hard to sample. *Use with caution*: synthetic respondents replicate training-data biases and cannot substitute for real human data in causal claims.
 
@@ -43,7 +43,7 @@ Large language models like Claude, GPT-4, and Llama are the most versatile AI to
 </div>
 <div class="card">
 <h3>Llama 3 (Meta, open)</h3>
-<p>Open-weights model you can run locally or on Harvard research computing clusters. No data leaves your environment — critical for sensitive survey data or IRB-restricted datasets.</p>
+<p>Open-weights model you can run locally or on Harvard research computing clusters. No data leaves your environment — critical for sensitive survey data or <abbr title="Institutional Review Board">IRB</abbr>-restricted datasets.</p>
 </div>
 <div class="card">
 <h3>Gemini 1.5 Pro (Google)</h3>
@@ -65,7 +65,7 @@ The quality of LLM output for classification tasks depends heavily on prompt des
 
 ## Natural Language Processing (NLP)
 
-NLP methods, many now powered by transformer-based models, remain the workhorse of computational social science.
+<abbr title="Natural Language Processing">NLP</abbr> methods, many now powered by transformer-based models, remain the workhorse of computational social science.
 
 ### Core Methods
 
@@ -73,7 +73,7 @@ NLP methods, many now powered by transformer-based models, remain the workhorse 
 
 **Topic modeling** — BERTopic and Top2Vec use sentence embeddings to discover coherent topics without hand-tuning the number of topics, overcoming a key limitation of LDA. Useful for press coverage, legislative speech, or social media corpora.
 
-**Named entity recognition (NER)** — Automatically tag people, organizations, locations, and dates in text. Enables large-scale network construction from news archives or corporate filings.
+**Named entity recognition (<abbr title="Named Entity Recognition">NER</abbr>)** — Automatically tag people, organizations, locations, and dates in text. Enables large-scale network construction from news archives or corporate filings.
 
 **Stance and framing detection** — Beyond sentiment, models can classify whether a text *supports or opposes* a proposition, or detect rhetorical frames (e.g., economic vs. moral framing of immigration).
 
@@ -138,11 +138,11 @@ The combination of causal inference frameworks and ML predictive power — somet
 
 ### Methods
 
-**Double/Debiased Machine Learning (DML)** — Uses ML to flexibly control for high-dimensional confounders while estimating a causal effect. The `DoubleML` package in Python and R implements this for a range of estimands.
+**Double/Debiased Machine Learning (<abbr title="Double/Debiased Machine Learning">DML</abbr>)** — Uses ML to flexibly control for high-dimensional confounders while estimating a causal effect. The `DoubleML` package in Python and R implements this for a range of estimands.
 
 **Causal Forests (Generalized Random Forests)** — Estimates heterogeneous treatment effects: not just the average effect of a policy, but *for whom* the effect is larger or smaller. Implemented in the `grf` R package (Athey, Tibshirani, Wager 2019).
 
-**BART (Bayesian Additive Regression Trees)** — Non-parametric Bayesian model widely used for estimating treatment effects in observational studies. `BART` and `bartCause` packages in R.
+**<abbr title="Bayesian Additive Regression Trees">BART</abbr> (Bayesian Additive Regression Trees)** — Non-parametric Bayesian model widely used for estimating treatment effects in observational studies. `BART` and `bartCause` packages in R.
 
 **Synthetic Control with ML** — The `augsynth` package extends synthetic control methods with ML outcome models, reducing bias when pre-treatment fit is imperfect.
 
@@ -206,8 +206,8 @@ Using AI in social science research raises methodological and ethical obligation
 
 ## Getting Started at IQSS
 
-<div class="info-box">
-<p><strong>Data Science Services (DSS)</strong> at IQSS offers individual consultations on research design, statistical methods, and computational approaches including AI/ML. Drop-in hours and appointment scheduling are available through the <a href="/research-resources/">Research Resources</a> page.</p>
+<div class="info-box" role="note" aria-label="IQSS Data Science Services consultation information"><!-- N-05 -->
+<p><strong>Data Science Services (<abbr title="Data Science Services">DSS</abbr>)</strong> at <abbr title="Institute for Quantitative Social Science">IQSS</abbr> offers individual consultations on research design, statistical methods, and computational approaches including AI/ML. Drop-in hours and appointment scheduling are available through the <a href="/research-resources/">Research Resources</a> page.</p>
 </div>
 
 ### Recommended Learning Path
