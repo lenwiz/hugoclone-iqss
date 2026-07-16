@@ -8,6 +8,21 @@ article_count: 158
 
 <div class="news-grid">
 
+<a href="../news/harvard-ranked-1-social-sciences-nature-index-2025/" class="news-card" style="border:2px solid #1a3a5c;">
+<div class="news-card-image" style="background:linear-gradient(135deg,#1a3a5c 0%,#0d2137 100%);display:flex;align-items:center;justify-content:center;min-height:160px;">
+<div style="text-align:center;color:#fff;padding:20px;">
+<div style="font-size:11px;font-weight:700;letter-spacing:2px;color:#f0c040;margin-bottom:4px;">NATURE INDEX 2025</div>
+<div style="font-size:52px;font-weight:800;line-height:1;">#1</div>
+<div style="font-size:13px;opacity:0.85;">World Ranking · Social Sciences</div>
+</div>
+</div>
+<div class="news-card-body">
+<div class="news-card-date">July 15, 2026</div>
+<div class="news-card-title">Harvard Ranked #1 in the World for Social Sciences Research</div>
+<div class="news-card-desc">The Nature Index 2025 places Harvard first globally, with IQSS and the Henry A. Murray Research Archive cited as key contributors.</div>
+</div>
+</a>
+
 <a href="../news/class-2026-iqss-whats-next/" class="news-card">
 <div class="news-card-image"><img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/graduation-cap-with-gold-tassle_sq.jpg?itok=UmvNZ9IN" alt="" /></div>
 <div class="news-card-body">
