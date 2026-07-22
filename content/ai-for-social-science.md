@@ -107,7 +107,7 @@ Brief overviews of the main AI/ML methods used in social science research, with 
 
 **Prompt engineering essentials:** Provide a full codebook (not just a label); request JSON output with label, confidence, and rationale; validate against 100–200 hand-coded items (target Cohen's κ ≥ 0.80); set temperature = 0 for reproducibility; freeze the model version; publish prompts as supplementary materials in [Harvard Dataverse](https://dataverse.harvard.edu/).
 
-**Featured paper:** Argyle et al. (2023), ["Out of One, Many"](https://doi.org/10.1017/pan.2023.2) — *Political Analysis* — shows GPT-3 can simulate survey responses that closely match human opinion distributions across demographic groups.
+**Featured paper:** King, Pan & Roberts (2013), ["How Censorship in China Allows Government Criticism but Silences Collective Expression"](https://doi.org/10.1017/S0003055413000014) — *APSR* — [Gary King](https://gking.harvard.edu/) (Harvard IQSS) applies large-scale text classification to reveal what Chinese censors actually suppress: not criticism, but collective action.
 
 ### Natural Language Processing
 
@@ -129,7 +129,7 @@ Computer vision enables extraction of information from images and video at scale
 
 **Key tools:** [PyTorch](https://pytorch.org/) · [HuggingFace](https://huggingface.co/) · [CLIP](https://openai.com/research/clip) · [Roboflow](https://roboflow.com/) · [Google Vision API](https://cloud.google.com/vision) · [Sentinel-2 (ESA)](https://sentinel.esa.int/web/sentinel/missions/sentinel-2)
 
-**Featured paper:** Jean et al. (2016), ["Combining satellite imagery and machine learning to predict poverty"](https://doi.org/10.1126/science.aaf7894) — *Science* — uses CNN transfer learning on daytime satellite imagery to predict household wealth at village level in Africa.
+**Harvard context:** Harvard's [Center for Geographic Analysis (CGA)](https://gis.harvard.edu/) applies satellite and street-level imagery analysis to social science problems — see the [CGA 2026 workshops](https://www.iq.harvard.edu/news/2025/12/explore-cgas-2026-training-schedule) for hands-on training.
 
 ### Causal Inference with Machine Learning
 
@@ -161,19 +161,17 @@ Network methods identify community structure, track temporal evolution, and inte
 
 ## Harvard Research Highlights
 
-Selected studies illustrating AI methods in social science, with Harvard and IQSS connections:
+Selected studies applying AI and computational methods to social science questions, all by Harvard or IQSS-affiliated authors:
 
-**King, Pan & Roberts (2013)** — [How Censorship in China Allows Government Criticism but Silences Collective Expression](https://doi.org/10.1017/S0003055413000014) — *American Political Science Review* — [Gary King](https://gking.harvard.edu/) (IQSS Director) and collaborators analyzed millions of Chinese social media posts using NLP to reveal that censorship targets collective action, not criticism. A landmark in computational political science. [Replication data](https://dataverse.harvard.edu/) deposited at Harvard Dataverse.
+**Lazer, Pentland, Adamic, King et al. (2009)** — [Computational Social Science](https://doi.org/10.1126/science.1167742) — *Science* — The founding manifesto of computational social science, co-authored by [Gary King](https://gking.harvard.edu/) (Harvard IQSS) and David Lazer (then at Harvard). Argues that large digital datasets and computational methods create a new scientific infrastructure for the social sciences.
 
-**Argyle et al. (2023)** — [Out of One, Many: Using Language Models to Simulate Human Samples](https://doi.org/10.1017/pan.2023.2) — *Political Analysis* — Demonstrates that GPT-3 can replicate U.S. public opinion distributions across demographic groups, opening new possibilities — and cautions — for synthetic data in survey research.
+**Hopkins & King (2010)** — [A Method of Automated Nonparametric Content Analysis for Social Science](https://doi.org/10.1111/j.1540-5907.2009.00428.x) — *American Journal of Political Science* — [Gary King](https://gking.harvard.edu/) (Harvard IQSS) introduces a method that estimates the proportion of text in each category across a corpus — the social science target — rather than classifying individual documents. Widely used in political communication and framing research.
 
-**Salganik et al. (2020)** — [Measuring the Predictability of Life Outcomes with a Scientific Mass Collaboration](https://doi.org/10.1073/pnas.1915006117) — *PNAS* — The Fragile Families Challenge recruited 160 teams to predict six life outcomes using ML. Finding: even the best models had modest predictive power, highlighting the gap between prediction and causal understanding. A benchmark result for CSS researchers.
+**King, Pan & Roberts (2013)** — [How Censorship in China Allows Government Criticism but Silences Collective Expression](https://doi.org/10.1017/S0003055413000014) — *American Political Science Review* — [Gary King](https://gking.harvard.edu/) (IQSS Director) and collaborators analyzed millions of Chinese social media posts using NLP to reveal that censorship targets posts with collective action potential, not criticism. A landmark in computational political science. [Replication data](https://dataverse.harvard.edu/) at Harvard Dataverse.
 
-**Jean et al. (2016)** — [Combining Satellite Imagery and Machine Learning to Predict Poverty](https://doi.org/10.1126/science.aaf7894) — *Science* — Transfer learning on daytime satellite imagery predicts household wealth with accuracy comparable to survey methods, at a fraction of the cost. Widely extended at Harvard's [Center for Geographic Analysis](https://gis.harvard.edu/).
+**Roberts, Stewart, Tingley et al. (2014)** — [Structural Topic Models for Open-Ended Survey Responses](https://doi.org/10.1111/ajps.12103) — *American Journal of Political Science* — Introduces the Structural Topic Model (STM), which incorporates document-level metadata as topic prevalence covariates. Co-authored by [Dustin Tingley](https://scholar.harvard.edu/dtingley) (Harvard Government). The [`stm` R package](https://www.structuraltopicmodel.com/) is one of the most widely used text analysis tools in political science.
 
-**Buolamwini & Gebru (2018)** — [Gender Shades: Intersectional Accuracy Disparities in Commercial Gender Classification](http://proceedings.mlr.press/v81/buolamwini18a.html) — *FAccT* — Audits three commercial facial analysis systems, finding error rates up to 34.7 percentage points higher for darker-skinned women than lighter-skinned men. Required reading before any facial CV use in research.
-
-**Grimmer, Roberts & Stewart (2022)** — [Text as Data: A New Framework for Machine Learning and the Social Sciences](https://press.princeton.edu/books/paperback/9780691207551/text-as-data) — Princeton University Press — The definitive methodological guide to computational text analysis: what the methods can and cannot do, and how to validate them. Margaret Roberts was an IQSS postdoctoral fellow.
+**King, Pan & Roberts (2017)** — [How the Chinese Government Fabricates Social Media Posts for Strategic Distraction, Not Engaged Argument](https://doi.org/10.1017/S0003055417000144) — *American Political Science Review* — Using leaks from a government contractor and large-scale NLP analysis, [Gary King](https://gking.harvard.edu/) (Harvard IQSS) and collaborators estimate that the Chinese government fabricates ~448 million social media posts per year. Demonstrates how computational methods can expose covert influence operations at scale.
 
 ---
 
@@ -211,11 +209,11 @@ Analyzing existing human-generated text with LLMs generally does not require new
 
 ### Key Readings
 
-- Grimmer, Roberts & Stewart (2022) — [*Text as Data*](https://press.princeton.edu/books/paperback/9780691207551/text-as-data) — Princeton University Press
-- Salganik (2018) — [*Bit by Bit: Social Research in the Digital Age*](https://www.bitbybitbook.com) — free online
-- Argyle et al. (2023) — ["Out of One, Many"](https://doi.org/10.1017/pan.2023.2) — *Political Analysis*
-- Buolamwini & Gebru (2018) — ["Gender Shades"](http://proceedings.mlr.press/v81/buolamwini18a.html) — *FAccT*
-- [Harvard Library AI Research Guide](https://guides.library.harvard.edu/airesearch) — updated by Harvard subject librarians
+- [Gary King's Publications](https://gking.harvard.edu/research) — full bibliography of computational social science methods from Harvard IQSS's director
+- Lazer et al. (2009) — ["Computational Social Science"](https://doi.org/10.1126/science.1167742) — *Science* — Gary King (Harvard) and David Lazer (Harvard)
+- King, Pan & Roberts (2013) — ["How Censorship in China..."](https://doi.org/10.1017/S0003055413000014) — *APSR* — landmark applied NLP from Harvard IQSS
+- Roberts, Stewart & Tingley et al. (2014) — ["Structural Topic Models"](https://doi.org/10.1111/ajps.12103) — *AJPS* — Dustin Tingley (Harvard Government)
+- [Harvard Library AI Research Guide](https://guides.library.harvard.edu/airesearch) — curated list of foundational CSS texts and AI research tools, updated by Harvard subject librarians
 
 ---
 
