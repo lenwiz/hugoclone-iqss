@@ -116,6 +116,15 @@
             filter: brightness(0) invert(1); /* Make logo white for dark background */
         }
 
+        /* Secondary logo slot, sits beside the IQSS mark */
+        .band-logo-emoji {
+            display: block;
+            font-size: 48px;
+            line-height: 60px;
+            /* Emoji fonts first, so the glyph renders in colour rather than as a box */
+            font-family: "Apple Color Emoji", "Segoe UI Emoji", "Noto Color Emoji", sans-serif;
+        }
+
         /* C-03: Changed from h1 to p.site-name — each content page provides the sole h1 */
         .site-logo-text .site-name {
             font-size: 28px;
@@ -447,6 +456,7 @@
             .site-logo { flex-direction: column; gap: 8px; }
             .site-logo-text .site-name { font-size: 20px; }
             .iqss-logo img { height: 44px; }
+            .band-logo-emoji { font-size: 34px; line-height: 44px; }
             .hero h1 { font-size: 36px; letter-spacing: -1px; }
             .hero p { font-size: 18px; }
         }
@@ -458,6 +468,7 @@
             .header-main { padding: 12px 0; }
             .site-logo-text .site-name { font-size: 17px; }
             .iqss-logo img { height: 36px; }
+            .band-logo-emoji { font-size: 28px; line-height: 36px; }
             main { padding: 24px 0; }
             .hero h1 { font-size: 28px; }
             .hero p { font-size: 16px; }
@@ -503,6 +514,9 @@
                         <a href="{{ .Site.BaseURL }}">
                             <img src="{{ "images/iqss-logo.png" | absURL }}" alt="Institute for Quantitative Social Science" />
                         </a>
+                    </div>
+                    <div class="band-logo">
+                        <span class="band-logo-emoji" role="img" aria-label="Smiley face">😀</span>
                     </div>
                     <div class="site-logo-text">
                         <p class="site-name"><a href="{{ .Site.BaseURL }}">The Institute for Quantitative Social Science</a></p>
