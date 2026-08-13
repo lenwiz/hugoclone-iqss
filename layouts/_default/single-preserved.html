@@ -13,7 +13,7 @@
 
         {{ if .Params.section }}
         <div class="navigation-footer">
-            <p><a href="/{{ .Params.section }}/">← Back to {{ .Params.section | title }}</a></p>
+            <p><a href="{{ printf "%s/" .Params.section | relURL }}">← Back to {{ .Params.section | title }}</a></p>
         </div>
         {{ end }}
     </div>

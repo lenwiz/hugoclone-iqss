@@ -19,7 +19,7 @@
         {{ if .Params.section }}
         <div style="margin-top: 40px; padding-top: 20px; border-top: 1px solid #e5e5e5;">
             <p>
-                <a href="/{{ .Params.section }}/" style="color: #CC5500; text-decoration: none;">
+                <a href="{{ printf "%s/" .Params.section | relURL }}" style="color: #CC5500; text-decoration: none;">
                     ← Back to {{ .Params.section | title }} Section
                 </a>
             </p>
