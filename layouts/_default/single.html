@@ -16,15 +16,16 @@
             {{ .Content }}
         </div>
 
-        {{ if .Params.section }}
+        {{ $sec := .Params.section }}
+        {{ with $sec }}{{ with $.Site.GetPage (printf "/%s" .) }}{{/* only link if the section page exists */}}
         <div style="margin-top: 40px; padding-top: 20px; border-top: 1px solid #e5e5e5;">
             <p>
-                <a href="{{ printf "%s/" .Params.section | relURL }}" style="color: #CC5500; text-decoration: none;">
-                    ← Back to {{ .Params.section | title }} Section
+                <a href="{{ .RelPermalink }}" style="color: #CC5500; text-decoration: none;">
+                    ← Back to {{ $sec | title }} Section
                 </a>
             </p>
         </div>
-        {{ end }}
+        {{ end }}{{ end }}
     </div>
 </div>
 {{ end }}

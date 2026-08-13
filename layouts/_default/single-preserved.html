@@ -11,11 +11,12 @@
             {{ .Content | safeHTML }}
         </div>
 
-        {{ if .Params.section }}
+        {{ $sec := .Params.section }}
+        {{ with $sec }}{{ with $.Site.GetPage (printf "/%s" .) }}{{/* only link if the section page exists */}}
         <div class="navigation-footer">
-            <p><a href="{{ printf "%s/" .Params.section | relURL }}">← Back to {{ .Params.section | title }}</a></p>
+            <p><a href="{{ .RelPermalink }}">← Back to {{ $sec | title }}</a></p>
         </div>
-        {{ end }}
+        {{ end }}{{ end }}
     </div>
 </div>
 
